@@ -30,3 +30,15 @@ ios/App/build/
 *.njsproj
 *.sln
 *.sw?
+# Temp files
+*.xlsx
+~$*
+tmp_*
+build_i18n*
+gen_*.js
+check_dupes.js
+translations_batch.js
+city_keys.txt
+cities_1000_temp.json
+src/data/_*
+src/data/cities-new-*
