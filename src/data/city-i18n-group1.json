@@ -1,0 +1,3110 @@
+{
+  "Beijing_China": {
+    "tagline": {
+      "en": "Ancient capital, heart of a great nation",
+      "fr": "Capitale millénaire, cœur d'une grande nation",
+      "de": "Jahrtausendealte Hauptstadt, Herz einer großen Nation"
+    },
+    "description": {
+      "en": "China's capital city, home to the Forbidden City and the Great Wall, serving as the nation's political and cultural center.",
+      "fr": "Capitale de la Chine, abritant la Cité interdite et la Grande Muraille, centre politique et culturel du pays.",
+      "de": "Chinas Hauptstadt, Heimat der Verbotenen Stadt und der Großen Mauer, politisches und kulturelles Zentrum des Landes."
+    }
+  },
+  "Tianjin_China": {
+    "tagline": {
+      "en": "Pearl of the Bohai, gateway to modern history",
+      "fr": "Perle du Bohai, porte de l'histoire moderne",
+      "de": "Perle des Bohai, Tor zur modernen Geschichte"
+    },
+    "description": {
+      "en": "Northern China's largest port city, a historic gem blending Chinese and Western architectural heritage.",
+      "fr": "Le plus grand port du nord de la Chine, un joyau historique mêlant patrimoines chinois et occidental.",
+      "de": "Nordchinas größte Hafenstadt, ein historisches Juwel mit chinesischem und westlichem Architekturerbe."
+    }
+  },
+  "Shijiazhuang_China": {
+    "tagline": {
+      "en": "Capital of Yanzhao, crossroads of the north",
+      "fr": "Capitale de Yanzhao, carrefour du nord",
+      "de": "Hauptstadt von Yanzhao, Knotenpunkt des Nordens"
+    },
+    "description": {
+      "en": "Capital of Hebei Province and a major transportation hub on the North China Plain.",
+      "fr": "Capitale de la province du Hebei et important nœud de transport de la plaine de Chine du Nord.",
+      "de": "Hauptstadt der Provinz Hebei und bedeutender Verkehrsknotenpunkt in der Nordchinesischen Ebene."
+    }
+  },
+  "Shanghai_China": {
+    "tagline": {
+      "en": "Oriental Pearl, global metropolis",
+      "fr": "Perle de l'Orient, métropole mondiale",
+      "de": "Perle des Ostens, Weltmetropole"
+    },
+    "description": {
+      "en": "China's largest city and an international financial center, home to the iconic Oriental Pearl Tower.",
+      "fr": "La plus grande ville de Chine et centre financier international, abritant l'emblématique Tour Perle de l'Orient.",
+      "de": "Chinas größte Stadt und internationales Finanzzentrum, Heimat des ikonischen Oriental Pearl Tower."
+    }
+  },
+  "Suzhou_China": {
+    "tagline": {
+      "en": "City of gardens, paradise on earth",
+      "fr": "Cité des jardins, paradis sur terre",
+      "de": "Stadt der Gärten, Paradies auf Erden"
+    },
+    "description": {
+      "en": "A Jiangnan water town renowned worldwide for its classical gardens, long hailed as paradise on earth.",
+      "fr": "Ville d'eau du Jiangnan mondialement célèbre pour ses jardins classiques, surnommée paradis sur terre.",
+      "de": "Eine Wasserstadt am Jangtse, weltberühmt für ihre klassischen Gärten, seit jeher als Paradies auf Erden gepriesen."
+    }
+  },
+  "Wuxi_China": {
+    "tagline": {
+      "en": "Pearl of Lake Tai, land of fish and rice",
+      "fr": "Perle du lac Tai, terre de poisson et de riz",
+      "de": "Perle des Tai-Sees, Land des Fisches und Reises"
+    },
+    "description": {
+      "en": "A historic city on the shores of Lake Tai, known as a land of plenty and an industrial powerhouse.",
+      "fr": "Cité historique sur les rives du lac Tai, connue comme terre d'abondance et puissance industrielle.",
+      "de": "Eine historische Stadt am Ufer des Tai-Sees, bekannt als Land des Überflusses und Industriezentrum."
+    }
+  },
+  "Changzhou_China": {
+    "tagline": {
+      "en": "Dragon City charm, capital of innovation",
+      "fr": "Charme de la Cité du Dragon, capitale de l'innovation",
+      "de": "Charme der Drachenstadt, Hauptstadt der Innovation"
+    },
+    "description": {
+      "en": "A central Yangtze Delta city with deep historical roots, famous for its Dinosaur Park.",
+      "fr": "Ville historique du delta du Yangtze, célèbre pour son parc aux dinosaures.",
+      "de": "Eine geschichtsträchtige Stadt im Jangtse-Delta, berühmt für ihren Dinosaurierpark."
+    }
+  },
+  "Nanjing_China": {
+    "tagline": {
+      "en": "Capital of six dynasties, where tigers crouch and dragons coil",
+      "fr": "Capitale de six dynasties, où tigres et dragons se côtoient",
+      "de": "Hauptstadt von sechs Dynastien, wo Tiger und Drachen ruhen"
+    },
+    "description": {
+      "en": "Ancient capital of six dynasties, capital of Jiangsu Province, a historic city graced by Sun Yat-sen's Mausoleum and the Qinhuai River.",
+      "fr": "Ancienne capitale de six dynasties et chef-lieu du Jiangsu, ville historique ornée du mausolée de Sun Yat-sen et de la rivière Qinhuai.",
+      "de": "Ehemalige Hauptstadt von sechs Dynastien und Hauptstadt der Provinz Jiangsu, eine historische Stadt mit dem Sun-Yat-sen-Mausoleum und dem Qinhuai-Fluss."
+    }
+  },
+  "Hangzhou_China": {
+    "tagline": {
+      "en": "Heaven on earth, digital city",
+      "fr": "Paradis sur terre, cité numérique",
+      "de": "Himmel auf Erden, digitale Stadt"
+    },
+    "description": {
+      "en": "Capital of Zhejiang Province, celebrated for the scenic West Lake and as a hub of China's internet economy.",
+      "fr": "Capitale du Zhejiang, célébrée pour le lac de l'Ouest et comme pôle de l'économie numérique chinoise.",
+      "de": "Hauptstadt der Provinz Zhejiang, berühmt für den Westsee und als Zentrum der chinesischen Internetwirtschaft."
+    }
+  },
+  "Ningbo_China": {
+    "tagline": {
+      "en": "Eastern seaport, gateway to the world",
+      "fr": "Port de l'Est, porte ouverte sur le monde",
+      "de": "Östlicher Seehafen, Tor zur Welt"
+    },
+    "description": {
+      "en": "A major port city in Zhejiang and one of the starting points of the ancient Maritime Silk Road.",
+      "fr": "Grand port du Zhejiang et l'un des points de départ de l'ancienne Route de la soie maritime.",
+      "de": "Eine bedeutende Hafenstadt in Zhejiang und einer der Ausgangspunkte der historischen Maritimen Seidenstraße."
+    }
+  },
+  "Guangzhou_China": {
+    "tagline": {
+      "en": "Millennial trade hub, City of Flowers",
+      "fr": "Cité marchande millénaire, Ville des Fleurs",
+      "de": "Jahrtausendealte Handelsstadt, Stadt der Blumen"
+    },
+    "description": {
+      "en": "Capital of Guangdong Province, a thousand-year trading port and birthplace of Lingnan culture, famous for its cuisine.",
+      "fr": "Capitale du Guangdong, port commercial millénaire et berceau de la culture Lingnan, réputée pour sa gastronomie.",
+      "de": "Hauptstadt der Provinz Guangdong, ein jahrtausendealter Handelshafen und Wiege der Lingnan-Kultur, berühmt für ihre Küche."
+    }
+  },
+  "Shenzhen_China": {
+    "tagline": {
+      "en": "City of innovation, China's Silicon Valley",
+      "fr": "Cité de l'innovation, Silicon Valley de la Chine",
+      "de": "Stadt der Innovation, Chinas Silicon Valley"
+    },
+    "description": {
+      "en": "China's pioneering special economic zone, a tech innovation powerhouse that rose from a fishing village to a global metropolis.",
+      "fr": "Zone économique spéciale pionnière de Chine, passée d'un village de pêcheurs à une métropole mondiale de la technologie.",
+      "de": "Chinas bahnbrechende Sonderwirtschaftszone, ein Technologie-Innovationszentrum, das sich vom Fischerdorf zur Weltmetropole entwickelte."
+    }
+  },
+  "Dongguan_China": {
+    "tagline": {
+      "en": "Factory of the world, manufacturing powerhouse",
+      "fr": "Usine du monde, puissance manufacturière",
+      "de": "Fabrik der Welt, Produktionszentrum"
+    },
+    "description": {
+      "en": "Known as the factory of the world, a major Pearl River Delta manufacturing hub and a passionate basketball city.",
+      "fr": "Surnommée l'usine du monde, un grand centre manufacturier du delta de la Rivière des Perles et ville passionnée de basketball.",
+      "de": "Bekannt als Fabrik der Welt, ein bedeutendes Produktionszentrum im Perlflussdelta und leidenschaftliche Basketballstadt."
+    }
+  },
+  "Foshan_China": {
+    "tagline": {
+      "en": "Home of martial arts, capital of ceramics",
+      "fr": "Berceau des arts martiaux, capitale de la céramique",
+      "de": "Heimat der Kampfkunst, Hauptstadt der Keramik"
+    },
+    "description": {
+      "en": "Birthplace of martial arts traditions and a renowned ceramics center, a key cradle of Lingnan culture.",
+      "fr": "Berceau des traditions d'arts martiaux et centre de la céramique renommé, un foyer majeur de la culture Lingnan.",
+      "de": "Geburtsort der Kampfkunsttraditionen und renommiertes Keramikzentrum, eine wichtige Wiege der Lingnan-Kultur."
+    }
+  },
+  "Zhuhai_China": {
+    "tagline": {
+      "en": "Romantic city, isle of a hundred islands",
+      "fr": "Ville romantique, cité aux cent îles",
+      "de": "Romantische Stadt, Stadt der hundert Inseln"
+    },
+    "description": {
+      "en": "A romantic coastal city and special economic zone, linked to Hong Kong and Macau by the Hong Kong-Zhuhai-Macau Bridge.",
+      "fr": "Ville côtière romantique et zone économique spéciale, reliée à Hong Kong et Macao par le pont Hong Kong-Zhuhai-Macao.",
+      "de": "Eine romantische Küstenstadt und Sonderwirtschaftszone, durch die Hongkong-Zhuhai-Macau-Brücke mit Hongkong und Macau verbunden."
+    }
+  },
+  "Hong Kong_China": {
+    "tagline": {
+      "en": "Pearl of the Orient, shopper's paradise",
+      "fr": "Perle de l'Orient, paradis du shopping",
+      "de": "Perle des Ostens, Einkaufsparadies"
+    },
+    "description": {
+      "en": "An international financial center where East meets West, renowned as a paradise for shopping and cuisine.",
+      "fr": "Centre financier international où l'Orient rencontre l'Occident, réputé comme paradis du shopping et de la gastronomie.",
+      "de": "Ein internationales Finanzzentrum, wo Ost auf West trifft, bekannt als Paradies für Shopping und Gastronomie."
+    }
+  },
+  "Macau_China": {
+    "tagline": {
+      "en": "Lotus treasure, where East meets West",
+      "fr": "Trésor du Lotus, où l'Orient rencontre l'Occident",
+      "de": "Lotusschatz, wo Ost auf West trifft"
+    },
+    "description": {
+      "en": "One of the world's four great casino cities, with a historic center blending Chinese and Portuguese heritage listed as a UNESCO World Heritage Site.",
+      "fr": "L'une des quatre grandes capitales du jeu, avec un centre historique sino-portugais classé au patrimoine mondial de l'UNESCO.",
+      "de": "Eine der vier großen Spielerstädte der Welt, deren historisches Zentrum mit chinesisch-portugiesischem Erbe zum UNESCO-Weltkulturerbe gehört."
+    }
+  },
+  "Chengdu_China": {
+    "tagline": {
+      "en": "Land of abundance, home of the panda",
+      "fr": "Terre d'abondance, patrie du panda",
+      "de": "Land des Überflusses, Heimat des Pandas"
+    },
+    "description": {
+      "en": "Capital of Sichuan Province, the heart of the Land of Abundance, homeland of giant pandas, and a haven for leisure and cuisine.",
+      "fr": "Capitale du Sichuan, cœur de la Terre d'Abondance, patrie du panda géant et paradis de la détente et de la gastronomie.",
+      "de": "Hauptstadt der Provinz Sichuan, Herz des Landes des Überflusses, Heimat der Großen Pandas und Paradies für Freizeit und Kulinarik."
+    }
+  },
+  "Chongqing_China": {
+    "tagline": {
+      "en": "Mountain city in the mist, hotpot capital",
+      "fr": "Cité des montagnes et des brumes, capitale du hotpot",
+      "de": "Bergstadt im Nebel, Hotpot-Hauptstadt"
+    },
+    "description": {
+      "en": "A mountainous municipality known as China's hotpot capital, famous for its dramatic hilly terrain and magical 3D cityscape.",
+      "fr": "Municipalité montagneuse, capitale chinoise du hotpot, célèbre pour son relief spectaculaire et son paysage urbain en 3D.",
+      "de": "Eine bergige Metropole, bekannt als Chinas Hotpot-Hauptstadt, berühmt für ihr dramatisches Hügelterrain und magisches 3D-Stadtbild."
+    }
+  },
+  "Wuhan_China": {
+    "tagline": {
+      "en": "Great river, great city, home of Yellow Crane Tower",
+      "fr": "Grand fleuve, grande ville, patrie de la Tour de la Grue Jaune",
+      "de": "Großer Fluss, große Stadt, Heimat des Gelben Kranichturms"
+    },
+    "description": {
+      "en": "Capital of Hubei Province, the core of the middle Yangtze urban cluster, and home to the legendary Yellow Crane Tower.",
+      "fr": "Capitale du Hubei, cœur de la zone urbaine du Yangtze moyen, et berceau de la légendaire Tour de la Grue Jaune.",
+      "de": "Hauptstadt der Provinz Hubei, Kern des mittleren Jangtse-Städteclusters und Heimat des legendären Gelben Kranichturms."
+    }
+  },
+  "Xi'an_China": {
+    "tagline": {
+      "en": "Eternal imperial capital, start of the Silk Road",
+      "fr": "Capitale impériale éternelle, départ de la Route de la Soie",
+      "de": "Ewige Kaiserhauptstadt, Beginn der Seidenstraße"
+    },
+    "description": {
+      "en": "Capital of thirteen dynasties and home to the Terracotta Warriors, the ancient starting point of the Silk Road.",
+      "fr": "Capitale de treize dynasties et berceau de l'Armée de terre cuite, point de départ historique de la Route de la Soie.",
+      "de": "Hauptstadt von dreizehn Dynastien und Heimat der Terrakotta-Armee, historischer Ausgangspunkt der Seidenstraße."
+    }
+  },
+  "Harbin_China": {
+    "tagline": {
+      "en": "Ice City, the Moscow of the East",
+      "fr": "Cité de Glace, le Moscou de l'Orient",
+      "de": "Eisstadt, das Moskau des Ostens"
+    },
+    "description": {
+      "en": "Famous for its spectacular Ice and Snow World festival and European-style architecture, Harbin is China's winter wonderland.",
+      "fr": "Célèbre pour son spectaculaire festival Monde de Glace et de Neige et son architecture européenne, Harbin est le paradis hivernal de la Chine.",
+      "de": "Berühmt für das spektakuläre Eis- und Schneewelt-Festival und europäische Architektur, Harbin ist Chinas Winter-Wunderland."
+    }
+  },
+  "Dalian_China": {
+    "tagline": {
+      "en": "Northern pearl, city of romance",
+      "fr": "Perle du Nord, ville de la romance",
+      "de": "Perle des Nordens, Stadt der Romantik"
+    },
+    "description": {
+      "en": "A beautiful coastal city in Liaoning Province, known as the Northern Pearl and a romantic seaside destination.",
+      "fr": "Belle ville côtière du Liaoning, surnommée la Perle du Nord et destination romantique en bord de mer.",
+      "de": "Eine wunderschöne Küstenstadt in der Provinz Liaoning, bekannt als Perle des Nordens und romantisches Reiseziel am Meer."
+    }
+  },
+  "Shenyang_China": {
+    "tagline": {
+      "en": "Firstborn of the Republic, birthplace of the Qing dynasty",
+      "fr": "Aîné de la République, berceau de la dynastie Qing",
+      "de": "Erstgeborene der Republik, Wiege der Qing-Dynastie"
+    },
+    "description": {
+      "en": "Capital of Liaoning Province and the largest city in northeast China, the birthplace of the Qing dynasty.",
+      "fr": "Capitale du Liaoning et plus grande ville du nord-est chinois, berceau de la dynastie Qing.",
+      "de": "Hauptstadt der Provinz Liaoning und größte Stadt im Nordosten Chinas, Geburtsort der Qing-Dynastie."
+    }
+  },
+  "Kunming_China": {
+    "tagline": {
+      "en": "Spring City, beneath the colorful clouds",
+      "fr": "Cité du Printemps, sous les nuages colorés",
+      "de": "Frühlingsstadt, unter bunten Wolken"
+    },
+    "description": {
+      "en": "Capital of Yunnan Province, a city of eternal spring and the gateway to Southeast Asia.",
+      "fr": "Capitale du Yunnan, ville du printemps éternel et porte d'entrée vers l'Asie du Sud-Est.",
+      "de": "Hauptstadt der Provinz Yunnan, Stadt des ewigen Frühlings und Tor nach Südostasien."
+    }
+  },
+  "Xiamen_China": {
+    "tagline": {
+      "en": "Garden on the sea, melody of Gulangyu",
+      "fr": "Jardin sur la mer, mélodie de Gulangyu",
+      "de": "Garten am Meer, Melodie von Gulangyu"
+    },
+    "description": {
+      "en": "A charming coastal city in Fujian Province, world-famous for Gulangyu Island and cherished as a livable garden city.",
+      "fr": "Charmante ville côtière du Fujian, mondialement connue pour l'île de Gulangyu et appréciée comme cité-jardin agréable à vivre.",
+      "de": "Eine bezaubernde Küstenstadt in der Provinz Fujian, weltberühmt für die Insel Gulangyu und geschätzt als lebenswerte Gartenstadt."
+    }
+  },
+  "Qingdao_China": {
+    "tagline": {
+      "en": "City of beer, sailing capital",
+      "fr": "Cité de la bière, capitale de la voile",
+      "de": "Stadt des Biers, Segelhauptstadt"
+    },
+    "description": {
+      "en": "A coastal city in Shandong famed for its beer, red-roofed buildings, green trees, blue sea, and clear skies.",
+      "fr": "Ville côtière du Shandong célèbre pour sa bière, ses toits rouges, ses arbres verts, sa mer bleue et son ciel pur.",
+      "de": "Eine Küstenstadt in Shandong, berühmt für ihr Bier, rote Dächer, grüne Bäume, blaues Meer und klaren Himmel."
+    }
+  },
+  "Changsha_China": {
+    "tagline": {
+      "en": "Star City, entertainment capital",
+      "fr": "Cité des Étoiles, capitale du divertissement",
+      "de": "Sternenstadt, Unterhaltungshauptstadt"
+    },
+    "description": {
+      "en": "Capital of Hunan Province and China's entertainment capital, where Orange Isle witnessed pivotal moments in history.",
+      "fr": "Capitale du Hunan et capitale du divertissement en Chine, où l'île des Orangers a été témoin de moments historiques décisifs.",
+      "de": "Hauptstadt der Provinz Hunan und Unterhaltungshauptstadt Chinas, wo die Orangeninsel entscheidende historische Momente erlebte."
+    }
+  },
+  "Zhengzhou_China": {
+    "tagline": {
+      "en": "Heart of the Central Plains, transportation hub",
+      "fr": "Cœur des Plaines Centrales, nœud de transport",
+      "de": "Herz der Zentralebene, Verkehrsknotenpunkt"
+    },
+    "description": {
+      "en": "Capital of Henan Province, China's railway hub, and an ancient capital of the Shang dynasty.",
+      "fr": "Capitale du Henan, nœud ferroviaire chinois et ancienne capitale de la dynastie Shang.",
+      "de": "Hauptstadt der Provinz Henan, Chinas Eisenbahnknotenpunkt und ehemalige Hauptstadt der Shang-Dynastie."
+    }
+  },
+  "Lhasa_China": {
+    "tagline": {
+      "en": "Holy city on the plateau, city of sunlight",
+      "fr": "Cité sainte du plateau, ville du soleil",
+      "de": "Heilige Stadt auf dem Plateau, Stadt des Sonnenlichts"
+    },
+    "description": {
+      "en": "Capital of the Tibet Autonomous Region, home to the iconic Potala Palace and bathed in abundant sunshine.",
+      "fr": "Capitale de la Région autonome du Tibet, abritant l'emblématique palais du Potala et baignée d'un soleil abondant.",
+      "de": "Hauptstadt des Autonomen Gebiets Tibet, Heimat des ikonischen Potala-Palastes und in reichem Sonnenschein gebadet."
+    }
+  },
+  "Urumqi_China": {
+    "tagline": {
+      "en": "Silk Road jewel, heart of Asia",
+      "fr": "Joyau de la Route de la Soie, cœur de l'Asie",
+      "de": "Juwel der Seidenstraße, Herz Asiens"
+    },
+    "description": {
+      "en": "Capital of the Xinjiang Uyghur Autonomous Region, located near the geographic center of the Asian continent.",
+      "fr": "Capitale de la Région autonome ouïghoure du Xinjiang, située près du centre géographique du continent asiatique.",
+      "de": "Hauptstadt des Autonomen Gebiets Xinjiang der Uiguren, nahe dem geografischen Zentrum des asiatischen Kontinents gelegen."
+    }
+  },
+  "Tokyo_Japan": {
+    "tagline": {
+      "en": "Capital of the East, where tech meets tradition",
+      "fr": "Capitale de l'Orient, où technologie et tradition se rencontrent",
+      "de": "Hauptstadt des Ostens, wo Technik auf Tradition trifft"
+    },
+    "description": {
+      "en": "Japan's capital and one of the world's largest metropolitan areas, a seamless fusion of ancient tradition and cutting-edge modernity.",
+      "fr": "Capitale du Japon et l'une des plus grandes métropoles du monde, une fusion parfaite entre tradition ancestrale et modernité de pointe.",
+      "de": "Japans Hauptstadt und eine der größten Metropolregionen der Welt, eine nahtlose Verschmelzung von alter Tradition und modernster Technologie."
+    }
+  },
+  "Yokohama_Japan": {
+    "tagline": {
+      "en": "Port city charm, light of Yokohama",
+      "fr": "Charme portuaire, lumière de Yokohama",
+      "de": "Hafenstadtcharme, Licht von Yokohama"
+    },
+    "description": {
+      "en": "Japan's second-largest city, a vibrant port on Tokyo Bay famous for its Chinatown and waterfront.",
+      "fr": "Deuxième ville du Japon, un port animé sur la baie de Tokyo célèbre pour son quartier chinois et son front de mer.",
+      "de": "Japans zweitgrößte Stadt, ein lebhafter Hafen an der Bucht von Tokio, berühmt für seine Chinatown und Uferpromenade."
+    }
+  },
+  "Osaka_Japan": {
+    "tagline": {
+      "en": "Kitchen of the nation, city of Naniwa",
+      "fr": "Cuisine de la nation, cité de Naniwa",
+      "de": "Küche der Nation, Stadt von Naniwa"
+    },
+    "description": {
+      "en": "Japan's third-largest city, known as the nation's kitchen, where Osaka Castle has witnessed centuries of history.",
+      "fr": "Troisième ville du Japon, surnommée la cuisine de la nation, où le château d'Osaka a été témoin de siècles d'histoire.",
+      "de": "Japans drittgrößte Stadt, bekannt als Küche der Nation, wo die Burg Osaka Jahrhunderte der Geschichte miterlebt hat."
+    }
+  },
+  "Kyoto_Japan": {
+    "tagline": {
+      "en": "Ancient imperial capital, refined Japanese elegance",
+      "fr": "Ancienne capitale impériale, élégance japonaise raffinée",
+      "de": "Alte Kaiserhauptstadt, japanische Eleganz pur"
+    },
+    "description": {
+      "en": "Japan's thousand-year imperial capital, adorned with countless temples and shrines, the heartland of traditional Japanese culture.",
+      "fr": "Capitale impériale millénaire du Japon, ornée d'innombrables temples et sanctuaires, berceau de la culture traditionnelle japonaise.",
+      "de": "Japans tausendjährige Kaiserhauptstadt, geschmückt mit unzähligen Tempeln und Schreinen, das Herzland der traditionellen japanischen Kultur."
+    }
+  },
+  "Nagoya_Japan": {
+    "tagline": {
+      "en": "Heart of central Japan, manufacturing powerhouse",
+      "fr": "Cœur du Japon central, puissance industrielle",
+      "de": "Herz Zentraljapans, Industriezentrum"
+    },
+    "description": {
+      "en": "The largest city in central Japan, birthplace of Toyota and a major manufacturing hub.",
+      "fr": "La plus grande ville du centre du Japon, berceau de Toyota et pôle manufacturier majeur.",
+      "de": "Die größte Stadt Zentraljapans, Geburtsort von Toyota und bedeutendes Produktionszentrum."
+    }
+  },
+  "Seoul_South Korea": {
+    "tagline": {
+      "en": "Capital of K-culture, where old meets new",
+      "fr": "Capitale de la K-culture, où l'ancien rencontre le nouveau",
+      "de": "Hauptstadt der K-Kultur, wo Alt auf Neu trifft"
+    },
+    "description": {
+      "en": "South Korea's capital and birthplace of K-pop, where traditional palaces stand alongside modern skyscrapers.",
+      "fr": "Capitale de la Corée du Sud et berceau de la K-pop, où palais traditionnels côtoient gratte-ciel modernes.",
+      "de": "Südkoreas Hauptstadt und Geburtsort des K-Pop, wo traditionelle Paläste neben modernen Wolkenkratzern stehen."
+    }
+  },
+  "Incheon_South Korea": {
+    "tagline": {
+      "en": "Airport gateway, city of freedom",
+      "fr": "Porte d'entrée aérienne, cité de la liberté",
+      "de": "Flughafentor, Stadt der Freiheit"
+    },
+    "description": {
+      "en": "South Korea's third-largest city, home to its main international airport and a thriving free economic zone.",
+      "fr": "Troisième ville de Corée du Sud, abritant le principal aéroport international et une zone économique libre prospère.",
+      "de": "Südkoreas drittgrößte Stadt, Standort des internationalen Hauptflughafens und einer florierenden Freihandelszone."
+    }
+  },
+  "Busan_South Korea": {
+    "tagline": {
+      "en": "Naples of the East, harbor city",
+      "fr": "Naples de l'Orient, cité portuaire",
+      "de": "Neapel des Ostens, Hafenstadt"
+    },
+    "description": {
+      "en": "South Korea's second-largest city and busiest port, famous for the beautiful Haeundae Beach.",
+      "fr": "Deuxième ville et premier port de Corée du Sud, célèbre pour la magnifique plage de Haeundae.",
+      "de": "Südkoreas zweitgrößte Stadt und geschäftigster Hafen, berühmt für den wunderschönen Strand von Haeundae."
+    }
+  },
+  "Taipei_China": {
+    "tagline": {
+      "en": "Island jewel, night market capital",
+      "fr": "Joyau insulaire, capitale des marchés nocturnes",
+      "de": "Inseljuwel, Hauptstadt der Nachtmärkte"
+    },
+    "description": {
+      "en": "The largest city in Taiwan, once home to the world's tallest building Taipei 101, and celebrated for its vibrant night market culture.",
+      "fr": "La plus grande ville de Taïwan, autrefois siège du plus haut gratte-ciel du monde Taipei 101, célèbre pour ses marchés nocturnes animés.",
+      "de": "Die größte Stadt Taiwans, einst Standort des höchsten Gebäudes der Welt Taipei 101, und berühmt für ihre lebhafte Nachtmarkt-Kultur."
+    }
+  },
+  "Bangkok_Thailand": {
+    "tagline": {
+      "en": "City of Angels, land of smiles",
+      "fr": "Cité des Anges, pays du sourire",
+      "de": "Stadt der Engel, Land des Lächelns"
+    },
+    "description": {
+      "en": "Thailand's capital, the City of Angels, where glittering golden temples meet bustling night markets.",
+      "fr": "Capitale de la Thaïlande, la Cité des Anges, où temples dorés scintillants rencontrent marchés nocturnes animés.",
+      "de": "Thailands Hauptstadt, die Stadt der Engel, wo glitzernde goldene Tempel auf lebhafte Nachtmärkte treffen."
+    }
+  },
+  "Singapore_Singapore": {
+    "tagline": {
+      "en": "Garden city, legend of the Lion City",
+      "fr": "Cité-jardin, légende de la Cité du Lion",
+      "de": "Gartenstadt, Legende der Löwenstadt"
+    },
+    "description": {
+      "en": "A garden city-state and Southeast Asian financial hub where diverse cultures converge harmoniously.",
+      "fr": "Cité-État jardin et centre financier d'Asie du Sud-Est, où diverses cultures convergent harmonieusement.",
+      "de": "Ein Gartenstadtstaat und Finanzzentrum Südostasiens, wo verschiedene Kulturen harmonisch zusammentreffen."
+    }
+  },
+  "Kuala Lumpur_Malaysia": {
+    "tagline": {
+      "en": "City of twin towers, colorful Malaysia",
+      "fr": "Cité des tours jumelles, Malaisie colorée",
+      "de": "Stadt der Zwillingstürme, buntes Malaysia"
+    },
+    "description": {
+      "en": "Malaysia's capital, home to the iconic Petronas Twin Towers and a melting pot of multicultural cuisine.",
+      "fr": "Capitale de la Malaisie, abritant les emblématiques tours jumelles Petronas et un creuset de gastronomie multiculturelle.",
+      "de": "Malaysias Hauptstadt, Heimat der ikonischen Petronas-Zwillingstürme und ein Schmelztiegel multikultureller Küche."
+    }
+  },
+  "Jakarta_Indonesia": {
+    "tagline": {
+      "en": "Capital of a thousand islands, many faces of Jakarta",
+      "fr": "Capitale aux mille îles, les mille visages de Jakarta",
+      "de": "Hauptstadt der tausend Inseln, die vielen Gesichter Jakartas"
+    },
+    "description": {
+      "en": "Indonesia's capital, the largest city in Southeast Asia, and the bustling center of the archipelago nation.",
+      "fr": "Capitale de l'Indonésie, la plus grande ville d'Asie du Sud-Est et le centre animé de l'archipel.",
+      "de": "Indonesiens Hauptstadt, die größte Stadt Südostasiens und das pulsierende Zentrum des Inselstaates."
+    }
+  },
+  "Manila_Philippines": {
+    "tagline": {
+      "en": "Capital of a thousand islands, pearl of Asia",
+      "fr": "Capitale aux mille îles, perle de l'Asie",
+      "de": "Hauptstadt der tausend Inseln, Perle Asiens"
+    },
+    "description": {
+      "en": "Capital of the Philippines, where Spanish colonial heritage blends with modern metropolitan life.",
+      "fr": "Capitale des Philippines, où l'héritage colonial espagnol se mêle à la vie métropolitaine moderne.",
+      "de": "Hauptstadt der Philippinen, wo spanisches Kolonialerbe auf modernes Großstadtleben trifft."
+    }
+  },
+  "Ho Chi Minh City_Vietnam": {
+    "tagline": {
+      "en": "Paris of the East, city of vitality",
+      "fr": "Paris de l'Orient, cité de la vitalité",
+      "de": "Paris des Ostens, Stadt der Vitalität"
+    },
+    "description": {
+      "en": "Vietnam's largest city and economic powerhouse, where French colonial architecture coexists with a vibrant motorbike culture.",
+      "fr": "Plus grande ville et moteur économique du Vietnam, où l'architecture coloniale française coexiste avec une culture vibrante du scooter.",
+      "de": "Vietnams größte Stadt und wirtschaftliches Kraftzentrum, wo französische Kolonialarchitektur neben einer lebhaften Motorradkultur existiert."
+    }
+  },
+  "Hanoi_Vietnam": {
+    "tagline": {
+      "en": "City of the ascending dragon, a thousand years of culture",
+      "fr": "Cité du dragon ascendant, mille ans de culture",
+      "de": "Stadt des aufsteigenden Drachen, tausend Jahre Kultur"
+    },
+    "description": {
+      "en": "Vietnam's capital, a thousand-year-old cultural city where tranquility and bustle meet on the shores of Hoan Kiem Lake.",
+      "fr": "Capitale du Vietnam, cité culturelle millénaire où tranquillité et effervescence se rencontrent au bord du lac Hoan Kiem.",
+      "de": "Vietnams Hauptstadt, eine tausendjährige Kulturstadt, in der Ruhe und Trubel am Ufer des Hoan-Kiem-Sees aufeinandertreffen."
+    }
+  },
+  "Mumbai_India": {
+    "tagline": {
+      "en": "City of dreams, capital of Bollywood",
+      "fr": "Cité des rêves, capitale de Bollywood",
+      "de": "Stadt der Träume, Hauptstadt von Bollywood"
+    },
+    "description": {
+      "en": "India's largest city, the capital of Bollywood, and a major center of finance and entertainment.",
+      "fr": "Plus grande ville d'Inde, capitale de Bollywood, et un centre majeur de la finance et du divertissement.",
+      "de": "Indiens größte Stadt, Hauptstadt von Bollywood und ein bedeutendes Finanz- und Unterhaltungszentrum."
+    }
+  },
+  "Delhi_India": {
+    "tagline": {
+      "en": "Old capital, new horizons, city of empires",
+      "fr": "Ancienne capitale, nouveaux horizons, cité des empires",
+      "de": "Alte Hauptstadt, neue Horizonte, Stadt der Imperien"
+    },
+    "description": {
+      "en": "India's capital territory where ancient and modern coexist, with the Red Fort and India Gate bearing witness to centuries of history.",
+      "fr": "Territoire de la capitale indienne où ancien et moderne coexistent, le Fort Rouge et la Porte de l'Inde témoignant de siècles d'histoire.",
+      "de": "Indiens Hauptstadtterritorium, wo Altes und Neues koexistieren, mit dem Roten Fort und dem India Gate als Zeugen jahrhundertelanger Geschichte."
+    }
+  },
+  "Bangalore_India": {
+    "tagline": {
+      "en": "Silicon Valley of India, tech garden city",
+      "fr": "Silicon Valley de l'Inde, cité-jardin technologique",
+      "de": "Silicon Valley Indiens, technologische Gartenstadt"
+    },
+    "description": {
+      "en": "India's Silicon Valley and the heart of its information technology industry, also known as the Garden City.",
+      "fr": "Silicon Valley de l'Inde et cœur de son industrie des technologies de l'information, également connue comme la Cité-Jardin.",
+      "de": "Indiens Silicon Valley und Herz der Informationstechnologie-Industrie, auch bekannt als die Gartenstadt."
+    }
+  },
+  "Kolkata_India": {
+    "tagline": {
+      "en": "City of joy, cultural capital",
+      "fr": "Cité de la joie, capitale culturelle",
+      "de": "Stadt der Freude, Kulturhauptstadt"
+    },
+    "description": {
+      "en": "The largest city in eastern India, a capital of culture and literature, home to the iconic Victoria Memorial.",
+      "fr": "La plus grande ville de l'est de l'Inde, une capitale de la culture et de la littérature, abritant l'emblématique Victoria Memorial.",
+      "de": "Die größte Stadt Ostindiens, eine Kultur- und Literaturhauptstadt, Heimat des ikonischen Victoria Memorial."
+    }
+  },
+  "Chennai_India": {
+    "tagline": {
+      "en": "Gateway to the south, city of temples",
+      "fr": "Porte du sud, cité des temples",
+      "de": "Tor zum Süden, Stadt der Tempel"
+    },
+    "description": {
+      "en": "A gateway to southern India, a hub of automobile manufacturing, and a city adorned with magnificent temples.",
+      "fr": "Porte d'entrée du sud de l'Inde, pôle de l'industrie automobile et ville ornée de temples magnifiques.",
+      "de": "Ein Tor nach Südindien, ein Zentrum der Automobilproduktion und eine Stadt mit prächtigen Tempeln."
+    }
+  },
+  "Dhaka_Bangladesh": {
+    "tagline": {
+      "en": "City of mosques, capital of waterways",
+      "fr": "Cité des mosquées, capitale des voies d'eau",
+      "de": "Stadt der Moscheen, Hauptstadt der Wasserstraßen"
+    },
+    "description": {
+      "en": "Capital of Bangladesh and one of the most densely populated cities in the world.",
+      "fr": "Capitale du Bangladesh et l'une des villes les plus densément peuplées au monde.",
+      "de": "Hauptstadt von Bangladesch und eine der am dichtesten besiedelten Städte der Welt."
+    }
+  },
+  "Islamabad_Pakistan": {
+    "tagline": {
+      "en": "Green capital, city of harmony",
+      "fr": "Capitale verte, cité de l'harmonie",
+      "de": "Grüne Hauptstadt, Stadt der Harmonie"
+    },
+    "description": {
+      "en": "Pakistan's capital, a well-planned modern city featuring the stunning Faisal Mosque.",
+      "fr": "Capitale du Pakistan, une ville moderne bien planifiée avec la magnifique mosquée Faisal.",
+      "de": "Pakistans Hauptstadt, eine gut geplante moderne Stadt mit der beeindruckenden Faisal-Moschee."
+    }
+  },
+  "Karachi_Pakistan": {
+    "tagline": {
+      "en": "City of lights, economic capital",
+      "fr": "Cité des lumières, capitale économique",
+      "de": "Stadt der Lichter, Wirtschaftshauptstadt"
+    },
+    "description": {
+      "en": "Pakistan's largest city and economic hub, a major port on the Arabian Sea.",
+      "fr": "La plus grande ville et le centre économique du Pakistan, un port majeur sur la mer d'Arabie.",
+      "de": "Pakistans größte Stadt und Wirtschaftszentrum, ein bedeutender Hafen am Arabischen Meer."
+    }
+  },
+  "Tehran_Iran": {
+    "tagline": {
+      "en": "Heart of Persia, city beneath the snow peaks",
+      "fr": "Cœur de la Perse, cité au pied des sommets enneigés",
+      "de": "Herz Persiens, Stadt unter den Schneegipfeln"
+    },
+    "description": {
+      "en": "Iran's capital, set against the Alborz Mountains, serving as the modern center of Persian civilization.",
+      "fr": "Capitale de l'Iran, adossée aux monts Alborz, centre moderne de la civilisation perse.",
+      "de": "Irans Hauptstadt, vor der Kulisse des Elburs-Gebirges, das moderne Zentrum der persischen Zivilisation."
+    }
+  },
+  "Dubai_UAE": {
+    "tagline": {
+      "en": "Desert miracle, capital of luxury",
+      "fr": "Miracle du désert, capitale du luxe",
+      "de": "Wüstenwunder, Hauptstadt des Luxus"
+    },
+    "description": {
+      "en": "The UAE's largest city, a dazzling metropolis risen from the desert sands, home to the towering Burj Khalifa.",
+      "fr": "La plus grande ville des Émirats, une métropole éblouissante surgie des sables du désert, abritant l'imposant Burj Khalifa.",
+      "de": "Die größte Stadt der VAE, eine schillernde Metropole, die aus dem Wüstensand emporgewachsen ist, Heimat des imposanten Burj Khalifa."
+    }
+  },
+  "Abu Dhabi_UAE": {
+    "tagline": {
+      "en": "Capital of the Emirates, cultural oasis",
+      "fr": "Capitale des Émirats, oasis culturelle",
+      "de": "Hauptstadt der Emirate, kulturelle Oase"
+    },
+    "description": {
+      "en": "Capital of the UAE, a city of oil wealth and cultural ambition, home to the Louvre Abu Dhabi.",
+      "fr": "Capitale des Émirats, ville de richesse pétrolière et d'ambition culturelle, abritant le Louvre Abu Dhabi.",
+      "de": "Hauptstadt der VAE, eine Stadt des Ölreichtums und kultureller Ambitionen, Heimat des Louvre Abu Dhabi."
+    }
+  },
+  "Doha_Qatar": {
+    "tagline": {
+      "en": "Gulf pearl, World Cup city",
+      "fr": "Perle du Golfe, cité de la Coupe du Monde",
+      "de": "Perle am Golf, WM-Stadt"
+    },
+    "description": {
+      "en": "Qatar's capital, host of the 2022 FIFA World Cup, with the luxurious Pearl Island resort.",
+      "fr": "Capitale du Qatar, hôte de la Coupe du Monde FIFA 2022, avec le luxueux complexe de l'île de la Perle.",
+      "de": "Katars Hauptstadt, Gastgeber der FIFA Weltmeisterschaft 2022, mit dem luxuriösen Resortgebiet The Pearl."
+    }
+  },
+  "Riyadh_Saudi Arabia": {
+    "tagline": {
+      "en": "Desert capital, oil kingdom",
+      "fr": "Capitale du désert, royaume du pétrole",
+      "de": "Wüstenhauptstadt, Ölkönigreich"
+    },
+    "description": {
+      "en": "Capital of Saudi Arabia, a modern metropolis rising from the heart of the Arabian desert.",
+      "fr": "Capitale de l'Arabie saoudite, une métropole moderne surgie du cœur du désert arabique.",
+      "de": "Hauptstadt Saudi-Arabiens, eine moderne Metropole, die aus dem Herzen der arabischen Wüste emporsteigt."
+    }
+  },
+  "Istanbul_Turkey": {
+    "tagline": {
+      "en": "Bridge between continents, imperial capital of ages",
+      "fr": "Pont entre les continents, capitale impériale des siècles",
+      "de": "Brücke zwischen Kontinenten, kaiserliche Hauptstadt der Epochen"
+    },
+    "description": {
+      "en": "A city straddling Europe and Asia, rich with the legacy of the Byzantine and Ottoman empires.",
+      "fr": "Ville à cheval entre l'Europe et l'Asie, riche de l'héritage des empires byzantin et ottoman.",
+      "de": "Eine Stadt zwischen Europa und Asien, reich an Vermächtnissen des Byzantinischen und Osmanischen Reiches."
+    }
+  },
+  "London_United Kingdom": {
+    "tagline": {
+      "en": "The Fog City, heart of an empire",
+      "fr": "La ville du brouillard, cœur d'un empire",
+      "de": "Die Nebelstadt, Herz eines Imperiums"
+    },
+    "description": {
+      "en": "Capital of the United Kingdom, a global financial center and home to Big Ben and Buckingham Palace.",
+      "fr": "Capitale du Royaume-Uni, centre financier mondial abritant Big Ben et le palais de Buckingham.",
+      "de": "Hauptstadt des Vereinigten Königreichs, globales Finanzzentrum und Heimat von Big Ben und Buckingham Palace."
+    }
+  },
+  "Manchester_United Kingdom": {
+    "tagline": {
+      "en": "Industrial pioneer, city of the Red Devils",
+      "fr": "Pionnière industrielle, ville des Red Devils",
+      "de": "Industriepionier, Stadt der Roten Teufel"
+    },
+    "description": {
+      "en": "The largest city in northern England, birthplace of the Industrial Revolution and a world-famous football city.",
+      "fr": "La plus grande ville du nord de l'Angleterre, berceau de la Révolution industrielle et ville de football mondialement célèbre.",
+      "de": "Die größte Stadt Nordenglands, Geburtsort der Industriellen Revolution und weltberühmte Fußballstadt."
+    }
+  },
+  "Birmingham_United Kingdom": {
+    "tagline": {
+      "en": "City of a thousand trades, heart of England",
+      "fr": "Cité aux mille métiers, cœur de l'Angleterre",
+      "de": "Stadt der tausend Gewerbe, Herz Englands"
+    },
+    "description": {
+      "en": "Britain's second-largest city, an Industrial Revolution powerhouse and a vibrant multicultural center.",
+      "fr": "Deuxième ville de Grande-Bretagne, puissance de la Révolution industrielle et centre multiculturel dynamique.",
+      "de": "Britanniens zweitgrößte Stadt, ein Kraftzentrum der Industriellen Revolution und ein lebendiges multikulturelles Zentrum."
+    }
+  },
+  "Edinburgh_United Kingdom": {
+    "tagline": {
+      "en": "Athens of the North, city of arts",
+      "fr": "Athènes du Nord, cité des arts",
+      "de": "Athen des Nordens, Stadt der Künste"
+    },
+    "description": {
+      "en": "Capital of Scotland, where Edinburgh Castle commands a panoramic view of the city and the world-renowned festival draws visitors each year.",
+      "fr": "Capitale de l'Écosse, où le château d'Édimbourg domine la ville et le festival de renommée mondiale attire chaque année des visiteurs.",
+      "de": "Hauptstadt Schottlands, wo Edinburgh Castle einen Panoramablick über die Stadt bietet und das weltberühmte Festival jährlich Besucher anzieht."
+    }
+  },
+  "Paris_France": {
+    "tagline": {
+      "en": "City of romance, City of Light",
+      "fr": "Ville de la romance, Ville Lumière",
+      "de": "Stadt der Romantik, Stadt des Lichts"
+    },
+    "description": {
+      "en": "Capital of France, the city of romance, home to the Eiffel Tower and the Louvre.",
+      "fr": "Capitale de la France, ville de la romance, abritant la tour Eiffel et le Louvre.",
+      "de": "Frankreichs Hauptstadt, Stadt der Romantik, Heimat des Eiffelturms und des Louvre."
+    }
+  },
+  "Lyon_France": {
+    "tagline": {
+      "en": "Gastronomic capital of France",
+      "fr": "Capitale gastronomique de la France",
+      "de": "Gastronomische Hauptstadt Frankreichs"
+    },
+    "description": {
+      "en": "France's third-largest city, celebrated as the country's culinary capital and historic silk city.",
+      "fr": "Troisième ville de France, célébrée comme capitale culinaire du pays et cité historique de la soie.",
+      "de": "Frankreichs drittgrößte Stadt, gefeiert als kulinarische Hauptstadt des Landes und historische Seidenstadt."
+    }
+  },
+  "Marseille_France": {
+    "tagline": {
+      "en": "Mediterranean port city, city of sunshine",
+      "fr": "Port méditerranéen, cité du soleil",
+      "de": "Mittelmeerhafen, Stadt des Sonnenscheins"
+    },
+    "description": {
+      "en": "France's second-largest city and the biggest port on the Mediterranean, a city of sunshine and seafood.",
+      "fr": "Deuxième ville de France et premier port de la Méditerranée, une cité de soleil et de fruits de mer.",
+      "de": "Frankreichs zweitgrößte Stadt und größter Mittelmeerhafen, eine Stadt des Sonnenscheins und der Meeresfrüchte."
+    }
+  },
+  "Nice_France": {
+    "tagline": {
+      "en": "Jewel of the Côte d'Azur, holiday paradise",
+      "fr": "Joyau de la Côte d'Azur, paradis de vacances",
+      "de": "Juwel der Côte d'Azur, Urlaubsparadies"
+    },
+    "description": {
+      "en": "A gem of the French Riviera and a beloved vacation destination, with the picturesque Bay of Angels.",
+      "fr": "Un joyau de la Riviera française et destination de vacances prisée, avec la pittoresque baie des Anges.",
+      "de": "Ein Juwel der Französischen Riviera und beliebtes Urlaubsziel mit der malerischen Baie des Anges."
+    }
+  },
+  "Berlin_Germany": {
+    "tagline": {
+      "en": "City of freedom, capital of creativity",
+      "fr": "Ville de la liberté, capitale de la créativité",
+      "de": "Stadt der Freiheit, Hauptstadt der Kreativität"
+    },
+    "description": {
+      "en": "Germany's capital, where the Berlin Wall bore witness to history, now a thriving city of creativity and freedom.",
+      "fr": "Capitale de l'Allemagne, où le mur de Berlin a été témoin de l'histoire, aujourd'hui une ville florissante de créativité et de liberté.",
+      "de": "Deutschlands Hauptstadt, wo die Berliner Mauer Geschichte bezeugte, heute eine blühende Stadt der Kreativität und Freiheit."
+    }
+  },
+  "Munich_Germany": {
+    "tagline": {
+      "en": "Beer capital, gem of Bavaria",
+      "fr": "Capitale de la bière, joyau de la Bavière",
+      "de": "Bierhauptstadt, Juwel Bayerns"
+    },
+    "description": {
+      "en": "Capital of Bavaria, famed for Oktoberfest, a cultural gem nestled at the foot of the Alps.",
+      "fr": "Capitale de la Bavière, célèbre pour l'Oktoberfest, un joyau culturel niché au pied des Alpes.",
+      "de": "Hauptstadt Bayerns, berühmt für das Oktoberfest, ein kulturelles Juwel am Fuße der Alpen."
+    }
+  },
+  "Hamburg_Germany": {
+    "tagline": {
+      "en": "Port city, Venice of the North",
+      "fr": "Cité portuaire, Venise du Nord",
+      "de": "Hafenstadt, Venedig des Nordens"
+    },
+    "description": {
+      "en": "Germany's second-largest city and one of Europe's busiest ports, renowned for its iconic warehouse district.",
+      "fr": "Deuxième ville d'Allemagne et l'un des ports les plus actifs d'Europe, réputée pour son quartier des entrepôts emblématique.",
+      "de": "Deutschlands zweitgrößte Stadt und einer der geschäftigsten Häfen Europas, bekannt für seine ikonische Speicherstadt."
+    }
+  },
+  "Frankfurt_Germany": {
+    "tagline": {
+      "en": "Financial heart of Europe, Goethe's birthplace",
+      "fr": "Cœur financier de l'Europe, ville natale de Goethe",
+      "de": "Finanzherz Europas, Goethes Geburtsstadt"
+    },
+    "description": {
+      "en": "Europe's financial center and birthplace of Goethe, with its striking skyline along the River Main.",
+      "fr": "Centre financier européen et ville natale de Goethe, avec sa skyline saisissante le long du Main.",
+      "de": "Europas Finanzzentrum und Goethes Geburtsstadt, mit ihrer beeindruckenden Skyline am Main."
+    }
+  },
+  "Cologne_Germany": {
+    "tagline": {
+      "en": "City of the great cathedral, pearl of the Rhine",
+      "fr": "Cité de la grande cathédrale, perle du Rhin",
+      "de": "Stadt des großen Doms, Perle des Rheins"
+    },
+    "description": {
+      "en": "An ancient city on the Rhine, home to the UNESCO-listed Cologne Cathedral and famous for its vibrant carnival.",
+      "fr": "Ancienne cité sur le Rhin, abritant la cathédrale de Cologne classée à l'UNESCO et célèbre pour son carnaval animé.",
+      "de": "Eine alte Stadt am Rhein, Heimat des UNESCO-geschützten Kölner Doms und berühmt für ihren lebhaften Karneval."
+    }
+  },
+  "Düsseldorf_Germany": {
+    "tagline": {
+      "en": "Rhine fashion, art capital",
+      "fr": "Mode rhénane, capitale artistique",
+      "de": "Rheinische Mode, Kunsthauptstadt"
+    },
+    "description": {
+      "en": "A fashion capital on the Rhine, and Germany's center for advertising and telecommunications.",
+      "fr": "Capitale de la mode sur le Rhin et centre allemand de la publicité et des télécommunications.",
+      "de": "Eine Modehauptstadt am Rhein und Deutschlands Zentrum für Werbung und Telekommunikation."
+    }
+  },
+  "Amsterdam_Netherlands": {
+    "tagline": {
+      "en": "City of canals, capital of freedom",
+      "fr": "Ville des canaux, capitale de la liberté",
+      "de": "Stadt der Grachten, Hauptstadt der Freiheit"
+    },
+    "description": {
+      "en": "Capital of the Netherlands, a city of canals, home to the Van Gogh Museum and an open, liberal culture.",
+      "fr": "Capitale des Pays-Bas, ville de canaux, abritant le musée Van Gogh et une culture ouverte et libérale.",
+      "de": "Hauptstadt der Niederlande, eine Stadt der Grachten, Heimat des Van Gogh Museums und einer offenen, liberalen Kultur."
+    }
+  },
+  "Rotterdam_Netherlands": {
+    "tagline": {
+      "en": "Gateway to Europe, architectural playground",
+      "fr": "Porte de l'Europe, terrain de jeu architectural",
+      "de": "Tor zu Europa, architektonischer Spielplatz"
+    },
+    "description": {
+      "en": "Europe's largest port city and a capital of modern architecture, brilliantly rebuilt after World War II.",
+      "fr": "Le plus grand port d'Europe et une capitale de l'architecture moderne, brillamment reconstruite après la Seconde Guerre mondiale.",
+      "de": "Europas größte Hafenstadt und Hauptstadt moderner Architektur, glänzend wiederaufgebaut nach dem Zweiten Weltkrieg."
+    }
+  },
+  "Brussels_Belgium": {
+    "tagline": {
+      "en": "Capital of Europe, kingdom of chocolate",
+      "fr": "Capitale de l'Europe, royaume du chocolat",
+      "de": "Hauptstadt Europas, Königreich der Schokolade"
+    },
+    "description": {
+      "en": "Capital of Belgium and seat of the European Union, a city of chocolate and waffles.",
+      "fr": "Capitale de la Belgique et siège de l'Union européenne, une ville de chocolat et de gaufres.",
+      "de": "Hauptstadt Belgiens und Sitz der Europäischen Union, eine Stadt der Schokolade und Waffeln."
+    }
+  },
+  "Antwerp_Belgium": {
+    "tagline": {
+      "en": "Diamond capital, Baroque gem",
+      "fr": "Capitale du diamant, joyau baroque",
+      "de": "Diamantenhauptstadt, barockes Juwel"
+    },
+    "description": {
+      "en": "Belgium's second-largest city, the world's diamond capital, and birthplace of the painter Rubens.",
+      "fr": "Deuxième ville de Belgique, capitale mondiale du diamant et ville natale du peintre Rubens.",
+      "de": "Belgiens zweitgrößte Stadt, Welthauptstadt des Diamanten und Geburtsstadt des Malers Rubens."
+    }
+  },
+  "Madrid_Spain": {
+    "tagline": {
+      "en": "City of passion, temple of art",
+      "fr": "Cité de la passion, temple de l'art",
+      "de": "Stadt der Leidenschaft, Tempel der Kunst"
+    },
+    "description": {
+      "en": "Spain's capital, home to the Prado Museum and Royal Palace, alive with the passion of flamenco.",
+      "fr": "Capitale de l'Espagne, abritant le musée du Prado et le Palais royal, animée par la passion du flamenco.",
+      "de": "Spaniens Hauptstadt, Heimat des Prado-Museums und des Königspalastes, belebt von der Leidenschaft des Flamenco."
+    }
+  },
+  "Barcelona_Spain": {
+    "tagline": {
+      "en": "Gaudí's city, Mediterranean jewel",
+      "fr": "Cité de Gaudí, joyau méditerranéen",
+      "de": "Gaudís Stadt, Mittelmeerjuwel"
+    },
+    "description": {
+      "en": "A temple of Gaudí's architecture and a celebrated Mediterranean seaside city, the cultural heart of Catalonia.",
+      "fr": "Temple de l'architecture de Gaudí et célèbre ville balnéaire méditerranéenne, cœur culturel de la Catalogne.",
+      "de": "Ein Tempel von Gaudís Architektur und eine gefeierte Küstenstadt am Mittelmeer, das kulturelle Herz Kataloniens."
+    }
+  },
+  "Seville_Spain": {
+    "tagline": {
+      "en": "Soul of flamenco, sun-kissed ancient city",
+      "fr": "Âme du flamenco, cité antique baignée de soleil",
+      "de": "Seele des Flamenco, sonnengeküsste antike Stadt"
+    },
+    "description": {
+      "en": "Capital of Andalusia and birthplace of flamenco, rich in Moorish architectural heritage.",
+      "fr": "Capitale de l'Andalousie et berceau du flamenco, riche en patrimoine architectural maure.",
+      "de": "Hauptstadt Andalusiens und Geburtsort des Flamenco, reich an maurischem Architekturerbe."
+    }
+  },
+  "Valencia_Spain": {
+    "tagline": {
+      "en": "City of arts and sciences, flames of Fallas",
+      "fr": "Cité des arts et des sciences, flammes des Fallas",
+      "de": "Stadt der Künste und Wissenschaften, Flammen der Fallas"
+    },
+    "description": {
+      "en": "Spain's third-largest city, famous for its City of Arts and Sciences and the spectacular Fallas festival.",
+      "fr": "Troisième ville d'Espagne, célèbre pour sa Cité des Arts et des Sciences et le spectaculaire festival des Fallas.",
+      "de": "Spaniens drittgrößte Stadt, berühmt für die Stadt der Künste und Wissenschaften und das spektakuläre Fallas-Fest."
+    }
+  },
+  "Lisbon_Portugal": {
+    "tagline": {
+      "en": "City of seven hills, launching point of great voyages",
+      "fr": "Ville aux sept collines, point de départ des grandes découvertes",
+      "de": "Stadt der sieben Hügel, Startpunkt großer Entdeckungen"
+    },
+    "description": {
+      "en": "Portugal's capital, the city of seven hills, and the starting point of the Age of Discovery.",
+      "fr": "Capitale du Portugal, la ville aux sept collines et le point de départ de l'Ère des Grandes Découvertes.",
+      "de": "Portugals Hauptstadt, die Stadt der sieben Hügel und Ausgangspunkt des Zeitalters der Entdeckungen."
+    }
+  },
+  "Porto_Portugal": {
+    "tagline": {
+      "en": "Home of port wine, the invincible city",
+      "fr": "Patrie du porto, la cité invincible",
+      "de": "Heimat des Portweins, die unbesiegbare Stadt"
+    },
+    "description": {
+      "en": "Portugal's second-largest city, birthplace of port wine, a beautiful historic city along the Douro River.",
+      "fr": "Deuxième ville du Portugal, berceau du vin de Porto, une belle cité historique le long du Douro.",
+      "de": "Portugals zweitgrößte Stadt, Geburtsort des Portweins, eine wunderschöne historische Stadt am Douro."
+    }
+  },
+  "Rome_Italy": {
+    "tagline": {
+      "en": "Eternal City, cradle of civilization",
+      "fr": "Ville Éternelle, berceau de la civilisation",
+      "de": "Ewige Stadt, Wiege der Zivilisation"
+    },
+    "description": {
+      "en": "Italy's capital, the Eternal City, where the Colosseum and the Vatican bear witness to millennia of civilization.",
+      "fr": "Capitale de l'Italie, la Ville Éternelle, où le Colisée et le Vatican témoignent de millénaires de civilisation.",
+      "de": "Italiens Hauptstadt, die Ewige Stadt, wo das Kolosseum und der Vatikan von Jahrtausenden der Zivilisation zeugen."
+    }
+  },
+  "Milan_Italy": {
+    "tagline": {
+      "en": "Fashion capital, city of design",
+      "fr": "Capitale de la mode, cité du design",
+      "de": "Modehauptstadt, Stadt des Designs"
+    },
+    "description": {
+      "en": "Italy's fashion and design capital, home to Leonardo da Vinci's The Last Supper.",
+      "fr": "Capitale italienne de la mode et du design, abritant La Cène de Léonard de Vinci.",
+      "de": "Italiens Mode- und Designhauptstadt, Heimat von Leonardo da Vincis Letztem Abendmahl."
+    }
+  },
+  "Florence_Italy": {
+    "tagline": {
+      "en": "Cradle of the Renaissance, sacred ground of art",
+      "fr": "Berceau de la Renaissance, terre sacrée de l'art",
+      "de": "Wiege der Renaissance, heiliger Boden der Kunst"
+    },
+    "description": {
+      "en": "Birthplace of the Renaissance, famed worldwide for the Uffizi Gallery and the Cathedral of Santa Maria del Fiore.",
+      "fr": "Berceau de la Renaissance, mondialement célèbre pour la Galerie des Offices et la cathédrale Santa Maria del Fiore.",
+      "de": "Geburtsort der Renaissance, weltberühmt für die Uffizien und die Kathedrale Santa Maria del Fiore."
+    }
+  },
+  "Venice_Italy": {
+    "tagline": {
+      "en": "City on the water, romantic Venice",
+      "fr": "Cité sur l'eau, Venise la romantique",
+      "de": "Stadt auf dem Wasser, romantisches Venedig"
+    },
+    "description": {
+      "en": "A floating city where gondolas glide through canals, and St. Mark's Square enchants visitors worldwide.",
+      "fr": "Ville flottante où les gondoles glissent sur les canaux, et la place Saint-Marc enchante les visiteurs du monde entier.",
+      "de": "Eine schwimmende Stadt, wo Gondeln durch Kanäle gleiten und der Markusplatz Besucher aus aller Welt verzaubert."
+    }
+  },
+  "Naples_Italy": {
+    "tagline": {
+      "en": "Birthplace of pizza, city beneath the volcano",
+      "fr": "Patrie de la pizza, cité au pied du volcan",
+      "de": "Geburtsort der Pizza, Stadt am Fuß des Vulkans"
+    },
+    "description": {
+      "en": "The largest city in southern Italy, birthplace of pizza, nestled at the foot of Mount Vesuvius.",
+      "fr": "La plus grande ville du sud de l'Italie, berceau de la pizza, nichée au pied du Vésuve.",
+      "de": "Die größte Stadt Süditaliens, Geburtsort der Pizza, am Fuße des Vesuvs gelegen."
+    }
+  },
+  "Vienna_Austria": {
+    "tagline": {
+      "en": "City of music, imperial Vienna",
+      "fr": "Ville de la musique, Vienne impériale",
+      "de": "Stadt der Musik, kaiserliches Wien"
+    },
+    "description": {
+      "en": "Austria's capital, the city of music, steeped in the splendid legacy of the Habsburg dynasty.",
+      "fr": "Capitale de l'Autriche, ville de la musique, imprégnée du splendide héritage de la dynastie des Habsbourg.",
+      "de": "Österreichs Hauptstadt, die Stadt der Musik, durchdrungen vom glanzvollen Erbe der Habsburger-Dynastie."
+    }
+  },
+  "Salzburg_Austria": {
+    "tagline": {
+      "en": "Mozart's city, cradle of music",
+      "fr": "Ville de Mozart, berceau de la musique",
+      "de": "Mozarts Stadt, Wiege der Musik"
+    },
+    "description": {
+      "en": "Birthplace of Mozart, a Baroque gem nestled at the foot of the Alps.",
+      "fr": "Ville natale de Mozart, un joyau baroque niché au pied des Alpes.",
+      "de": "Mozarts Geburtsstadt, ein barockes Juwel am Fuße der Alpen."
+    }
+  },
+  "Zurich_Switzerland": {
+    "tagline": {
+      "en": "Banking city, lakeside mountain beauty",
+      "fr": "Cité bancaire, beauté lacustre et montagnarde",
+      "de": "Bankenstadt, Schönheit zwischen See und Bergen"
+    },
+    "description": {
+      "en": "Switzerland's largest city, a global financial center set against stunning Alpine and lakeside scenery.",
+      "fr": "La plus grande ville de Suisse, un centre financier mondial dans un cadre alpin et lacustre époustouflant.",
+      "de": "Die größte Stadt der Schweiz, ein globales Finanzzentrum vor atemberaubender Alpen- und Seenkulisse."
+    }
+  },
+  "Geneva_Switzerland": {
+    "tagline": {
+      "en": "Capital of peace, city of watches",
+      "fr": "Capitale de la paix, cité de l'horlogerie",
+      "de": "Hauptstadt des Friedens, Stadt der Uhren"
+    },
+    "description": {
+      "en": "A city of international organizations on the shores of Lake Geneva, a capital of peace and watchmaking.",
+      "fr": "Ville d'organisations internationales sur les rives du lac Léman, capitale de la paix et de l'horlogerie.",
+      "de": "Eine Stadt internationaler Organisationen am Ufer des Genfer Sees, Hauptstadt des Friedens und der Uhrmacherei."
+    }
+  },
+  "Prague_Czech Republic": {
+    "tagline": {
+      "en": "City of a hundred spires, heart of Bohemia",
+      "fr": "Ville aux cent clochers, cœur de la Bohême",
+      "de": "Stadt der hundert Türme, Herz Böhmens"
+    },
+    "description": {
+      "en": "Capital of the Czech Republic, the city of a hundred spires, where Charles Bridge and the Old Town Square are breathtaking.",
+      "fr": "Capitale de la République tchèque, la ville aux cent clochers, où le pont Charles et la place de la Vieille Ville coupent le souffle.",
+      "de": "Hauptstadt der Tschechischen Republik, die Stadt der hundert Türme, wo die Karlsbrücke und der Altstädter Ring atemberaubend sind."
+    }
+  },
+  "Budapest_Hungary": {
+    "tagline": {
+      "en": "Pearl of the Danube, spa capital",
+      "fr": "Perle du Danube, capitale thermale",
+      "de": "Perle der Donau, Thermenhauptstadt"
+    },
+    "description": {
+      "en": "Hungary's capital, a gem on the Danube and the spa capital of the world.",
+      "fr": "Capitale de la Hongrie, un joyau sur le Danube et capitale thermale du monde.",
+      "de": "Ungarns Hauptstadt, ein Juwel an der Donau und Thermenhauptstadt der Welt."
+    }
+  },
+  "Warsaw_Poland": {
+    "tagline": {
+      "en": "Risen from the ashes, heart of Poland",
+      "fr": "Renaître des cendres, cœur de la Pologne",
+      "de": "Aus der Asche auferstanden, Herz Polens"
+    },
+    "description": {
+      "en": "Poland's capital, a city reborn like a phoenix from the ruins of war.",
+      "fr": "Capitale de la Pologne, une ville renaissant tel un phénix des ruines de la guerre.",
+      "de": "Polens Hauptstadt, eine Stadt, die wie ein Phönix aus den Ruinen des Krieges wiedergeboren wurde."
+    }
+  },
+  "Krakow_Poland": {
+    "tagline": {
+      "en": "Ancient Polish capital, medieval gem",
+      "fr": "Ancienne capitale polonaise, joyau médiéval",
+      "de": "Alte polnische Hauptstadt, mittelalterliches Juwel"
+    },
+    "description": {
+      "en": "Poland's ancient capital, where Wawel Castle and the Old Town Square preserve a beautifully intact medieval cityscape.",
+      "fr": "Ancienne capitale de la Pologne, où le château du Wawel et la Grand-Place préservent un paysage médiéval magnifiquement intact.",
+      "de": "Polens alte Hauptstadt, wo die Wawelburg und der Hauptmarkt eine wunderbar erhaltene mittelalterliche Stadtlandschaft bewahren."
+    }
+  },
+  "Copenhagen_Denmark": {
+    "tagline": {
+      "en": "City of fairy tales, happiest place on earth",
+      "fr": "Cité des contes de fées, l'endroit le plus heureux du monde",
+      "de": "Märchenstadt, glücklichster Ort der Erde"
+    },
+    "description": {
+      "en": "Denmark's capital, hometown of Hans Christian Andersen's fairy tales, a city of Nordic design and happiness.",
+      "fr": "Capitale du Danemark, patrie des contes d'Andersen, une ville de design nordique et de bonheur.",
+      "de": "Dänemarks Hauptstadt, Heimatstadt von Hans Christian Andersens Märchen, eine Stadt des nordischen Designs und des Glücks."
+    }
+  },
+  "Stockholm_Sweden": {
+    "tagline": {
+      "en": "Venice of the North, city of Nobel",
+      "fr": "Venise du Nord, cité de Nobel",
+      "de": "Venedig des Nordens, Stadt des Nobelpreises"
+    },
+    "description": {
+      "en": "Sweden's capital, built across fourteen islands as the Venice of the North and the city of the Nobel Prize.",
+      "fr": "Capitale de la Suède, bâtie sur quatorze îles, la Venise du Nord et la ville du prix Nobel.",
+      "de": "Schwedens Hauptstadt, erbaut auf vierzehn Inseln als Venedig des Nordens und Stadt des Nobelpreises."
+    }
+  },
+  "Oslo_Norway": {
+    "tagline": {
+      "en": "Gateway to the fjords, Viking city",
+      "fr": "Porte des fjords, cité viking",
+      "de": "Tor zu den Fjorden, Wikingerstadt"
+    },
+    "description": {
+      "en": "Norway's capital, gateway to the land of fjords, and home to the Viking Ship Museum.",
+      "fr": "Capitale de la Norvège, porte d'entrée du pays des fjords et abritant le musée des bateaux vikings.",
+      "de": "Norwegens Hauptstadt, Tor zum Land der Fjorde und Heimat des Wikingerschiffmuseums."
+    }
+  },
+  "Helsinki_Finland": {
+    "tagline": {
+      "en": "Design capital, Nordic purity",
+      "fr": "Capitale du design, pureté nordique",
+      "de": "Designhauptstadt, nordische Reinheit"
+    },
+    "description": {
+      "en": "Finland's capital on the Baltic Sea, a world design capital and birthplace of sauna culture.",
+      "fr": "Capitale de la Finlande sur la Baltique, capitale mondiale du design et berceau de la culture du sauna.",
+      "de": "Finnlands Hauptstadt an der Ostsee, Weltdesignhauptstadt und Geburtsort der Saunakultur."
+    }
+  },
+  "Athens_Greece": {
+    "tagline": {
+      "en": "Cradle of civilization, city of the gods",
+      "fr": "Berceau de la civilisation, cité des dieux",
+      "de": "Wiege der Zivilisation, Stadt der Götter"
+    },
+    "description": {
+      "en": "Greece's capital, the cradle of Western civilization, where the Parthenon gazes over the city from above.",
+      "fr": "Capitale de la Grèce, berceau de la civilisation occidentale, où le Parthénon veille sur la ville depuis les hauteurs.",
+      "de": "Griechenlands Hauptstadt, Wiege der westlichen Zivilisation, wo der Parthenon von oben über die Stadt wacht."
+    }
+  },
+  "Bucharest_Romania": {
+    "tagline": {
+      "en": "Little Paris of the East, city of the parliament",
+      "fr": "Le petit Paris de l'Est, cité du parlement",
+      "de": "Kleines Paris des Ostens, Stadt des Parlaments"
+    },
+    "description": {
+      "en": "Romania's capital, nicknamed Little Paris, home to the Palace of the Parliament — the world's largest administrative building.",
+      "fr": "Capitale de la Roumanie, surnommée le petit Paris, abritant le Palais du Parlement, le plus grand bâtiment administratif au monde.",
+      "de": "Rumäniens Hauptstadt, als kleines Paris bekannt, Heimat des Parlamentspalastes — des größten Verwaltungsgebäudes der Welt."
+    }
+  },
+  "Dublin_Ireland": {
+    "tagline": {
+      "en": "Literary capital, Celtic heart",
+      "fr": "Capitale littéraire, cœur celte",
+      "de": "Literaturhauptstadt, keltisches Herz"
+    },
+    "description": {
+      "en": "Ireland's capital, a city of literature, home to Guinness and the rich traditions of Celtic culture.",
+      "fr": "Capitale de l'Irlande, ville de littérature, patrie de la Guinness et des riches traditions de la culture celte.",
+      "de": "Irlands Hauptstadt, eine Stadt der Literatur, Heimat von Guinness und der reichen Traditionen keltischer Kultur."
+    }
+  },
+  "Moscow_Russia": {
+    "tagline": {
+      "en": "City of the tsars, Red Square",
+      "fr": "Cité des tsars, Place Rouge",
+      "de": "Stadt der Zaren, Roter Platz"
+    },
+    "description": {
+      "en": "Russia's capital, where Red Square and the Kremlin have witnessed the rise and fall of empires.",
+      "fr": "Capitale de la Russie, où la Place Rouge et le Kremlin ont été témoins de la grandeur et de la chute des empires.",
+      "de": "Russlands Hauptstadt, wo der Rote Platz und der Kreml den Aufstieg und Fall von Imperien miterlebt haben."
+    }
+  },
+  "Saint Petersburg_Russia": {
+    "tagline": {
+      "en": "Northern capital, city of white nights",
+      "fr": "Capitale du nord, ville des nuits blanches",
+      "de": "Nördliche Hauptstadt, Stadt der weißen Nächte"
+    },
+    "description": {
+      "en": "Russia's cultural capital, with the Hermitage and White Nights, an open-air museum of architecture along the Neva.",
+      "fr": "Capitale culturelle de la Russie, avec l'Ermitage et les Nuits blanches, un musée d'architecture à ciel ouvert le long de la Neva.",
+      "de": "Russlands Kulturhauptstadt, mit der Eremitage und den Weißen Nächten, ein Freilichtmuseum der Architektur an der Newa."
+    }
+  },
+  "Kyiv_Ukraine": {
+    "tagline": {
+      "en": "Mother of Eastern Slavic cities, on the Dnieper",
+      "fr": "Mère des villes slaves orientales, sur le Dniepr",
+      "de": "Mutter der ostslawischen Städte, am Dnjepr"
+    },
+    "description": {
+      "en": "Ukraine's capital, an ancient city on the Dnieper River and a center of Eastern Orthodox civilization.",
+      "fr": "Capitale de l'Ukraine, ancienne cité sur le Dniepr et centre de la civilisation orthodoxe orientale.",
+      "de": "Die Hauptstadt der Ukraine, eine alte Stadt am Dnjepr und ein Zentrum der ostorthodoxen Zivilisation."
+    }
+  },
+  "New York_United States": {
+    "tagline": {
+      "en": "The city that never sleeps, capital of the world",
+      "fr": "La ville qui ne dort jamais, capitale du monde",
+      "de": "Die Stadt, die niemals schläft, Hauptstadt der Welt"
+    },
+    "description": {
+      "en": "America's largest city, home to the Statue of Liberty and Wall Street, a cultural melting pot of the world.",
+      "fr": "La plus grande ville d'Amérique, abritant la Statue de la Liberté et Wall Street, un creuset culturel mondial.",
+      "de": "Amerikas größte Stadt, Heimat der Freiheitsstatue und der Wall Street, ein kultureller Schmelztiegel der Welt."
+    }
+  },
+  "Newark_United States": {
+    "tagline": {
+      "en": "Brick City, gateway to New York",
+      "fr": "Brick City, porte de New York",
+      "de": "Brick City, Tor nach New York"
+    },
+    "description": {
+      "en": "The largest city in New Jersey and an integral part of the greater New York metropolitan area.",
+      "fr": "La plus grande ville du New Jersey et partie intégrante de la grande métropole new-yorkaise.",
+      "de": "Die größte Stadt New Jerseys und integraler Bestandteil der Metropolregion New York."
+    }
+  },
+  "Philadelphia_United States": {
+    "tagline": {
+      "en": "Liberty Bell, city of brotherly love",
+      "fr": "Cloche de la Liberté, cité de l'amour fraternel",
+      "de": "Freiheitsglocke, Stadt der brüderlichen Liebe"
+    },
+    "description": {
+      "en": "Where the Declaration of Independence was signed, the City of Brotherly Love and a major historical landmark.",
+      "fr": "Lieu de signature de la Déclaration d'indépendance, la Cité de l'Amour Fraternel et un haut lieu historique.",
+      "de": "Wo die Unabhängigkeitserklärung unterzeichnet wurde, die Stadt der brüderlichen Liebe und ein bedeutendes historisches Wahrzeichen."
+    }
+  },
+  "Washington D.C._United States": {
+    "tagline": {
+      "en": "Capital of democracy, seat of power",
+      "fr": "Capitale de la démocratie, siège du pouvoir",
+      "de": "Hauptstadt der Demokratie, Sitz der Macht"
+    },
+    "description": {
+      "en": "The capital of the United States, home to the White House, Capitol Hill, and the Smithsonian museums.",
+      "fr": "Capitale des États-Unis, abritant la Maison-Blanche, le Capitole et les musées Smithsonian.",
+      "de": "Die Hauptstadt der Vereinigten Staaten, Sitz des Weißen Hauses, des Kapitols und der Smithsonian-Museen."
+    }
+  },
+  "Baltimore_United States": {
+    "tagline": {
+      "en": "Charm City, inner harbor gem",
+      "fr": "Charm City, joyau du port intérieur",
+      "de": "Charm City, Juwel des Inneren Hafens"
+    },
+    "description": {
+      "en": "Maryland's largest city, renowned for its Inner Harbor cultural district and Johns Hopkins University.",
+      "fr": "La plus grande ville du Maryland, réputée pour son quartier culturel du Port intérieur et l'université Johns Hopkins.",
+      "de": "Marylands größte Stadt, bekannt für ihr Kulturviertel am Inneren Hafen und die Johns Hopkins University."
+    }
+  },
+  "Boston_United States": {
+    "tagline": {
+      "en": "Academic capital, cradle of liberty",
+      "fr": "Capitale universitaire, berceau de la liberté",
+      "de": "Universitätshauptstadt, Wiege der Freiheit"
+    },
+    "description": {
+      "en": "One of America's oldest cities, home to Harvard and MIT, and a cradle of American independence.",
+      "fr": "L'une des plus anciennes villes d'Amérique, abritant Harvard et le MIT, et un berceau de l'indépendance américaine.",
+      "de": "Eine der ältesten Städte Amerikas, Heimat von Harvard und MIT und Wiege der amerikanischen Unabhängigkeit."
+    }
+  },
+  "Los Angeles_United States": {
+    "tagline": {
+      "en": "City of Angels, capital of Hollywood",
+      "fr": "Cité des Anges, capitale d'Hollywood",
+      "de": "Stadt der Engel, Hauptstadt Hollywoods"
+    },
+    "description": {
+      "en": "America's second-largest city, home to Hollywood, a city of sunshine and dreams.",
+      "fr": "Deuxième ville d'Amérique, abritant Hollywood, une cité de soleil et de rêves.",
+      "de": "Amerikas zweitgrößte Stadt, Heimat von Hollywood, eine Stadt des Sonnenscheins und der Träume."
+    }
+  },
+  "San Francisco_United States": {
+    "tagline": {
+      "en": "Golden Gate city, gateway to Silicon Valley",
+      "fr": "Cité du Golden Gate, porte de la Silicon Valley",
+      "de": "Stadt des Golden Gate, Tor zum Silicon Valley"
+    },
+    "description": {
+      "en": "City of the Golden Gate Bridge, gateway to Silicon Valley, celebrated for its diversity and tech innovation.",
+      "fr": "Ville du Golden Gate Bridge, porte de la Silicon Valley, célébrée pour sa diversité et son innovation technologique.",
+      "de": "Stadt der Golden Gate Bridge, Tor zum Silicon Valley, gefeiert für ihre Vielfalt und technologische Innovation."
+    }
+  },
+  "San Jose_United States": {
+    "tagline": {
+      "en": "Heart of Silicon Valley, tech capital",
+      "fr": "Cœur de la Silicon Valley, capitale technologique",
+      "de": "Herz des Silicon Valley, Technologiehauptstadt"
+    },
+    "description": {
+      "en": "The core city of Silicon Valley and the global epicenter of the tech industry.",
+      "fr": "Ville centrale de la Silicon Valley et épicentre mondial de l'industrie technologique.",
+      "de": "Die Kernstadt des Silicon Valley und das globale Epizentrum der Technologiebranche."
+    }
+  },
+  "San Diego_United States": {
+    "tagline": {
+      "en": "America's finest city, sunny coast",
+      "fr": "La plus belle ville d'Amérique, côte ensoleillée",
+      "de": "Amerikas schönste Stadt, sonnige Küste"
+    },
+    "description": {
+      "en": "One of America's most livable cities, blessed with sunny beaches and home to a major naval base.",
+      "fr": "L'une des villes les plus agréables d'Amérique, bénie de plages ensoleillées et abritant une grande base navale.",
+      "de": "Eine der lebenswertesten Städte Amerikas, gesegnet mit sonnigen Stränden und Standort eines großen Marinestützpunkts."
+    }
+  },
+  "Chicago_United States": {
+    "tagline": {
+      "en": "The Windy City, capital of architecture",
+      "fr": "La Ville des Vents, capitale de l'architecture",
+      "de": "Die Windige Stadt, Hauptstadt der Architektur"
+    },
+    "description": {
+      "en": "The Windy City and architecture capital, with a spectacular skyline along the shores of Lake Michigan.",
+      "fr": "La Ville des Vents et capitale de l'architecture, avec une skyline spectaculaire le long des rives du lac Michigan.",
+      "de": "Die Windige Stadt und Architekturhauptstadt, mit einer spektakulären Skyline am Ufer des Michigansees."
+    }
+  },
+  "Houston_United States": {
+    "tagline": {
+      "en": "Space city, energy capital",
+      "fr": "Cité de l'espace, capitale de l'énergie",
+      "de": "Weltraumstadt, Energiehauptstadt"
+    },
+    "description": {
+      "en": "Texas's largest city, home to NASA's Space Center, and the energy capital of the world.",
+      "fr": "La plus grande ville du Texas, abritant le Centre spatial de la NASA, et capitale mondiale de l'énergie.",
+      "de": "Die größte Stadt in Texas, Sitz des NASA Space Center und Energiehauptstadt der Welt."
+    }
+  },
+  "Dallas_United States": {
+    "tagline": {
+      "en": "Cowboy city, star of Texas",
+      "fr": "Cité des cowboys, étoile du Texas",
+      "de": "Cowboystadt, Stern von Texas"
+    },
+    "description": {
+      "en": "Texas's third-largest city, where cowboy culture meets modern business.",
+      "fr": "Troisième ville du Texas, où la culture cowboy rencontre le commerce moderne.",
+      "de": "Die drittgrößte Stadt in Texas, wo Cowboy-Kultur auf modernes Geschäftsleben trifft."
+    }
+  },
+  "Miami_United States": {
+    "tagline": {
+      "en": "Magic City, Latin light",
+      "fr": "Cité magique, lumière latine",
+      "de": "Magische Stadt, lateinamerikanisches Licht"
+    },
+    "description": {
+      "en": "A vibrant Florida coastal city at the crossroads of Latin cultures, with world-famous Miami Beach.",
+      "fr": "Ville côtière dynamique de Floride au carrefour des cultures latines, avec la mondialement célèbre Miami Beach.",
+      "de": "Eine lebhafte Küstenstadt Floridas am Kreuzpunkt lateinamerikanischer Kulturen, mit dem weltberühmten Miami Beach."
+    }
+  },
+  "Atlanta_United States": {
+    "tagline": {
+      "en": "Capital of the South, city of Coca-Cola",
+      "fr": "Capitale du Sud, cité de Coca-Cola",
+      "de": "Hauptstadt des Südens, Stadt von Coca-Cola"
+    },
+    "description": {
+      "en": "The largest city in the American Southeast, home to Coca-Cola headquarters and CNN Center.",
+      "fr": "La plus grande ville du sud-est américain, siège de Coca-Cola et du CNN Center.",
+      "de": "Die größte Stadt im amerikanischen Südosten, Sitz der Coca-Cola-Zentrale und des CNN Center."
+    }
+  },
+  "Seattle_United States": {
+    "tagline": {
+      "en": "Emerald City, coffee capital",
+      "fr": "Cité émeraude, capitale du café",
+      "de": "Smaragdstadt, Kaffeehauptstadt"
+    },
+    "description": {
+      "en": "The largest city in the Pacific Northwest, birthplace of Starbucks and Amazon, the Emerald City.",
+      "fr": "La plus grande ville du nord-ouest Pacifique, berceau de Starbucks et d'Amazon, la Cité Émeraude.",
+      "de": "Die größte Stadt im pazifischen Nordwesten, Geburtsort von Starbucks und Amazon, die Smaragdstadt."
+    }
+  },
+  "Denver_United States": {
+    "tagline": {
+      "en": "Mile High City, gateway to the Rockies",
+      "fr": "La ville haute d'un mile, porte des Rocheuses",
+      "de": "Mile High City, Tor zu den Rocky Mountains"
+    },
+    "description": {
+      "en": "The Mile High City at the foot of the Rocky Mountains, a paradise for outdoor sports enthusiasts.",
+      "fr": "La ville haute d'un mile au pied des Rocheuses, un paradis pour les amateurs de sports de plein air.",
+      "de": "Die Mile High City am Fuße der Rocky Mountains, ein Paradies für Outdoor-Sportbegeisterte."
+    }
+  },
+  "Detroit_United States": {
+    "tagline": {
+      "en": "Motor City, Motown legend",
+      "fr": "Motor City, légende de la Motown",
+      "de": "Motor City, Motown-Legende"
+    },
+    "description": {
+      "en": "America's automobile capital and birthplace of Motown music.",
+      "fr": "Capitale américaine de l'automobile et berceau de la musique Motown.",
+      "de": "Amerikas Automobilhauptstadt und Geburtsort der Motown-Musik."
+    }
+  },
+  "Toronto_Canada": {
+    "tagline": {
+      "en": "Maple capital, multicultural mosaic",
+      "fr": "Capitale de l'érable, mosaïque multiculturelle",
+      "de": "Ahornhauptstadt, multikulturelles Mosaik"
+    },
+    "description": {
+      "en": "Canada's largest city, marked by the iconic CN Tower and celebrated as a capital of multiculturalism.",
+      "fr": "La plus grande ville du Canada, marquée par l'emblématique Tour CN et célébrée comme capitale du multiculturalisme.",
+      "de": "Kanadas größte Stadt, geprägt vom ikonischen CN Tower und gefeiert als Hauptstadt des Multikulturalismus."
+    }
+  },
+  "Montreal_Canada": {
+    "tagline": {
+      "en": "French capital, city of jazz",
+      "fr": "Capitale francophone, cité du jazz",
+      "de": "Französischsprachige Hauptstadt, Stadt des Jazz"
+    },
+    "description": {
+      "en": "Canada's second-largest city, a center of French-speaking culture, and world-famous for its jazz festival.",
+      "fr": "Deuxième ville du Canada, centre de la culture francophone, et mondialement célèbre pour son festival de jazz.",
+      "de": "Kanadas zweitgrößte Stadt, ein Zentrum der französischsprachigen Kultur und weltberühmt für ihr Jazzfestival."
+    }
+  },
+  "Vancouver_Canada": {
+    "tagline": {
+      "en": "Pacific gateway, most livable city",
+      "fr": "Porte du Pacifique, ville la plus agréable à vivre",
+      "de": "Pazifisches Tor, lebenswerteste Stadt"
+    },
+    "description": {
+      "en": "A gem on Canada's west coast, a mountain-framed seaside city consistently ranked among the world's most livable.",
+      "fr": "Un joyau de la côte ouest canadienne, une ville maritime encadrée de montagnes, constamment classée parmi les plus agréables à vivre.",
+      "de": "Ein Juwel an Kanadas Westküste, eine von Bergen umrahmte Küstenstadt, die regelmäßig zu den lebenswertesten der Welt zählt."
+    }
+  },
+  "Mexico City_Mexico": {
+    "tagline": {
+      "en": "Aztec capital, crossroads of civilizations",
+      "fr": "Capitale aztèque, carrefour des civilisations",
+      "de": "Aztekische Hauptstadt, Kreuzung der Zivilisationen"
+    },
+    "description": {
+      "en": "Mexico's capital, where Aztec ruins meet modern urban life, one of the world's largest cities.",
+      "fr": "Capitale du Mexique, où les ruines aztèques rencontrent la vie urbaine moderne, l'une des plus grandes villes du monde.",
+      "de": "Mexikos Hauptstadt, wo aztekische Ruinen auf modernes Stadtleben treffen, eine der größten Städte der Welt."
+    }
+  },
+  "Guadalajara_Mexico": {
+    "tagline": {
+      "en": "Land of tequila, soul of Mexico",
+      "fr": "Terre de la tequila, âme du Mexique",
+      "de": "Land des Tequilas, Seele Mexikos"
+    },
+    "description": {
+      "en": "Mexico's second-largest city, birthplace of tequila and the spirited mariachi music tradition.",
+      "fr": "Deuxième ville du Mexique, berceau de la tequila et de la tradition entraînante des mariachis.",
+      "de": "Mexikos zweitgrößte Stadt, Geburtsort des Tequilas und der lebhaften Mariachi-Musiktradition."
+    }
+  },
+  "Havana_Cuba": {
+    "tagline": {
+      "en": "Caribbean pearl, city frozen in time",
+      "fr": "Perle des Caraïbes, ville figée dans le temps",
+      "de": "Karibische Perle, Stadt in der Zeitkapsel"
+    },
+    "description": {
+      "en": "Cuba's capital, a time capsule of vintage cars and colonial architecture on the shores of the Caribbean.",
+      "fr": "Capitale de Cuba, une capsule temporelle de voitures vintage et d'architecture coloniale au bord des Caraïbes.",
+      "de": "Kubas Hauptstadt, eine Zeitkapsel aus Oldtimern und Kolonialarchitektur an den Ufern der Karibik."
+    }
+  },
+  "São Paulo_Brazil": {
+    "tagline": {
+      "en": "South America's economic heart, city that never sleeps",
+      "fr": "Cœur économique de l'Amérique du Sud, ville qui ne dort jamais",
+      "de": "Wirtschaftsherz Südamerikas, Stadt die niemals schläft"
+    },
+    "description": {
+      "en": "Brazil's largest city and the economic engine of South America, a melting pot of cultural diversity.",
+      "fr": "La plus grande ville du Brésil et le moteur économique de l'Amérique du Sud, un creuset de diversité culturelle.",
+      "de": "Brasiliens größte Stadt und wirtschaftlicher Motor Südamerikas, ein Schmelztiegel kultureller Vielfalt."
+    }
+  },
+  "Rio de Janeiro_Brazil": {
+    "tagline": {
+      "en": "God's city, capital of carnival",
+      "fr": "Cité de Dieu, capitale du carnaval",
+      "de": "Stadt Gottes, Hauptstadt des Karnevals"
+    },
+    "description": {
+      "en": "A stunning Brazilian coastal city where Christ the Redeemer watches over all, and carnival captivates the world.",
+      "fr": "Magnifique ville côtière brésilienne où le Christ Rédempteur veille sur tous, et le carnaval captive le monde entier.",
+      "de": "Eine atemberaubende brasilianische Küstenstadt, wo Christus der Erlöser über alles wacht und der Karneval die Welt in seinen Bann zieht."
+    }
+  },
+  "Brasília_Brazil": {
+    "tagline": {
+      "en": "City of the future, heart of Brazil",
+      "fr": "Cité du futur, cœur du Brésil",
+      "de": "Stadt der Zukunft, Herz Brasiliens"
+    },
+    "description": {
+      "en": "Brazil's capital, a modernist masterpiece designed by Niemeyer and a UNESCO World Heritage Site.",
+      "fr": "Capitale du Brésil, chef-d'œuvre moderniste conçu par Niemeyer et inscrit au patrimoine mondial de l'UNESCO.",
+      "de": "Brasiliens Hauptstadt, ein modernistisches Meisterwerk von Niemeyer und UNESCO-Weltkulturerbe."
+    }
+  },
+  "Salvador_Brazil": {
+    "tagline": {
+      "en": "City of happiness, capital of Afro-Brazilian culture",
+      "fr": "Cité du bonheur, capitale de la culture afro-brésilienne",
+      "de": "Stadt des Glücks, Hauptstadt der afro-brasilianischen Kultur"
+    },
+    "description": {
+      "en": "Brazil's first capital and the heartland of Afro-Brazilian culture, famous for its colorful historic old town.",
+      "fr": "Première capitale du Brésil et cœur de la culture afro-brésilienne, célèbre pour sa vieille ville historique et colorée.",
+      "de": "Brasiliens erste Hauptstadt und Herzland der afro-brasilianischen Kultur, berühmt für ihre farbenfrohe historische Altstadt."
+    }
+  },
+  "Buenos Aires_Argentina": {
+    "tagline": {
+      "en": "Capital of tango, Paris of South America",
+      "fr": "Capitale du tango, Paris de l'Amérique du Sud",
+      "de": "Hauptstadt des Tangos, Paris Südamerikas"
+    },
+    "description": {
+      "en": "Argentina's capital and birthplace of tango, the Paris of South America with the colorful La Boca neighborhood.",
+      "fr": "Capitale de l'Argentine et berceau du tango, le Paris de l'Amérique du Sud avec le coloré quartier de La Boca.",
+      "de": "Argentiniens Hauptstadt und Geburtsort des Tangos, das Paris Südamerikas mit dem bunten Stadtviertel La Boca."
+    }
+  },
+  "Santiago_Chile": {
+    "tagline": {
+      "en": "City of the Andes, heart of Chile",
+      "fr": "Cité des Andes, cœur du Chili",
+      "de": "Stadt der Anden, Herz Chiles"
+    },
+    "description": {
+      "en": "Chile's capital, a modern city nestled at the foot of the majestic Andes Mountains.",
+      "fr": "Capitale du Chili, une ville moderne nichée au pied des majestueuses Andes.",
+      "de": "Chiles Hauptstadt, eine moderne Stadt am Fuße der majestätischen Anden."
+    }
+  },
+  "Lima_Peru": {
+    "tagline": {
+      "en": "City of Kings, South America's culinary capital",
+      "fr": "Cité des Rois, capitale gastronomique de l'Amérique du Sud",
+      "de": "Stadt der Könige, kulinarische Hauptstadt Südamerikas"
+    },
+    "description": {
+      "en": "Peru's capital, where Incan heritage meets Spanish colonial culture, celebrated as South America's food capital.",
+      "fr": "Capitale du Pérou, où l'héritage inca rencontre la culture coloniale espagnole, célébrée comme capitale gastronomique de l'Amérique du Sud.",
+      "de": "Perus Hauptstadt, wo Inka-Erbe auf spanische Kolonialkultur trifft, gefeiert als kulinarische Hauptstadt Südamerikas."
+    }
+  },
+  "Bogotá_Colombia": {
+    "tagline": {
+      "en": "City in the clouds, capital of gold",
+      "fr": "Cité dans les nuages, capitale de l'or",
+      "de": "Stadt in den Wolken, Hauptstadt des Goldes"
+    },
+    "description": {
+      "en": "Colombia's capital, a highland city in the Andes, famed for its Gold Museum.",
+      "fr": "Capitale de la Colombie, ville de hauts plateaux des Andes, célèbre pour son Musée de l'Or.",
+      "de": "Kolumbiens Hauptstadt, eine Hochlandstadt in den Anden, berühmt für ihr Goldmuseum."
+    }
+  },
+  "Medellín_Colombia": {
+    "tagline": {
+      "en": "City of eternal spring, hub of innovation",
+      "fr": "Cité du printemps éternel, pôle d'innovation",
+      "de": "Stadt des ewigen Frühlings, Innovationszentrum"
+    },
+    "description": {
+      "en": "Colombia's second-largest city, known as the City of Eternal Spring and a model of urban innovation and transformation.",
+      "fr": "Deuxième ville de Colombie, surnommée la Cité du Printemps Éternel et modèle de transformation urbaine innovante.",
+      "de": "Kolumbiens zweitgrößte Stadt, bekannt als Stadt des Ewigen Frühlings und Vorbild für städtische Innovation und Transformation."
+    }
+  },
+  "Quito_Ecuador": {
+    "tagline": {
+      "en": "City on the equator, center of the world",
+      "fr": "Cité sur l'équateur, centre du monde",
+      "de": "Stadt am Äquator, Zentrum der Welt"
+    },
+    "description": {
+      "en": "Ecuador's capital, a city straddling the equator, with a UNESCO World Heritage old town.",
+      "fr": "Capitale de l'Équateur, ville à cheval sur l'équateur, avec une vieille ville classée au patrimoine mondial de l'UNESCO.",
+      "de": "Ecuadors Hauptstadt, eine Stadt am Äquator, mit einer zum UNESCO-Weltkulturerbe gehörenden Altstadt."
+    }
+  },
+  "Caracas_Venezuela": {
+    "tagline": {
+      "en": "Caribbean capital, city beneath Mount Avila",
+      "fr": "Capitale caribéenne, cité au pied du mont Avila",
+      "de": "Karibische Hauptstadt, Stadt am Fuße des Avila"
+    },
+    "description": {
+      "en": "Venezuela's capital, a Caribbean coastal metropolis nestled at the foot of Mount Avila.",
+      "fr": "Capitale du Venezuela, métropole côtière caribéenne nichée au pied du mont Avila.",
+      "de": "Venezuelas Hauptstadt, eine karibische Küstenmetropole am Fuße des Berges Avila."
+    }
+  },
+  "Montevideo_Uruguay": {
+    "tagline": {
+      "en": "On the silver river, Switzerland of South America",
+      "fr": "Sur le fleuve d'argent, Suisse de l'Amérique du Sud",
+      "de": "Am Silberfluss, Schweiz Südamerikas"
+    },
+    "description": {
+      "en": "Uruguay's capital, a tranquil seaside city on the banks of the Río de la Plata.",
+      "fr": "Capitale de l'Uruguay, une ville balnéaire tranquille sur les rives du Río de la Plata.",
+      "de": "Uruguays Hauptstadt, eine ruhige Küstenstadt am Ufer des Río de la Plata."
+    }
+  },
+  "La Paz_Bolivia": {
+    "tagline": {
+      "en": "City in the clouds, capital in the sky",
+      "fr": "Cité dans les nuages, capitale du ciel",
+      "de": "Stadt in den Wolken, Hauptstadt im Himmel"
+    },
+    "description": {
+      "en": "Bolivia's administrative capital, the highest capital city in the world.",
+      "fr": "Capitale administrative de la Bolivie, la capitale la plus haute du monde.",
+      "de": "Boliviens Verwaltungshauptstadt, die höchstgelegene Hauptstadt der Welt."
+    }
+  },
+  "Asunción_Paraguay": {
+    "tagline": {
+      "en": "Mother of the Americas, ancient riverside city",
+      "fr": "Mère des Amériques, cité antique au bord du fleuve",
+      "de": "Mutter der Amerikas, alte Stadt am Fluss"
+    },
+    "description": {
+      "en": "Paraguay's capital, one of the oldest cities in South America, situated on the banks of the Paraguay River.",
+      "fr": "Capitale du Paraguay, l'une des plus anciennes villes d'Amérique du Sud, située sur les rives du fleuve Paraguay.",
+      "de": "Paraguays Hauptstadt, eine der ältesten Städte Südamerikas, am Ufer des Paraguay-Flusses gelegen."
+    }
+  },
+  "Guayaquil_Ecuador": {
+    "tagline": {
+      "en": "Pacific pearl, tropical port city",
+      "fr": "Perle du Pacifique, port tropical",
+      "de": "Pazifikperle, tropische Hafenstadt"
+    },
+    "description": {
+      "en": "Ecuador's largest city and main port, a vibrant tropical coastal metropolis.",
+      "fr": "La plus grande ville et principal port de l'Équateur, une métropole côtière tropicale dynamique.",
+      "de": "Ecuadors größte Stadt und Haupthafen, eine lebhafte tropische Küstenmetropole."
+    }
+  },
+  "Cairo_Egypt": {
+    "tagline": {
+      "en": "City of pharaohs, on the banks of the Nile",
+      "fr": "Cité des pharaons, sur les rives du Nil",
+      "de": "Stadt der Pharaonen, am Ufer des Nils"
+    },
+    "description": {
+      "en": "Egypt's capital, home to the Pyramids and the Nile, the largest city in Africa.",
+      "fr": "Capitale de l'Égypte, abritant les pyramides et le Nil, la plus grande ville d'Afrique.",
+      "de": "Ägyptens Hauptstadt, Heimat der Pyramiden und des Nils, die größte Stadt Afrikas."
+    }
+  },
+  "Alexandria_Egypt": {
+    "tagline": {
+      "en": "Bride of the Mediterranean, classical city",
+      "fr": "Fiancée de la Méditerranée, cité classique",
+      "de": "Braut des Mittelmeers, klassische Stadt"
+    },
+    "description": {
+      "en": "Egypt's second-largest city on the Mediterranean coast, an ancient center of learning and site of the legendary lighthouse.",
+      "fr": "Deuxième ville d'Égypte sur la côte méditerranéenne, un ancien centre du savoir et site du légendaire phare.",
+      "de": "Ägyptens zweitgrößte Stadt an der Mittelmeerküste, ein antikes Zentrum der Gelehrsamkeit und Standort des legendären Leuchtturms."
+    }
+  },
+  "Casablanca_Morocco": {
+    "tagline": {
+      "en": "White city, pearl of the Atlantic",
+      "fr": "Ville blanche, perle de l'Atlantique",
+      "de": "Weiße Stadt, Perle des Atlantiks"
+    },
+    "description": {
+      "en": "Morocco's largest city and economic center on the Atlantic coast, home to the magnificent Hassan II Mosque.",
+      "fr": "La plus grande ville et centre économique du Maroc sur la côte atlantique, abritant la magnifique mosquée Hassan II.",
+      "de": "Marokkos größte Stadt und Wirtschaftszentrum an der Atlantikküste, Heimat der prächtigen Hassan-II.-Moschee."
+    }
+  },
+  "Marrakech_Morocco": {
+    "tagline": {
+      "en": "Red city, gateway to the Sahara",
+      "fr": "Ville rouge, porte du Sahara",
+      "de": "Rote Stadt, Tor zur Sahara"
+    },
+    "description": {
+      "en": "Morocco's Red City, where the bustling Jemaa el-Fnaa square pulses with life, a gateway to the Sahara Desert.",
+      "fr": "La Ville Rouge du Maroc, où la place animée Jemaa el-Fnaa pulse de vie, porte d'entrée du Sahara.",
+      "de": "Marokkos Rote Stadt, wo der belebte Platz Djemaa el-Fna vor Leben pulsiert, ein Tor zur Sahara."
+    }
+  },
+  "Lagos_Nigeria": {
+    "tagline": {
+      "en": "Heart of West Africa, city of vitality",
+      "fr": "Cœur de l'Afrique de l'Ouest, cité de la vitalité",
+      "de": "Herz Westafrikas, Stadt der Vitalität"
+    },
+    "description": {
+      "en": "Nigeria's largest city and West Africa's economic powerhouse, the most vibrant city on the continent.",
+      "fr": "La plus grande ville du Nigeria et puissance économique de l'Afrique de l'Ouest, la ville la plus dynamique du continent.",
+      "de": "Nigerias größte Stadt und Wirtschaftsmotor Westafrikas, die lebendigste Stadt des Kontinents."
+    }
+  },
+  "Nairobi_Kenya": {
+    "tagline": {
+      "en": "Green city, heart of East Africa",
+      "fr": "Ville verte, cœur de l'Afrique de l'Est",
+      "de": "Grüne Stadt, Herz Ostafrikas"
+    },
+    "description": {
+      "en": "Kenya's capital and the largest city in East Africa, uniquely home to a national wildlife park within city limits.",
+      "fr": "Capitale du Kenya et plus grande ville d'Afrique de l'Est, abritant de façon unique un parc national en pleine ville.",
+      "de": "Kenias Hauptstadt und größte Stadt Ostafrikas, einzigartig mit einem Nationalpark für Wildtiere innerhalb der Stadtgrenzen."
+    }
+  },
+  "Cape Town_South Africa": {
+    "tagline": {
+      "en": "Mother City, beneath Table Mountain",
+      "fr": "Ville Mère, au pied de la Montagne de la Table",
+      "de": "Mutterstadt, unter dem Tafelberg"
+    },
+    "description": {
+      "en": "South Africa's legislative capital, where Table Mountain and the Cape of Good Hope create one of Africa's most beautiful cities.",
+      "fr": "Capitale législative de l'Afrique du Sud, où la Montagne de la Table et le Cap de Bonne-Espérance forment l'une des plus belles villes d'Afrique.",
+      "de": "Südafrikas legislative Hauptstadt, wo der Tafelberg und das Kap der Guten Hoffnung eine der schönsten Städte Afrikas bilden."
+    }
+  },
+  "Johannesburg_South Africa": {
+    "tagline": {
+      "en": "City of gold, economic capital of Africa",
+      "fr": "Cité de l'or, capitale économique de l'Afrique",
+      "de": "Stadt des Goldes, Wirtschaftshauptstadt Afrikas"
+    },
+    "description": {
+      "en": "South Africa's largest city and Africa's economic hub, the City of Gold.",
+      "fr": "La plus grande ville d'Afrique du Sud et pôle économique de l'Afrique, la Cité de l'Or.",
+      "de": "Südafrikas größte Stadt und Wirtschaftszentrum Afrikas, die Stadt des Goldes."
+    }
+  },
+  "Pretoria_South Africa": {
+    "tagline": {
+      "en": "Jacaranda city, administrative capital",
+      "fr": "Cité des jacarandas, capitale administrative",
+      "de": "Jacaranda-Stadt, Verwaltungshauptstadt"
+    },
+    "description": {
+      "en": "South Africa's administrative capital, the City of Jacarandas, with the imposing Union Buildings.",
+      "fr": "Capitale administrative de l'Afrique du Sud, la Cité des Jacarandas, avec les imposants Union Buildings.",
+      "de": "Südafrikas Verwaltungshauptstadt, die Stadt der Jacarandas, mit den imposanten Union Buildings."
+    }
+  },
+  "Durban_South Africa": {
+    "tagline": {
+      "en": "On the Indian Ocean, surf city",
+      "fr": "Sur l'océan Indien, capitale du surf",
+      "de": "Am Indischen Ozean, Surfstadt"
+    },
+    "description": {
+      "en": "South Africa's third-largest city, a seaside gem on the Indian Ocean and a top surfing destination.",
+      "fr": "Troisième ville d'Afrique du Sud, joyau balnéaire de l'océan Indien et destination de surf de premier plan.",
+      "de": "Südafrikas drittgrößte Stadt, ein Küstenjuwel am Indischen Ozean und erstklassiges Surfziel."
+    }
+  },
+  "Addis Ababa_Ethiopia": {
+    "tagline": {
+      "en": "New flower, capital of Africa",
+      "fr": "Nouvelle fleur, capitale de l'Afrique",
+      "de": "Neue Blume, Hauptstadt Afrikas"
+    },
+    "description": {
+      "en": "Ethiopia's capital and seat of the African Union headquarters, a highland city steeped in ancient history.",
+      "fr": "Capitale de l'Éthiopie et siège de l'Union africaine, une ville de hauts plateaux imprégnée d'histoire ancienne.",
+      "de": "Äthiopiens Hauptstadt und Sitz des Hauptquartiers der Afrikanischen Union, eine Hochlandstadt mit reicher antiker Geschichte."
+    }
+  },
+  "Dar es Salaam_Tanzania": {
+    "tagline": {
+      "en": "Haven of peace, gateway to East Africa",
+      "fr": "Havre de paix, porte de l'Afrique de l'Est",
+      "de": "Hafen des Friedens, Tor nach Ostafrika"
+    },
+    "description": {
+      "en": "Tanzania's largest city and economic center, a peaceful harbor on the Indian Ocean.",
+      "fr": "La plus grande ville et le centre économique de la Tanzanie, un havre de paix sur l'océan Indien.",
+      "de": "Tansanias größte Stadt und Wirtschaftszentrum, ein friedlicher Hafen am Indischen Ozean."
+    }
+  },
+  "Accra_Ghana": {
+    "tagline": {
+      "en": "Gold Coast, city of freedom",
+      "fr": "Côte de l'Or, cité de la liberté",
+      "de": "Goldküste, Stadt der Freiheit"
+    },
+    "description": {
+      "en": "Ghana's capital on the Gulf of Guinea, a West African gem where Independence Square symbolizes freedom.",
+      "fr": "Capitale du Ghana sur le golfe de Guinée, un joyau ouest-africain où la place de l'Indépendance symbolise la liberté.",
+      "de": "Ghanas Hauptstadt am Golf von Guinea, ein westafrikanisches Juwel, wo der Unabhängigkeitsplatz die Freiheit symbolisiert."
+    }
+  },
+  "Dakar_Senegal": {
+    "tagline": {
+      "en": "Westernmost point, gateway to Africa",
+      "fr": "Point le plus occidental, porte de l'Afrique",
+      "de": "Westlichster Punkt, Tor nach Afrika"
+    },
+    "description": {
+      "en": "Senegal's capital, the westernmost city on the African mainland, where Gorée Island preserves a solemn history.",
+      "fr": "Capitale du Sénégal, la ville la plus occidentale du continent africain, où l'île de Gorée préserve une histoire solennelle.",
+      "de": "Senegals Hauptstadt, die westlichste Stadt auf dem afrikanischen Festland, wo die Insel Gorée eine feierliche Geschichte bewahrt."
+    }
+  },
+  "Kinshasa_DR Congo": {
+    "tagline": {
+      "en": "On the Congo River, heart of Africa",
+      "fr": "Sur le fleuve Congo, cœur de l'Afrique",
+      "de": "Am Kongo-Fluss, Herz Afrikas"
+    },
+    "description": {
+      "en": "Capital of the Democratic Republic of the Congo, Africa's third-largest city, on the banks of the Congo River.",
+      "fr": "Capitale de la République démocratique du Congo, troisième ville d'Afrique, sur les rives du fleuve Congo.",
+      "de": "Hauptstadt der Demokratischen Republik Kongo, Afrikas drittgrößte Stadt, am Ufer des Kongo-Flusses."
+    }
+  },
+  "Tunis_Tunisia": {
+    "tagline": {
+      "en": "Land of Carthage, star of the Mediterranean",
+      "fr": "Terre de Carthage, étoile de la Méditerranée",
+      "de": "Land von Karthago, Stern des Mittelmeers"
+    },
+    "description": {
+      "en": "Tunisia's capital, home to the ancient ruins of Carthage, a storied city on the Mediterranean coast.",
+      "fr": "Capitale de la Tunisie, abritant les ruines antiques de Carthage, une ville chargée d'histoire sur la côte méditerranéenne.",
+      "de": "Tunesiens Hauptstadt, Heimat der antiken Ruinen von Karthago, eine geschichtsträchtige Stadt an der Mittelmeerküste."
+    }
+  },
+  "Algiers_Algeria": {
+    "tagline": {
+      "en": "White city, gateway to North Africa",
+      "fr": "Ville blanche, porte de l'Afrique du Nord",
+      "de": "Weiße Stadt, Tor nach Nordafrika"
+    },
+    "description": {
+      "en": "Algeria's capital, the White City, a major North African metropolis on the Mediterranean coast.",
+      "fr": "Capitale de l'Algérie, la Ville Blanche, une grande métropole nord-africaine sur la côte méditerranéenne.",
+      "de": "Algeriens Hauptstadt, die Weiße Stadt, eine bedeutende nordafrikanische Metropole an der Mittelmeerküste."
+    }
+  },
+  "Kampala_Uganda": {
+    "tagline": {
+      "en": "City of seven hills, pearl of East Africa",
+      "fr": "Cité des sept collines, perle de l'Afrique de l'Est",
+      "de": "Stadt der sieben Hügel, Perle Ostafrikas"
+    },
+    "description": {
+      "en": "Uganda's capital, built on seven hills, often called the Pearl of East Africa.",
+      "fr": "Capitale de l'Ouganda, bâtie sur sept collines, souvent appelée la Perle de l'Afrique de l'Est.",
+      "de": "Ugandas Hauptstadt, auf sieben Hügeln erbaut, oft als Perle Ostafrikas bezeichnet."
+    }
+  },
+  "Luanda_Angola": {
+    "tagline": {
+      "en": "On the Atlantic, oil city",
+      "fr": "Sur l'Atlantique, cité du pétrole",
+      "de": "Am Atlantik, Ölstadt"
+    },
+    "description": {
+      "en": "Angola's capital on the Atlantic coast, an oil-rich city and one of Africa's fastest-growing metropolises.",
+      "fr": "Capitale de l'Angola sur la côte atlantique, une ville riche en pétrole et l'une des métropoles africaines à la croissance la plus rapide.",
+      "de": "Angolas Hauptstadt an der Atlantikküste, eine ölreiche Stadt und eine der am schnellsten wachsenden Metropolen Afrikas."
+    }
+  },
+  "Sydney_Australia": {
+    "tagline": {
+      "en": "Harbor city, gem of the Southern Hemisphere",
+      "fr": "Cité portuaire, joyau de l'hémisphère sud",
+      "de": "Hafenstadt, Juwel der Südhalbkugel"
+    },
+    "description": {
+      "en": "Australia's largest city, where the Sydney Opera House and Harbour Bridge are world-famous landmarks.",
+      "fr": "La plus grande ville d'Australie, où l'Opéra de Sydney et le Harbour Bridge sont des monuments mondialement célèbres.",
+      "de": "Australiens größte Stadt, wo das Sydney Opera House und die Harbour Bridge weltberühmte Wahrzeichen sind."
+    }
+  },
+  "Melbourne_Australia": {
+    "tagline": {
+      "en": "Cultural capital, city of coffee",
+      "fr": "Capitale culturelle, ville du café",
+      "de": "Kulturhauptstadt, Kaffeestadt"
+    },
+    "description": {
+      "en": "Australia's cultural capital, renowned for its coffee culture, street art, and ranking among the world's most livable cities.",
+      "fr": "Capitale culturelle de l'Australie, réputée pour sa culture du café, son street art et son classement parmi les villes les plus agréables au monde.",
+      "de": "Australiens Kulturhauptstadt, bekannt für ihre Kaffeekultur, Straßenkunst und die Einstufung unter die lebenswertesten Städte der Welt."
+    }
+  },
+  "Brisbane_Australia": {
+    "tagline": {
+      "en": "Sunshine capital, gateway to the Great Barrier Reef",
+      "fr": "Capitale du soleil, porte de la Grande Barrière de Corail",
+      "de": "Sonnenhauptstadt, Tor zum Great Barrier Reef"
+    },
+    "description": {
+      "en": "Australia's third-largest city, the sunshine capital and gateway to the Great Barrier Reef.",
+      "fr": "Troisième ville d'Australie, capitale du soleil et porte d'entrée de la Grande Barrière de Corail.",
+      "de": "Australiens drittgrößte Stadt, Sonnenhauptstadt und Tor zum Great Barrier Reef."
+    }
+  },
+  "Perth_Australia": {
+    "tagline": {
+      "en": "Swan city, jewel of Western Australia",
+      "fr": "Cité des cygnes, joyau de l'Australie-Occidentale",
+      "de": "Schwanenstadt, Juwel Westaustraliens"
+    },
+    "description": {
+      "en": "The largest city on Australia's west coast and one of the most isolated major cities in the world.",
+      "fr": "La plus grande ville de la côte ouest australienne et l'une des grandes villes les plus isolées du monde.",
+      "de": "Die größte Stadt an Australiens Westküste und eine der isoliertesten Großstädte der Welt."
+    }
+  },
+  "Auckland_New Zealand": {
+    "tagline": {
+      "en": "City of sails, sailing paradise",
+      "fr": "Cité des voiles, paradis de la voile",
+      "de": "Stadt der Segel, Segelparadies"
+    },
+    "description": {
+      "en": "New Zealand's largest city, the City of Sails, embraced by two harbors and a paradise for sailing.",
+      "fr": "La plus grande ville de Nouvelle-Zélande, la Cité des Voiles, embrassée par deux ports et paradis de la voile.",
+      "de": "Neuseelands größte Stadt, die Stadt der Segel, umgeben von zwei Häfen und ein Paradies für Segler."
+    }
+  },
+  "Wellington_New Zealand": {
+    "tagline": {
+      "en": "Windy city, edge of the world",
+      "fr": "Ville du vent, au bout du monde",
+      "de": "Windige Stadt, am Ende der Welt"
+    },
+    "description": {
+      "en": "New Zealand's capital, one of the world's southernmost capitals, known as the Windy City.",
+      "fr": "Capitale de la Nouvelle-Zélande, l'une des capitales les plus méridionales du monde, surnommée la Ville du Vent.",
+      "de": "Neuseelands Hauptstadt, eine der südlichsten Hauptstädte der Welt, bekannt als die Windige Stadt."
+    }
+  },
+  "Adelaide_Australia": {
+    "tagline": {
+      "en": "Wine capital, festival city",
+      "fr": "Capitale du vin, cité des festivals",
+      "de": "Weinhauptstadt, Festivalstadt"
+    },
+    "description": {
+      "en": "Capital of South Australia, celebrated as the wine capital and a renowned festival city.",
+      "fr": "Capitale de l'Australie-Méridionale, célébrée comme capitale du vin et ville de festivals renommée.",
+      "de": "Hauptstadt von Südaustralien, gefeiert als Weinhauptstadt und renommierte Festivalstadt."
+    }
+  },
+  "Gold Coast_Australia": {
+    "tagline": {
+      "en": "Surfer's paradise, golden shores",
+      "fr": "Paradis du surfeur, rivages dorés",
+      "de": "Surferparadies, goldene Küste"
+    },
+    "description": {
+      "en": "Australia's famous seaside resort city, where Surfers Paradise beach is renowned worldwide.",
+      "fr": "Célèbre ville balnéaire d'Australie, où la plage de Surfers Paradise est mondialement connue.",
+      "de": "Australiens berühmte Badestadt, wo der Strand Surfers Paradise weltweit bekannt ist."
+    }
+  },
+  "Canberra_Australia": {
+    "tagline": {
+      "en": "Bush capital, garden city",
+      "fr": "Capitale du bush, cité-jardin",
+      "de": "Busch-Hauptstadt, Gartenstadt"
+    },
+    "description": {
+      "en": "Australia's capital, a beautifully planned garden city and home to Parliament House.",
+      "fr": "Capitale de l'Australie, une cité-jardin magnifiquement planifiée abritant le Parlement.",
+      "de": "Australiens Hauptstadt, eine wunderschön geplante Gartenstadt und Sitz des Parlamentsgebäudes."
+    }
+  },
+  "Honolulu_United States": {
+    "tagline": {
+      "en": "Pacific paradise, city of aloha",
+      "fr": "Paradis du Pacifique, cité d'aloha",
+      "de": "Pazifisches Paradies, Stadt des Aloha"
+    },
+    "description": {
+      "en": "Capital of Hawaii, a tropical paradise in the Pacific Ocean, where Waikiki Beach is world-famous.",
+      "fr": "Capitale d'Hawaï, un paradis tropical dans l'océan Pacifique, où la plage de Waikiki est mondialement célèbre.",
+      "de": "Hauptstadt von Hawaii, ein tropisches Paradies im Pazifischen Ozean, wo der Strand von Waikiki weltberühmt ist."
+    }
+  },
+  "Phnom Penh_Cambodia": {
+    "tagline": {
+      "en": "Pearl of the Khmer, on the Mekong",
+      "fr": "Perle khmère, sur le Mékong",
+      "de": "Perle der Khmer, am Mekong"
+    },
+    "description": {
+      "en": "Cambodia's capital, an ancient city on the Mekong River and the modern center of Khmer civilization.",
+      "fr": "Capitale du Cambodge, une cité ancienne sur le Mékong et le centre moderne de la civilisation khmère.",
+      "de": "Kambodschas Hauptstadt, eine alte Stadt am Mekong und das moderne Zentrum der Khmer-Zivilisation."
+    }
+  },
+  "Yangon_Myanmar": {
+    "tagline": {
+      "en": "City of the golden pagoda, garden of the East",
+      "fr": "Cité de la pagode dorée, jardin de l'Orient",
+      "de": "Stadt der goldenen Pagode, Garten des Ostens"
+    },
+    "description": {
+      "en": "Myanmar's largest city, where the magnificent Shwedagon Pagoda gleams in gold and colonial-era buildings remain beautifully preserved.",
+      "fr": "La plus grande ville du Myanmar, où la magnifique pagode Shwedagon brille d'or et les bâtiments de l'ère coloniale sont magnifiquement préservés.",
+      "de": "Myanmars größte Stadt, wo die prächtige Shwedagon-Pagode in Gold erstrahlt und Kolonialbauten wunderbar erhalten sind."
+    }
+  },
+  "Vientiane_Laos": {
+    "tagline": {
+      "en": "City of sandalwood, on the Mekong",
+      "fr": "Cité du bois de santal, sur le Mékong",
+      "de": "Stadt des Sandelholzes, am Mekong"
+    },
+    "description": {
+      "en": "Laos' capital, the most tranquil capital in Southeast Asia along the Mekong, famed for its That Luang stupa.",
+      "fr": "Capitale du Laos, la capitale la plus paisible d'Asie du Sud-Est le long du Mékong, célèbre pour son stupa That Luang.",
+      "de": "Hauptstadt von Laos, die ruhigste Hauptstadt Südostasiens am Mekong, berühmt für ihre That-Luang-Stupa."
+    }
+  },
+  "Colombo_Sri Lanka": {
+    "tagline": {
+      "en": "Pearl of the Indian Ocean, light of Ceylon",
+      "fr": "Perle de l'océan Indien, lumière de Ceylan",
+      "de": "Perle des Indischen Ozeans, Licht von Ceylon"
+    },
+    "description": {
+      "en": "Sri Lanka's largest city, a tropical commercial hub on the shores of the Indian Ocean.",
+      "fr": "La plus grande ville du Sri Lanka, un centre commercial tropical sur les rives de l'océan Indien.",
+      "de": "Sri Lankas größte Stadt, ein tropisches Handelszentrum an den Ufern des Indischen Ozeans."
+    }
+  },
+  "Kathmandu_Nepal": {
+    "tagline": {
+      "en": "Gateway to the Himalayas, city of the gods",
+      "fr": "Porte de l'Himalaya, cité des dieux",
+      "de": "Tor zum Himalaya, Stadt der Götter"
+    },
+    "description": {
+      "en": "Nepal's capital at the foot of the Himalayas, an ancient city and sacred ground for both Buddhism and Hinduism.",
+      "fr": "Capitale du Népal au pied de l'Himalaya, une cité ancienne et terre sacrée du bouddhisme et de l'hindouisme.",
+      "de": "Nepals Hauptstadt am Fuße des Himalaya, eine alte Stadt und heiliger Boden für Buddhismus und Hinduismus."
+    }
+  },
+  "Ulaanbaatar_Mongolia": {
+    "tagline": {
+      "en": "Capital of the steppe, under the eternal sky",
+      "fr": "Capitale de la steppe, sous le ciel éternel",
+      "de": "Hauptstadt der Steppe, unter dem ewigen Himmel"
+    },
+    "description": {
+      "en": "Mongolia's capital, the sole major city of the grassland nation, city of Genghis Khan's descendants.",
+      "fr": "Capitale de la Mongolie, seule grande ville du pays des steppes, cité des descendants de Gengis Khan.",
+      "de": "Mongoleis Hauptstadt, die einzige Großstadt des Steppenlandes, Stadt der Nachkommen Dschingis Khans."
+    }
+  },
+  "Tashkent_Uzbekistan": {
+    "tagline": {
+      "en": "City of stone, Silk Road jewel",
+      "fr": "Cité de pierre, joyau de la Route de la Soie",
+      "de": "Stadt aus Stein, Juwel der Seidenstraße"
+    },
+    "description": {
+      "en": "Uzbekistan's capital, the largest city in Central Asia and an ancient stop on the Silk Road.",
+      "fr": "Capitale de l'Ouzbékistan, la plus grande ville d'Asie centrale et une étape historique de la Route de la Soie.",
+      "de": "Usbekistans Hauptstadt, die größte Stadt Zentralasiens und eine historische Station an der Seidenstraße."
+    }
+  },
+  "Almaty_Kazakhstan": {
+    "tagline": {
+      "en": "City of apples, at the foot of the Tian Shan",
+      "fr": "Cité des pommes, au pied du Tian Shan",
+      "de": "Stadt der Äpfel, am Fuße des Tian Shan"
+    },
+    "description": {
+      "en": "Kazakhstan's largest city, the City of Apples nestled at the foot of the Tian Shan mountains.",
+      "fr": "La plus grande ville du Kazakhstan, la Cité des Pommes nichée au pied des monts Tian Shan.",
+      "de": "Kasachstans größte Stadt, die Stadt der Äpfel am Fuße des Tian-Shan-Gebirges."
+    }
+  },
+  "Baku_Azerbaijan": {
+    "tagline": {
+      "en": "City of winds, pearl of the Caspian",
+      "fr": "Cité des vents, perle de la Caspienne",
+      "de": "Stadt der Winde, Perle des Kaspischen Meeres"
+    },
+    "description": {
+      "en": "Azerbaijan's capital on the Caspian Sea, an oil city where ancient walls meet striking modern architecture.",
+      "fr": "Capitale de l'Azerbaïdjan sur la mer Caspienne, une cité du pétrole où remparts anciens et architecture moderne frappante coexistent.",
+      "de": "Aserbaidschans Hauptstadt am Kaspischen Meer, eine Ölstadt, wo alte Mauern auf beeindruckende moderne Architektur treffen."
+    }
+  },
+  "Tbilisi_Georgia": {
+    "tagline": {
+      "en": "City of warm springs, gem of the Caucasus",
+      "fr": "Cité des sources chaudes, joyau du Caucase",
+      "de": "Stadt der warmen Quellen, Juwel des Kaukasus"
+    },
+    "description": {
+      "en": "Georgia's capital, an ancient spa town nestled in the Caucasus Mountains and a celebrated wine region.",
+      "fr": "Capitale de la Géorgie, une ancienne ville thermale nichée dans les montagnes du Caucase et une région viticole réputée.",
+      "de": "Georgiens Hauptstadt, eine alte Kurstadt eingebettet in den Kaukasus und eine berühmte Weinregion."
+    }
+  },
+  "Beirut_Lebanon": {
+    "tagline": {
+      "en": "Phoenix city, Paris of the East",
+      "fr": "Cité phénix, Paris de l'Orient",
+      "de": "Phönix-Stadt, Paris des Ostens"
+    },
+    "description": {
+      "en": "Lebanon's capital on the Mediterranean, the Paris of the East, a resilient city of history and culture.",
+      "fr": "Capitale du Liban sur la Méditerranée, le Paris de l'Orient, une ville résiliente d'histoire et de culture.",
+      "de": "Libanons Hauptstadt am Mittelmeer, das Paris des Ostens, eine widerstandsfähige Stadt der Geschichte und Kultur."
+    }
+  },
+  "Tel Aviv_Israel": {
+    "tagline": {
+      "en": "White City, capital of innovation",
+      "fr": "Ville Blanche, capitale de l'innovation",
+      "de": "Weiße Stadt, Hauptstadt der Innovation"
+    },
+    "description": {
+      "en": "Israel's cultural and economic hub on the Mediterranean, the White City celebrated for its tech innovation.",
+      "fr": "Centre culturel et économique d'Israël sur la Méditerranée, la Ville Blanche célébrée pour son innovation technologique.",
+      "de": "Israels kulturelles und wirtschaftliches Zentrum am Mittelmeer, die Weiße Stadt, gefeiert für ihre technologische Innovation."
+    }
+  },
+  "Jerusalem_Israel": {
+    "tagline": {
+      "en": "Holy City, capital of faith",
+      "fr": "Ville Sainte, capitale de la foi",
+      "de": "Heilige Stadt, Hauptstadt des Glaubens"
+    },
+    "description": {
+      "en": "A holy city for three religions — Judaism, Christianity, and Islam — a place of profound spiritual significance.",
+      "fr": "Ville sainte de trois religions — judaïsme, christianisme et islam — un lieu d'une profonde signification spirituelle.",
+      "de": "Eine heilige Stadt dreier Religionen — Judentum, Christentum und Islam — ein Ort von tiefer spiritueller Bedeutung."
+    }
+  },
+  "Amman_Jordan": {
+    "tagline": {
+      "en": "White city, city of seven hills",
+      "fr": "Ville blanche, cité aux sept collines",
+      "de": "Weiße Stadt, Stadt der sieben Hügel"
+    },
+    "description": {
+      "en": "Jordan's capital, a white city built on seven hills and the gateway to the ancient wonder of Petra.",
+      "fr": "Capitale de la Jordanie, une ville blanche bâtie sur sept collines et porte d'entrée vers la merveille antique de Pétra.",
+      "de": "Jordaniens Hauptstadt, eine weiße Stadt auf sieben Hügeln und Tor zum antiken Weltwunder Petra."
+    }
+  },
+  "Muscat_Oman": {
+    "tagline": {
+      "en": "Gulf gem, land of frankincense",
+      "fr": "Joyau du Golfe, terre de l'encens",
+      "de": "Juwel am Golf, Land des Weihrauchs"
+    },
+    "description": {
+      "en": "Oman's capital, a Gulf city embraced by mountains and sea, home to the majestic Sultan Qaboos Grand Mosque.",
+      "fr": "Capitale d'Oman, ville du Golfe embrassée par les montagnes et la mer, abritant la majestueuse Grande Mosquée du Sultan Qabous.",
+      "de": "Omans Hauptstadt, eine Golfstadt umgeben von Bergen und Meer, Heimat der majestätischen Sultan-Qabus-Moschee."
+    }
+  },
+  "Suva_Fiji": {
+    "tagline": {
+      "en": "Heart of the South Pacific, tropical paradise",
+      "fr": "Cœur du Pacifique Sud, paradis tropical",
+      "de": "Herz des Südpazifiks, tropisches Paradies"
+    },
+    "description": {
+      "en": "Fiji's capital, a tropical paradise city in the heart of the South Pacific islands.",
+      "fr": "Capitale des Fidji, ville de paradis tropical au cœur des îles du Pacifique Sud.",
+      "de": "Fidschis Hauptstadt, eine tropische Paradiesstadt im Herzen der südpazifischen Inseln."
+    }
+  },
+  "Bandung_Indonesia": {
+    "tagline": {
+      "en": "City of flowers, spirit of Bandung",
+      "fr": "Cité des fleurs, esprit de Bandung",
+      "de": "Stadt der Blumen, Geist von Bandung"
+    },
+    "description": {
+      "en": "Indonesia's third-largest city, host of the historic Bandung Conference and a highland garden city.",
+      "fr": "Troisième ville d'Indonésie, hôte de la conférence historique de Bandung et cité-jardin des hauts plateaux.",
+      "de": "Indonesiens drittgrößte Stadt, Gastgeberin der historischen Bandung-Konferenz und Gartenstadt im Hochland."
+    }
+  },
+  "Surabaya_Indonesia": {
+    "tagline": {
+      "en": "City of heroes, gateway to East Java",
+      "fr": "Cité des héros, porte de Java oriental",
+      "de": "Stadt der Helden, Tor nach Ostjava"
+    },
+    "description": {
+      "en": "Indonesia's second-largest city, the City of Heroes, and capital of East Java Province.",
+      "fr": "Deuxième ville d'Indonésie, la Cité des Héros et capitale de la province de Java oriental.",
+      "de": "Indonesiens zweitgrößte Stadt, die Stadt der Helden und Hauptstadt der Provinz Ostjava."
+    }
+  },
+  "Johor Bahru_Malaysia": {
+    "tagline": {
+      "en": "Southern gateway, bridge to Singapore",
+      "fr": "Porte du sud, pont vers Singapour",
+      "de": "Südliches Tor, Brücke nach Singapur"
+    },
+    "description": {
+      "en": "A Malaysian city in the south, linked to Singapore by a single causeway.",
+      "fr": "Ville malaisienne du sud, reliée à Singapour par une simple chaussée.",
+      "de": "Eine malaysische Stadt im Süden, durch einen Damm mit Singapur verbunden."
+    }
+  },
+  "Penang_Malaysia": {
+    "tagline": {
+      "en": "Pearl of the Orient, street food sanctuary",
+      "fr": "Perle de l'Orient, sanctuaire de la street food",
+      "de": "Perle des Ostens, Heiligtum der Straßenküche"
+    },
+    "description": {
+      "en": "A Malaysian island state, home to the UNESCO-listed George Town and celebrated as a street food paradise.",
+      "fr": "État insulaire malaisien, abritant George Town classée à l'UNESCO et célébré comme paradis de la street food.",
+      "de": "Ein malaysischer Inselstaat, Heimat des UNESCO-geschützten George Town und gefeiert als Paradies für Straßenessen."
+    }
+  },
+  "Cebu_Philippines": {
+    "tagline": {
+      "en": "Queen City of the South, island paradise",
+      "fr": "Reine du Sud, paradis insulaire",
+      "de": "Königin des Südens, Inselparadies"
+    },
+    "description": {
+      "en": "The Philippines' second-largest city, the Queen City of the South and a premier tropical island resort destination.",
+      "fr": "Deuxième ville des Philippines, Reine du Sud et première destination de villégiature insulaire tropicale.",
+      "de": "Die zweitgrößte Stadt der Philippinen, Königin des Südens und erstklassiges tropisches Inselresort-Ziel."
+    }
+  },
+  "Chiang Mai_Thailand": {
+    "tagline": {
+      "en": "Rose of the North, ancient Lanna capital",
+      "fr": "Rose du Nord, ancienne capitale Lanna",
+      "de": "Rose des Nordens, alte Lanna-Hauptstadt"
+    },
+    "description": {
+      "en": "Northern Thailand's largest city, the ancient capital of the Lanna Kingdom, filled with temples and night markets.",
+      "fr": "La plus grande ville du nord de la Thaïlande, ancienne capitale du royaume de Lanna, remplie de temples et de marchés nocturnes.",
+      "de": "Die größte Stadt Nordthailands, ehemalige Hauptstadt des Lanna-Königreichs, voller Tempel und Nachtmärkte."
+    }
+  },
+  "Phuket_Thailand": {
+    "tagline": {
+      "en": "Pearl of the Andaman, holiday paradise",
+      "fr": "Perle de l'Andaman, paradis de vacances",
+      "de": "Perle der Andamanen, Urlaubsparadies"
+    },
+    "description": {
+      "en": "Thailand's largest island, a paradise of tropical beaches in the Andaman Sea.",
+      "fr": "La plus grande île de Thaïlande, un paradis de plages tropicales dans la mer d'Andaman.",
+      "de": "Thailands größte Insel, ein Paradies tropischer Strände in der Andamanensee."
+    }
+  },
+  "Da Nang_Vietnam": {
+    "tagline": {
+      "en": "Heart of central Vietnam, coastal gem",
+      "fr": "Cœur du centre du Vietnam, joyau côtier",
+      "de": "Herz Zentralvietnams, Küstenjuwel"
+    },
+    "description": {
+      "en": "The largest city in central Vietnam, a rising tourism hotspot with beautiful beaches and the Ba Na Hills.",
+      "fr": "La plus grande ville du centre du Vietnam, une destination touristique montante avec de belles plages et les collines de Ba Na.",
+      "de": "Die größte Stadt Zentralvietnams, ein aufstrebender Tourismus-Hotspot mit wunderschönen Stränden und den Ba-Na-Hügeln."
+    }
+  },
+  "Jaipur_India": {
+    "tagline": {
+      "en": "Pink City, capital of princes",
+      "fr": "Ville Rose, capitale des princes",
+      "de": "Rosa Stadt, Hauptstadt der Fürsten"
+    },
+    "description": {
+      "en": "The Pink City, capital of Rajasthan, a city of magnificent palaces and formidable forts.",
+      "fr": "La Ville Rose, capitale du Rajasthan, une cité de palais magnifiques et de forts redoutables.",
+      "de": "Die Rosa Stadt, Hauptstadt von Rajasthan, eine Stadt prächtiger Paläste und gewaltiger Festungen."
+    }
+  },
+  "Hyderabad_India": {
+    "tagline": {
+      "en": "City of pearls, Cyberabad rising",
+      "fr": "Cité des perles, Cyberabad en essor",
+      "de": "Stadt der Perlen, Cyberabad im Aufstieg"
+    },
+    "description": {
+      "en": "India's fourth-largest city, the City of Pearls and a booming center of the IT industry.",
+      "fr": "Quatrième ville d'Inde, la Cité des Perles et un centre en plein essor de l'industrie informatique.",
+      "de": "Indiens viertgrößte Stadt, die Stadt der Perlen und ein boomender IT-Industriestandort."
+    }
+  },
+  "Ahmedabad_India": {
+    "tagline": {
+      "en": "Gandhi's city, textile capital",
+      "fr": "Ville de Gandhi, capitale du textile",
+      "de": "Gandhis Stadt, Textilhauptstadt"
+    },
+    "description": {
+      "en": "The largest city in Gujarat, home to Gandhi's Ashram, and India's historic textile capital.",
+      "fr": "La plus grande ville du Gujarat, abritant l'ashram de Gandhi et ancienne capitale textile de l'Inde.",
+      "de": "Die größte Stadt Gujarats, Heimat von Gandhis Ashram und Indiens historische Textilhauptstadt."
+    }
+  },
+  "Pune_India": {
+    "tagline": {
+      "en": "Oxford of the East, city of learning",
+      "fr": "Oxford de l'Orient, cité du savoir",
+      "de": "Oxford des Ostens, Stadt des Wissens"
+    },
+    "description": {
+      "en": "India's education capital, the second-largest city in Maharashtra and a thriving IT center.",
+      "fr": "Capitale de l'éducation en Inde, deuxième ville du Maharashtra et centre informatique florissant.",
+      "de": "Indiens Bildungshauptstadt, die zweitgrößte Stadt Maharashtras und ein florierendes IT-Zentrum."
+    }
+  },
+  "Fukuoka_Japan": {
+    "tagline": {
+      "en": "Hakata charm, gateway to Asia",
+      "fr": "Charme de Hakata, porte de l'Asie",
+      "de": "Hakata-Charme, Tor nach Asien"
+    },
+    "description": {
+      "en": "The largest city in Kyushu, birthplace of Hakata ramen and Japan's gateway to the rest of Asia.",
+      "fr": "La plus grande ville de Kyushu, berceau du ramen Hakata et porte d'entrée du Japon vers le reste de l'Asie.",
+      "de": "Die größte Stadt auf Kyushu, Geburtsort der Hakata-Ramen und Japans Tor zum Rest Asiens."
+    }
+  },
+  "Sapporo_Japan": {
+    "tagline": {
+      "en": "City of snow, heart of Hokkaido",
+      "fr": "Cité de la neige, cœur de Hokkaido",
+      "de": "Stadt des Schnees, Herz von Hokkaido"
+    },
+    "description": {
+      "en": "Hokkaido's largest city, famous for its Snow Festival and host of the 1972 Winter Olympics.",
+      "fr": "La plus grande ville de Hokkaido, célèbre pour son festival de la neige et hôte des Jeux olympiques d'hiver de 1972.",
+      "de": "Die größte Stadt Hokkaidos, berühmt für ihr Schneefestival und Gastgeberin der Olympischen Winterspiele 1972."
+    }
+  },
+  "Nanning_China": {
+    "tagline": {
+      "en": "Green city, window to ASEAN",
+      "fr": "Ville verte, fenêtre sur l'ASEAN",
+      "de": "Grüne Stadt, Fenster zur ASEAN"
+    },
+    "description": {
+      "en": "Capital of the Guangxi Zhuang Autonomous Region and permanent host of the China-ASEAN Expo, known as the Green City.",
+      "fr": "Capitale de la Région autonome Zhuang du Guangxi et hôte permanent de l'Expo Chine-ASEAN, connue comme la Ville Verte.",
+      "de": "Hauptstadt des Autonomen Gebiets Guangxi der Zhuang und ständiger Gastgeber der China-ASEAN-Expo, bekannt als die Grüne Stadt."
+    }
+  },
+  "Guiyang_China": {
+    "tagline": {
+      "en": "Summer retreat, city of big data",
+      "fr": "Retraite d'été, cité du big data",
+      "de": "Sommerfrische, Stadt der Big Data"
+    },
+    "description": {
+      "en": "Capital of Guizhou Province, a cool summer retreat and a leading city in China's big data industry.",
+      "fr": "Capitale de la province du Guizhou, station d'été fraîche et ville pionnière de l'industrie du big data en Chine.",
+      "de": "Hauptstadt der Provinz Guizhou, eine kühle Sommerfrische und führende Stadt in Chinas Big-Data-Industrie."
+    }
+  },
+  "Lanzhou_China": {
+    "tagline": {
+      "en": "City on the Yellow River, noodle capital",
+      "fr": "Cité sur le fleuve Jaune, capitale des nouilles",
+      "de": "Stadt am Gelben Fluss, Nudelhauptstadt"
+    },
+    "description": {
+      "en": "Capital of Gansu Province, where the Yellow River flows through the heart of the city, famous for its hand-pulled noodles.",
+      "fr": "Capitale de la province du Gansu, traversée par le fleuve Jaune, célèbre pour ses nouilles étirées à la main.",
+      "de": "Hauptstadt der Provinz Gansu, wo der Gelbe Fluss durch das Herz der Stadt fließt, berühmt für handgezogene Nudeln."
+    }
+  },
+  "Hefei_China": {
+    "tagline": {
+      "en": "City of science, hometown of Lord Bao",
+      "fr": "Cité des sciences, patrie du Seigneur Bao",
+      "de": "Stadt der Wissenschaft, Heimat von Lord Bao"
+    },
+    "description": {
+      "en": "Capital of Anhui Province, home to the University of Science and Technology of China, and a rising innovation hub.",
+      "fr": "Capitale de la province de l'Anhui, abritant l'Université des Sciences et Technologies de Chine, et un pôle d'innovation en plein essor.",
+      "de": "Hauptstadt der Provinz Anhui, Standort der Universität für Wissenschaft und Technologie Chinas und ein aufstrebendes Innovationszentrum."
+    }
+  },
+  "Fuzhou_China": {
+    "tagline": {
+      "en": "Banyan city, start of the Maritime Silk Road",
+      "fr": "Cité des banians, départ de la Route de la Soie maritime",
+      "de": "Banyan-Stadt, Start der Maritimen Seidenstraße"
+    },
+    "description": {
+      "en": "Capital of Fujian Province, the City of Banyans, and an important node on the Maritime Silk Road.",
+      "fr": "Capitale de la province du Fujian, la Cité des Banians et un nœud important de la Route de la Soie maritime.",
+      "de": "Hauptstadt der Provinz Fujian, die Stadt der Banyanbäume und ein wichtiger Knotenpunkt der Maritimen Seidenstraße."
+    }
+  },
+  "Nanchang_China": {
+    "tagline": {
+      "en": "Hero city, beneath the Pavilion of Prince Teng",
+      "fr": "Cité des héros, au pied du Pavillon du Prince Teng",
+      "de": "Heldenstadt, unter dem Pavillon des Prinzen Teng"
+    },
+    "description": {
+      "en": "Capital of Jiangxi Province, the city of the August 1st Uprising, where the Pavilion of Prince Teng has inspired poets for centuries.",
+      "fr": "Capitale de la province du Jiangxi, ville du soulèvement du 1er août, où le Pavillon du Prince Teng inspire les poètes depuis des siècles.",
+      "de": "Hauptstadt der Provinz Jiangxi, Stadt des Aufstands vom 1. August, wo der Pavillon des Prinzen Teng seit Jahrhunderten Dichter inspiriert."
+    }
+  },
+  "Jinan_China": {
+    "tagline": {
+      "en": "City of springs, heart of Qilu",
+      "fr": "Cité des sources, cœur de Qilu",
+      "de": "Stadt der Quellen, Herz von Qilu"
+    },
+    "description": {
+      "en": "Capital of Shandong Province, the Spring City, where Baotu Spring is celebrated as the finest spring under heaven.",
+      "fr": "Capitale de la province du Shandong, la Cité des Sources, où la source Baotu est célébrée comme la plus belle source sous le ciel.",
+      "de": "Hauptstadt der Provinz Shandong, die Quellenstadt, wo die Baotu-Quelle als die schönste Quelle unter dem Himmel gefeiert wird."
+    }
+  },
+  "Taiyuan_China": {
+    "tagline": {
+      "en": "Dragon City, capital of noodles",
+      "fr": "Cité du Dragon, capitale des nouilles",
+      "de": "Drachenstadt, Nudelhauptstadt"
+    },
+    "description": {
+      "en": "Capital of Shanxi Province, the Dragon City, famous for its Jinci Temple and rich noodle culture.",
+      "fr": "Capitale de la province du Shanxi, la Cité du Dragon, célèbre pour son temple Jinci et sa riche culture des nouilles.",
+      "de": "Hauptstadt der Provinz Shanxi, die Drachenstadt, berühmt für ihren Jinci-Tempel und reiche Nudelkultur."
+    }
+  },
+  "Haikou_China": {
+    "tagline": {
+      "en": "Coconut city, new free trade port",
+      "fr": "Cité des cocotiers, nouveau port franc",
+      "de": "Kokosnussstadt, neuer Freihandelshafen"
+    },
+    "description": {
+      "en": "Capital of Hainan Province, the core city of China's free trade port, a tropical seaside destination.",
+      "fr": "Capitale de la province de Hainan, ville centrale du port de libre-échange chinois, une destination balnéaire tropicale.",
+      "de": "Hauptstadt der Provinz Hainan, Kernstadt des chinesischen Freihafens, ein tropisches Küstenreiseziel."
+    }
+  },
+  "Lahti_Finland": {
+    "tagline": {
+      "en": "City of ski jumping",
+      "fr": "Ville du saut à ski",
+      "de": "Stadt des Skispringens"
+    },
+    "description": {
+      "en": "A sports city in southern Finland, renowned for ski jumping and design.",
+      "fr": "Ville sportive du sud de la Finlande, réputée pour le saut à ski et le design.",
+      "de": "Sportstadt in Südfinnland, bekannt für Skispringen und Design."
+    }
+  },
+  "Vaasa_Finland": {
+    "tagline": {
+      "en": "Finland's sunniest city",
+      "fr": "La ville la plus ensoleillée de Finlande",
+      "de": "Finnlands sonnigste Stadt"
+    },
+    "description": {
+      "en": "A west coast city boasting the highest sunshine hours in the Nordics.",
+      "fr": "Ville de la côte ouest finlandaise détenant le record d'ensoleillement nordique.",
+      "de": "Westküstenstadt mit den meisten Sonnenstunden in ganz Nordeuropa."
+    }
+  },
+  "Savonlinna_Finland": {
+    "tagline": {
+      "en": "Castle opera city",
+      "fr": "Cité de l'opéra au château",
+      "de": "Stadt der Schlossoper"
+    },
+    "description": {
+      "en": "A lake district town famed for the Olavinlinna Castle Opera Festival.",
+      "fr": "Ville de la région des lacs célèbre pour le festival d'opéra du château d'Olavinlinna.",
+      "de": "Seengebiet-Stadt, berühmt für das Opernfestival auf Burg Olavinlinna."
+    }
+  },
+  "Craiova_Romania": {
+    "tagline": {
+      "en": "Capital of Oltenia",
+      "fr": "Capitale de l'Olténie",
+      "de": "Hauptstadt Olteniens"
+    },
+    "description": {
+      "en": "A southwestern Romanian city and the cultural center of the Oltenia region.",
+      "fr": "Ville du sud-ouest de la Roumanie, centre culturel de la région d'Olténie.",
+      "de": "Südwestrumänische Stadt und kulturelles Zentrum der Region Oltenien."
+    }
+  },
+  "Oradea_Romania": {
+    "tagline": {
+      "en": "City of Art Nouveau",
+      "fr": "Ville de l'Art nouveau",
+      "de": "Stadt des Jugendstils"
+    },
+    "description": {
+      "en": "A northwestern Romanian city celebrated for its Art Nouveau architecture.",
+      "fr": "Ville du nord-ouest de la Roumanie, célèbre pour son architecture Art nouveau.",
+      "de": "Nordwestrumänische Stadt, bekannt für ihre Jugendstilarchitektur."
+    }
+  },
+  "Arad_Romania": {
+    "tagline": {
+      "en": "Gateway to the West",
+      "fr": "Porte de l'Ouest",
+      "de": "Tor zum Westen"
+    },
+    "description": {
+      "en": "A western Romanian city with well-preserved Austro-Hungarian architecture.",
+      "fr": "Ville de l'ouest roumain aux édifices austro-hongrois bien conservés.",
+      "de": "Westrumänische Stadt mit gut erhaltener österreichisch-ungarischer Architektur."
+    }
+  },
+  "Suceava_Romania": {
+    "tagline": {
+      "en": "Gateway to the painted monasteries",
+      "fr": "Porte des monastères peints",
+      "de": "Tor zu den bemalten Klöstern"
+    },
+    "description": {
+      "en": "Gateway to Bucovina and its UNESCO-listed painted monasteries.",
+      "fr": "Porte de la Bucovine et de ses monastères peints inscrits à l'UNESCO.",
+      "de": "Tor zur Bukowina und ihren UNESCO-geschützten bemalten Klöstern."
+    }
+  },
+  "Ruse_Bulgaria": {
+    "tagline": {
+      "en": "Bulgaria's Little Vienna",
+      "fr": "La petite Vienne bulgare",
+      "de": "Bulgariens Klein-Wien"
+    },
+    "description": {
+      "en": "A Danube city nicknamed Little Vienna for its neoclassical architecture.",
+      "fr": "Ville du Danube surnommée la petite Vienne pour son architecture néoclassique.",
+      "de": "Donaustadt, wegen ihrer neoklassizistischen Architektur Klein-Wien genannt."
+    }
+  },
+  "Stara Zagora_Bulgaria": {
+    "tagline": {
+      "en": "City of linden trees",
+      "fr": "Ville des tilleuls",
+      "de": "Stadt der Linden"
+    },
+    "description": {
+      "en": "A central Bulgarian city famed for Roman ruins and linden tree avenues.",
+      "fr": "Ville du centre de la Bulgarie connue pour ses ruines romaines et ses tilleuls.",
+      "de": "Zentralbulgarische Stadt, berühmt für römische Ruinen und Lindenalleen."
+    }
+  },
+  "Subotica_Serbia": {
+    "tagline": {
+      "en": "City of Art Nouveau",
+      "fr": "Cité de l'Art nouveau",
+      "de": "Jugendstilstadt"
+    },
+    "description": {
+      "en": "A northern Serbian city renowned for its Art Nouveau architecture.",
+      "fr": "Ville du nord de la Serbie réputée pour son architecture Art nouveau.",
+      "de": "Nordserbische Stadt, berühmt für ihre Jugendstilarchitektur."
+    }
+  },
+  "Kragujevac_Serbia": {
+    "tagline": {
+      "en": "Serbia's first capital",
+      "fr": "Première capitale de Serbie",
+      "de": "Serbiens erste Hauptstadt"
+    },
+    "description": {
+      "en": "Serbia's former capital city and Fiat automobile manufacturing center.",
+      "fr": "Ancienne capitale serbe et centre de fabrication automobile Fiat.",
+      "de": "Ehemalige Hauptstadt Serbiens und Fiat-Automobilproduktionszentrum."
+    }
+  },
+  "Osijek_Croatia": {
+    "tagline": {
+      "en": "Capital of Slavonia",
+      "fr": "Capitale de la Slavonie",
+      "de": "Hauptstadt Slawoniens"
+    },
+    "description": {
+      "en": "Eastern Croatia's Slavonian capital, a baroque fortress city.",
+      "fr": "Capitale de la Slavonie en Croatie orientale, ville-forteresse baroque.",
+      "de": "Hauptstadt Slawoniens in Ostkroatien, eine barocke Festungsstadt."
+    }
+  },
+  "Šibenik_Croatia": {
+    "tagline": {
+      "en": "City of the stone cathedral",
+      "fr": "Cité de la cathédrale de pierre",
+      "de": "Stadt der Steinkathedrale"
+    },
+    "description": {
+      "en": "A Dalmatian city home to the UNESCO-listed Cathedral of St. James.",
+      "fr": "Cité dalmate abritant la cathédrale Saint-Jacques, patrimoine mondial.",
+      "de": "Dalmatinische Stadt mit der UNESCO-Welterbe-Kathedrale des Hl. Jakobus."
+    }
+  },
+  "Trogir_Croatia": {
+    "tagline": {
+      "en": "Stone island city",
+      "fr": "Cité insulaire de pierre",
+      "de": "Steinerne Inselstadt"
+    },
+    "description": {
+      "en": "A medieval UNESCO World Heritage island city on the Dalmatian coast.",
+      "fr": "Cité insulaire médiévale classée par l'UNESCO sur la côte dalmate.",
+      "de": "Mittelalterliche UNESCO-Welterbe-Inselstadt an der dalmatinischen Küste."
+    }
+  },
+  "Hvar_Croatia": {
+    "tagline": {
+      "en": "Island of lavender and sunshine",
+      "fr": "Île de lavande et de soleil",
+      "de": "Insel des Lavendels und der Sonne"
+    },
+    "description": {
+      "en": "An Adriatic lavender island and one of Europe's sunniest towns.",
+      "fr": "Île adriatique de lavande et l'une des villes les plus ensoleillées d'Europe.",
+      "de": "Adriatische Lavendelinsel und einer der sonnigsten Orte Europas."
+    }
+  },
+  "Banja Luka_Bosnia and Herzegovina": {
+    "tagline": {
+      "en": "Green city on the Vrbas River",
+      "fr": "Ville verte sur la Vrbas",
+      "de": "Grüne Stadt am Vrbas"
+    },
+    "description": {
+      "en": "Bosnia's second-largest city, a green oasis along the Vrbas River.",
+      "fr": "Deuxième ville de Bosnie, oasis verte le long de la rivière Vrbas.",
+      "de": "Zweitgrößte Stadt Bosniens, grüne Oase am Fluss Vrbas."
+    }
+  },
+  "Prizren_Kosovo": {
+    "tagline": {
+      "en": "Cultural capital of Kosovo",
+      "fr": "Capitale culturelle du Kosovo",
+      "de": "Kulturhauptstadt des Kosovo"
+    },
+    "description": {
+      "en": "Kosovo's cultural capital where Ottoman architecture and diverse faiths coexist.",
+      "fr": "Capitale culturelle du Kosovo où cohabitent architecture ottomane et religions diverses.",
+      "de": "Kulturhauptstadt des Kosovo, wo osmanische Architektur und verschiedene Religionen koexistieren."
+    }
+  },
+  "Pristina_Kosovo": {
+    "tagline": {
+      "en": "Young Balkan capital",
+      "fr": "Jeune capitale balkanique",
+      "de": "Junge Balkanhauptstadt"
+    },
+    "description": {
+      "en": "The capital of Kosovo, a young and vibrant Balkan city.",
+      "fr": "Capitale du Kosovo, ville balkanique jeune et dynamique.",
+      "de": "Hauptstadt des Kosovo, eine junge und lebendige Balkanstadt."
+    }
+  },
+  "Piran_Slovenia": {
+    "tagline": {
+      "en": "Slovenia's coastal gem",
+      "fr": "Joyau côtier de Slovénie",
+      "de": "Sloweniens Küstenjuwel"
+    },
+    "description": {
+      "en": "A charming Adriatic seaside town with Venetian flair on Slovenia's coast.",
+      "fr": "Charmante petite ville balnéaire adriatique au charme vénitien.",
+      "de": "Charmante adriatische Küstenstadt mit venezianischem Flair."
+    }
+  },
+  "Celje_Slovenia": {
+    "tagline": {
+      "en": "City of Counts",
+      "fr": "Ville des comtes",
+      "de": "Stadt der Grafen"
+    },
+    "description": {
+      "en": "Slovenia's third-largest city, a medieval town of the Counts of Celje.",
+      "fr": "Troisième ville de Slovénie, cité médiévale des comtes de Celje.",
+      "de": "Drittgrößte Stadt Sloweniens, mittelalterliche Stadt der Grafen von Cilli."
+    }
+  },
+  "Durrës_Albania": {
+    "tagline": {
+      "en": "Albania's harbor capital",
+      "fr": "Capitale portuaire d'Albanie",
+      "de": "Albaniens Hafenhauptstadt"
+    },
+    "description": {
+      "en": "Albania's largest port city, home to ancient Roman amphitheater ruins.",
+      "fr": "Plus grand port d'Albanie, abritant les ruines d'un amphithéâtre romain.",
+      "de": "Albaniens größte Hafenstadt mit Ruinen eines römischen Amphitheaters."
+    }
+  },
+  "Gjirokastër_Albania": {
+    "tagline": {
+      "en": "City of stone",
+      "fr": "Cité de pierre",
+      "de": "Stadt aus Stein"
+    },
+    "description": {
+      "en": "A UNESCO World Heritage city of Ottoman stone architecture.",
+      "fr": "Cité ottomane de pierre classée au patrimoine mondial de l'UNESCO.",
+      "de": "UNESCO-Welterbestadt mit osmanischer Steinarchitektur."
+    }
+  },
+  "Saranda_Albania": {
+    "tagline": {
+      "en": "Albanian Riviera",
+      "fr": "Riviera albanaise",
+      "de": "Albanische Riviera"
+    },
+    "description": {
+      "en": "A resort city on Albania's south coast, near the Blue Eye spring.",
+      "fr": "Station balnéaire de la côte sud albanaise, près de la source de l'Œil Bleu.",
+      "de": "Badeort an Albaniens Südküste, nahe der Quelle Blaues Auge."
+    }
+  },
+  "Sibenik_Croatia": {
+    "tagline": {
+      "en": "Gateway to Krka waterfalls",
+      "fr": "Porte des cascades de Krka",
+      "de": "Tor zu den Krka-Wasserfällen"
+    },
+    "description": {
+      "en": "A Dalmatian harbor in central Croatia, gateway to Krka National Park.",
+      "fr": "Port dalmate du centre de la Croatie, porte du parc national de Krka.",
+      "de": "Dalmatinischer Hafen in Zentralkroatien, Tor zum Nationalpark Krka."
+    }
+  },
+  "Larissa_Greece": {
+    "tagline": {
+      "en": "Capital of the Thessalian plain",
+      "fr": "Capitale de la plaine de Thessalie",
+      "de": "Hauptstadt der thessalischen Ebene"
+    },
+    "description": {
+      "en": "The largest city on Greece's Thessalian plain, a major agricultural center.",
+      "fr": "Plus grande ville de la plaine de Thessalie, important centre agricole grec.",
+      "de": "Größte Stadt der thessalischen Ebene Griechenlands und wichtiges Agrarzentrum."
+    }
+  },
+  "Périgueux_France": {
+    "tagline": {
+      "en": "City of truffles and foie gras",
+      "fr": "Ville des truffes et du foie gras",
+      "de": "Stadt der Trüffel und Foie gras"
+    },
+    "description": {
+      "en": "Capital of the Périgord in southwestern France, land of truffles and foie gras.",
+      "fr": "Chef-lieu du Périgord, terre de truffes et de foie gras.",
+      "de": "Hauptstadt des Périgord im Südwesten Frankreichs, Land der Trüffel und Foie gras."
+    }
+  },
+  "Pau_France": {
+    "tagline": {
+      "en": "Gateway to the Pyrenees",
+      "fr": "Porte des Pyrénées",
+      "de": "Tor zu den Pyrenäen"
+    },
+    "description": {
+      "en": "A city at the foot of the Pyrenees in southwest France, birthplace of Henry IV.",
+      "fr": "Ville au pied des Pyrénées, lieu de naissance d'Henri IV.",
+      "de": "Stadt am Fuß der Pyrenäen in Südwestfrankreich, Geburtsort Heinrichs IV."
+    }
+  },
+  "Besançon_France": {
+    "tagline": {
+      "en": "City of the Vauban citadel",
+      "fr": "Ville de la citadelle Vauban",
+      "de": "Stadt der Vauban-Zitadelle"
+    },
+    "description": {
+      "en": "Capital of Franche-Comté with a UNESCO-listed Vauban citadel.",
+      "fr": "Capitale de la Franche-Comté et sa citadelle Vauban classée à l'UNESCO.",
+      "de": "Hauptstadt der Franche-Comté mit UNESCO-Welterbe Vauban-Zitadelle."
+    }
+  },
+  "La Rochelle_France": {
+    "tagline": {
+      "en": "Atlantic harbor city",
+      "fr": "Port de l'Atlantique",
+      "de": "Atlantikhafen"
+    },
+    "description": {
+      "en": "An Atlantic port city famous for its medieval towers and aquarium.",
+      "fr": "Port atlantique célèbre pour ses tours médiévales et son aquarium.",
+      "de": "Atlantische Hafenstadt, berühmt für mittelalterliche Türme und ihr Aquarium."
+    }
+  },
+  "Colmar_France": {
+    "tagline": {
+      "en": "Little Venice of Alsace",
+      "fr": "Petite Venise d'Alsace",
+      "de": "Klein-Venedig im Elsass"
+    },
+    "description": {
+      "en": "Alsace's Little Venice, famed for half-timbered houses and Christmas markets.",
+      "fr": "La Petite Venise d'Alsace, célèbre pour ses colombages et marchés de Noël.",
+      "de": "Klein-Venedig im Elsass, berühmt für Fachwerkhäuser und Weihnachtsmärkte."
+    }
+  },
+  "Bayonne_France": {
+    "tagline": {
+      "en": "City of Basque ham",
+      "fr": "Cité du jambon basque",
+      "de": "Stadt des baskischen Schinkens"
+    },
+    "description": {
+      "en": "A French Basque city known for its ham and chocolate traditions.",
+      "fr": "Ville basque réputée pour ses traditions de jambon et de chocolat.",
+      "de": "Baskische Stadt in Frankreich, bekannt für Schinken- und Schokoladentraditionen."
+    }
+  },
+  "Poitiers_France": {
+    "tagline": {
+      "en": "City of Romanesque churches",
+      "fr": "Cité des églises romanes",
+      "de": "Stadt der romanischen Kirchen"
+    },
+    "description": {
+      "en": "A historic city in western France known for Romanesque churches and Futuroscope.",
+      "fr": "Ville historique de l'Ouest connue pour ses églises romanes et le Futuroscope.",
+      "de": "Historische Stadt in Westfrankreich, berühmt für romanische Kirchen und den Futuroscope."
+    }
+  },
+  "Troyes_France": {
+    "tagline": {
+      "en": "Medieval gem on the Champagne route",
+      "fr": "Joyau médiéval sur la route du Champagne",
+      "de": "Mittelalterliches Juwel an der Champagner-Route"
+    },
+    "description": {
+      "en": "A Champagne-region town with well-preserved medieval half-timbered buildings.",
+      "fr": "Ville champenoise aux maisons à colombages médiévales remarquablement conservées.",
+      "de": "Stadt in der Champagne mit hervorragend erhaltenen mittelalterlichen Fachwerkhäusern."
+    }
+  },
+  "Chambéry_France": {
+    "tagline": {
+      "en": "Capital of Savoy",
+      "fr": "Capitale de la Savoie",
+      "de": "Hauptstadt Savoyens"
+    },
+    "description": {
+      "en": "Historic capital of Savoy at the foot of the Alps with Italian charm.",
+      "fr": "Capitale historique de la Savoie au pied des Alpes, empreinte de charme italien.",
+      "de": "Historische Hauptstadt Savoyens am Fuß der Alpen mit italienischem Charme."
+    }
+  },
+  "Valence_France": {
+    "tagline": {
+      "en": "Gateway to Provence",
+      "fr": "Porte de la Provence",
+      "de": "Tor zur Provence"
+    },
+    "description": {
+      "en": "A southern Rhône Valley gateway city where Provençal charm begins.",
+      "fr": "Porte sud de la vallée du Rhône, là où commence le charme provençal.",
+      "de": "Tor zum südlichen Rhônetal, wo die provenzalische Lebensart beginnt."
+    }
+  },
+  "Austin_United States": {
+    "tagline": {
+      "en": "Live music capital of the world",
+      "fr": "Capitale mondiale de la musique live",
+      "de": "Live-Musik-Hauptstadt der Welt"
+    },
+    "description": {
+      "en": "Capital of Texas, world music capital and tech innovation hub.",
+      "fr": "Capitale du Texas, capitale mondiale de la musique et pôle technologique.",
+      "de": "Hauptstadt von Texas, Weltmusikhauptstadt und Technologie-Innovationszentrum."
+    }
+  },
+  "San Antonio_United States": {
+    "tagline": {
+      "en": "City of the Alamo",
+      "fr": "Ville de l'Alamo",
+      "de": "Stadt des Alamo"
+    },
+    "description": {
+      "en": "Home of the Alamo, blending American and Mexican culture along the River Walk.",
+      "fr": "Berceau de l'Alamo, mêlant cultures américaine et mexicaine le long du River Walk.",
+      "de": "Heimat des Alamo, Verschmelzung amerikanischer und mexikanischer Kultur am River Walk."
+    }
+  },
+  "Fort Worth_United States": {
+    "tagline": {
+      "en": "Where the West begins",
+      "fr": "Là où commence l'Ouest",
+      "de": "Wo der Westen beginnt"
+    },
+    "description": {
+      "en": "Capital of cowboy culture with world-class art museums.",
+      "fr": "Capitale de la culture cowboy avec des musées d'art de renommée mondiale.",
+      "de": "Hauptstadt der Cowboy-Kultur mit erstklassigen Kunstmuseen."
+    }
+  },
+  "El Paso_United States": {
+    "tagline": {
+      "en": "Sun City",
+      "fr": "Cité du Soleil",
+      "de": "Sonnenstadt"
+    },
+    "description": {
+      "en": "A U.S.-Mexico border city blending two nations' cultures under endless sunshine.",
+      "fr": "Ville frontalière américano-mexicaine, fusion de deux cultures sous un soleil permanent.",
+      "de": "Grenzstadt zwischen USA und Mexiko, Verschmelzung zweier Kulturen unter ewigem Sonnenschein."
+    }
+  },
+  "Corpus Christi_United States": {
+    "tagline": {
+      "en": "Texas Riviera",
+      "fr": "Riviera texane",
+      "de": "Texanische Riviera"
+    },
+    "description": {
+      "en": "A Gulf Coast beach city known for its shores and windsurfing.",
+      "fr": "Ville balnéaire du golfe du Mexique réputée pour ses plages et la planche à voile.",
+      "de": "Strandstadt an der Golfküste, bekannt für Strände und Windsurfen."
+    }
+  },
+  "Lubbock_United States": {
+    "tagline": {
+      "en": "Friendship City",
+      "fr": "Ville de l'amitié",
+      "de": "Stadt der Freundschaft"
+    },
+    "description": {
+      "en": "A Texas High Plains college town and hometown of Buddy Holly.",
+      "fr": "Ville universitaire des hautes plaines du Texas, patrie de Buddy Holly.",
+      "de": "College-Stadt in den texanischen High Plains und Heimatstadt von Buddy Holly."
+    }
+  },
+  "Laredo_United States": {
+    "tagline": {
+      "en": "Gateway to the Americas",
+      "fr": "Porte des Amériques",
+      "de": "Tor zu den Amerikas"
+    },
+    "description": {
+      "en": "A major U.S.-Mexico border trade hub and one of North America's busiest inland ports.",
+      "fr": "Pôle commercial majeur à la frontière américano-mexicaine, port intérieur des plus actifs.",
+      "de": "Wichtiger Handelsknoten an der US-mexikanischen Grenze und einer der verkehrsreichsten Binnenhäfen."
+    }
+  },
+  "Amarillo_United States": {
+    "tagline": {
+      "en": "Heart of Route 66",
+      "fr": "Cœur de la Route 66",
+      "de": "Herz der Route 66"
+    },
+    "description": {
+      "en": "An iconic Route 66 city, the yellow rose of the Texas Panhandle.",
+      "fr": "Ville emblématique de la Route 66, rose jaune du Texas Panhandle.",
+      "de": "Ikonische Route-66-Stadt, die gelbe Rose des Texas Panhandle."
+    }
+  },
+  "Midland_United States": {
+    "tagline": {
+      "en": "Tall City",
+      "fr": "Ville haute",
+      "de": "Hohe Stadt"
+    },
+    "description": {
+      "en": "A West Texas oil hub at the heart of the Permian Basin economy.",
+      "fr": "Pôle pétrolier de l'ouest du Texas, cœur de l'économie du bassin permien.",
+      "de": "Ölzentrum in Westtexas im Herzen der Permian-Basin-Wirtschaft."
+    }
+  }
+}

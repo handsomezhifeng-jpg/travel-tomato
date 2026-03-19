@@ -1,0 +1,5002 @@
+[
+  {
+    "key": "Beijing_China",
+    "tagline": "千年古都，大国之心",
+    "description": "中国首都，拥有故宫、长城等世界文化遗产，政治与文化中心。"
+  },
+  {
+    "key": "Tianjin_China",
+    "tagline": "渤海明珠，近代风云",
+    "description": "北方最大港口城市，中西合璧的历史文化名城。"
+  },
+  {
+    "key": "Shijiazhuang_China",
+    "tagline": "燕赵之都，枢纽之城",
+    "description": "河北省省会，华北平原重要的交通枢纽城市。"
+  },
+  {
+    "key": "Shanghai_China",
+    "tagline": "东方明珠，国际大都市",
+    "description": "中国最大的城市，国际金融中心，东方明珠塔所在地。"
+  },
+  {
+    "key": "Suzhou_China",
+    "tagline": "园林之城，人间天堂",
+    "description": "江南水乡，以古典园林闻名于世，素有人间天堂之称。"
+  },
+  {
+    "key": "Wuxi_China",
+    "tagline": "太湖明珠，鱼米之乡",
+    "description": "太湖之滨的历史文化名城，鱼米之乡，工商业重镇。"
+  },
+  {
+    "key": "Changzhou_China",
+    "tagline": "龙城古韵，创新之都",
+    "description": "长三角中心城市，历史悠久的文化古城，恐龙园闻名。"
+  },
+  {
+    "key": "Nanjing_China",
+    "tagline": "六朝古都，虎踞龙蟠",
+    "description": "六朝古都，江苏省会，中山陵与秦淮河畔的历史名城。"
+  },
+  {
+    "key": "Hangzhou_China",
+    "tagline": "人间天堂，数字之城",
+    "description": "浙江省会，西湖美景闻名天下，互联网经济高地。"
+  },
+  {
+    "key": "Ningbo_China",
+    "tagline": "东海之滨，港通天下",
+    "description": "浙江重要港口城市，海上丝绸之路起点之一。"
+  },
+  {
+    "key": "Guangzhou_China",
+    "tagline": "千年商都，花城羊城",
+    "description": "广东省会，千年商都，岭南文化的发源地，美食之都。"
+  },
+  {
+    "key": "Shenzhen_China",
+    "tagline": "创新之城，中国硅谷",
+    "description": "中国经济特区，科技创新之城，从小渔村到国际大都市。"
+  },
+  {
+    "key": "Dongguan_China",
+    "tagline": "世界工厂，制造名城",
+    "description": "世界工厂，珠三角制造业重镇，篮球之城。"
+  },
+  {
+    "key": "Foshan_China",
+    "tagline": "武术之乡，陶艺之都",
+    "description": "武术之乡，陶瓷之都，岭南文化重要发源地。"
+  },
+  {
+    "key": "Zhuhai_China",
+    "tagline": "浪漫之城，百岛之市",
+    "description": "浪漫海滨城市，经济特区，港珠澳大桥连接港澳。"
+  },
+  {
+    "key": "Hong Kong_China",
+    "tagline": "东方之珠，购物天堂",
+    "description": "国际金融中心，东西方文化交汇之地，购物与美食天堂。"
+  },
+  {
+    "key": "Macau_China",
+    "tagline": "莲花宝地，中西交融",
+    "description": "世界四大赌城之一，中西文化交融的历史城区为世界遗产。"
+  },
+  {
+    "key": "Chengdu_China",
+    "tagline": "天府之国，熊猫故乡",
+    "description": "四川省会，天府之国核心城市，大熊猫故乡，休闲美食之都。"
+  },
+  {
+    "key": "Chongqing_China",
+    "tagline": "山城雾都，火锅之城",
+    "description": "山城重庆，中国直辖市，火锅之都，8D魔幻城市。"
+  },
+  {
+    "key": "Wuhan_China",
+    "tagline": "大江大城，黄鹤故里",
+    "description": "湖北省会，长江中游城市群核心，黄鹤楼所在地。"
+  },
+  {
+    "key": "Xi'an_China",
+    "tagline": "千年帝都，丝路起点",
+    "description": "十三朝古都，兵马俑所在地，丝绸之路的起点。"
+  },
+  {
+    "key": "Harbin_China",
+    "tagline": "冰城夏都，东方莫斯科",
+    "description": "冰城哈尔滨，以冰雪大世界和欧式建筑闻名。"
+  },
+  {
+    "key": "Dalian_China",
+    "tagline": "北方明珠，浪漫之都",
+    "description": "辽宁省海滨城市，北方明珠，浪漫之都。"
+  },
+  {
+    "key": "Shenyang_China",
+    "tagline": "共和国长子，清朝龙兴",
+    "description": "辽宁省会，东北最大城市，清朝龙兴之地。"
+  },
+  {
+    "key": "Kunming_China",
+    "tagline": "春城花都，彩云之南",
+    "description": "云南省会，四季如春的春城，通往东南亚的门户。"
+  },
+  {
+    "key": "Xiamen_China",
+    "tagline": "海上花园，鼓浪琴声",
+    "description": "福建海滨城市，鼓浪屿闻名世界，宜居花园城市。"
+  },
+  {
+    "key": "Qingdao_China",
+    "tagline": "啤酒之城，帆船之都",
+    "description": "山东海滨城市，啤酒之城，红瓦绿树碧海蓝天。"
+  },
+  {
+    "key": "Changsha_China",
+    "tagline": "星城长沙，娱乐之都",
+    "description": "湖南省会，娱乐之都，橘子洲头见证历史风云。"
+  },
+  {
+    "key": "Zhengzhou_China",
+    "tagline": "中原之心，交通枢纽",
+    "description": "河南省会，中国铁路枢纽，商朝古都。"
+  },
+  {
+    "key": "Lhasa_China",
+    "tagline": "雪域圣城，日光之城",
+    "description": "西藏自治区首府，布达拉宫所在地，日光城。"
+  },
+  {
+    "key": "Urumqi_China",
+    "tagline": "丝路明珠，亚心之城",
+    "description": "新疆维吾尔自治区首府，亚洲大陆地理中心附近城市。"
+  },
+  {
+    "key": "Tokyo_Japan",
+    "tagline": "东瀛之都，科技与传统",
+    "description": "日本首都，世界最大都市圈之一，传统与现代完美融合。"
+  },
+  {
+    "key": "Yokohama_Japan",
+    "tagline": "港都风情，横滨之光",
+    "description": "日本第二大城市，东京湾畔的港口城市，中华街闻名。"
+  },
+  {
+    "key": "Osaka_Japan",
+    "tagline": "天下厨房，浪花之城",
+    "description": "日本第三大城市，天下厨房，大阪城见证历史兴衰。"
+  },
+  {
+    "key": "Kyoto_Japan",
+    "tagline": "千年古都，和风雅韵",
+    "description": "日本千年古都，拥有众多寺庙神社，传统文化之都。"
+  },
+  {
+    "key": "Nagoya_Japan",
+    "tagline": "中部之心，制造名城",
+    "description": "日本中部最大城市，丰田汽车发源地，制造业重镇。"
+  },
+  {
+    "key": "Seoul_South Korea",
+    "tagline": "韩流之都，古今交融",
+    "description": "韩国首都，K-pop文化发源地，传统宫殿与现代摩天楼并存。"
+  },
+  {
+    "key": "Incheon_South Korea",
+    "tagline": "空港门户，自由之城",
+    "description": "韩国第三大城市，国际机场所在地，自由经济区。"
+  },
+  {
+    "key": "Busan_South Korea",
+    "tagline": "东方那不勒斯，海港之城",
+    "description": "韩国第二大城市，最大港口城市，海云台海滩闻名。"
+  },
+  {
+    "key": "Taipei_China",
+    "tagline": "宝岛明珠，夜市之都",
+    "description": "台湾最大城市，台北101曾为世界最高楼，夜市文化丰富。"
+  },
+  {
+    "key": "Bangkok_Thailand",
+    "tagline": "天使之城，微笑国度",
+    "description": "泰国首都，天使之城，金碧辉煌的寺庙与热闹夜市。"
+  },
+  {
+    "key": "Singapore_Singapore",
+    "tagline": "花园城市，狮城传奇",
+    "description": "花园城市国家，东南亚金融中心，多元文化交汇。"
+  },
+  {
+    "key": "Kuala Lumpur_Malaysia",
+    "tagline": "双塔之城，多彩大马",
+    "description": "马来西亚首都，双子塔标志性建筑，多元文化美食天堂。"
+  },
+  {
+    "key": "Jakarta_Indonesia",
+    "tagline": "万岛之都，千面雅加达",
+    "description": "印度尼西亚首都，东南亚最大城市，万岛之国的中心。"
+  },
+  {
+    "key": "Manila_Philippines",
+    "tagline": "千岛之都，亚洲之珠",
+    "description": "菲律宾首都，西班牙殖民遗产与现代都市交融。"
+  },
+  {
+    "key": "Ho Chi Minh City_Vietnam",
+    "tagline": "东方巴黎，活力之都",
+    "description": "越南最大城市，经济中心，法式建筑与摩托车文化并存。"
+  },
+  {
+    "key": "Hanoi_Vietnam",
+    "tagline": "千年文献，龙城之都",
+    "description": "越南首都，千年文化古城，还剑湖畔的宁静与繁华。"
+  },
+  {
+    "key": "Mumbai_India",
+    "tagline": "梦想之城，宝莱坞之都",
+    "description": "印度最大城市，宝莱坞之都，金融与娱乐中心。"
+  },
+  {
+    "key": "Delhi_India",
+    "tagline": "古都新颜，帝国之城",
+    "description": "印度首都区，古老与现代并存，红堡与印度门见证历史。"
+  },
+  {
+    "key": "Bangalore_India",
+    "tagline": "印度硅谷，科技花园",
+    "description": "印度硅谷，信息技术产业中心，花园城市。"
+  },
+  {
+    "key": "Kolkata_India",
+    "tagline": "欢乐之城，文化之都",
+    "description": "印度东部最大城市，文化与文学之都，维多利亚纪念堂。"
+  },
+  {
+    "key": "Chennai_India",
+    "tagline": "南印门户，寺庙之城",
+    "description": "印度南部门户城市，汽车制造业中心，寺庙之城。"
+  },
+  {
+    "key": "Dhaka_Bangladesh",
+    "tagline": "清真寺之城，水乡之都",
+    "description": "孟加拉国首都，世界人口最密集的城市之一。"
+  },
+  {
+    "key": "Islamabad_Pakistan",
+    "tagline": "绿色之都，和谐之城",
+    "description": "巴基斯坦首都，规划整齐的现代化城市，费萨尔清真寺。"
+  },
+  {
+    "key": "Karachi_Pakistan",
+    "tagline": "光之城市，经济之都",
+    "description": "巴基斯坦最大城市和经济中心，阿拉伯海港口城市。"
+  },
+  {
+    "key": "Tehran_Iran",
+    "tagline": "波斯之心，雪山之城",
+    "description": "伊朗首都，背靠厄尔布尔士山脉，波斯文明的现代中心。"
+  },
+  {
+    "key": "Dubai_UAE",
+    "tagline": "沙漠奇迹，奢华之都",
+    "description": "阿联酋最大城市，沙漠中崛起的奢华之都，哈利法塔所在。"
+  },
+  {
+    "key": "Abu Dhabi_UAE",
+    "tagline": "酋长之城，文化绿洲",
+    "description": "阿联酋首都，石油财富之城，卢浮宫阿布扎比分馆所在地。"
+  },
+  {
+    "key": "Doha_Qatar",
+    "tagline": "海湾明珠，世界杯之城",
+    "description": "卡塔尔首都，2022世界杯举办城市，珍珠岛豪华度假区。"
+  },
+  {
+    "key": "Riyadh_Saudi Arabia",
+    "tagline": "沙漠之都，石油王国",
+    "description": "沙特阿拉伯首都，沙漠中的现代化大都市。"
+  },
+  {
+    "key": "Istanbul_Turkey",
+    "tagline": "欧亚之桥，千年帝都",
+    "description": "横跨欧亚大陆的城市，千年拜占庭与奥斯曼帝国遗迹。"
+  },
+  {
+    "key": "London_United Kingdom",
+    "tagline": "雾都伦敦，日不落之心",
+    "description": "英国首都，世界金融中心，大本钟和白金汉宫的故乡。"
+  },
+  {
+    "key": "Manchester_United Kingdom",
+    "tagline": "工业先驱，红魔之城",
+    "description": "英格兰北部最大城市，工业革命发源地，足球之城。"
+  },
+  {
+    "key": "Birmingham_United Kingdom",
+    "tagline": "千业之城，英伦心脏",
+    "description": "英国第二大城市，工业革命重镇，多元文化中心。"
+  },
+  {
+    "key": "Edinburgh_United Kingdom",
+    "tagline": "北方雅典，艺术之城",
+    "description": "苏格兰首府，爱丁堡城堡俯瞰全城，艺术节享誉世界。"
+  },
+  {
+    "key": "Paris_France",
+    "tagline": "浪漫之都，光之城市",
+    "description": "法国首都，浪漫之都，埃菲尔铁塔和卢浮宫的故乡。"
+  },
+  {
+    "key": "Lyon_France",
+    "tagline": "法兰西美食之都",
+    "description": "法国第三大城市，美食之都，丝绸之城。"
+  },
+  {
+    "key": "Marseille_France",
+    "tagline": "地中海港都，阳光之城",
+    "description": "法国第二大城市，地中海最大港口，阳光与海鲜之城。"
+  },
+  {
+    "key": "Nice_France",
+    "tagline": "蔚蓝海岸，度假天堂",
+    "description": "蔚蓝海岸明珠，法国度假胜地，天使湾美景如画。"
+  },
+  {
+    "key": "Berlin_Germany",
+    "tagline": "自由之城，创意之都",
+    "description": "德国首都，柏林墙见证历史，创意与自由之城。"
+  },
+  {
+    "key": "Munich_Germany",
+    "tagline": "啤酒之都，巴伐利亚明珠",
+    "description": "巴伐利亚首府，啤酒节之城，阿尔卑斯山脚下的文化名城。"
+  },
+  {
+    "key": "Hamburg_Germany",
+    "tagline": "汉堡港都，北方威尼斯",
+    "description": "德国第二大城市，欧洲最大港口之一，仓库城闻名。"
+  },
+  {
+    "key": "Frankfurt_Germany",
+    "tagline": "欧洲金融之心，歌德故乡",
+    "description": "欧洲金融中心，歌德故乡，美因河畔的天际线之城。"
+  },
+  {
+    "key": "Cologne_Germany",
+    "tagline": "大教堂之城，莱茵明珠",
+    "description": "莱茵河畔古城，科隆大教堂为世界文化遗产，狂欢节闻名。"
+  },
+  {
+    "key": "Düsseldorf_Germany",
+    "tagline": "莱茵时尚，艺术之都",
+    "description": "莱茵河畔的时尚之都，德国广告与电信业中心。"
+  },
+  {
+    "key": "Amsterdam_Netherlands",
+    "tagline": "运河之城，自由之都",
+    "description": "荷兰首都，运河之城，梵高博物馆和自由开放的文化。"
+  },
+  {
+    "key": "Rotterdam_Netherlands",
+    "tagline": "欧洲门户，建筑实验场",
+    "description": "欧洲最大港口城市，现代建筑之都，二战后重建典范。"
+  },
+  {
+    "key": "Brussels_Belgium",
+    "tagline": "欧洲之都，巧克力王国",
+    "description": "比利时首都，欧盟总部所在地，巧克力和华夫饼之城。"
+  },
+  {
+    "key": "Antwerp_Belgium",
+    "tagline": "钻石之都，巴洛克明珠",
+    "description": "比利时第二大城市，世界钻石之都，鲁本斯的故乡。"
+  },
+  {
+    "key": "Madrid_Spain",
+    "tagline": "激情之都，艺术殿堂",
+    "description": "西班牙首都，普拉多博物馆与皇宫，热情奔放的弗拉门戈。"
+  },
+  {
+    "key": "Barcelona_Spain",
+    "tagline": "高迪之城，地中海明珠",
+    "description": "高迪建筑的圣殿，地中海海滨名城，加泰罗尼亚文化中心。"
+  },
+  {
+    "key": "Seville_Spain",
+    "tagline": "弗拉门戈之魂，阳光古城",
+    "description": "安达卢西亚首府，弗拉门戈发源地，摩尔建筑遗产丰富。"
+  },
+  {
+    "key": "Valencia_Spain",
+    "tagline": "科学艺术之城，法雅火焰",
+    "description": "西班牙第三大城市，艺术科学城闻名，法雅节热闹非凡。"
+  },
+  {
+    "key": "Lisbon_Portugal",
+    "tagline": "七丘之城，大航海起点",
+    "description": "葡萄牙首都，七丘之城，大航海时代的起点。"
+  },
+  {
+    "key": "Porto_Portugal",
+    "tagline": "波特酒乡，不朽之城",
+    "description": "葡萄牙第二大城市，波特酒的故乡，杜罗河畔的美丽古城。"
+  },
+  {
+    "key": "Rome_Italy",
+    "tagline": "永恒之城，文明之源",
+    "description": "意大利首都，永恒之城，罗马斗兽场与梵蒂冈见证千年文明。"
+  },
+  {
+    "key": "Milan_Italy",
+    "tagline": "时尚之都，设计之城",
+    "description": "意大利时尚与设计之都，达芬奇《最后的晚餐》所在地。"
+  },
+  {
+    "key": "Florence_Italy",
+    "tagline": "文艺复兴摇篮，艺术圣地",
+    "description": "文艺复兴发源地，乌菲兹美术馆与百花大教堂闻名于世。"
+  },
+  {
+    "key": "Venice_Italy",
+    "tagline": "水上之城，浪漫威尼斯",
+    "description": "水上之城，贡多拉穿行于运河，圣马可广场举世闻名。"
+  },
+  {
+    "key": "Naples_Italy",
+    "tagline": "披萨故乡，火山之城",
+    "description": "意大利南部最大城市，披萨发源地，维苏威火山脚下。"
+  },
+  {
+    "key": "Vienna_Austria",
+    "tagline": "音乐之都，皇城维也纳",
+    "description": "奥地利首都，音乐之都，哈布斯堡王朝的辉煌遗产。"
+  },
+  {
+    "key": "Salzburg_Austria",
+    "tagline": "莫扎特之城，音乐摇篮",
+    "description": "莫扎特故乡，阿尔卑斯山脚下的巴洛克古城。"
+  },
+  {
+    "key": "Zurich_Switzerland",
+    "tagline": "银行之城，湖光山色",
+    "description": "瑞士最大城市，全球金融中心，阿尔卑斯山下的湖畔名城。"
+  },
+  {
+    "key": "Geneva_Switzerland",
+    "tagline": "和平之都，钟表之城",
+    "description": "国际组织之都，日内瓦湖畔的和平之城，钟表之乡。"
+  },
+  {
+    "key": "Prague_Czech Republic",
+    "tagline": "百塔之城，波西米亚之心",
+    "description": "捷克首都，百塔之城，查理大桥与老城广场美轮美奂。"
+  },
+  {
+    "key": "Budapest_Hungary",
+    "tagline": "多瑙河明珠，温泉之都",
+    "description": "匈牙利首都，多瑙河畔的明珠，温泉之都。"
+  },
+  {
+    "key": "Warsaw_Poland",
+    "tagline": "浴火重生，波兰之心",
+    "description": "波兰首都，凤凰涅槃般从废墟中重建的城市。"
+  },
+  {
+    "key": "Krakow_Poland",
+    "tagline": "波兰古都，中世纪明珠",
+    "description": "波兰古都，瓦维尔城堡与老城广场保存完好的中世纪风貌。"
+  },
+  {
+    "key": "Copenhagen_Denmark",
+    "tagline": "童话之都，幸福之城",
+    "description": "丹麦首都，安徒生童话的故乡，北欧设计与幸福之城。"
+  },
+  {
+    "key": "Stockholm_Sweden",
+    "tagline": "北方威尼斯，诺贝尔之城",
+    "description": "瑞典首都，建在十四座岛屿上的北方威尼斯，诺贝尔之城。"
+  },
+  {
+    "key": "Oslo_Norway",
+    "tagline": "峡湾门户，维京之城",
+    "description": "挪威首都，峡湾之国的门户，维京船博物馆所在地。"
+  },
+  {
+    "key": "Helsinki_Finland",
+    "tagline": "设计之都，北欧净土",
+    "description": "芬兰首都，波罗的海畔的设计之都，桑拿文化发源地。"
+  },
+  {
+    "key": "Athens_Greece",
+    "tagline": "文明摇篮，众神之城",
+    "description": "希腊首都，西方文明的摇篮，帕特农神庙俯瞰全城。"
+  },
+  {
+    "key": "Bucharest_Romania",
+    "tagline": "东欧小巴黎，议会之城",
+    "description": "罗马尼亚首都，小巴黎之称，议会宫为世界最大行政建筑。"
+  },
+  {
+    "key": "Dublin_Ireland",
+    "tagline": "文学之都，凯尔特之心",
+    "description": "爱尔兰首都，文学之都，吉尼斯啤酒和凯尔特文化的故乡。"
+  },
+  {
+    "key": "Moscow_Russia",
+    "tagline": "沙皇之都，红场之城",
+    "description": "俄罗斯首都，红场与克里姆林宫见证帝国兴衰。"
+  },
+  {
+    "key": "Saint Petersburg_Russia",
+    "tagline": "北方之都，白夜之城",
+    "description": "俄罗斯文化之都，冬宫与白夜，涅瓦河畔的建筑博物馆。"
+  },
+  {
+    "key": "Kyiv_Ukraine",
+    "tagline": "东斯拉夫母城，第聂伯之畔",
+    "description": "乌克兰首都，第聂伯河畔的千年古城，东正教文明中心。"
+  },
+  {
+    "key": "New York_United States",
+    "tagline": "不夜城，世界之都",
+    "description": "美国最大城市，自由女神像与华尔街，世界文化大熔炉。"
+  },
+  {
+    "key": "Newark_United States",
+    "tagline": "砖城新都，纽约门户",
+    "description": "新泽西州最大城市，纽约大都会区重要组成部分。"
+  },
+  {
+    "key": "Philadelphia_United States",
+    "tagline": "自由之钟，兄弟之城",
+    "description": "美国独立宣言签署地，兄弟之爱之城，历史文化名城。"
+  },
+  {
+    "key": "Washington D.C._United States",
+    "tagline": "民主之都，权力中心",
+    "description": "美国首都，白宫与国会山，史密森尼博物馆群所在地。"
+  },
+  {
+    "key": "Baltimore_United States",
+    "tagline": "魅力之城，内港明珠",
+    "description": "马里兰州最大城市，内港文化区与约翰霍普金斯大学闻名。"
+  },
+  {
+    "key": "Boston_United States",
+    "tagline": "学术之都，自由摇篮",
+    "description": "美国最古老城市之一，哈佛与MIT所在地，学术之都。"
+  },
+  {
+    "key": "Los Angeles_United States",
+    "tagline": "天使之城，好莱坞之都",
+    "description": "美国第二大城市，好莱坞所在地，阳光与梦想之城。"
+  },
+  {
+    "key": "San Francisco_United States",
+    "tagline": "金门之城，硅谷门户",
+    "description": "金门大桥之城，硅谷门户，多元文化与科技创新。"
+  },
+  {
+    "key": "San Jose_United States",
+    "tagline": "硅谷之心，科技之都",
+    "description": "硅谷核心城市，全球科技产业中心。"
+  },
+  {
+    "key": "San Diego_United States",
+    "tagline": "美丽之城，阳光海岸",
+    "description": "美国最宜居城市之一，阳光海滩与海军基地。"
+  },
+  {
+    "key": "Chicago_United States",
+    "tagline": "风城芝加哥，建筑之都",
+    "description": "风城芝加哥，建筑之都，密歇根湖畔的摩天楼天际线。"
+  },
+  {
+    "key": "Houston_United States",
+    "tagline": "太空之城，能源之都",
+    "description": "德州最大城市，NASA航天中心所在地，能源之都。"
+  },
+  {
+    "key": "Dallas_United States",
+    "tagline": "牛仔之城，德州之星",
+    "description": "德州第三大城市，牛仔文化与现代商业中心。"
+  },
+  {
+    "key": "Miami_United States",
+    "tagline": "魔幻之城，拉丁之光",
+    "description": "佛罗里达海滨城市，拉丁文化交汇，迈阿密海滩享誉全球。"
+  },
+  {
+    "key": "Atlanta_United States",
+    "tagline": "南方之都，可乐之城",
+    "description": "美国东南部最大城市，可口可乐总部与CNN中心所在地。"
+  },
+  {
+    "key": "Seattle_United States",
+    "tagline": "翡翠之城，咖啡之都",
+    "description": "太平洋西北部最大城市，星巴克和亚马逊的故乡，翡翠之城。"
+  },
+  {
+    "key": "Denver_United States",
+    "tagline": "里高之城，落基山门户",
+    "description": "落基山脉脚下的里高城，户外运动天堂。"
+  },
+  {
+    "key": "Detroit_United States",
+    "tagline": "汽车之城，摩城传奇",
+    "description": "美国汽车工业之都，摩城音乐发源地。"
+  },
+  {
+    "key": "Toronto_Canada",
+    "tagline": "枫叶之都，多元文化",
+    "description": "加拿大最大城市，CN塔标志性建筑，多元文化之都。"
+  },
+  {
+    "key": "Montreal_Canada",
+    "tagline": "法语之都，爵士之城",
+    "description": "加拿大第二大城市，法语文化中心，爵士音乐节闻名。"
+  },
+  {
+    "key": "Vancouver_Canada",
+    "tagline": "太平洋之门，宜居之城",
+    "description": "加拿大西海岸明珠，群山环抱的海滨城市，宜居之城。"
+  },
+  {
+    "key": "Mexico City_Mexico",
+    "tagline": "阿兹特克之都，文明交汇",
+    "description": "墨西哥首都，阿兹特克文明遗址与现代都市交融，世界最大城市之一。"
+  },
+  {
+    "key": "Guadalajara_Mexico",
+    "tagline": "龙舌兰之乡，墨西哥之魂",
+    "description": "墨西哥第二大城市，龙舌兰酒和玛丽亚奇音乐的故乡。"
+  },
+  {
+    "key": "Havana_Cuba",
+    "tagline": "加勒比明珠，时光之城",
+    "description": "古巴首都，老爷车与殖民建筑，加勒比海畔的时光胶囊。"
+  },
+  {
+    "key": "São Paulo_Brazil",
+    "tagline": "南美经济之心，不夜之城",
+    "description": "巴西最大城市，南美洲经济中心，文化多样性的大熔炉。"
+  },
+  {
+    "key": "Rio de Janeiro_Brazil",
+    "tagline": "上帝之城，狂欢之都",
+    "description": "巴西海滨名城，基督像俯瞰全城，狂欢节享誉世界。"
+  },
+  {
+    "key": "Brasília_Brazil",
+    "tagline": "未来之都，巴西之心",
+    "description": "巴西首都，尼迈耶设计的现代主义城市，世界文化遗产。"
+  },
+  {
+    "key": "Salvador_Brazil",
+    "tagline": "幸福之城，非裔文化之都",
+    "description": "巴西第一个首都，非洲裔巴西文化中心，彩色老城闻名。"
+  },
+  {
+    "key": "Buenos Aires_Argentina",
+    "tagline": "探戈之都，南美巴黎",
+    "description": "阿根廷首都，探戈之都，南美的巴黎，博卡区色彩斑斓。"
+  },
+  {
+    "key": "Santiago_Chile",
+    "tagline": "安第斯之城，智利之心",
+    "description": "智利首都，安第斯山脉脚下的现代化城市。"
+  },
+  {
+    "key": "Lima_Peru",
+    "tagline": "国王之城，南美美食之都",
+    "description": "秘鲁首都，印加文明与西班牙殖民文化交汇，美食之都。"
+  },
+  {
+    "key": "Bogotá_Colombia",
+    "tagline": "云中之城，黄金之都",
+    "description": "哥伦比亚首都，安第斯山上的高原城市，黄金博物馆闻名。"
+  },
+  {
+    "key": "Medellín_Colombia",
+    "tagline": "永恒之春，创新之城",
+    "description": "哥伦比亚第二大城市，春城之称，城市创新转型的典范。"
+  },
+  {
+    "key": "Quito_Ecuador",
+    "tagline": "赤道之城，世界中心",
+    "description": "厄瓜多尔首都，赤道上的城市，世界文化遗产老城区。"
+  },
+  {
+    "key": "Caracas_Venezuela",
+    "tagline": "加勒比之都，阿维拉山下",
+    "description": "委内瑞拉首都，阿维拉山脚下的加勒比海滨都市。"
+  },
+  {
+    "key": "Montevideo_Uruguay",
+    "tagline": "银河之畔，南美瑞士",
+    "description": "乌拉圭首都，拉普拉塔河畔的宁静海滨城市。"
+  },
+  {
+    "key": "La Paz_Bolivia",
+    "tagline": "云端之城，天空之都",
+    "description": "玻利维亚行政首都，世界海拔最高的首都城市。"
+  },
+  {
+    "key": "Asunción_Paraguay",
+    "tagline": "美洲之母，河畔古城",
+    "description": "巴拉圭首都，南美最古老的城市之一，巴拉那河畔。"
+  },
+  {
+    "key": "Guayaquil_Ecuador",
+    "tagline": "太平洋明珠，热带港都",
+    "description": "厄瓜多尔最大城市和主要港口，热带海滨城市。"
+  },
+  {
+    "key": "Cairo_Egypt",
+    "tagline": "法老之都，尼罗河畔",
+    "description": "埃及首都，金字塔与尼罗河，非洲最大城市。"
+  },
+  {
+    "key": "Alexandria_Egypt",
+    "tagline": "地中海新娘，古典之城",
+    "description": "埃及第二大城市，地中海畔的古代文明中心，亚历山大灯塔旧址。"
+  },
+  {
+    "key": "Casablanca_Morocco",
+    "tagline": "白色之城，大西洋明珠",
+    "description": "摩洛哥最大城市，大西洋畔的经济中心，哈桑二世清真寺壮观。"
+  },
+  {
+    "key": "Marrakech_Morocco",
+    "tagline": "红城之都，沙漠门户",
+    "description": "摩洛哥红城，杰马广场热闹非凡，撒哈拉沙漠的门户。"
+  },
+  {
+    "key": "Lagos_Nigeria",
+    "tagline": "西非之心，活力之都",
+    "description": "尼日利亚最大城市，西非经济中心，非洲最具活力的城市。"
+  },
+  {
+    "key": "Nairobi_Kenya",
+    "tagline": "绿色之城，东非之心",
+    "description": "肯尼亚首都，东非最大城市，野生动物国家公园独特。"
+  },
+  {
+    "key": "Cape Town_South Africa",
+    "tagline": "母亲之城，桌山之下",
+    "description": "南非立法首都，桌山与好望角，非洲最南端的美丽城市。"
+  },
+  {
+    "key": "Johannesburg_South Africa",
+    "tagline": "黄金之城，非洲经济之都",
+    "description": "南非最大城市，非洲经济中心，黄金之城。"
+  },
+  {
+    "key": "Pretoria_South Africa",
+    "tagline": "紫薇花城，行政之都",
+    "description": "南非行政首都，紫薇花之城，联合大厦庄严壮观。"
+  },
+  {
+    "key": "Durban_South Africa",
+    "tagline": "印度洋畔，冲浪之城",
+    "description": "南非第三大城市，印度洋畔的海滨城市，冲浪胜地。"
+  },
+  {
+    "key": "Addis Ababa_Ethiopia",
+    "tagline": "新鲜之花，非洲之都",
+    "description": "埃塞俄比亚首都，非洲联盟总部所在地，高原古城。"
+  },
+  {
+    "key": "Dar es Salaam_Tanzania",
+    "tagline": "和平之港，东非门户",
+    "description": "坦桑尼亚最大城市和经济中心，印度洋畔的和平港。"
+  },
+  {
+    "key": "Accra_Ghana",
+    "tagline": "黄金海岸，自由之城",
+    "description": "加纳首都，几内亚湾畔的西非明珠，独立广场标志自由。"
+  },
+  {
+    "key": "Dakar_Senegal",
+    "tagline": "大陆之西，非洲之门",
+    "description": "塞内加尔首都，非洲大陆最西端的城市，戈雷岛铭记历史。"
+  },
+  {
+    "key": "Kinshasa_DR Congo",
+    "tagline": "刚果河畔，非洲之心",
+    "description": "刚果民主共和国首都，非洲第三大城市，刚果河畔。"
+  },
+  {
+    "key": "Tunis_Tunisia",
+    "tagline": "迦太基故里，地中海之星",
+    "description": "突尼斯首都，迦太基古城遗址所在，地中海畔的北非名城。"
+  },
+  {
+    "key": "Algiers_Algeria",
+    "tagline": "白色之城，北非门户",
+    "description": "阿尔及利亚首都，白色之城，地中海畔的北非大都市。"
+  },
+  {
+    "key": "Kampala_Uganda",
+    "tagline": "七丘之城，东非明珠",
+    "description": "乌干达首都，坐落在七座山丘上的东非明珠。"
+  },
+  {
+    "key": "Luanda_Angola",
+    "tagline": "大西洋之畔，石油之城",
+    "description": "安哥拉首都，大西洋畔的石油之城，非洲发展最快的城市之一。"
+  },
+  {
+    "key": "Sydney_Australia",
+    "tagline": "海港之城，南半球明珠",
+    "description": "澳大利亚最大城市，悉尼歌剧院与海港大桥举世闻名。"
+  },
+  {
+    "key": "Melbourne_Australia",
+    "tagline": "文化之都，咖啡之城",
+    "description": "澳大利亚文化之都，咖啡文化与街头艺术，全球最宜居城市。"
+  },
+  {
+    "key": "Brisbane_Australia",
+    "tagline": "阳光之城，大堡礁门户",
+    "description": "澳大利亚第三大城市，阳光之都，通往大堡礁的门户。"
+  },
+  {
+    "key": "Perth_Australia",
+    "tagline": "天鹅之城，西澳明珠",
+    "description": "澳大利亚西海岸最大城市，世界最孤立的大城市。"
+  },
+  {
+    "key": "Auckland_New Zealand",
+    "tagline": "千帆之都，帆船天堂",
+    "description": "新西兰最大城市，千帆之都，两大海港环抱的帆船天堂。"
+  },
+  {
+    "key": "Wellington_New Zealand",
+    "tagline": "风之城，世界之南",
+    "description": "新西兰首都，世界最南端的首都之一，风之城。"
+  },
+  {
+    "key": "Adelaide_Australia",
+    "tagline": "葡萄酒之都，节庆之城",
+    "description": "南澳大利亚首府，葡萄酒之都，节庆之城。"
+  },
+  {
+    "key": "Gold Coast_Australia",
+    "tagline": "冲浪天堂，黄金海岸",
+    "description": "澳大利亚著名海滨度假城市，冲浪者天堂闻名于世。"
+  },
+  {
+    "key": "Canberra_Australia",
+    "tagline": "丛林之都，花园首都",
+    "description": "澳大利亚首都，规划精美的花园城市，国会大厦所在地。"
+  },
+  {
+    "key": "Honolulu_United States",
+    "tagline": "太平洋天堂，阿罗哈之城",
+    "description": "夏威夷首府，太平洋上的热带天堂，威基基海滩闻名于世。"
+  },
+  {
+    "key": "Phnom Penh_Cambodia",
+    "tagline": "高棉之珠，湄公之畔",
+    "description": "柬埔寨首都，湄公河畔的古老城市，高棉文明的现代中心。"
+  },
+  {
+    "key": "Yangon_Myanmar",
+    "tagline": "大金塔之城，东方花园",
+    "description": "缅甸最大城市，大金塔金碧辉煌，殖民时代建筑保存完好。"
+  },
+  {
+    "key": "Vientiane_Laos",
+    "tagline": "檀香之城，湄公河畔",
+    "description": "老挝首都，湄公河畔最宁静的东南亚首都，塔銮寺闻名。"
+  },
+  {
+    "key": "Colombo_Sri Lanka",
+    "tagline": "印度洋明珠，锡兰之光",
+    "description": "斯里兰卡最大城市，印度洋畔的热带商业中心。"
+  },
+  {
+    "key": "Kathmandu_Nepal",
+    "tagline": "喜马拉雅之门，神灵之都",
+    "description": "尼泊尔首都，喜马拉雅山脚下的古都，佛教与印度教圣地。"
+  },
+  {
+    "key": "Ulaanbaatar_Mongolia",
+    "tagline": "草原之都，长生天下",
+    "description": "蒙古国首都，草原之国的唯一大都市，成吉思汗的后裔之城。"
+  },
+  {
+    "key": "Tashkent_Uzbekistan",
+    "tagline": "石头之城，丝路明珠",
+    "description": "乌兹别克斯坦首都，中亚最大城市，丝绸之路古城。"
+  },
+  {
+    "key": "Almaty_Kazakhstan",
+    "tagline": "苹果之城，天山脚下",
+    "description": "哈萨克斯坦最大城市，天山脚下的苹果之城。"
+  },
+  {
+    "key": "Baku_Azerbaijan",
+    "tagline": "风之城，里海明珠",
+    "description": "阿塞拜疆首都，里海畔的石油之城，古城与现代建筑并存。"
+  },
+  {
+    "key": "Tbilisi_Georgia",
+    "tagline": "温泉之城，高加索明珠",
+    "description": "格鲁吉亚首都，高加索山脉中的温泉古城，葡萄酒之乡。"
+  },
+  {
+    "key": "Beirut_Lebanon",
+    "tagline": "不死鸟之城，东方巴黎",
+    "description": "黎巴嫩首都，地中海畔的东方巴黎，历史文化名城。"
+  },
+  {
+    "key": "Tel Aviv_Israel",
+    "tagline": "白城之都，创新之城",
+    "description": "以色列经济文化中心，地中海畔的白城，创新科技之都。"
+  },
+  {
+    "key": "Jerusalem_Israel",
+    "tagline": "圣城耶路撒冷，信仰之都",
+    "description": "三大宗教圣城，犹太教、基督教和伊斯兰教的圣地。"
+  },
+  {
+    "key": "Amman_Jordan",
+    "tagline": "白色之城，七丘之都",
+    "description": "约旦首都，建在七座山丘上的白色之城，通往佩特拉的门户。"
+  },
+  {
+    "key": "Muscat_Oman",
+    "tagline": "海湾明珠，乳香之国",
+    "description": "阿曼首都，群山与海洋环抱的海湾城市，苏丹卡布斯大清真寺。"
+  },
+  {
+    "key": "Suva_Fiji",
+    "tagline": "南太平洋之心，热带天堂",
+    "description": "斐济首都，南太平洋岛国的热带天堂城市。"
+  },
+  {
+    "key": "Bandung_Indonesia",
+    "tagline": "花之城，万隆精神",
+    "description": "印尼第三大城市，万隆会议举办地，高原花园城市。"
+  },
+  {
+    "key": "Surabaya_Indonesia",
+    "tagline": "英雄之城，东爪哇门户",
+    "description": "印尼第二大城市，英雄之城，东爪哇省首府。"
+  },
+  {
+    "key": "Johor Bahru_Malaysia",
+    "tagline": "南方门户，新马之桥",
+    "description": "马来西亚南部城市，与新加坡一桥之隔。"
+  },
+  {
+    "key": "Penang_Malaysia",
+    "tagline": "东方之珠，街头美食圣地",
+    "description": "马来西亚槟城，世界文化遗产乔治城所在地，美食天堂。"
+  },
+  {
+    "key": "Cebu_Philippines",
+    "tagline": "南方皇后，海岛天堂",
+    "description": "菲律宾第二大城市，南方皇后城，热带海岛度假胜地。"
+  },
+  {
+    "key": "Chiang Mai_Thailand",
+    "tagline": "北方玫瑰，兰纳古都",
+    "description": "泰国北部最大城市，兰纳王国古都，寺庙与夜市之城。"
+  },
+  {
+    "key": "Phuket_Thailand",
+    "tagline": "安达曼明珠，度假天堂",
+    "description": "泰国最大海岛，安达曼海上的度假天堂，热带海滩闻名。"
+  },
+  {
+    "key": "Da Nang_Vietnam",
+    "tagline": "中部之心，海滨明珠",
+    "description": "越南中部最大城市，美丽海滩与巴拿山，旅游胜地。"
+  },
+  {
+    "key": "Jaipur_India",
+    "tagline": "粉红之城，王公之都",
+    "description": "印度粉红之城，拉贾斯坦邦首府，宫殿与堡垒之城。"
+  },
+  {
+    "key": "Hyderabad_India",
+    "tagline": "珍珠之城，赛博拉巴德",
+    "description": "印度第四大城市，珍珠之城，IT产业中心。"
+  },
+  {
+    "key": "Ahmedabad_India",
+    "tagline": "甘地之城，纺织之都",
+    "description": "古吉拉特邦最大城市，甘地故居所在地，纺织之都。"
+  },
+  {
+    "key": "Pune_India",
+    "tagline": "东方牛津，教育之城",
+    "description": "印度教育之都，马哈拉施特拉邦第二大城市，IT中心。"
+  },
+  {
+    "key": "Fukuoka_Japan",
+    "tagline": "博多风情，亚洲门户",
+    "description": "日本九州最大城市，博多拉面发源地，亚洲门户。"
+  },
+  {
+    "key": "Sapporo_Japan",
+    "tagline": "雪之城，北海道之心",
+    "description": "北海道最大城市，雪之节闻名，1972年冬奥会举办地。"
+  },
+  {
+    "key": "Nanning_China",
+    "tagline": "绿城南宁，东盟之窗",
+    "description": "广西壮族自治区首府，中国-东盟博览会永久举办地，绿城。"
+  },
+  {
+    "key": "Guiyang_China",
+    "tagline": "避暑之都，数谷之城",
+    "description": "贵州省会，避暑之都，大数据产业发展领先城市。"
+  },
+  {
+    "key": "Lanzhou_China",
+    "tagline": "黄河之城，拉面之都",
+    "description": "甘肃省会，黄河穿城而过，兰州拉面闻名天下。"
+  },
+  {
+    "key": "Hefei_China",
+    "tagline": "科创名城，包公故里",
+    "description": "安徽省会，中国科学技术大学所在地，创新之城。"
+  },
+  {
+    "key": "Fuzhou_China",
+    "tagline": "榕城福地，海丝起点",
+    "description": "福建省会，榕树之城，海上丝绸之路重要节点。"
+  },
+  {
+    "key": "Nanchang_China",
+    "tagline": "英雄城市，滕王阁下",
+    "description": "江西省会，八一起义之城，滕王阁千古留名。"
+  },
+  {
+    "key": "Jinan_China",
+    "tagline": "泉城济南，齐鲁之心",
+    "description": "山东省会，泉城之称，趵突泉天下第一泉。"
+  },
+  {
+    "key": "Taiyuan_China",
+    "tagline": "龙城太原，面食之都",
+    "description": "山西省会，龙城之称，晋祠与面食文化闻名。"
+  },
+  {
+    "key": "Haikou_China",
+    "tagline": "椰城海口，自贸新港",
+    "description": "海南省会，中国自由贸易港核心城市，热带海滨之城。"
+  },
+  {
+    "key": "Tangshan_China",
+    "tagline": "钢铁之城，浴火重生",
+    "description": "河北重要工业城市，凤凰涅槃的抗震名城。"
+  },
+  {
+    "key": "Baoding_China",
+    "tagline": "直隶古城，京畿重地",
+    "description": "历史文化名城，直隶总督署所在地，驴肉火烧闻名。"
+  },
+  {
+    "key": "Langfang_China",
+    "tagline": "京津走廊，连京通津",
+    "description": "京津之间新兴城市，京津冀协同发展前沿。"
+  },
+  {
+    "key": "Handan_China",
+    "tagline": "成语之都，赵国故地",
+    "description": "成语典故之都，赵国古都，太极拳发源地。"
+  },
+  {
+    "key": "Xingtai_China",
+    "tagline": "牛城古韵，三千年邢",
+    "description": "华北历史名城，三千年古城，牛城之称。"
+  },
+  {
+    "key": "Cangzhou_China",
+    "tagline": "武术之乡，运河古城",
+    "description": "武术之乡，铁狮子闻名，京杭运河沿线名城。"
+  },
+  {
+    "key": "Hengshui_China",
+    "tagline": "湖城衡水，教育名城",
+    "description": "衡水湖畔，以教育闻名的华北平原城市。"
+  },
+  {
+    "key": "Qinhuangdao_China",
+    "tagline": "长城入海，避暑胜地",
+    "description": "万里长城入海处，北戴河所在的海滨旅游城市。"
+  },
+  {
+    "key": "Zhangjiakou_China",
+    "tagline": "冬奥之城，塞外明珠",
+    "description": "冬奥之城，塞外山城，京张铁路终点。"
+  },
+  {
+    "key": "Chengde_China",
+    "tagline": "皇家避暑，山庄古城",
+    "description": "避暑山庄所在地，清代皇家园林之都。"
+  },
+  {
+    "key": "Datong_China",
+    "tagline": "云冈石窟，北魏古都",
+    "description": "云冈石窟所在地，北魏古都，煤都之称。"
+  },
+  {
+    "key": "Changzhi_China",
+    "tagline": "上党古城，太行之脊",
+    "description": "上党古城，太行山区的红色革命圣地。"
+  },
+  {
+    "key": "Linfen_China",
+    "tagline": "尧都平阳，华夏之源",
+    "description": "尧都平阳，华夏文明重要发祥地。"
+  },
+  {
+    "key": "Yuncheng_China",
+    "tagline": "关公故里，盐湖古城",
+    "description": "关公故里，盐湖之城，中华文明摇篮。"
+  },
+  {
+    "key": "Hohhot_China",
+    "tagline": "青色之城，草原乳都",
+    "description": "内蒙古自治区首府，青色之城，乳都之称。"
+  },
+  {
+    "key": "Baotou_China",
+    "tagline": "草原钢城，稀土之都",
+    "description": "草原钢城，稀土之都，黄河之畔的重工业基地。"
+  },
+  {
+    "key": "Ordos_China",
+    "tagline": "能源之都，天骄圣地",
+    "description": "能源之城，成吉思汗陵所在地。"
+  },
+  {
+    "key": "Yinchuan_China",
+    "tagline": "塞上江南，西夏古都",
+    "description": "宁夏首府，塞上江南，西夏王朝故都。"
+  },
+  {
+    "key": "Xining_China",
+    "tagline": "高原古城，夏都西宁",
+    "description": "青海省会，高原古城，通往西藏的门户。"
+  },
+  {
+    "key": "Jilin_China",
+    "tagline": "雾凇之都，北国江城",
+    "description": "雾凇之都，松花江畔的北国江城。"
+  },
+  {
+    "key": "Changchun_China",
+    "tagline": "汽车之城，北国春城",
+    "description": "吉林省会，中国汽车工业摇篮，电影城。"
+  },
+  {
+    "key": "Daqing_China",
+    "tagline": "石油之都，铁人故乡",
+    "description": "中国石油之都，铁人精神发源地。"
+  },
+  {
+    "key": "Qiqihar_China",
+    "tagline": "鹤城齐齐哈尔，丹顶鹤故乡",
+    "description": "丹顶鹤故乡，嫩江之畔的绿色城市。"
+  },
+  {
+    "key": "Mudanjiang_China",
+    "tagline": "雪乡之门，镜泊湖畔",
+    "description": "镜泊湖畔，雪乡所在的北国名城。"
+  },
+  {
+    "key": "Jiamusi_China",
+    "tagline": "东极之城，三江沃野",
+    "description": "三江平原中心城市，东极之城。"
+  },
+  {
+    "key": "Dandong_China",
+    "tagline": "鸭绿江畔，英雄之城",
+    "description": "中朝边境城市，鸭绿江畔的英雄城市。"
+  },
+  {
+    "key": "Anshan_China",
+    "tagline": "钢铁之都，千山脚下",
+    "description": "钢都之称，千山风景区所在地。"
+  },
+  {
+    "key": "Fushun_China",
+    "tagline": "雷锋之城，煤都抚顺",
+    "description": "雷锋精神发源地，煤都之称。"
+  },
+  {
+    "key": "Yingkou_China",
+    "tagline": "辽东湾畔，百年港城",
+    "description": "辽东湾畔港口城市，东北最早的通商口岸。"
+  },
+  {
+    "key": "Jinzhou_China",
+    "tagline": "辽西重镇，烧烤名城",
+    "description": "辽西走廊重镇，烧烤之城。"
+  },
+  {
+    "key": "Luoyang_China",
+    "tagline": "十三朝古都，牡丹花城",
+    "description": "十三朝古都，龙门石窟所在地，牡丹之城。"
+  },
+  {
+    "key": "Kaifeng_China",
+    "tagline": "八朝古都，东京梦华",
+    "description": "八朝古都，清明上河图原型之城。"
+  },
+  {
+    "key": "Nanyang_China",
+    "tagline": "卧龙之地，玉都南阳",
+    "description": "诸葛亮躬耕之地，南水北调中线水源地。"
+  },
+  {
+    "key": "Xinxiang_China",
+    "tagline": "豫北门户，牧野大地",
+    "description": "豫北重镇，郭亮村挂壁公路闻名于世。"
+  },
+  {
+    "key": "Anyang_China",
+    "tagline": "殷商古都，文字之源",
+    "description": "殷墟所在地，甲骨文发现之城，中华文字之源。"
+  },
+  {
+    "key": "Shangqiu_China",
+    "tagline": "华商之都，三商之源",
+    "description": "商文化发源地，华商之都。"
+  },
+  {
+    "key": "Zhoukou_China",
+    "tagline": "伏羲故都，道源圣地",
+    "description": "伏羲故都，老子故里，中原文化重镇。"
+  },
+  {
+    "key": "Xinyang_China",
+    "tagline": "毛尖之乡，北国江南",
+    "description": "信阳毛尖产地，鸡公山避暑胜地。"
+  },
+  {
+    "key": "Yichang_China",
+    "tagline": "三峡门户，水电之都",
+    "description": "三峡门户，水电之都，屈原故里。"
+  },
+  {
+    "key": "Xiangyang_China",
+    "tagline": "铁打襄阳，兵家重地",
+    "description": "兵家必争之地，三国文化名城。"
+  },
+  {
+    "key": "Jingzhou_China",
+    "tagline": "楚国故都，三国名城",
+    "description": "楚文化发祥地，三国古城。"
+  },
+  {
+    "key": "Huangshi_China",
+    "tagline": "矿冶之城，青铜故里",
+    "description": "矿冶之城，青铜古都。"
+  },
+  {
+    "key": "Xiaogan_China",
+    "tagline": "孝文化之乡，董永故里",
+    "description": "孝文化之乡，董永故里。"
+  },
+  {
+    "key": "Zhuzhou_China",
+    "tagline": "动力之都，火车拉来的城市",
+    "description": "中国动力谷，轨道交通装备制造基地。"
+  },
+  {
+    "key": "Xiangtan_China",
+    "tagline": "伟人故里，莲城湘潭",
+    "description": "伟人故里，湘莲之乡。"
+  },
+  {
+    "key": "Yueyang_China",
+    "tagline": "岳阳天下楼，洞庭天下水",
+    "description": "岳阳楼所在地，洞庭湖畔名城。"
+  },
+  {
+    "key": "Hengyang_China",
+    "tagline": "雁城衡阳，南岳圣地",
+    "description": "南岳衡山所在地，雁城之称。"
+  },
+  {
+    "key": "Changde_China",
+    "tagline": "桃花源里，鱼米之乡",
+    "description": "桃花源记所述之地，洞庭鱼米之乡。"
+  },
+  {
+    "key": "Yongzhou_China",
+    "tagline": "潇湘之源，柳子故地",
+    "description": "柳宗元笔下名城，潇湘之源。"
+  },
+  {
+    "key": "Wenzhou_China",
+    "tagline": "商行天下，温商之城",
+    "description": "中国民营经济先发地，温商闻名天下。"
+  },
+  {
+    "key": "Jinhua_China",
+    "tagline": "火腿之乡，小商品之都",
+    "description": "火腿之乡，义乌小商品市场所在地。"
+  },
+  {
+    "key": "Taizhou_China",
+    "tagline": "山海水城，和合圣地",
+    "description": "浙东沿海城市，民营经济活跃之地。"
+  },
+  {
+    "key": "Shaoxing_China",
+    "tagline": "鲁迅故里，黄酒之乡",
+    "description": "鲁迅故里，黄酒之都，水乡古城。"
+  },
+  {
+    "key": "Jiaxing_China",
+    "tagline": "红船启航，鱼米之乡",
+    "description": "南湖红船所在地，鱼米之乡。"
+  },
+  {
+    "key": "Huzhou_China",
+    "tagline": "丝绸之府，绿水青山",
+    "description": "丝绸之府，太湖南岸的生态之城。"
+  },
+  {
+    "key": "Quzhou_China",
+    "tagline": "南孔圣地，四省通衢",
+    "description": "南孔圣地，四省通衢之城。"
+  },
+  {
+    "key": "Lishui_China",
+    "tagline": "秀山丽水，摄影之乡",
+    "description": "浙南生态城市，中国摄影之乡。"
+  },
+  {
+    "key": "Zhoushan_China",
+    "tagline": "千岛之城，海天佛国",
+    "description": "中国最大群岛城市，普陀山所在地。"
+  },
+  {
+    "key": "Yangzhou_China",
+    "tagline": "烟花三月，淮扬美食",
+    "description": "古运河名城，瘦西湖闻名，淮扬菜发源地。"
+  },
+  {
+    "key": "Zhenjiang_China",
+    "tagline": "金山寺畔，醋都镇江",
+    "description": "金山寺所在地，镇江香醋闻名天下。"
+  },
+  {
+    "key": "Taizhou_JS_China",
+    "tagline": "水城慢生活，凤城河畔",
+    "description": "水城慢生活，梅兰芳故里。"
+  },
+  {
+    "key": "Nantong_China",
+    "tagline": "近代第一城，江海门户",
+    "description": "近代第一城，江海交汇之地。"
+  },
+  {
+    "key": "Yancheng_China",
+    "tagline": "鹤鹿故乡，湿地之都",
+    "description": "丹顶鹤湿地之城，世界自然遗产所在地。"
+  },
+  {
+    "key": "Huaian_China",
+    "tagline": "总理故里，运河之都",
+    "description": "淮扬菜之乡，周恩来总理故里。"
+  },
+  {
+    "key": "Lianyungang_China",
+    "tagline": "花果山下，港通四海",
+    "description": "花果山所在地，新亚欧大陆桥东方桥头堡。"
+  },
+  {
+    "key": "Xuzhou_China",
+    "tagline": "五省通衢，两汉文化",
+    "description": "五省通衢，两汉文化发源地。"
+  },
+  {
+    "key": "Suqian_China",
+    "tagline": "项王故里，酒都宿迁",
+    "description": "项羽故里，洋河酒乡。"
+  },
+  {
+    "key": "Wuhu_China",
+    "tagline": "皖江明珠，欢乐芜湖",
+    "description": "长江巨埠，皖江明珠，方特主题乐园所在地。"
+  },
+  {
+    "key": "Bengbu_China",
+    "tagline": "珠城蚌埠，淮河明珠",
+    "description": "珠城之称，淮河流域中心城市。"
+  },
+  {
+    "key": "Huangshan_China",
+    "tagline": "天下第一奇山，徽韵古城",
+    "description": "黄山风景区所在地，徽文化发源地。"
+  },
+  {
+    "key": "Maanshan_China",
+    "tagline": "诗城马鞍山，钢铁新城",
+    "description": "诗城之称，李白终老之地。"
+  },
+  {
+    "key": "Anqing_China",
+    "tagline": "黄梅之乡，皖江名城",
+    "description": "黄梅戏之乡，天柱山所在地。"
+  },
+  {
+    "key": "Quanzhou_China",
+    "tagline": "海丝起点，多元之城",
+    "description": "海上丝绸之路起点，世界文化遗产之城。"
+  },
+  {
+    "key": "Zhangzhou_China",
+    "tagline": "花果之城，闽南水乡",
+    "description": "花果之乡，闽南文化重要城市。"
+  },
+  {
+    "key": "Putian_China",
+    "tagline": "妈祖故里，文献名邦",
+    "description": "妈祖文化发源地，莆仙戏之乡。"
+  },
+  {
+    "key": "Sanming_China",
+    "tagline": "绿都三明，沙县美食",
+    "description": "福建绿色宝库，沙县小吃之乡。"
+  },
+  {
+    "key": "Longyan_China",
+    "tagline": "客家祖地，土楼之乡",
+    "description": "客家祖地，福建土楼所在地。"
+  },
+  {
+    "key": "Nanping_China",
+    "tagline": "武夷山水，朱子故里",
+    "description": "武夷山所在地，朱子理学发源地。"
+  },
+  {
+    "key": "Ningde_China",
+    "tagline": "新能源之都，山海宁德",
+    "description": "锂电新能源之城，白水洋鸳鸯溪景区。"
+  },
+  {
+    "key": "Ganzhou_China",
+    "tagline": "客家摇篮，橙乡赣州",
+    "description": "客家摇篮，赣南脐橙之乡。"
+  },
+  {
+    "key": "Jingdezhen_China",
+    "tagline": "千年瓷都，匠心之城",
+    "description": "世界瓷都，千年陶瓷文化之城。"
+  },
+  {
+    "key": "Shangrao_China",
+    "tagline": "三清天下秀，最美乡村",
+    "description": "三清山所在地，婺源油菜花闻名。"
+  },
+  {
+    "key": "Jiujiang_China",
+    "tagline": "庐山之城，浔阳古郡",
+    "description": "庐山所在地，浔阳江头名城。"
+  },
+  {
+    "key": "Yichun_JX_China",
+    "tagline": "月亮之都，禅宗圣地",
+    "description": "月亮之都，温泉之城。"
+  },
+  {
+    "key": "Weifang_China",
+    "tagline": "风筝之都，鸢都潍坊",
+    "description": "世界风筝之都，蔬菜之乡。"
+  },
+  {
+    "key": "Yantai_China",
+    "tagline": "仙境海岸，葡萄酒城",
+    "description": "葡萄酒之城，蓬莱仙境所在地。"
+  },
+  {
+    "key": "Weihai_China",
+    "tagline": "精致城市，宜居威海",
+    "description": "最适合人类居住的海滨城市之一。"
+  },
+  {
+    "key": "Linyi_China",
+    "tagline": "沂蒙精神，商贸名城",
+    "description": "沂蒙山区中心城市，物流之都。"
+  },
+  {
+    "key": "Jining_China",
+    "tagline": "孔孟之乡，礼仪之邦",
+    "description": "孔孟之乡，运河之都。"
+  },
+  {
+    "key": "Zaozhuang_China",
+    "tagline": "运河古城，英雄之地",
+    "description": "台儿庄古城所在地，铁道游击队故乡。"
+  },
+  {
+    "key": "Dezhou_China",
+    "tagline": "扒鸡之乡，太阳城",
+    "description": "德州扒鸡闻名，太阳能之城。"
+  },
+  {
+    "key": "Liaocheng_China",
+    "tagline": "江北水城，运河古都",
+    "description": "江北水城，运河古都。"
+  },
+  {
+    "key": "Binzhou_China",
+    "tagline": "孙子故里，黄河之洲",
+    "description": "孙子故里，黄河三角洲中心城市。"
+  },
+  {
+    "key": "Dongying_China",
+    "tagline": "石油之城，黄河入海",
+    "description": "胜利油田所在地，黄河入海口之城。"
+  },
+  {
+    "key": "Heze_China",
+    "tagline": "牡丹之都，曹州古城",
+    "description": "牡丹之都，武术之乡。"
+  },
+  {
+    "key": "Zibo_China",
+    "tagline": "齐国故都，烧烤之城",
+    "description": "齐国故都，烧烤名城，琉璃之乡。"
+  },
+  {
+    "key": "Tai'an_China",
+    "tagline": "五岳独尊，国泰民安",
+    "description": "泰山所在地，五岳之首。"
+  },
+  {
+    "key": "Liuzhou_China",
+    "tagline": "螺蛳粉之都，紫荆花城",
+    "description": "螺蛳粉之都，工业名城，紫荆花城。"
+  },
+  {
+    "key": "Guilin_China",
+    "tagline": "山水甲天下，漓江画廊",
+    "description": "山水甲天下，漓江之畔的国际旅游名城。"
+  },
+  {
+    "key": "Beihai_China",
+    "tagline": "银滩天下，南珠之乡",
+    "description": "银滩闻名的海滨城市，南珠之乡。"
+  },
+  {
+    "key": "Yulin_GX_China",
+    "tagline": "岭南都会，中药之都",
+    "description": "桂东南中心城市，中药材之都。"
+  },
+  {
+    "key": "Wuzhou_China",
+    "tagline": "百年商埠，六堡茶乡",
+    "description": "岭南文化发祥地，六堡茶之乡。"
+  },
+  {
+    "key": "Zhongshan_China",
+    "tagline": "伟人故里，博爱之城",
+    "description": "孙中山故里，伟人故乡。"
+  },
+  {
+    "key": "Jiangmen_China",
+    "tagline": "中国侨都，五邑名城",
+    "description": "中国第一侨乡，五邑文化之城。"
+  },
+  {
+    "key": "Huizhou_China",
+    "tagline": "半城山色半城湖，岭南名郡",
+    "description": "西湖之畔，岭南名郡，电子信息产业重镇。"
+  },
+  {
+    "key": "Shantou_China",
+    "tagline": "潮汕之心，美食之城",
+    "description": "潮汕文化中心，经济特区，美食之都。"
+  },
+  {
+    "key": "Chaozhou_China",
+    "tagline": "潮文化故乡，工夫茶之都",
+    "description": "潮文化发源地，工夫茶之乡，古城文化名城。"
+  },
+  {
+    "key": "Jieyang_China",
+    "tagline": "亚洲玉都，潮汕名城",
+    "description": "玉都之称，潮汕平原中心城市。"
+  },
+  {
+    "key": "Zhanjiang_China",
+    "tagline": "南海明珠，海鲜之都",
+    "description": "南海之滨港口城市，海鲜之都。"
+  },
+  {
+    "key": "Maoming_China",
+    "tagline": "南方油城，荔枝之乡",
+    "description": "南方油城，荔枝之乡。"
+  },
+  {
+    "key": "Shaoguan_China",
+    "tagline": "丹霞名山，粤北门户",
+    "description": "丹霞山所在地，粤北门户。"
+  },
+  {
+    "key": "Qingyuan_China",
+    "tagline": "漂流之乡，珠三角后花园",
+    "description": "漂流之乡，清远鸡闻名。"
+  },
+  {
+    "key": "Mianyang_China",
+    "tagline": "科技之城，李白故里",
+    "description": "中国科技城，李白故里。"
+  },
+  {
+    "key": "Deyang_China",
+    "tagline": "三星堆故里，重装之都",
+    "description": "三星堆所在地，重装之都。"
+  },
+  {
+    "key": "Leshan_China",
+    "tagline": "大佛之城，峨眉山下",
+    "description": "乐山大佛所在地，峨眉山脚下。"
+  },
+  {
+    "key": "Neijiang_China",
+    "tagline": "甜城内江，书画之乡",
+    "description": "甜城之称，书画之乡。"
+  },
+  {
+    "key": "Zigong_China",
+    "tagline": "千年盐都，彩灯之城",
+    "description": "千年盐都，恐龙之乡，彩灯之城。"
+  },
+  {
+    "key": "Yibin_China",
+    "tagline": "长江首城，酒都宜宾",
+    "description": "万里长江第一城，五粮液之乡。"
+  },
+  {
+    "key": "Luzhou_China",
+    "tagline": "中国酒城，醉美泸州",
+    "description": "酒城泸州，泸州老窖故乡。"
+  },
+  {
+    "key": "Suining_China",
+    "tagline": "观音故里，成渝之心",
+    "description": "观音文化之乡，成渝之心。"
+  },
+  {
+    "key": "Nanchong_China",
+    "tagline": "丝绸之城，将帅故里",
+    "description": "丝绸之城，三国文化名城，朱德故里。"
+  },
+  {
+    "key": "Guang'an_China",
+    "tagline": "伟人故里，川东明珠",
+    "description": "邓小平故里，川东门户。"
+  },
+  {
+    "key": "Dazhou_China",
+    "tagline": "巴人故里，中国气都",
+    "description": "巴人故里，中国气都。"
+  },
+  {
+    "key": "Panzhihua_China",
+    "tagline": "阳光花城，钒钛之都",
+    "description": "钒钛之都，阳光花城。"
+  },
+  {
+    "key": "Dali_China",
+    "tagline": "风花雪月，苍洱之间",
+    "description": "苍山洱海，南诏古国，风花雪月之城。"
+  },
+  {
+    "key": "Lijiang_China",
+    "tagline": "纳西古城，雪山之下",
+    "description": "纳西古城，玉龙雪山所在地。"
+  },
+  {
+    "key": "Qujing_China",
+    "tagline": "珠江之源，滇东重镇",
+    "description": "珠江源头，滇东门户。"
+  },
+  {
+    "key": "Yuxi_China",
+    "tagline": "云烟之乡，聂耳故里",
+    "description": "聂耳故乡，云烟之都。"
+  },
+  {
+    "key": "Zunyi_China",
+    "tagline": "转折之城，茅台之乡",
+    "description": "遵义会议永载史册，茅台酒乡。"
+  },
+  {
+    "key": "Liupanshui_China",
+    "tagline": "中国凉都，乌蒙腹地",
+    "description": "中国凉都，避暑胜地。"
+  },
+  {
+    "key": "Kaili_China",
+    "tagline": "苗侗之都，百节之乡",
+    "description": "苗族文化中心，西江千户苗寨所在地。"
+  },
+  {
+    "key": "Kashgar_China",
+    "tagline": "丝路明珠，西域古城",
+    "description": "丝绸之路重镇，西域文化名城。"
+  },
+  {
+    "key": "Turpan_China",
+    "tagline": "火洲之城，葡萄之乡",
+    "description": "火焰山所在地，葡萄之乡，中国最热城市。"
+  },
+  {
+    "key": "Korla_China",
+    "tagline": "梨城库尔勒，南疆明珠",
+    "description": "梨城之称，南疆交通枢纽。"
+  },
+  {
+    "key": "Dunhuang_China",
+    "tagline": "飞天故乡，丝路圣地",
+    "description": "莫高窟所在地，丝绸之路文化圣地。"
+  },
+  {
+    "key": "Tianshui_China",
+    "tagline": "羲皇故里，麦积山下",
+    "description": "麦积山石窟所在地，伏羲文化之都。"
+  },
+  {
+    "key": "Jiayuguan_China",
+    "tagline": "天下第一关，丝路咽喉",
+    "description": "天下第一雄关，万里长城西端起点。"
+  },
+  {
+    "key": "Zhangye_China",
+    "tagline": "七彩丹霞，金张掖",
+    "description": "七彩丹霞地貌闻名于世，河西走廊名城。"
+  },
+  {
+    "key": "Sanya_China",
+    "tagline": "天涯海角，热带天堂",
+    "description": "中国热带海滨旅游城市，天涯海角所在地。"
+  },
+  {
+    "key": "Wanning_China",
+    "tagline": "冲浪圣地，长寿之乡",
+    "description": "冲浪之都，世界长寿之乡。"
+  },
+  {
+    "key": "Kobe_Japan",
+    "tagline": "港都之城，和牛之乡",
+    "description": "国际港口城市，神户牛肉闻名全球。"
+  },
+  {
+    "key": "Nara_Japan",
+    "tagline": "古都风韵，鹿鸣春日",
+    "description": "日本古都，东大寺与梅花鹿闻名。"
+  },
+  {
+    "key": "Hiroshima_Japan",
+    "tagline": "和平之城，浴火重生",
+    "description": "和平纪念之城，广岛烧与严岛神社闻名。"
+  },
+  {
+    "key": "Okayama_Japan",
+    "tagline": "晴天之国，桃太郎故乡",
+    "description": "桃太郎传说之城，后乐园三大名园之一。"
+  },
+  {
+    "key": "Kanazawa_Japan",
+    "tagline": "兼六名园，加贺风情",
+    "description": "兼六园所在地，加贺百万石的城下町。"
+  },
+  {
+    "key": "Sendai_Japan",
+    "tagline": "杜之都，伊达之城",
+    "description": "东北第一大城，伊达政宗之城，牛舌之都。"
+  },
+  {
+    "key": "Niigata_Japan",
+    "tagline": "米之故乡，雪国之门",
+    "description": "日本海沿岸最大城市，越光米之乡。"
+  },
+  {
+    "key": "Nagasaki_Japan",
+    "tagline": "异国情调，和平之城",
+    "description": "中西文化交融之城，和平祈念之地。"
+  },
+  {
+    "key": "Kumamoto_Japan",
+    "tagline": "火之国，熊本熊故乡",
+    "description": "熊本城与阿苏火山闻名，熊本熊故乡。"
+  },
+  {
+    "key": "Kagoshima_Japan",
+    "tagline": "火山之城，南国情调",
+    "description": "樱岛火山所在地，萨摩藩故地。"
+  },
+  {
+    "key": "Oita_Japan",
+    "tagline": "温泉之都，地狱巡游",
+    "description": "别府温泉所在地，日本温泉之都。"
+  },
+  {
+    "key": "Matsuyama_Japan",
+    "tagline": "道后温泉，四国之心",
+    "description": "道后温泉所在地，四国最大城市。"
+  },
+  {
+    "key": "Takamatsu_Japan",
+    "tagline": "乌冬之乡，濑户之都",
+    "description": "栗林公园所在地，乌冬面之乡。"
+  },
+  {
+    "key": "Tokushima_Japan",
+    "tagline": "阿波舞之乡，海峡旋涡",
+    "description": "阿波舞发源地，�的尔门海峡旋涡闻名。"
+  },
+  {
+    "key": "Naha_Japan",
+    "tagline": "琉球古都，热带风情",
+    "description": "冲绳首府，琉球文化之城。"
+  },
+  {
+    "key": "Hamamatsu_Japan",
+    "tagline": "乐器之城，鳗鱼之都",
+    "description": "乐器与汽车制造之城，鳗鱼之都。"
+  },
+  {
+    "key": "Shizuoka_Japan",
+    "tagline": "富士山下，茶之故乡",
+    "description": "富士山南麓，绿茶之乡。"
+  },
+  {
+    "key": "Kawasaki_Japan",
+    "tagline": "京浜工业带，创新之城",
+    "description": "东京与横滨之间的工业城市。"
+  },
+  {
+    "key": "Saitama_Japan",
+    "tagline": "首都卫星城，活力之都",
+    "description": "东京都市圈重要城市，铁道博物馆所在地。"
+  },
+  {
+    "key": "Chiba_Japan",
+    "tagline": "海湾之城，空港之都",
+    "description": "东京湾东岸城市，成田机场所在地。"
+  },
+  {
+    "key": "Hakodate_Japan",
+    "tagline": "百万夜景，北国港都",
+    "description": "函馆山夜景闻名世界，北海道南部港口城市。"
+  },
+  {
+    "key": "Asahikawa_Japan",
+    "tagline": "动物园之城，大雪山麓",
+    "description": "旭山动物园闻名，北海道第二大城市。"
+  },
+  {
+    "key": "Otaru_Japan",
+    "tagline": "运河浪漫，玻璃之城",
+    "description": "运河之城，浪漫北国港町。"
+  },
+  {
+    "key": "Kitakyushu_Japan",
+    "tagline": "门司怀旧，工业重镇",
+    "description": "关门海峡畔的工业城市，门司港怀旧区闻名。"
+  },
+  {
+    "key": "Miyazaki_Japan",
+    "tagline": "日向阳光，南国天堂",
+    "description": "日向之国，南国度假胜地。"
+  },
+  {
+    "key": "Saga_Japan",
+    "tagline": "陶瓷之乡，气球之都",
+    "description": "有田烧陶瓷之乡，热气球节闻名。"
+  },
+  {
+    "key": "Nagano_Japan",
+    "tagline": "日本屋脊，冬奥之城",
+    "description": "冬奥之城，善光寺所在地，日本屋脊。"
+  },
+  {
+    "key": "Toyama_Japan",
+    "tagline": "立山黑部，富山之美",
+    "description": "立山黑部所在地，富山湾寿司闻名。"
+  },
+  {
+    "key": "Fukui_Japan",
+    "tagline": "恐龙之城，越前蟹乡",
+    "description": "恐龙博物馆之城，越前蟹之乡。"
+  },
+  {
+    "key": "Daegu_South Korea",
+    "tagline": "纺织之都，苹果之城",
+    "description": "韩国第四大城市，纺织与时尚之都。"
+  },
+  {
+    "key": "Daejeon_South Korea",
+    "tagline": "科技之城，韩国硅谷",
+    "description": "韩国科技中心城市，大田世博会举办地。"
+  },
+  {
+    "key": "Gwangju_South Korea",
+    "tagline": "光之城，艺术之都",
+    "description": "韩国艺术之都，光州事件发生地。"
+  },
+  {
+    "key": "Ulsan_South Korea",
+    "tagline": "工业之都，造船之城",
+    "description": "韩国工业心脏，现代汽车总部所在地。"
+  },
+  {
+    "key": "Changwon_South Korea",
+    "tagline": "机械之都，绿色之城",
+    "description": "韩国机械工业之城，环境友好型城市。"
+  },
+  {
+    "key": "Suwon_South Korea",
+    "tagline": "华城古堡，科技之心",
+    "description": "水原华城世界遗产，三星电子总部。"
+  },
+  {
+    "key": "Seongnam_South Korea",
+    "tagline": "首都卫星城，科技新城",
+    "description": "首尔卫星城，板桥科技谷所在地。"
+  },
+  {
+    "key": "Goyang_South Korea",
+    "tagline": "花卉之城，展览之都",
+    "description": "一山湖水公园与KINTEX展览中心所在地。"
+  },
+  {
+    "key": "Yongin_South Korea",
+    "tagline": "乐园之城，京畿名城",
+    "description": "爱宝乐园所在地，韩国主题公园之城。"
+  },
+  {
+    "key": "Cheongju_South Korea",
+    "tagline": "活字印刷之乡，忠北之心",
+    "description": "韩国最早的金属活字印刷地。"
+  },
+  {
+    "key": "Jeonju_South Korea",
+    "tagline": "美食之都，韩屋古村",
+    "description": "韩国美食之都，韩屋村与拌饭闻名。"
+  },
+  {
+    "key": "Chuncheon_South Korea",
+    "tagline": "湖畔之城，鸡排之都",
+    "description": "江原道首府，鸡排之城，南怡岛所在地。"
+  },
+  {
+    "key": "Gangneung_South Korea",
+    "tagline": "东海之城，冬奥冰场",
+    "description": "东海岸名城，冬奥会冰上比赛举办地。"
+  },
+  {
+    "key": "Gyeongju_South Korea",
+    "tagline": "千年古都，新罗故地",
+    "description": "新罗王朝古都，没有围墙的博物馆。"
+  },
+  {
+    "key": "Pohang_South Korea",
+    "tagline": "钢铁之城，东海之滨",
+    "description": "韩国钢铁之都，浦项制铁总部所在地。"
+  },
+  {
+    "key": "Gimhae_South Korea",
+    "tagline": "伽耶故地，空港之城",
+    "description": "金海国际机场所在地，伽耶古国故地。"
+  },
+  {
+    "key": "Jeju_South Korea",
+    "tagline": "海岛天堂，火山奇观",
+    "description": "韩国最大岛屿城市，火山岛与熔岩洞闻名。"
+  },
+  {
+    "key": "Iksan_South Korea",
+    "tagline": "百济遗风，宝石之城",
+    "description": "百济文化遗产之城，宝石之都。"
+  },
+  {
+    "key": "Gimcheon_South Korea",
+    "tagline": "铁路之城，直指古寺",
+    "description": "韩国铁路枢纽城市，直指寺所在地。"
+  },
+  {
+    "key": "Mokpo_South Korea",
+    "tagline": "港口之城，近代风情",
+    "description": "韩国西南港口城市，海鲜与近代史迹。"
+  },
+  {
+    "key": "Andong_South Korea",
+    "tagline": "儒教之乡，假面舞之城",
+    "description": "韩国儒教文化中心，河回村假面舞闻名。"
+  },
+  {
+    "key": "Cheonan_South Korea",
+    "tagline": "独立之城，忠南之心",
+    "description": "忠南中心城市，独立纪念馆所在地。"
+  },
+  {
+    "key": "Gumi_South Korea",
+    "tagline": "电子之都，科技新城",
+    "description": "韩国电子产业之城，LG故乡。"
+  },
+  {
+    "key": "Lucknow_India",
+    "tagline": "纳瓦布之城，美食之都",
+    "description": "北方邦首府，纳瓦布文化之都，以美食闻名。"
+  },
+  {
+    "key": "Varanasi_India",
+    "tagline": "恒河圣城，永恒之光",
+    "description": "印度教圣城，恒河畔的精神之都。"
+  },
+  {
+    "key": "Agra_India",
+    "tagline": "泰姬陵畔，爱情之城",
+    "description": "泰姬陵所在地，莫卧儿帝国古都。"
+  },
+  {
+    "key": "Kanpur_India",
+    "tagline": "工业之城，皮革之都",
+    "description": "印度工业重镇，皮革工业中心。"
+  },
+  {
+    "key": "Patna_India",
+    "tagline": "古国故都，恒河之城",
+    "description": "比哈尔邦首府，古代摩揭陀王国所在地。"
+  },
+  {
+    "key": "Indore_India",
+    "tagline": "最洁净之城，小吃天堂",
+    "description": "印度最干净的城市，街头小吃之都。"
+  },
+  {
+    "key": "Bhopal_India",
+    "tagline": "湖城博帕尔，中央之心",
+    "description": "中央邦首府，湖城之称。"
+  },
+  {
+    "key": "Nagpur_India",
+    "tagline": "印度之心，橙子之都",
+    "description": "印度地理中心，橙子之都。"
+  },
+  {
+    "key": "Surat_India",
+    "tagline": "钻石之城，丝绸之都",
+    "description": "世界钻石加工中心，印度纺织之城。"
+  },
+  {
+    "key": "Vadodara_India",
+    "tagline": "文化之都，花园之城",
+    "description": "文化之城，巴罗达王国古都。"
+  },
+  {
+    "key": "Rajkot_India",
+    "tagline": "甘地故居，古吉拉特明珠",
+    "description": "甘地少年时代居住之城，手表制造之都。"
+  },
+  {
+    "key": "Coimbatore_India",
+    "tagline": "南方曼彻斯特，工业之城",
+    "description": "南印度曼彻斯特，纺织工业之城。"
+  },
+  {
+    "key": "Madurai_India",
+    "tagline": "神庙之城，南印文化",
+    "description": "米纳克什神庙之城，南印度文化圣地。"
+  },
+  {
+    "key": "Visakhapatnam_India",
+    "tagline": "东海岸明珠，钢铁之城",
+    "description": "东海岸钢铁与港口城市，海滨度假胜地。"
+  },
+  {
+    "key": "Vijayawada_India",
+    "tagline": "胜利之城，河畔商都",
+    "description": "克里希纳河畔城市，安得拉邦商业中心。"
+  },
+  {
+    "key": "Thiruvananthapuram_India",
+    "tagline": "绿色之都，航天之城",
+    "description": "喀拉拉邦首府，印度空间研究中心所在地。"
+  },
+  {
+    "key": "Kochi_India",
+    "tagline": "阿拉伯海女王，香料之港",
+    "description": "阿拉伯海之后，香料贸易名港。"
+  },
+  {
+    "key": "Chandigarh_India",
+    "tagline": "花园之城，规划之都",
+    "description": "柯布西耶规划设计的城市，印度第一规划城。"
+  },
+  {
+    "key": "Amritsar_India",
+    "tagline": "金庙圣城，锡克之心",
+    "description": "锡克教圣城，金庙所在地。"
+  },
+  {
+    "key": "Jodhpur_India",
+    "tagline": "蓝色之城，沙漠明珠",
+    "description": "蓝色之城，梅兰加尔堡闻名。"
+  },
+  {
+    "key": "Udaipur_India",
+    "tagline": "湖城之美，东方威尼斯",
+    "description": "湖之城，印度的威尼斯。"
+  },
+  {
+    "key": "Jaisalmer_India",
+    "tagline": "金色之城，沙漠奇观",
+    "description": "塔尔沙漠中的金色之城。"
+  },
+  {
+    "key": "Mysore_India",
+    "tagline": "宫殿之城，丝绸之乡",
+    "description": "迈索尔王宫之城，丝绸与檀香之都。"
+  },
+  {
+    "key": "Mangalore_India",
+    "tagline": "海港之城，咖啡之乡",
+    "description": "阿拉伯海港口城市，咖啡与腰果之乡。"
+  },
+  {
+    "key": "Bhubaneswar_India",
+    "tagline": "千庙之城，东方之窗",
+    "description": "千庙之城，奥里萨邦首府。"
+  },
+  {
+    "key": "Ranchi_India",
+    "tagline": "瀑布之城，绿色高原",
+    "description": "贾坎德邦首府，瀑布之城。"
+  },
+  {
+    "key": "Guwahati_India",
+    "tagline": "东北之门，大河之城",
+    "description": "东北印度门户，布拉马普特拉河畔之城。"
+  },
+  {
+    "key": "Dehradun_India",
+    "tagline": "山谷之城，军校之都",
+    "description": "北阿坎德邦首府，印度军事学院所在地。"
+  },
+  {
+    "key": "Nashik_India",
+    "tagline": "酒都纳西克，朝圣之城",
+    "description": "印度葡萄酒之都，大壶节举办地。"
+  },
+  {
+    "key": "Aurangabad_India",
+    "tagline": "石窟之门，莫卧儿遗风",
+    "description": "阿旃陀石窟与埃洛拉石窟门户城市。"
+  },
+  {
+    "key": "Raipur_India",
+    "tagline": "钢铁之城，稻米之乡",
+    "description": "恰蒂斯加尔邦首府，钢铁与稻米之城。"
+  },
+  {
+    "key": "Gwalior_India",
+    "tagline": "古堡之城，音乐之乡",
+    "description": "瓜廖尔堡垒闻名，北印度音乐之城。"
+  },
+  {
+    "key": "Tiruchirappalli_India",
+    "tagline": "岩堡之城，南印圣地",
+    "description": "岩堡神庙之城，南印度宗教文化中心。"
+  },
+  {
+    "key": "Pattaya_Thailand",
+    "tagline": "东方夏威夷，不夜之城",
+    "description": "泰国著名海滨度假城市，东方夏威夷。"
+  },
+  {
+    "key": "Chiang Rai_Thailand",
+    "tagline": "白庙之城，金三角门户",
+    "description": "白庙所在地，泰北边境城市。"
+  },
+  {
+    "key": "Ayutthaya_Thailand",
+    "tagline": "暹罗古都，佛塔之城",
+    "description": "暹罗古都，世界文化遗产之城。"
+  },
+  {
+    "key": "Krabi_Thailand",
+    "tagline": "碧海奇岩，攀岩天堂",
+    "description": "安达曼海岸热带度假胜地，攀岩圣地。"
+  },
+  {
+    "key": "Koh Samui_Thailand",
+    "tagline": "椰林海岛，热带天堂",
+    "description": "泰国湾热带岛屿，椰林海滩度假胜地。"
+  },
+  {
+    "key": "Hat Yai_Thailand",
+    "tagline": "泰南商都，边境明珠",
+    "description": "泰南最大商业城市，马来西亚游客热门目的地。"
+  },
+  {
+    "key": "Udon Thani_Thailand",
+    "tagline": "红莲花海，依善门户",
+    "description": "泰国东北部重要城市，红莲湖闻名。"
+  },
+  {
+    "key": "Khon Kaen_Thailand",
+    "tagline": "依善之心，教育之城",
+    "description": "依善地区中心城市，泰国东北教育之都。"
+  },
+  {
+    "key": "Nakhon Ratchasima_Thailand",
+    "tagline": "东北门户，高原之城",
+    "description": "泰国东北门户，考艾国家公园入口。"
+  },
+  {
+    "key": "Hua Hin_Thailand",
+    "tagline": "皇家海滨，优雅度假",
+    "description": "泰国皇家海滨度假城市，优雅宁静。"
+  },
+  {
+    "key": "Siem Reap_Cambodia",
+    "tagline": "吴哥奇迹，高棉微笑",
+    "description": "吴哥窟所在地，世界文化遗产之城。"
+  },
+  {
+    "key": "Sihanoukville_Cambodia",
+    "tagline": "柬埔寨海滨，白沙天堂",
+    "description": "柬埔寨海滨度假城市，白沙滩闻名。"
+  },
+  {
+    "key": "Battambang_Cambodia",
+    "tagline": "米仓之城，殖民遗韵",
+    "description": "柬埔寨第二大城市，殖民时期建筑之城。"
+  },
+  {
+    "key": "Luang Prabang_Laos",
+    "tagline": "佛都古城，僧侣布施",
+    "description": "老挝古都，世界文化遗产，僧侣布施闻名。"
+  },
+  {
+    "key": "Vang Vieng_Laos",
+    "tagline": "冒险乐园，喀斯特仙境",
+    "description": "南松河畔户外运动胜地，喀斯特地貌闻名。"
+  },
+  {
+    "key": "Savannakhet_Laos",
+    "tagline": "湄公河畔，法式遗风",
+    "description": "老挝第二大城市，湄公河畔的殖民古城。"
+  },
+  {
+    "key": "Mandalay_Myanmar",
+    "tagline": "缅甸古都，佛塔之城",
+    "description": "缅甸第二大城市，末代王朝古都。"
+  },
+  {
+    "key": "Bagan_Myanmar",
+    "tagline": "万塔之城，佛国奇观",
+    "description": "万塔之城，缅甸最壮观的佛教遗址。"
+  },
+  {
+    "key": "Inle Lake_Myanmar",
+    "tagline": "水上村落，独脚渔夫",
+    "description": "水上人家，独脚划船的渔民闻名于世。"
+  },
+  {
+    "key": "Hue_Vietnam",
+    "tagline": "皇城古都，诗意之城",
+    "description": "越南古都，阮朝皇城，世界文化遗产。"
+  },
+  {
+    "key": "Hoi An_Vietnam",
+    "tagline": "灯笼古镇，海丝遗韵",
+    "description": "灯笼古城，世界文化遗产港口古镇。"
+  },
+  {
+    "key": "Nha Trang_Vietnam",
+    "tagline": "碧海银沙，潜水天堂",
+    "description": "越南海滨度假圣地，潜水天堂。"
+  },
+  {
+    "key": "Haiphong_Vietnam",
+    "tagline": "凤凰花城，北方大港",
+    "description": "越南第三大城市，北方重要港口。"
+  },
+  {
+    "key": "Can Tho_Vietnam",
+    "tagline": "水乡之都，湄公明珠",
+    "description": "湄公河三角洲中心，水上市场闻名。"
+  },
+  {
+    "key": "Da Lat_Vietnam",
+    "tagline": "高原花城，永恒之春",
+    "description": "越南高原避暑城市，花城之称。"
+  },
+  {
+    "key": "Phu Quoc_Vietnam",
+    "tagline": "珍珠之岛，热带天堂",
+    "description": "越南最大岛屿，鱼露之乡，热带度假胜地。"
+  },
+  {
+    "key": "Sapa_Vietnam",
+    "tagline": "梯田仙境，少数民族风情",
+    "description": "越南北部山区小镇，梯田风光闻名。"
+  },
+  {
+    "key": "Quy Nhon_Vietnam",
+    "tagline": "占婆遗韵，海滨新秀",
+    "description": "越南中部海滨城市，占婆遗迹之城。"
+  },
+  {
+    "key": "Davao_Philippines",
+    "tagline": "榴莲之都，鹰之故乡",
+    "description": "菲律宾第三大城市，榴莲之都。"
+  },
+  {
+    "key": "Boracay_Philippines",
+    "tagline": "白沙天堂，热带伊甸",
+    "description": "世界最美白沙滩之一，热带度假天堂。"
+  },
+  {
+    "key": "Baguio_Philippines",
+    "tagline": "菲律宾夏都，松树之城",
+    "description": "菲律宾夏都，高山避暑城市。"
+  },
+  {
+    "key": "Iloilo_Philippines",
+    "tagline": "菲律宾之心，优雅之城",
+    "description": "菲律宾最优雅的城市，教堂与美食之都。"
+  },
+  {
+    "key": "Palawan_Philippines",
+    "tagline": "最后净土，地下河奇观",
+    "description": "菲律宾最后的净土，地下河世界遗产。"
+  },
+  {
+    "key": "Zamboanga_Philippines",
+    "tagline": "花之城市，拉丁风情",
+    "description": "亚洲拉丁之城，花之城市。"
+  },
+  {
+    "key": "Yogyakarta_Indonesia",
+    "tagline": "爪哇文化之心，千庙之城",
+    "description": "爪哇文化之都，婆罗浮屠与普兰巴南所在地。"
+  },
+  {
+    "key": "Semarang_Indonesia",
+    "tagline": "郑和登陆地，爪哇明珠",
+    "description": "中爪哇省首府，郑和登陆之地。"
+  },
+  {
+    "key": "Medan_Indonesia",
+    "tagline": "苏门答腊之都，多元文化",
+    "description": "苏门答腊岛最大城市，多元文化之都。"
+  },
+  {
+    "key": "Makassar_Indonesia",
+    "tagline": "东印尼之都，海鲜之城",
+    "description": "南苏拉威西首府，印尼东部最大城市。"
+  },
+  {
+    "key": "Denpasar_Indonesia",
+    "tagline": "巴厘之门，众神之岛",
+    "description": "巴厘岛首府，印尼最重要的旅游城市。"
+  },
+  {
+    "key": "Ubud_Indonesia",
+    "tagline": "艺术之乡，梯田之美",
+    "description": "巴厘岛文化与艺术中心，梯田与猴林闻名。"
+  },
+  {
+    "key": "Palembang_Indonesia",
+    "tagline": "三佛齐故都，鱼糕之城",
+    "description": "三佛齐古国故地，鱼糕面闻名。"
+  },
+  {
+    "key": "Balikpapan_Indonesia",
+    "tagline": "石油之城，新都门户",
+    "description": "东加里曼丹石油城市，新首都努桑塔拉门户。"
+  },
+  {
+    "key": "Malang_Indonesia",
+    "tagline": "花城玛琅，高原明珠",
+    "description": "东爪哇高原城市，殖民时期避暑之地。"
+  },
+  {
+    "key": "Solo_Indonesia",
+    "tagline": "爪哇灵魂，蜡染之都",
+    "description": "爪哇文化中心，蜡染与传统表演之城。"
+  },
+  {
+    "key": "Padang_Indonesia",
+    "tagline": "巴东美食，苏门答腊之心",
+    "description": "西苏门答腊首府，巴东菜闻名全印尼。"
+  },
+  {
+    "key": "Lombok_Indonesia",
+    "tagline": "纯净海岛，火山之美",
+    "description": "巴厘岛姐妹岛，林贾尼火山与纯净海滩。"
+  },
+  {
+    "key": "George Town_Malaysia",
+    "tagline": "壁画之城，美食天堂",
+    "description": "槟城首府，世界文化遗产城市，美食天堂。"
+  },
+  {
+    "key": "Ipoh_Malaysia",
+    "tagline": "白咖啡之乡，山城怡保",
+    "description": "霹雳州首府，白咖啡与石灰岩洞穴闻名。"
+  },
+  {
+    "key": "Melaka_Malaysia",
+    "tagline": "海峡古城，多元文化",
+    "description": "马六甲海峡名城，世界文化遗产之地。"
+  },
+  {
+    "key": "Kota Kinabalu_Malaysia",
+    "tagline": "风下之乡，神山之城",
+    "description": "沙巴州首府，神山与海岛度假胜地。"
+  },
+  {
+    "key": "Kuching_Malaysia",
+    "tagline": "猫城古晋，雨林之门",
+    "description": "砂拉越首府，猫城之称，热带雨林之门。"
+  },
+  {
+    "key": "Langkawi_Malaysia",
+    "tagline": "宝石之岛，天空之桥",
+    "description": "马来西亚免税岛，天空之桥与地质公园。"
+  },
+  {
+    "key": "Cameron Highlands_Malaysia",
+    "tagline": "高原茶园，避暑天堂",
+    "description": "马来西亚高原避暑胜地，茶园与草莓园闻名。"
+  },
+  {
+    "key": "Lahore_Pakistan",
+    "tagline": "花园之城，莫卧儿遗风",
+    "description": "巴基斯坦文化之都，莫卧儿建筑遗产之城。"
+  },
+  {
+    "key": "Faisalabad_Pakistan",
+    "tagline": "纺织之城，巴基斯坦曼彻斯特",
+    "description": "巴基斯坦纺织之都，工业重镇。"
+  },
+  {
+    "key": "Rawalpindi_Pakistan",
+    "tagline": "军事之城，双子之都",
+    "description": "伊斯兰堡姐妹城市，军事重镇。"
+  },
+  {
+    "key": "Peshawar_Pakistan",
+    "tagline": "花之城，丝路门户",
+    "description": "开伯尔山口门户，丝绸之路古城。"
+  },
+  {
+    "key": "Multan_Pakistan",
+    "tagline": "圣人之城，苏菲圣地",
+    "description": "圣人之城，巴基斯坦南部文化重镇。"
+  },
+  {
+    "key": "Quetta_Pakistan",
+    "tagline": "果园之城，俾路支之心",
+    "description": "俾路支省首府，果园之城。"
+  },
+  {
+    "key": "Chittagong_Bangladesh",
+    "tagline": "港口之城，海滨之都",
+    "description": "孟加拉国第二大城市，最大海港。"
+  },
+  {
+    "key": "Sylhet_Bangladesh",
+    "tagline": "茶之故乡，圣人之城",
+    "description": "茶园之城，孟加拉国精神之都。"
+  },
+  {
+    "key": "Khulna_Bangladesh",
+    "tagline": "红树林之门，虾之城",
+    "description": "孙德尔本斯红树林门户城市。"
+  },
+  {
+    "key": "Rajshahi_Bangladesh",
+    "tagline": "丝绸之城，芒果之乡",
+    "description": "丝绸之城，芒果之乡。"
+  },
+  {
+    "key": "Kandy_Sri Lanka",
+    "tagline": "佛牙圣城，高山古都",
+    "description": "斯里兰卡古都，佛牙寺所在地。"
+  },
+  {
+    "key": "Galle_Sri Lanka",
+    "tagline": "古堡之城，海丝遗韵",
+    "description": "殖民时期古堡之城，世界文化遗产。"
+  },
+  {
+    "key": "Jaffna_Sri Lanka",
+    "tagline": "泰米尔之心，半岛之城",
+    "description": "斯里兰卡泰米尔文化中心，北部半岛之城。"
+  },
+  {
+    "key": "Sigiriya_Sri Lanka",
+    "tagline": "狮子岩上，空中宫殿",
+    "description": "狮子岩古城，世界文化遗产。"
+  },
+  {
+    "key": "Pokhara_Nepal",
+    "tagline": "雪山之门，费瓦湖畔",
+    "description": "安纳普尔纳大本营门户，费瓦湖畔之城。"
+  },
+  {
+    "key": "Lumbini_Nepal",
+    "tagline": "佛陀诞生地，佛教圣地",
+    "description": "佛陀诞生地，佛教最神圣的圣地之一。"
+  },
+  {
+    "key": "Bhaktapur_Nepal",
+    "tagline": "活的博物馆，古城遗韵",
+    "description": "尼泊尔古城，传统纽瓦丽建筑之城。"
+  },
+  {
+    "key": "Chitwan_Nepal",
+    "tagline": "丛林探险，犀牛之乡",
+    "description": "奇特旺国家公园所在地，野生动物天堂。"
+  },
+  {
+    "key": "Thimphu_Bhutan",
+    "tagline": "幸福国度，雷龙之地",
+    "description": "不丹首都，世界上唯一没有红绿灯的首都。"
+  },
+  {
+    "key": "Paro_Bhutan",
+    "tagline": "虎穴圣寺，云端机场",
+    "description": "虎穴寺所在地，不丹唯一国际机场所在城市。"
+  },
+  {
+    "key": "Ankara_Turkey",
+    "tagline": "共和国之心，安纳托利亚古城",
+    "description": "土耳其首都，凯末尔陵墓所在地。"
+  },
+  {
+    "key": "Antalya_Turkey",
+    "tagline": "地中海明珠，阳光之城",
+    "description": "土耳其地中海度假天堂，碧海蓝天。"
+  },
+  {
+    "key": "Izmir_Turkey",
+    "tagline": "爱琴明珠，美丽之城",
+    "description": "土耳其第三大城市，爱琴海畔的明珠。"
+  },
+  {
+    "key": "Cappadocia_Turkey",
+    "tagline": "热气球圣地，精灵烟囱",
+    "description": "热气球与奇特地貌闻名于世。"
+  },
+  {
+    "key": "Bursa_Turkey",
+    "tagline": "绿色之城，奥斯曼故都",
+    "description": "奥斯曼帝国首都，绿色之城。"
+  },
+  {
+    "key": "Trabzon_Turkey",
+    "tagline": "黑海明珠，悬崖修道院",
+    "description": "黑海明珠，苏梅拉修道院所在地。"
+  },
+  {
+    "key": "Konya_Turkey",
+    "tagline": "鲁米故乡，苏菲圣城",
+    "description": "鲁米故乡，旋转苦行僧发源地。"
+  },
+  {
+    "key": "Bodrum_Turkey",
+    "tagline": "爱琴海之心，蓝色度假",
+    "description": "爱琴海度假胜地，古代七大奇迹摩索拉斯陵墓所在地。"
+  },
+  {
+    "key": "Pamukkale_Turkey",
+    "tagline": "棉花城堡，温泉奇观",
+    "description": "白色石灰华梯田温泉，世界自然遗产。"
+  },
+  {
+    "key": "Gaziantep_Turkey",
+    "tagline": "美食之都，开心果之城",
+    "description": "土耳其美食之都，开心果之城。"
+  },
+  {
+    "key": "Isfahan_Iran",
+    "tagline": "半个世界，波斯明珠",
+    "description": "半个世界之称，伊朗最美城市。"
+  },
+  {
+    "key": "Shiraz_Iran",
+    "tagline": "诗人之城，玫瑰花园",
+    "description": "波斯文化之都，诗人之城，波斯波利斯门户。"
+  },
+  {
+    "key": "Tabriz_Iran",
+    "tagline": "丝路重镇，集市之城",
+    "description": "丝绸之路重镇，世界最大室内集市。"
+  },
+  {
+    "key": "Mashhad_Iran",
+    "tagline": "圣城之光，朝圣之地",
+    "description": "伊朗第二大城市，什叶派圣城。"
+  },
+  {
+    "key": "Yazd_Iran",
+    "tagline": "风塔之城，拜火圣地",
+    "description": "拜火教圣城，世界最古老的土坯城市。"
+  },
+  {
+    "key": "Kerman_Iran",
+    "tagline": "地毯之都，沙漠古城",
+    "description": "波斯地毯之都，沙漠边缘古城。"
+  },
+  {
+    "key": "Persepolis_Iran",
+    "tagline": "波斯帝国荣光，万国之门",
+    "description": "波斯帝国古都遗址，世界文化遗产。"
+  },
+  {
+    "key": "Baghdad_Iraq",
+    "tagline": "一千零一夜之城，两河文明",
+    "description": "伊拉克首都，阿拔斯王朝古都，一千零一夜之城。"
+  },
+  {
+    "key": "Erbil_Iraq",
+    "tagline": "永恒之城，库尔德之心",
+    "description": "世界最古老持续有人居住的城市之一。"
+  },
+  {
+    "key": "Basra_Iraq",
+    "tagline": "辛巴达之城，两河之端",
+    "description": "伊拉克南部港口城市，辛巴达传说之地。"
+  },
+  {
+    "key": "Jeddah_Saudi Arabia",
+    "tagline": "红海新娘，朝觐之门",
+    "description": "红海之滨，朝觐门户，沙特商业之都。"
+  },
+  {
+    "key": "Mecca_Saudi Arabia",
+    "tagline": "伊斯兰圣城，朝圣之地",
+    "description": "伊斯兰教最神圣的城市，全球穆斯林朝圣之地。"
+  },
+  {
+    "key": "Medina_Saudi Arabia",
+    "tagline": "光明之城，先知之城",
+    "description": "先知清真寺所在地，伊斯兰第二圣城。"
+  },
+  {
+    "key": "Dammam_Saudi Arabia",
+    "tagline": "石油之城，东方门户",
+    "description": "沙特东部省首府，石油工业中心。"
+  },
+  {
+    "key": "NEOM_Saudi Arabia",
+    "tagline": "未来之城，沙漠奇迹",
+    "description": "沙特未来超级城市项目，愿景2030标志。"
+  },
+  {
+    "key": "Sharjah_UAE",
+    "tagline": "文化之都，伊斯兰遗产",
+    "description": "阿联酋文化之都，伊斯兰文化之城。"
+  },
+  {
+    "key": "Ajman_UAE",
+    "tagline": "宁静海滨，小国之美",
+    "description": "阿联酋最小的酋长国，宁静海滨。"
+  },
+  {
+    "key": "Ras Al Khaimah_UAE",
+    "tagline": "冒险之都，沙漠与海",
+    "description": "冒险旅游之都，世界最长高空滑索所在地。"
+  },
+  {
+    "key": "Kuwait City_Kuwait",
+    "tagline": "海湾明珠，石油之都",
+    "description": "科威特首都，波斯湾石油富国之都。"
+  },
+  {
+    "key": "Manama_Bahrain",
+    "tagline": "海湾金融城，珍珠之岛",
+    "description": "巴林首都，波斯湾金融中心。"
+  },
+  {
+    "key": "Salalah_Oman",
+    "tagline": "乳香之路，绿色阿拉伯",
+    "description": "乳香之乡，阿拉伯半岛唯一的季风气候城市。"
+  },
+  {
+    "key": "Nizwa_Oman",
+    "tagline": "古堡之城，阿曼之珠",
+    "description": "阿曼古都，圆形城堡与传统集市闻名。"
+  },
+  {
+    "key": "Haifa_Israel",
+    "tagline": "地中海港城，空中花园",
+    "description": "以色列第三大城市，巴哈伊花园所在地。"
+  },
+  {
+    "key": "Eilat_Israel",
+    "tagline": "红海之滨，沙漠绿洲",
+    "description": "红海之滨度假城市，潜水与沙漠探险。"
+  },
+  {
+    "key": "Bethlehem_Palestine",
+    "tagline": "圣诞之城，信仰之源",
+    "description": "耶稣诞生地，基督教圣城。"
+  },
+  {
+    "key": "Petra_Jordan",
+    "tagline": "玫瑰红城，纳巴泰奇迹",
+    "description": "玫瑰红城，世界新七大奇迹之一。"
+  },
+  {
+    "key": "Aqaba_Jordan",
+    "tagline": "红海之门，约旦海滨",
+    "description": "约旦唯一出海口，红海度假城市。"
+  },
+  {
+    "key": "Wadi Rum_Jordan",
+    "tagline": "月亮之谷，火星地貌",
+    "description": "月亮谷，火星般的沙漠景观。"
+  },
+  {
+    "key": "Tripoli_Lebanon",
+    "tagline": "古城之韵，地中海之滨",
+    "description": "黎巴嫩第二大城市，十字军城堡与古老集市。"
+  },
+  {
+    "key": "Byblos_Lebanon",
+    "tagline": "字母发源地，最古老之城",
+    "description": "世界最古老持续有人居住的城市之一。"
+  },
+  {
+    "key": "Damascus_Syria",
+    "tagline": "茉莉之城，文明摇篮",
+    "description": "世界最古老的持续有人居住首都之一。"
+  },
+  {
+    "key": "Aleppo_Syria",
+    "tagline": "丝路商都，古城之殇",
+    "description": "叙利亚最大城市，古丝绸之路商贸中心。"
+  },
+  {
+    "key": "Sanaa_Yemen",
+    "tagline": "摩天楼之城，阿拉伯明珠",
+    "description": "也门首都，世界文化遗产古城。"
+  },
+  {
+    "key": "Nur-Sultan_Kazakhstan",
+    "tagline": "草原之都，未来之城",
+    "description": "哈萨克斯坦首都，草原上崛起的未来之城。"
+  },
+  {
+    "key": "Shymkent_Kazakhstan",
+    "tagline": "南方之城，丝路重镇",
+    "description": "哈萨克斯坦第三大城市，南部重镇。"
+  },
+  {
+    "key": "Turkestan_Kazakhstan",
+    "tagline": "中亚圣城，突厥之心",
+    "description": "中亚精神之都，亚萨维陵墓世界遗产。"
+  },
+  {
+    "key": "Samarkand_Uzbekistan",
+    "tagline": "丝路明珠，帖木儿之都",
+    "description": "丝绸之路明珠，帖木儿帝国古都。"
+  },
+  {
+    "key": "Bukhara_Uzbekistan",
+    "tagline": "圣城布哈拉，丝路学府",
+    "description": "中亚最神圣的城市，伊斯兰学术中心。"
+  },
+  {
+    "key": "Khiva_Uzbekistan",
+    "tagline": "露天博物馆，丝路古城",
+    "description": "丝绸之路古城，完整保存的中世纪城市。"
+  },
+  {
+    "key": "Fergana_Uzbekistan",
+    "tagline": "盆地之心，中亚粮仓",
+    "description": "费尔干纳盆地中心城市，中亚粮仓。"
+  },
+  {
+    "key": "Dushanbe_Tajikistan",
+    "tagline": "星期一之城，帕米尔门户",
+    "description": "塔吉克斯坦首都，帕米尔高原门户。"
+  },
+  {
+    "key": "Bishkek_Kyrgyzstan",
+    "tagline": "天山之城，游牧之都",
+    "description": "吉尔吉斯斯坦首都，天山脚下的绿色之城。"
+  },
+  {
+    "key": "Issyk-Kul_Kyrgyzstan",
+    "tagline": "天山明珠，高山圣湖",
+    "description": "世界第二大高山湖泊所在地。"
+  },
+  {
+    "key": "Ashgabat_Turkmenistan",
+    "tagline": "白色之城，沙漠绿洲",
+    "description": "土库曼斯坦首都，白色大理石之城。"
+  },
+  {
+    "key": "Yerevan_Armenia",
+    "tagline": "粉红之城，诺亚方舟之地",
+    "description": "亚美尼亚首都，粉红之城，亚拉腊山脚下。"
+  },
+  {
+    "key": "Nicosia_Cyprus",
+    "tagline": "分裂之都，地中海之心",
+    "description": "塞浦路斯首都，世界最后的分裂首都。"
+  },
+  {
+    "key": "Dili_East Timor",
+    "tagline": "新生之都，珊瑚之城",
+    "description": "东帝汶首都，亚洲最年轻国家的首都。"
+  },
+  {
+    "key": "Bandar Seri Begawan_Brunei",
+    "tagline": "黄金之都，水上村落",
+    "description": "文莱首都，黄金清真寺与水上村落。"
+  },
+  {
+    "key": "Male_Maldives",
+    "tagline": "印度洋明珠，珊瑚之都",
+    "description": "马尔代夫首都，世界最拥挤的首都之一。"
+  },
+  {
+    "key": "Kaesong_North Korea",
+    "tagline": "高丽古都，边境之城",
+    "description": "高丽王朝古都，板门店所在地。"
+  },
+  {
+    "key": "Pyongyang_North Korea",
+    "tagline": "柳京之城，纪念碑之都",
+    "description": "朝鲜首都，大同江畔的纪念碑之城。"
+  },
+  {
+    "key": "Taichung_China",
+    "tagline": "文化之都，宜居之城",
+    "description": "台湾中部最大城市，宜居之城。"
+  },
+  {
+    "key": "Kaohsiung_China",
+    "tagline": "港都之城，热带风情",
+    "description": "台湾南部最大城市，港都之称。"
+  },
+  {
+    "key": "Tainan_China",
+    "tagline": "府城古韵，美食之都",
+    "description": "台湾历史最悠久的城市，美食之都。"
+  },
+  {
+    "key": "Hsinchu_China",
+    "tagline": "风城科技，半导体之都",
+    "description": "台湾科技重镇，新竹科学园区所在地。"
+  },
+  {
+    "key": "Hualien_China",
+    "tagline": "太鲁阁之门，山海之城",
+    "description": "太鲁阁国家公园门户，台湾东部明珠。"
+  },
+  {
+    "key": "Bacolod_Philippines",
+    "tagline": "微笑之城，面具嘉年华",
+    "description": "菲律宾微笑之城，面具节闻名。"
+  },
+  {
+    "key": "Cagayan de Oro_Philippines",
+    "tagline": "漂流之都，黄金之城",
+    "description": "菲律宾漂流之都，冒险旅游胜地。"
+  },
+  {
+    "key": "Siargao_Philippines",
+    "tagline": "冲浪天堂，泪滴之岛",
+    "description": "菲律宾冲浪圣地，泪滴形热带岛屿。"
+  },
+  {
+    "key": "Manado_Indonesia",
+    "tagline": "潜水天堂，珊瑚之城",
+    "description": "布纳肯海洋公园门户，潜水胜地。"
+  },
+  {
+    "key": "Batam_Indonesia",
+    "tagline": "自贸之岛，新加坡后花园",
+    "description": "新加坡对面的自贸区岛屿，购物度假胜地。"
+  },
+  {
+    "key": "Pontianak_Indonesia",
+    "tagline": "赤道之城，华人之乡",
+    "description": "赤道之城，西加里曼丹首府。"
+  },
+  {
+    "key": "Banda Aceh_Indonesia",
+    "tagline": "伊斯兰之地，海啸纪念",
+    "description": "亚齐省首府，伊斯兰文化之城。"
+  },
+  {
+    "key": "Labuan Bajo_Indonesia",
+    "tagline": "科莫多之门，龙之岛屿",
+    "description": "科莫多国家公园门户，看科莫多龙之地。"
+  },
+  {
+    "key": "Vinh_Vietnam",
+    "tagline": "胡志明故里，革命之城",
+    "description": "胡志明故乡，越南中北部重要城市。"
+  },
+  {
+    "key": "Ninh Binh_Vietnam",
+    "tagline": "陆上下龙湾，古都遗韵",
+    "description": "陆龙湾所在地，越南古都。"
+  },
+  {
+    "key": "Vung Tau_Vietnam",
+    "tagline": "海角之城，周末度假",
+    "description": "胡志明市近郊海滨度假城市。"
+  },
+  {
+    "key": "Leh_India",
+    "tagline": "天空之城，小西藏",
+    "description": "拉达克首府，世界最高公路所在地。"
+  },
+  {
+    "key": "Rishikesh_India",
+    "tagline": "瑜伽之都，恒河圣水",
+    "description": "瑜伽之都，恒河上游的精神圣地。"
+  },
+  {
+    "key": "Hampi_India",
+    "tagline": "废墟之美，帝国遗迹",
+    "description": "维贾亚纳加拉帝国遗址，巨石与神庙之城。"
+  },
+  {
+    "key": "Pondicherry_India",
+    "tagline": "法式风情，灵修之地",
+    "description": "法属印度遗风，海滨灵修之城。"
+  },
+  {
+    "key": "Shimla_India",
+    "tagline": "山中女王，殖民夏都",
+    "description": "英属印度夏都，喜马拉雅山麓避暑胜地。"
+  },
+  {
+    "key": "Darjeeling_India",
+    "tagline": "茶之女王，喜马拉雅观景台",
+    "description": "世界顶级红茶产地，喜马拉雅观景台。"
+  },
+  {
+    "key": "Pushkar_India",
+    "tagline": "圣湖之城，骆驼集市",
+    "description": "梵天唯一的神庙所在地，骆驼集市闻名。"
+  },
+  {
+    "key": "Alleppey_India",
+    "tagline": "东方威尼斯，回水之乡",
+    "description": "喀拉拉回水之都，船屋旅行闻名。"
+  },
+  {
+    "key": "Goa_India",
+    "tagline": "海滩天堂，葡式风情",
+    "description": "印度海滨度假胜地，葡萄牙殖民遗风。"
+  },
+  {
+    "key": "Wuyishan_China",
+    "tagline": "双遗之地，大红袍故乡",
+    "description": "世界双遗产地，大红袍茶之乡。"
+  },
+  {
+    "key": "Suzhou_AH_China",
+    "tagline": "楚汉之地，皖北门户",
+    "description": "皖北门户，楚汉文化之城。"
+  },
+  {
+    "key": "Fuyang_China",
+    "tagline": "颍淮善郡，皖北重镇",
+    "description": "皖西北中心城市，人口大市。"
+  },
+  {
+    "key": "Chizhou_China",
+    "tagline": "九华佛地，诗意池州",
+    "description": "九华山所在地，佛教四大名山之一。"
+  },
+  {
+    "key": "Bozhou_China",
+    "tagline": "药都亳州，曹操故里",
+    "description": "中华药都，曹操故里。"
+  },
+  {
+    "key": "Tongling_China",
+    "tagline": "铜都铜陵，江畔之城",
+    "description": "中国铜都，长江之滨的古铜冶城市。"
+  },
+  {
+    "key": "Xuancheng_China",
+    "tagline": "文房四宝之城，宣纸之乡",
+    "description": "文房四宝之城，宣纸之乡。"
+  },
+  {
+    "key": "Chuzhou_China",
+    "tagline": "醉翁之意，亭城滁州",
+    "description": "醉翁亭所在地，南京都市圈重要成员。"
+  },
+  {
+    "key": "Lu'an_China",
+    "tagline": "瓜片之乡，红色沃土",
+    "description": "六安瓜片产地，大别山区红色革命之地。"
+  },
+  {
+    "key": "Yiwu_China",
+    "tagline": "小商品之都，买全球卖全球",
+    "description": "世界最大小商品市场，全球贸易之都。"
+  },
+  {
+    "key": "Cixi_China",
+    "tagline": "家电之都，杭州湾畔",
+    "description": "杭州湾跨海大桥南端，家电之都。"
+  },
+  {
+    "key": "Kunshan_China",
+    "tagline": "昆曲故里，百强之首",
+    "description": "昆曲发源地，全国百强县之首。"
+  },
+  {
+    "key": "Changshu_China",
+    "tagline": "虞山古城，服装之都",
+    "description": "虞山之麓，鱼米之乡，服装之城。"
+  },
+  {
+    "key": "Rugao_China",
+    "tagline": "长寿之乡，盆景之都",
+    "description": "世界长寿之乡，盆景之都。"
+  },
+  {
+    "key": "Pizhou_China",
+    "tagline": "银杏之乡，苏北明珠",
+    "description": "银杏之乡，大蒜之都。"
+  },
+  {
+    "key": "Dongyang_China",
+    "tagline": "中国好莱坞，影视之都",
+    "description": "横店影视城所在地，中国好莱坞。"
+  },
+  {
+    "key": "Jiangyin_China",
+    "tagline": "长江咽喉，制造强市",
+    "description": "长江之滨，中国制造业名城。"
+  },
+  {
+    "key": "Zhangjiajie_China",
+    "tagline": "悬浮山峰，人间仙境",
+    "description": "阿凡达取景地，世界自然遗产。"
+  },
+  {
+    "key": "Fenghuang_China",
+    "tagline": "湘西古镇，沱江风情",
+    "description": "沈从文笔下的湘西古城，沱江之畔。"
+  },
+  {
+    "key": "Huanggang_China",
+    "tagline": "东坡赤壁，教育名城",
+    "description": "苏东坡贬谪之地，教育之城。"
+  },
+  {
+    "key": "Shiyan_China",
+    "tagline": "武当仙山，车城十堰",
+    "description": "武当山所在地，东风汽车之城。"
+  },
+  {
+    "key": "Enshi_China",
+    "tagline": "大峡谷奇观，土家风情",
+    "description": "恩施大峡谷所在地，土家族苗族文化之地。"
+  },
+  {
+    "key": "Loudi_China",
+    "tagline": "湘中宝地，梯田之乡",
+    "description": "湘中明珠，新化紫鹊界梯田闻名。"
+  },
+  {
+    "key": "Chenzhou_China",
+    "tagline": "林中之城，雾漫仙境",
+    "description": "林中之城，东江湖雾漫小东江闻名。"
+  },
+  {
+    "key": "Shaoyang_China",
+    "tagline": "崀山丹霞，宝庆古韵",
+    "description": "崀山丹霞地貌闻名，宝庆古城。"
+  },
+  {
+    "key": "Huaihua_China",
+    "tagline": "五省通衢，侗乡之都",
+    "description": "西南交通枢纽，侗族文化之乡。"
+  },
+  {
+    "key": "Yiyang_China",
+    "tagline": "银城益阳，黑茶之乡",
+    "description": "银城之称，黑茶之乡。"
+  },
+  {
+    "key": "Sanmenxia_China",
+    "tagline": "天鹅之城，黄河明珠",
+    "description": "白天鹅之城，黄河金三角区域。"
+  },
+  {
+    "key": "Xuchang_China",
+    "tagline": "曹魏故都，花木之乡",
+    "description": "三国文化名城，花木之都。"
+  },
+  {
+    "key": "Luohe_China",
+    "tagline": "食品之城，文字之源",
+    "description": "中国食品名城，贾湖遗址所在地。"
+  },
+  {
+    "key": "Pingdingshan_China",
+    "tagline": "鹰城平顶山，汝瓷之乡",
+    "description": "中国鹰城，汝窑瓷器之乡。"
+  },
+  {
+    "key": "Jiyuan_China",
+    "tagline": "愚公故里，王屋山下",
+    "description": "愚公移山故事发源地，王屋山所在地。"
+  },
+  {
+    "key": "Puyang_China",
+    "tagline": "中华龙都，杂技之乡",
+    "description": "龙都之称，杂技之乡。"
+  },
+  {
+    "key": "Jiaozuo_China",
+    "tagline": "云台山水，太极之源",
+    "description": "云台山所在地，太极拳发源地。"
+  },
+  {
+    "key": "Tongren_China",
+    "tagline": "梵净仙山，黔东门户",
+    "description": "梵净山所在地，世界自然遗产。"
+  },
+  {
+    "key": "Bijie_China",
+    "tagline": "花海毕节，织金洞天",
+    "description": "百里杜鹃花海，织金洞闻名。"
+  },
+  {
+    "key": "Anshun_China",
+    "tagline": "黄果树瀑布，蜡染之乡",
+    "description": "黄果树瀑布所在地，蜡染之乡。"
+  },
+  {
+    "key": "Xishuangbanna_China",
+    "tagline": "热带雨林，孔雀之乡",
+    "description": "热带雨林王国，傣族泼水节闻名。"
+  },
+  {
+    "key": "Shangri-La_China",
+    "tagline": "人间净土，心中日月",
+    "description": "消失的地平线原型，藏区高原圣境。"
+  },
+  {
+    "key": "Tengchong_China",
+    "tagline": "极边之城，火山温泉",
+    "description": "火山温泉之城，银杏村闻名。"
+  },
+  {
+    "key": "Bazhong_China",
+    "tagline": "光雾仙山，红色沃土",
+    "description": "光雾山红叶闻名，川陕革命老区。"
+  },
+  {
+    "key": "Ya'an_China",
+    "tagline": "熊猫故乡，雨城雅安",
+    "description": "大熊猫故乡，雨城之称。"
+  },
+  {
+    "key": "Aba_China",
+    "tagline": "九寨仙境，黄龙奇观",
+    "description": "九寨沟黄龙所在地，藏羌文化之地。"
+  },
+  {
+    "key": "Ganzi_China",
+    "tagline": "最后的香格里拉，康巴圣地",
+    "description": "稻城亚丁所在地，康巴藏区圣地。"
+  },
+  {
+    "key": "Shigatse_China",
+    "tagline": "后藏圣地，珠峰之乡",
+    "description": "后藏中心，扎什伦布寺所在地。"
+  },
+  {
+    "key": "Nyingchi_China",
+    "tagline": "西藏江南，桃花盛境",
+    "description": "西藏江南，桃花盛开的高原。"
+  },
+  {
+    "key": "Liverpool_United Kingdom",
+    "tagline": "披头士故乡，足球之城",
+    "description": "英格兰西北部港口城市，披头士乐队的故乡，足球名城。"
+  },
+  {
+    "key": "Leeds_United Kingdom",
+    "tagline": "北英格兰的活力之城",
+    "description": "英格兰北部重要城市，金融与文化中心。"
+  },
+  {
+    "key": "Glasgow_United Kingdom",
+    "tagline": "苏格兰工业与艺术之都",
+    "description": "苏格兰最大城市，工业遗产与现代艺术交融。"
+  },
+  {
+    "key": "Bristol_United Kingdom",
+    "tagline": "创意与航空之城",
+    "description": "英格兰西南部创意城市，航空航天与街头艺术闻名。"
+  },
+  {
+    "key": "Sheffield_United Kingdom",
+    "tagline": "钢铁之城，绿意盎然",
+    "description": "英格兰钢铁之城，拥有丰富的工业遗产和绿地。"
+  },
+  {
+    "key": "Newcastle upon Tyne_United Kingdom",
+    "tagline": "泰恩河畔的活力之城",
+    "description": "英格兰东北部城市，以桥梁、夜生活和热情闻名。"
+  },
+  {
+    "key": "Nottingham_United Kingdom",
+    "tagline": "罗宾汉的传奇之城",
+    "description": "罗宾汉传奇的故乡，充满历史与文化魅力。"
+  },
+  {
+    "key": "Leicester_United Kingdom",
+    "tagline": "多元文化与历史交融",
+    "description": "英格兰中部多元文化城市，理查三世的安息之地。"
+  },
+  {
+    "key": "Coventry_United Kingdom",
+    "tagline": "凤凰涅槃的大教堂之城",
+    "description": "英格兰中部城市，以大教堂和汽车工业闻名。"
+  },
+  {
+    "key": "Cardiff_United Kingdom",
+    "tagline": "威尔士的心脏",
+    "description": "威尔士首府，融合凯尔特文化与现代活力。"
+  },
+  {
+    "key": "Belfast_United Kingdom",
+    "tagline": "泰坦尼克号的故乡",
+    "description": "北爱尔兰首府，泰坦尼克号的诞生地。"
+  },
+  {
+    "key": "Southampton_United Kingdom",
+    "tagline": "航海传统之港",
+    "description": "英格兰南部港口城市，历史悠久的航海重镇。"
+  },
+  {
+    "key": "Brighton_United Kingdom",
+    "tagline": "海滨度假与波西米亚风情",
+    "description": "英格兰南海岸度假胜地，以海滩和波西米亚风情闻名。"
+  },
+  {
+    "key": "Oxford_United Kingdom",
+    "tagline": "梦幻尖塔之城",
+    "description": "举世闻名的大学城，学术殿堂与哥特建筑的完美融合。"
+  },
+  {
+    "key": "Cambridge_United Kingdom",
+    "tagline": "学术圣地，康河之畔",
+    "description": "世界顶级学府所在地，康河泛舟的浪漫之城。"
+  },
+  {
+    "key": "Plymouth_United Kingdom",
+    "tagline": "海军之城，探险起点",
+    "description": "英格兰西南海军城市，五月花号的启航地。"
+  },
+  {
+    "key": "Bath_United Kingdom",
+    "tagline": "罗马浴场与优雅建筑",
+    "description": "以罗马浴场和乔治王时代建筑闻名的世界遗产城市。"
+  },
+  {
+    "key": "York_United Kingdom",
+    "tagline": "中世纪古城，大教堂之都",
+    "description": "英格兰北部中世纪古城，约克大教堂雄伟壮观。"
+  },
+  {
+    "key": "Aberdeen_United Kingdom",
+    "tagline": "花岗岩之城",
+    "description": "苏格兰花岗岩之城，北海石油工业重镇。"
+  },
+  {
+    "key": "Dundee_United Kingdom",
+    "tagline": "设计与发现之城",
+    "description": "苏格兰东海岸设计之城，V&A博物馆所在地。"
+  },
+  {
+    "key": "Swansea_United Kingdom",
+    "tagline": "威尔士海滨明珠",
+    "description": "威尔士南部海滨城市，拥有壮丽的高尔半岛。"
+  },
+  {
+    "key": "Exeter_United Kingdom",
+    "tagline": "德文郡的古老首府",
+    "description": "英格兰西南部古城，拥有壮丽的哥特式大教堂。"
+  },
+  {
+    "key": "Norwich_United Kingdom",
+    "tagline": "英格兰东部的历史明珠",
+    "description": "英格兰东部历史名城，中世纪教堂众多。"
+  },
+  {
+    "key": "Stoke-on-Trent_United Kingdom",
+    "tagline": "英国陶瓷之都",
+    "description": "英格兰陶瓷之都，韦奇伍德等名窑的故乡。"
+  },
+  {
+    "key": "Derby_United Kingdom",
+    "tagline": "工程与创新之城",
+    "description": "英格兰中部工业城市，劳斯莱斯发动机制造地。"
+  },
+  {
+    "key": "Inverness_United Kingdom",
+    "tagline": "高地之门，尼斯湖畔",
+    "description": "苏格兰高地首府，尼斯湖水怪传说的所在地。"
+  },
+  {
+    "key": "Canterbury_United Kingdom",
+    "tagline": "英国基督教圣地",
+    "description": "英格兰东南部宗教圣城，坎特伯雷大教堂闻名于世。"
+  },
+  {
+    "key": "Winchester_United Kingdom",
+    "tagline": "英格兰古都",
+    "description": "英格兰古都，阿尔弗雷德大帝时期的首都。"
+  },
+  {
+    "key": "Stirling_United Kingdom",
+    "tagline": "苏格兰的钥匙之城",
+    "description": "苏格兰历史重镇，斯特灵城堡雄踞山巅。"
+  },
+  {
+    "key": "Galway_Ireland",
+    "tagline": "爱尔兰文化之都",
+    "description": "爱尔兰西海岸文化之城，传统音乐和艺术节闻名。"
+  },
+  {
+    "key": "Cork_Ireland",
+    "tagline": "爱尔兰的美食之都",
+    "description": "爱尔兰第二大城市，美食与文化的中心。"
+  },
+  {
+    "key": "Limerick_Ireland",
+    "tagline": "香农河畔的古城",
+    "description": "爱尔兰西南部城市，香农河畔的中世纪古城。"
+  },
+  {
+    "key": "Waterford_Ireland",
+    "tagline": "水晶之城",
+    "description": "爱尔兰最古老的城市，水晶工艺闻名于世。"
+  },
+  {
+    "key": "Kilkenny_Ireland",
+    "tagline": "中世纪城堡之城",
+    "description": "爱尔兰中世纪古城，城堡与工艺之乡。"
+  },
+  {
+    "key": "Killarney_Ireland",
+    "tagline": "湖光山色的旅游胜地",
+    "description": "爱尔兰西南部旅游胜地，基拉尼国家公园所在地。"
+  },
+  {
+    "key": "Derry_United Kingdom",
+    "tagline": "城墙环绕的古城",
+    "description": "北爱尔兰第二大城市，保存完好的城墙古城。"
+  },
+  {
+    "key": "Drogheda_Ireland",
+    "tagline": "博因河谷的历史之城",
+    "description": "爱尔兰东部历史名城，靠近世界遗产纽格兰奇。"
+  },
+  {
+    "key": "Sligo_Ireland",
+    "tagline": "叶芝的诗意之乡",
+    "description": "爱尔兰西北部城市，叶芝的灵感之地。"
+  },
+  {
+    "key": "Wexford_Ireland",
+    "tagline": "歌剧之城",
+    "description": "爱尔兰东南部港口城市，歌剧节闻名。"
+  },
+  {
+    "key": "Toulouse_France",
+    "tagline": "粉红之城，航空之都",
+    "description": "法国西南部粉红之城，欧洲航空航天工业中心。"
+  },
+  {
+    "key": "Bordeaux_France",
+    "tagline": "世界葡萄酒之都",
+    "description": "法国西南部葡萄酒之都，世界遗产月港之城。"
+  },
+  {
+    "key": "Strasbourg_France",
+    "tagline": "欧洲之都",
+    "description": "法德边境的欧洲议会所在地，童话般的木骨架建筑。"
+  },
+  {
+    "key": "Nantes_France",
+    "tagline": "创意与机械艺术之城",
+    "description": "法国西部卢瓦尔河畔创意之城，机械岛闻名。"
+  },
+  {
+    "key": "Lille_France",
+    "tagline": "法兰德斯风情之城",
+    "description": "法国北部文化名城，佛兰德斯风格建筑的宝库。"
+  },
+  {
+    "key": "Montpellier_France",
+    "tagline": "地中海阳光之城",
+    "description": "法国南部地中海阳光城市，大学城与科技中心。"
+  },
+  {
+    "key": "Rennes_France",
+    "tagline": "布列塔尼的心脏",
+    "description": "布列塔尼首府，中世纪木骨架建筑与现代科技共存。"
+  },
+  {
+    "key": "Dijon_France",
+    "tagline": "勃艮第美食之都",
+    "description": "勃艮第大区首府，芥末与葡萄酒的故乡。"
+  },
+  {
+    "key": "Aix-en-Provence_France",
+    "tagline": "塞尚故乡，喷泉之城",
+    "description": "普罗旺斯优雅小城，塞尚的故乡，喷泉之城。"
+  },
+  {
+    "key": "Grenoble_France",
+    "tagline": "阿尔卑斯之都",
+    "description": "法国阿尔卑斯山脚下的科技之城，冬季运动胜地。"
+  },
+  {
+    "key": "Rouen_France",
+    "tagline": "圣女贞德之城",
+    "description": "诺曼底首府，圣女贞德殉难之地，莫奈笔下的教堂之城。"
+  },
+  {
+    "key": "Toulon_France",
+    "tagline": "地中海军港之城",
+    "description": "法国地中海军港城市，法国海军基地所在地。"
+  },
+  {
+    "key": "Angers_France",
+    "tagline": "卢瓦尔河谷的明珠",
+    "description": "卢瓦尔河谷城市，以中世纪挂毯和城堡闻名。"
+  },
+  {
+    "key": "Clermont-Ferrand_France",
+    "tagline": "火山与轮胎之城",
+    "description": "法国中部火山之城，米其林轮胎总部所在地。"
+  },
+  {
+    "key": "Tours_France",
+    "tagline": "卢瓦尔城堡之门",
+    "description": "卢瓦尔河谷中心城市，探访城堡群的理想基地。"
+  },
+  {
+    "key": "Amiens_France",
+    "tagline": "哥特大教堂之城",
+    "description": "法国北部城市，拥有法国最大的哥特式大教堂。"
+  },
+  {
+    "key": "Perpignan_France",
+    "tagline": "法国的加泰罗尼亚之城",
+    "description": "法国与西班牙边境的加泰罗尼亚风情小城。"
+  },
+  {
+    "key": "Avignon_France",
+    "tagline": "教皇之城，戏剧之都",
+    "description": "教皇之城，中世纪城墙环绕，戏剧节享誉世界。"
+  },
+  {
+    "key": "Metz_France",
+    "tagline": "灯光之城",
+    "description": "法国东北部历史名城，拥有壮丽的哥特式大教堂。"
+  },
+  {
+    "key": "Caen_France",
+    "tagline": "征服者威廉之城",
+    "description": "诺曼底历史名城，威廉征服者的城堡所在地。"
+  },
+  {
+    "key": "Brest_France",
+    "tagline": "布列塔尼的海港之城",
+    "description": "布列塔尼海港城市，法国重要军港。"
+  },
+  {
+    "key": "Limoges_France",
+    "tagline": "法国瓷器之都",
+    "description": "法国中部瓷器之都，珐琅工艺的传统中心。"
+  },
+  {
+    "key": "Reims_France",
+    "tagline": "香槟与加冕之城",
+    "description": "法国香槟之都，历代国王加冕之地。"
+  },
+  {
+    "key": "Le Havre_France",
+    "tagline": "混凝土之城",
+    "description": "诺曼底海港城市，奥古斯特·佩雷重建的世界遗产之城。"
+  },
+  {
+    "key": "Nancy_France",
+    "tagline": "新艺术运动之城",
+    "description": "洛林首府，斯坦尼斯拉斯广场列入世界遗产。"
+  },
+  {
+    "key": "Cannes_France",
+    "tagline": "电影节之城",
+    "description": "蔚蓝海岸明珠，国际电影节闻名于世。"
+  },
+  {
+    "key": "Saint-Étienne_France",
+    "tagline": "设计之都",
+    "description": "法国中部设计之城，联合国教科文组织设计之都。"
+  },
+  {
+    "key": "Stuttgart_Germany",
+    "tagline": "汽车与工程之都",
+    "description": "德国汽车工业重镇，奔驰和保时捷的故乡。"
+  },
+  {
+    "key": "Leipzig_Germany",
+    "tagline": "音乐与书籍之城",
+    "description": "德国东部文化名城，巴赫和门德尔松的音乐之城。"
+  },
+  {
+    "key": "Dresden_Germany",
+    "tagline": "易北河畔的佛罗伦萨",
+    "description": "易北河畔的佛罗伦萨，巴洛克建筑精华荟萃。"
+  },
+  {
+    "key": "Hannover_Germany",
+    "tagline": "博览会之城",
+    "description": "下萨克森州首府，国际博览会之城。"
+  },
+  {
+    "key": "Nuremberg_Germany",
+    "tagline": "圣诞市场之城",
+    "description": "巴伐利亚第二大城市，中世纪古城与圣诞市场闻名。"
+  },
+  {
+    "key": "Dortmund_Germany",
+    "tagline": "足球与啤酒之城",
+    "description": "鲁尔区最大城市，足球与啤酒之城。"
+  },
+  {
+    "key": "Essen_Germany",
+    "tagline": "工业转型的典范",
+    "description": "鲁尔区工业转型典范，关税同盟煤矿列入世界遗产。"
+  },
+  {
+    "key": "Bremen_Germany",
+    "tagline": "童话音乐家之城",
+    "description": "北德童话之城，不莱梅城市音乐家的故乡。"
+  },
+  {
+    "key": "Bonn_Germany",
+    "tagline": "贝多芬之城",
+    "description": "贝多芬的出生地，前西德首都。"
+  },
+  {
+    "key": "Münster_Germany",
+    "tagline": "自行车之城",
+    "description": "自行车之城，威斯特法伦和约签署地。"
+  },
+  {
+    "key": "Augsburg_Germany",
+    "tagline": "富格尔家族之城",
+    "description": "巴伐利亚古城，文艺复兴时期富格尔家族的故乡。"
+  },
+  {
+    "key": "Wiesbaden_Germany",
+    "tagline": "温泉与优雅之城",
+    "description": "黑森州首府，温泉疗养胜地。"
+  },
+  {
+    "key": "Mannheim_Germany",
+    "tagline": "方格之城",
+    "description": "莱茵河与内卡河交汇处的方格之城。"
+  },
+  {
+    "key": "Heidelberg_Germany",
+    "tagline": "浪漫古堡之城",
+    "description": "浪漫主义之城，拥有德国最古老的大学和如画的古堡。"
+  },
+  {
+    "key": "Freiburg_Germany",
+    "tagline": "黑森林之门，绿色之城",
+    "description": "黑森林之门，德国最温暖最绿色的城市。"
+  },
+  {
+    "key": "Lübeck_Germany",
+    "tagline": "汉萨女王之城",
+    "description": "汉萨同盟女王之城，哥特式砖砌建筑世界遗产。"
+  },
+  {
+    "key": "Kiel_Germany",
+    "tagline": "帆船之都",
+    "description": "波罗的海港口城市，基尔帆船周闻名世界。"
+  },
+  {
+    "key": "Rostock_Germany",
+    "tagline": "波罗的海之门",
+    "description": "德国波罗的海最大港口城市，瓦尔内明德海滩胜地。"
+  },
+  {
+    "key": "Erfurt_Germany",
+    "tagline": "图林根的中世纪明珠",
+    "description": "图林根州首府，马丁·路德曾在此求学的中世纪古城。"
+  },
+  {
+    "key": "Mainz_Germany",
+    "tagline": "印刷术与葡萄酒之城",
+    "description": "古登堡印刷术的发明地，莱茵河畔的葡萄酒之城。"
+  },
+  {
+    "key": "Kassel_Germany",
+    "tagline": "格林童话与当代艺术之城",
+    "description": "格林兄弟的故乡，文献展当代艺术之城。"
+  },
+  {
+    "key": "Aachen_Germany",
+    "tagline": "查理曼帝国之都",
+    "description": "查理曼大帝的皇城，温泉与大教堂之城。"
+  },
+  {
+    "key": "Potsdam_Germany",
+    "tagline": "普鲁士宫殿之城",
+    "description": "柏林近郊的宫殿之城，无忧宫列入世界遗产。"
+  },
+  {
+    "key": "Regensburg_Germany",
+    "tagline": "多瑙河畔的中世纪明珠",
+    "description": "多瑙河畔中世纪古城，保存完好的世界遗产。"
+  },
+  {
+    "key": "Würzburg_Germany",
+    "tagline": "弗兰肯葡萄酒之都",
+    "description": "弗兰肯葡萄酒之都，主教宫殿列入世界遗产。"
+  },
+  {
+    "key": "Bamberg_Germany",
+    "tagline": "烟熏啤酒与世界遗产之城",
+    "description": "弗兰肯小威尼斯，世界遗产烟熏啤酒之城。"
+  },
+  {
+    "key": "Trier_Germany",
+    "tagline": "德国最古老的城市",
+    "description": "德国最古老城市，罗马遗迹遍布的世界遗产之城。"
+  },
+  {
+    "key": "Passau_Germany",
+    "tagline": "三河交汇之城",
+    "description": "三河之城，多瑙河、因河和伊尔茨河交汇处。"
+  },
+  {
+    "key": "Konstanz_Germany",
+    "tagline": "博登湖畔的明珠",
+    "description": "博登湖畔的德瑞边境城市，大公会议的历史名城。"
+  },
+  {
+    "key": "Weimar_Germany",
+    "tagline": "文学与包豪斯之城",
+    "description": "歌德和席勒的文学之城，包豪斯运动发源地。"
+  },
+  {
+    "key": "Turin_Italy",
+    "tagline": "意大利汽车之都",
+    "description": "意大利汽车工业之都，菲亚特的故乡，巧克力与咖啡名城。"
+  },
+  {
+    "key": "Bologna_Italy",
+    "tagline": "美食与学术之都",
+    "description": "欧洲最古老大学所在地，意大利美食之都。"
+  },
+  {
+    "key": "Genoa_Italy",
+    "tagline": "哥伦布的故乡",
+    "description": "利古里亚海港城市，哥伦布的故乡，拥有壮丽的宫殿群。"
+  },
+  {
+    "key": "Palermo_Italy",
+    "tagline": "西西里之都",
+    "description": "西西里岛首府，阿拉伯-诺曼文化交融的独特之城。"
+  },
+  {
+    "key": "Catania_Italy",
+    "tagline": "火山脚下的巴洛克之城",
+    "description": "埃特纳火山脚下的西西里东部城市，巴洛克建筑之城。"
+  },
+  {
+    "key": "Bari_Italy",
+    "tagline": "亚得里亚海的门户",
+    "description": "普利亚大区首府，圣尼古拉朝圣地。"
+  },
+  {
+    "key": "Verona_Italy",
+    "tagline": "爱情与歌剧之城",
+    "description": "罗密欧与朱丽叶的故事之城，罗马竞技场夏季歌剧闻名。"
+  },
+  {
+    "key": "Padua_Italy",
+    "tagline": "圣安东尼与乔托之城",
+    "description": "威尼托古城，乔托壁画的斯克罗维尼礼拜堂闻名。"
+  },
+  {
+    "key": "Trieste_Italy",
+    "tagline": "咖啡与多元文化之城",
+    "description": "意大利东北角港口城市，咖啡文化与中欧风情交融。"
+  },
+  {
+    "key": "Perugia_Italy",
+    "tagline": "翁布里亚的山城之都",
+    "description": "翁布里亚首府，巧克力节与爵士音乐节闻名。"
+  },
+  {
+    "key": "Siena_Italy",
+    "tagline": "中世纪赛马之城",
+    "description": "托斯卡纳中世纪古城，赛马节和贝壳广场闻名。"
+  },
+  {
+    "key": "Pisa_Italy",
+    "tagline": "斜塔之城",
+    "description": "比萨斜塔闻名于世的托斯卡纳城市。"
+  },
+  {
+    "key": "Parma_Italy",
+    "tagline": "火腿与芝士之都",
+    "description": "帕尔玛火腿与帕玛森芝士的故乡，意大利美食圣地。"
+  },
+  {
+    "key": "Modena_Italy",
+    "tagline": "超跑与香醋之都",
+    "description": "法拉利和兰博基尼的故乡，传统香醋之城。"
+  },
+  {
+    "key": "Ravenna_Italy",
+    "tagline": "马赛克之都",
+    "description": "拜占庭马赛克艺术的宝库，八处世界遗产。"
+  },
+  {
+    "key": "Lecce_Italy",
+    "tagline": "南方的佛罗伦萨",
+    "description": "南意大利巴洛克建筑之城，被誉为南方佛罗伦萨。"
+  },
+  {
+    "key": "Bergamo_Italy",
+    "tagline": "城墙上的古城",
+    "description": "伦巴第古城，威尼斯式城墙环绕的上城区。"
+  },
+  {
+    "key": "Cagliari_Italy",
+    "tagline": "撒丁岛阳光之都",
+    "description": "撒丁岛首府，地中海碧海蓝天的海港城市。"
+  },
+  {
+    "key": "Brescia_Italy",
+    "tagline": "母狮之城",
+    "description": "伦巴第工业城市，罗马遗迹与文艺复兴建筑共存。"
+  },
+  {
+    "key": "Ancona_Italy",
+    "tagline": "亚得里亚海的门户",
+    "description": "亚得里亚海中部港口城市，通往希腊和克罗地亚的门户。"
+  },
+  {
+    "key": "Lucca_Italy",
+    "tagline": "城墙与普契尼之城",
+    "description": "托斯卡纳城墙之城，普契尼的故乡。"
+  },
+  {
+    "key": "Sassari_Italy",
+    "tagline": "撒丁岛北部明珠",
+    "description": "撒丁岛北部城市，独特的撒丁文化与建筑。"
+  },
+  {
+    "key": "Málaga_Spain",
+    "tagline": "毕加索故乡，阳光海岸",
+    "description": "毕加索的故乡，安达卢西亚阳光海岸的明珠。"
+  },
+  {
+    "key": "Bilbao_Spain",
+    "tagline": "古根海姆博物馆之城",
+    "description": "巴斯克地区最大城市，古根海姆博物馆闻名于世。"
+  },
+  {
+    "key": "Granada_Spain",
+    "tagline": "阿尔罕布拉宫之城",
+    "description": "阿尔罕布拉宫所在地，摩尔文化的璀璨遗产。"
+  },
+  {
+    "key": "Zaragoza_Spain",
+    "tagline": "埃布罗河畔的圣母之城",
+    "description": "阿拉贡首府，圣母柱大教堂矗立于埃布罗河畔。"
+  },
+  {
+    "key": "San Sebastián_Spain",
+    "tagline": "美食与海滩之城",
+    "description": "巴斯克海滨度假胜地，世界级美食之城。"
+  },
+  {
+    "key": "Córdoba_Spain",
+    "tagline": "清真寺大教堂之城",
+    "description": "清真寺-大教堂闻名于世，中世纪三教共存之城。"
+  },
+  {
+    "key": "Alicante_Spain",
+    "tagline": "阳光海岸的度假天堂",
+    "description": "西班牙东南海岸度假城市，圣巴尔巴拉城堡俯瞰全城。"
+  },
+  {
+    "key": "Palma de Mallorca_Spain",
+    "tagline": "地中海岛屿之都",
+    "description": "马略卡岛首府，地中海度假天堂，哥特式大教堂壮丽。"
+  },
+  {
+    "key": "Las Palmas de Gran Canaria_Spain",
+    "tagline": "四季如春的火山岛城",
+    "description": "加那利群岛最大城市，四季如春的海滨度假胜地。"
+  },
+  {
+    "key": "Valladolid_Spain",
+    "tagline": "卡斯蒂利亚的历史之都",
+    "description": "卡斯蒂利亚-莱昂的历史首都，西班牙黄金时代名城。"
+  },
+  {
+    "key": "Murcia_Spain",
+    "tagline": "果园与花园之城",
+    "description": "西班牙东南部花园城市，巴洛克大教堂闻名。"
+  },
+  {
+    "key": "Santander_Spain",
+    "tagline": "北海岸的优雅之城",
+    "description": "坎塔布里亚海滨城市，北部海岸度假胜地。"
+  },
+  {
+    "key": "Salamanca_Spain",
+    "tagline": "金色砂岩的大学之城",
+    "description": "拥有西班牙最古老大学的金色砂岩之城。"
+  },
+  {
+    "key": "Oviedo_Spain",
+    "tagline": "阿斯图里亚斯之都",
+    "description": "阿斯图里亚斯首府，前罗马式建筑世界遗产。"
+  },
+  {
+    "key": "Girona_Spain",
+    "tagline": "多彩河畔之城",
+    "description": "加泰罗尼亚古城，色彩斑斓的河畔建筑闻名。"
+  },
+  {
+    "key": "Toledo_Spain",
+    "tagline": "三教共存的帝都",
+    "description": "三教之城，伊斯兰、基督教和犹太文化交融的历史名城。"
+  },
+  {
+    "key": "Cádiz_Spain",
+    "tagline": "西欧最古老之城",
+    "description": "欧洲最古老的定居城市之一，大航海时代的重要港口。"
+  },
+  {
+    "key": "Pamplona_Spain",
+    "tagline": "奔牛节之城",
+    "description": "纳瓦拉首府，奔牛节闻名于世。"
+  },
+  {
+    "key": "Tarragona_Spain",
+    "tagline": "罗马遗迹之城",
+    "description": "加泰罗尼亚罗马遗迹之城，世界遗产。"
+  },
+  {
+    "key": "A Coruña_Spain",
+    "tagline": "玻璃之城",
+    "description": "加利西亚海港城市，赫拉克勒斯灯塔世界遗产。"
+  },
+  {
+    "key": "Santiago de Compostela_Spain",
+    "tagline": "朝圣之路的终点",
+    "description": "朝圣之路的终点，圣雅各大教堂闻名于世。"
+  },
+  {
+    "key": "Vigo_Spain",
+    "tagline": "大西洋之港",
+    "description": "加利西亚最大城市，大西洋渔港与工业中心。"
+  },
+  {
+    "key": "Braga_Portugal",
+    "tagline": "葡萄牙的宗教之都",
+    "description": "葡萄牙北部宗教之城，仁慈耶稣朝圣所闻名。"
+  },
+  {
+    "key": "Coimbra_Portugal",
+    "tagline": "大学与法朵之城",
+    "description": "葡萄牙古都，拥有世界遗产大学和法朵音乐传统。"
+  },
+  {
+    "key": "Faro_Portugal",
+    "tagline": "阿尔加维的门户",
+    "description": "阿尔加维大区首府，葡萄牙南部海滨度假门户。"
+  },
+  {
+    "key": "Funchal_Portugal",
+    "tagline": "大西洋花园之岛",
+    "description": "马德拉岛首府，C罗的故乡，花园之城。"
+  },
+  {
+    "key": "Évora_Portugal",
+    "tagline": "阿连特茹的历史明珠",
+    "description": "葡萄牙南部历史名城，罗马神殿与骨头礼拜堂。"
+  },
+  {
+    "key": "Aveiro_Portugal",
+    "tagline": "葡萄牙的威尼斯",
+    "description": "葡萄牙的威尼斯，以彩色船只和新艺术建筑闻名。"
+  },
+  {
+    "key": "Guimarães_Portugal",
+    "tagline": "葡萄牙的诞生之地",
+    "description": "葡萄牙的摇篮，国家诞生地，中世纪古城。"
+  },
+  {
+    "key": "Sintra_Portugal",
+    "tagline": "童话宫殿之城",
+    "description": "里斯本近郊童话般的宫殿之城，世界遗产。"
+  },
+  {
+    "key": "Viseu_Portugal",
+    "tagline": "杜奥葡萄酒之门",
+    "description": "葡萄牙中部历史古城，杜奥葡萄酒产区的门户。"
+  },
+  {
+    "key": "The Hague_Netherlands",
+    "tagline": "和平与正义之城",
+    "description": "荷兰政治中心，国际法庭所在地。"
+  },
+  {
+    "key": "Utrecht_Netherlands",
+    "tagline": "运河与学术之城",
+    "description": "荷兰古老大学城，运河与教堂塔楼的魅力之城。"
+  },
+  {
+    "key": "Eindhoven_Netherlands",
+    "tagline": "设计与创新之城",
+    "description": "荷兰设计与科技之都，飞利浦的故乡。"
+  },
+  {
+    "key": "Groningen_Netherlands",
+    "tagline": "北荷兰的青春之城",
+    "description": "荷兰北部大学城，充满活力的文化中心。"
+  },
+  {
+    "key": "Leiden_Netherlands",
+    "tagline": "伦勃朗与学术之城",
+    "description": "伦勃朗的故乡，荷兰最古老大学所在地。"
+  },
+  {
+    "key": "Delft_Netherlands",
+    "tagline": "蓝陶与维米尔之城",
+    "description": "荷兰蓝陶的故乡，维米尔的出生地。"
+  },
+  {
+    "key": "Haarlem_Netherlands",
+    "tagline": "花都与艺术之城",
+    "description": "阿姆斯特丹近郊的花都，弗兰斯·哈尔斯博物馆所在地。"
+  },
+  {
+    "key": "Maastricht_Netherlands",
+    "tagline": "欧盟条约之城",
+    "description": "荷兰最古老的城市之一，欧盟条约签署地。"
+  },
+  {
+    "key": "Breda_Netherlands",
+    "tagline": "布拉班特的绿色之城",
+    "description": "北布拉班特省历史名城，大教堂与公园之城。"
+  },
+  {
+    "key": "Tilburg_Netherlands",
+    "tagline": "纺织与文化之城",
+    "description": "北布拉班特省城市，纺织工业遗产与现代文化。"
+  },
+  {
+    "key": "Nijmegen_Netherlands",
+    "tagline": "荷兰最古老的城市",
+    "description": "荷兰最古老城市，瓦尔河畔的大学城。"
+  },
+  {
+    "key": "Den Bosch_Netherlands",
+    "tagline": "博斯的艺术之城",
+    "description": "耶罗尼米斯·博斯的故乡，中世纪建筑保存完好。"
+  },
+  {
+    "key": "Leeuwarden_Netherlands",
+    "tagline": "弗里斯兰的文化之都",
+    "description": "弗里斯兰省首府，埃舍尔的故乡，欧洲文化之都。"
+  },
+  {
+    "key": "Ghent_Belgium",
+    "tagline": "佛兰德斯的秘密瑰宝",
+    "description": "比利时中世纪古城，圣巴夫大教堂与神秘羔羊祭坛画。"
+  },
+  {
+    "key": "Bruges_Belgium",
+    "tagline": "北方的威尼斯",
+    "description": "比利时中世纪水城，巧克力与蕾丝的浪漫之都。"
+  },
+  {
+    "key": "Liège_Belgium",
+    "tagline": "火热之城",
+    "description": "瓦隆区最大城市，火热之城，华夫饼的故乡。"
+  },
+  {
+    "key": "Namur_Belgium",
+    "tagline": "瓦隆之都",
+    "description": "瓦隆大区首府，默兹河与桑布尔河交汇处的古城。"
+  },
+  {
+    "key": "Leuven_Belgium",
+    "tagline": "学术与啤酒之城",
+    "description": "比利时古老大学城，哥特式市政厅精美绝伦。"
+  },
+  {
+    "key": "Mechelen_Belgium",
+    "tagline": "佛兰德斯的历史之心",
+    "description": "佛兰德斯历史名城，曾是勃艮第宫廷所在地。"
+  },
+  {
+    "key": "Mons_Belgium",
+    "tagline": "杜龙节之城",
+    "description": "瓦隆区文化名城，杜龙节列入非遗。"
+  },
+  {
+    "key": "Tournai_Belgium",
+    "tagline": "五塔大教堂之城",
+    "description": "比利时最古老城市之一，五塔大教堂世界遗产。"
+  },
+  {
+    "key": "Bern_Switzerland",
+    "tagline": "瑞士首都，熊之城",
+    "description": "瑞士联邦首都，阿勒河环绕的中世纪世界遗产古城。"
+  },
+  {
+    "key": "Basel_Switzerland",
+    "tagline": "艺术与制药之都",
+    "description": "瑞德法三国交界处的艺术与制药之城。"
+  },
+  {
+    "key": "Lausanne_Switzerland",
+    "tagline": "奥林匹克之都",
+    "description": "日内瓦湖畔的奥林匹克之都，国际奥委会总部所在地。"
+  },
+  {
+    "key": "Lucerne_Switzerland",
+    "tagline": "湖光山色的古城",
+    "description": "瑞士中部湖畔古城，卡佩尔桥与狮子纪念碑闻名。"
+  },
+  {
+    "key": "Interlaken_Switzerland",
+    "tagline": "少女峰下的双湖之城",
+    "description": "少女峰脚下的双湖之城，瑞士阿尔卑斯旅游胜地。"
+  },
+  {
+    "key": "St. Gallen_Switzerland",
+    "tagline": "修道院图书馆之城",
+    "description": "瑞士东部文化名城，修道院图书馆列入世界遗产。"
+  },
+  {
+    "key": "Lugano_Switzerland",
+    "tagline": "瑞士的地中海",
+    "description": "瑞士意大利语区湖畔城市，地中海风情与瑞士品质。"
+  },
+  {
+    "key": "Montreux_Switzerland",
+    "tagline": "爵士音乐节之城",
+    "description": "日内瓦湖畔音乐之城，爵士音乐节闻名于世。"
+  },
+  {
+    "key": "Zermatt_Switzerland",
+    "tagline": "马特洪峰下的滑雪天堂",
+    "description": "马特洪峰脚下的无车山村，世界级滑雪胜地。"
+  },
+  {
+    "key": "Davos_Switzerland",
+    "tagline": "世界经济论坛之城",
+    "description": "世界经济论坛举办地，高山滑雪度假胜地。"
+  },
+  {
+    "key": "Winterthur_Switzerland",
+    "tagline": "博物馆之城",
+    "description": "苏黎世近郊文化城市，拥有众多博物馆。"
+  },
+  {
+    "key": "Biel/Bienne_Switzerland",
+    "tagline": "钟表之城",
+    "description": "瑞士双语之城，钟表工业的中心。"
+  },
+  {
+    "key": "Thun_Switzerland",
+    "tagline": "伯尔尼高地的门户",
+    "description": "图恩湖畔的中世纪小城，通往伯尔尼高地的门户。"
+  },
+  {
+    "key": "Graz_Austria",
+    "tagline": "设计之都",
+    "description": "奥地利第二大城市，设计之都与美食之城。"
+  },
+  {
+    "key": "Innsbruck_Austria",
+    "tagline": "阿尔卑斯的奥运之城",
+    "description": "阿尔卑斯山中的奥运之城，黄金屋顶闻名。"
+  },
+  {
+    "key": "Linz_Austria",
+    "tagline": "多瑙河畔的创新之城",
+    "description": "多瑙河畔的科技与艺术之城，林茨蛋糕的故乡。"
+  },
+  {
+    "key": "Klagenfurt_Austria",
+    "tagline": "沃尔特湖畔之城",
+    "description": "沃尔特湖畔的卡林西亚首府，夏季度假胜地。"
+  },
+  {
+    "key": "Bregenz_Austria",
+    "tagline": "湖上歌剧之城",
+    "description": "博登湖畔的湖上歌剧舞台闻名于世。"
+  },
+  {
+    "key": "Villach_Austria",
+    "tagline": "温泉与自然之城",
+    "description": "奥地利南部温泉与户外运动之城。"
+  },
+  {
+    "key": "Wels_Austria",
+    "tagline": "博览之城",
+    "description": "上奥地利州第二大城市，博览会与农业中心。"
+  },
+  {
+    "key": "St. Pölten_Austria",
+    "tagline": "下奥地利之都",
+    "description": "下奥地利州首府，巴洛克与新艺术建筑的融合。"
+  },
+  {
+    "key": "Gothenburg_Sweden",
+    "tagline": "北欧最大港口之城",
+    "description": "瑞典第二大城市，北欧最大港口与美食之城。"
+  },
+  {
+    "key": "Malmö_Sweden",
+    "tagline": "跨海大桥之城",
+    "description": "瑞典南部城市，厄勒海峡大桥连接丹麦。"
+  },
+  {
+    "key": "Uppsala_Sweden",
+    "tagline": "北欧学术之都",
+    "description": "瑞典古都，北欧最古老大学所在地。"
+  },
+  {
+    "key": "Linköping_Sweden",
+    "tagline": "航空科技之城",
+    "description": "瑞典航空工业中心，萨博飞机的故乡。"
+  },
+  {
+    "key": "Västerås_Sweden",
+    "tagline": "梅拉伦湖畔之城",
+    "description": "梅拉伦湖畔的工业与科技城市。"
+  },
+  {
+    "key": "Örebro_Sweden",
+    "tagline": "水上城堡之城",
+    "description": "瑞典中部城市，水上城堡与蘑菇雕塑闻名。"
+  },
+  {
+    "key": "Helsingborg_Sweden",
+    "tagline": "海峡之城",
+    "description": "瑞典南部海峡城市，与丹麦赫尔辛格隔海相望。"
+  },
+  {
+    "key": "Norrköping_Sweden",
+    "tagline": "工业景观之城",
+    "description": "瑞典工业景观之城，河流穿城而过。"
+  },
+  {
+    "key": "Lund_Sweden",
+    "tagline": "千年大学之城",
+    "description": "瑞典南部古老大学城，罗曼式大教堂闻名。"
+  },
+  {
+    "key": "Umeå_Sweden",
+    "tagline": "北方的白桦之城",
+    "description": "瑞典北部文化之都，白桦之城。"
+  },
+  {
+    "key": "Kiruna_Sweden",
+    "tagline": "极光与冰旅馆之城",
+    "description": "瑞典最北城市，冰旅馆与北极光的胜地。"
+  },
+  {
+    "key": "Bergen_Norway",
+    "tagline": "峡湾之都",
+    "description": "挪威第二大城市，布吕根木屋列入世界遗产，峡湾门户。"
+  },
+  {
+    "key": "Trondheim_Norway",
+    "tagline": "挪威古都",
+    "description": "挪威历史古都，尼达罗斯大教堂是北欧最大中世纪建筑。"
+  },
+  {
+    "key": "Stavanger_Norway",
+    "tagline": "石油之都与峡湾徒步",
+    "description": "挪威石油之都，布道石峡湾徒步的起点。"
+  },
+  {
+    "key": "Tromsø_Norway",
+    "tagline": "北极之门",
+    "description": "北极之门，观赏北极光和午夜太阳的胜地。"
+  },
+  {
+    "key": "Drammen_Norway",
+    "tagline": "河畔活力之城",
+    "description": "奥斯陆近郊河畔城市，户外运动的天堂。"
+  },
+  {
+    "key": "Kristiansand_Norway",
+    "tagline": "挪威南海岸明珠",
+    "description": "挪威南部海滨城市，夏季度假胜地。"
+  },
+  {
+    "key": "Bodø_Norway",
+    "tagline": "罗弗敦的门户",
+    "description": "北极圈内城市，罗弗敦群岛的门户。"
+  },
+  {
+    "key": "Ålesund_Norway",
+    "tagline": "新艺术建筑之城",
+    "description": "挪威西海岸新艺术运动建筑之城。"
+  },
+  {
+    "key": "Aarhus_Denmark",
+    "tagline": "微笑之城",
+    "description": "丹麦第二大城市，欧洲文化之都，艺术与设计之城。"
+  },
+  {
+    "key": "Odense_Denmark",
+    "tagline": "童话之城",
+    "description": "安徒生的故乡，丹麦第三大城市。"
+  },
+  {
+    "key": "Aalborg_Denmark",
+    "tagline": "维京遗迹之城",
+    "description": "丹麦北日德兰半岛城市，维京遗迹与现代建筑共存。"
+  },
+  {
+    "key": "Roskilde_Denmark",
+    "tagline": "维京与摇滚之城",
+    "description": "丹麦古都，维京船博物馆与摇滚音乐节闻名。"
+  },
+  {
+    "key": "Helsingør_Denmark",
+    "tagline": "哈姆雷特之城",
+    "description": "莎士比亚《哈姆雷特》中克伦堡宫所在地。"
+  },
+  {
+    "key": "Turku_Finland",
+    "tagline": "芬兰古都",
+    "description": "芬兰古都，圣诞和平宣言的发布地。"
+  },
+  {
+    "key": "Tampere_Finland",
+    "tagline": "桑拿之都",
+    "description": "芬兰内陆最大城市，桑拿之都与工业遗产之城。"
+  },
+  {
+    "key": "Oulu_Finland",
+    "tagline": "北方科技之城",
+    "description": "芬兰北部科技之城，空气吉他世锦赛举办地。"
+  },
+  {
+    "key": "Rovaniemi_Finland",
+    "tagline": "圣诞老人的故乡",
+    "description": "圣诞老人的官方故乡，拉普兰的首府。"
+  },
+  {
+    "key": "Jyväskylä_Finland",
+    "tagline": "阿尔托建筑之城",
+    "description": "芬兰湖区大学城，阿尔瓦·阿尔托建筑的宝库。"
+  },
+  {
+    "key": "Porvoo_Finland",
+    "tagline": "红仓库的古城",
+    "description": "芬兰最古老城市之一，红色河畔仓库如画。"
+  },
+  {
+    "key": "Brno_Czech Republic",
+    "tagline": "摩拉维亚之都",
+    "description": "捷克第二大城市，摩拉维亚首府，功能主义建筑闻名。"
+  },
+  {
+    "key": "Český Krumlov_Czech Republic",
+    "tagline": "波西米亚童话小镇",
+    "description": "伏尔塔瓦河畔的童话小镇，世界遗产古城。"
+  },
+  {
+    "key": "Ostrava_Czech Republic",
+    "tagline": "钢铁与音乐之城",
+    "description": "捷克第三大城市，钢铁工业遗产与音乐节之城。"
+  },
+  {
+    "key": "Plzeň_Czech Republic",
+    "tagline": "皮尔森啤酒之城",
+    "description": "皮尔森啤酒的发源地，捷克西部工业与文化中心。"
+  },
+  {
+    "key": "Olomouc_Czech Republic",
+    "tagline": "摩拉维亚的隐藏瑰宝",
+    "description": "摩拉维亚历史名城，圣三位一体纪念柱世界遗产。"
+  },
+  {
+    "key": "Karlovy Vary_Czech Republic",
+    "tagline": "温泉与电影之城",
+    "description": "波西米亚温泉之城，国际电影节举办地。"
+  },
+  {
+    "key": "Liberec_Czech Republic",
+    "tagline": "耶什杰德山下之城",
+    "description": "捷克北部山城，耶什杰德电视塔地标闻名。"
+  },
+  {
+    "key": "Debrecen_Hungary",
+    "tagline": "加尔文之城",
+    "description": "匈牙利第二大城市，加尔文宗大教堂闻名。"
+  },
+  {
+    "key": "Szeged_Hungary",
+    "tagline": "辣椒与阳光之城",
+    "description": "匈牙利南部阳光之城，辣椒与大学之城。"
+  },
+  {
+    "key": "Pécs_Hungary",
+    "tagline": "文化与艺术之都",
+    "description": "匈牙利文化之都，早期基督教墓地列入世界遗产。"
+  },
+  {
+    "key": "Győr_Hungary",
+    "tagline": "河流之城",
+    "description": "匈牙利西部巴洛克之城，多瑙河支流交汇处。"
+  },
+  {
+    "key": "Eger_Hungary",
+    "tagline": "公牛血葡萄酒之城",
+    "description": "匈牙利北部巴洛克古城，公牛血葡萄酒的故乡。"
+  },
+  {
+    "key": "Gdańsk_Poland",
+    "tagline": "琥珀与自由之城",
+    "description": "波罗的海港口城市，团结工会的发源地，琥珀之都。"
+  },
+  {
+    "key": "Wrocław_Poland",
+    "tagline": "百桥与小矮人之城",
+    "description": "奥得河畔百桥之城，小矮人雕塑遍布全城。"
+  },
+  {
+    "key": "Poznań_Poland",
+    "tagline": "波兰的诞生之城",
+    "description": "波兰的诞生地，大波兰地区的文化与商业中心。"
+  },
+  {
+    "key": "Łódź_Poland",
+    "tagline": "电影与工业之城",
+    "description": "波兰中部工业城市，电影与纺织之城。"
+  },
+  {
+    "key": "Katowice_Poland",
+    "tagline": "西里西亚的文化新城",
+    "description": "上西里西亚工业区中心，音乐与文化转型之城。"
+  },
+  {
+    "key": "Szczecin_Poland",
+    "tagline": "波美拉尼亚之都",
+    "description": "波兰西北部港口城市，靠近德国边境。"
+  },
+  {
+    "key": "Lublin_Poland",
+    "tagline": "波兰东部之都",
+    "description": "波兰东部文化名城，中世纪古城保存完好。"
+  },
+  {
+    "key": "Bydgoszcz_Poland",
+    "tagline": "波兰的威尼斯",
+    "description": "布尔达河畔的水城，被称为波兰的威尼斯。"
+  },
+  {
+    "key": "Białystok_Poland",
+    "tagline": "原始森林的门户",
+    "description": "波兰东北部城市，靠近比亚沃维耶扎原始森林。"
+  },
+  {
+    "key": "Toruń_Poland",
+    "tagline": "哥白尼之城",
+    "description": "哥白尼的故乡，中世纪砖砌建筑世界遗产。"
+  },
+  {
+    "key": "Rzeszów_Poland",
+    "tagline": "喀尔巴阡山下的航空之城",
+    "description": "波兰东南部快速发展的航空工业之城。"
+  },
+  {
+    "key": "Częstochowa_Poland",
+    "tagline": "黑色圣母朝圣地",
+    "description": "波兰宗教朝圣圣地，光明山修道院的黑色圣母像。"
+  },
+  {
+    "key": "Olsztyn_Poland",
+    "tagline": "湖区之门",
+    "description": "波兰东北部湖区之城，马祖里湖区的门户。"
+  },
+  {
+    "key": "Opole_Poland",
+    "tagline": "波兰歌曲之都",
+    "description": "波兰歌曲之城，每年举办全国歌曲节。"
+  },
+  {
+    "key": "Zakopane_Poland",
+    "tagline": "波兰的冬季之都",
+    "description": "塔特拉山脚下的冬季运动之都，波兰山地文化中心。"
+  },
+  {
+    "key": "Sopot_Poland",
+    "tagline": "波罗的海度假明珠",
+    "description": "波罗的海度假胜地，欧洲最长木栈桥闻名。"
+  },
+  {
+    "key": "Thessaloniki_Greece",
+    "tagline": "拜占庭之都",
+    "description": "希腊第二大城市，拜占庭遗产与现代文化交融。"
+  },
+  {
+    "key": "Heraklion_Greece",
+    "tagline": "米诺斯文明之都",
+    "description": "克里特岛首府，米诺斯文明克诺索斯宫所在地。"
+  },
+  {
+    "key": "Patras_Greece",
+    "tagline": "狂欢节之都",
+    "description": "伯罗奔尼撒半岛北部港口，希腊狂欢节之都。"
+  },
+  {
+    "key": "Rhodes_Greece",
+    "tagline": "骑士之城",
+    "description": "爱琴海十二群岛最大岛屿，中世纪骑士之城。"
+  },
+  {
+    "key": "Corfu_Greece",
+    "tagline": "爱奥尼亚海的翡翠",
+    "description": "爱奥尼亚海翡翠之岛，威尼斯风情的世界遗产古城。"
+  },
+  {
+    "key": "Ioannina_Greece",
+    "tagline": "湖畔历史之城",
+    "description": "伊庇鲁斯首府，帕姆沃蒂斯湖畔的历史名城。"
+  },
+  {
+    "key": "Chania_Greece",
+    "tagline": "克里特的威尼斯明珠",
+    "description": "克里特岛西部威尼斯风情古城，老港灯塔闻名。"
+  },
+  {
+    "key": "Volos_Greece",
+    "tagline": "阿尔戈英雄之城",
+    "description": "色萨利港口城市，希腊神话阿尔戈英雄出发地。"
+  },
+  {
+    "key": "Kavala_Greece",
+    "tagline": "爱琴海北岸明珠",
+    "description": "北希腊海港城市，罗马水渠与城堡俯瞰爱琴海。"
+  },
+  {
+    "key": "Kalamata_Greece",
+    "tagline": "橄榄之城",
+    "description": "伯罗奔尼撒南部城市，以优质橄榄闻名于世。"
+  },
+  {
+    "key": "Mykonos_Greece",
+    "tagline": "风车与派对之岛",
+    "description": "基克拉泽斯群岛的派对之岛，白色风车地标。"
+  },
+  {
+    "key": "Santorini_Greece",
+    "tagline": "爱琴海的蓝白天堂",
+    "description": "爱琴海火山岛，蓝顶白墙教堂与壮丽日落闻名。"
+  },
+  {
+    "key": "Delphi_Greece",
+    "tagline": "世界的中心",
+    "description": "古希腊神谕之地，阿波罗神殿遗址世界遗产。"
+  },
+  {
+    "key": "Nafplio_Greece",
+    "tagline": "希腊浪漫古都",
+    "description": "希腊第一个首都，浪漫的海滨古城。"
+  },
+  {
+    "key": "Tallinn_Estonia",
+    "tagline": "中世纪的数字之都",
+    "description": "爱沙尼亚首都，保存完好的中世纪老城世界遗产。"
+  },
+  {
+    "key": "Tartu_Estonia",
+    "tagline": "爱沙尼亚的学术之城",
+    "description": "爱沙尼亚第二大城市，大学城与文化中心。"
+  },
+  {
+    "key": "Pärnu_Estonia",
+    "tagline": "波罗的海夏都",
+    "description": "爱沙尼亚夏季之都，波罗的海度假胜地。"
+  },
+  {
+    "key": "Riga_Latvia",
+    "tagline": "新艺术运动之都",
+    "description": "拉脱维亚首都，新艺术运动建筑最集中的城市。"
+  },
+  {
+    "key": "Jūrmala_Latvia",
+    "tagline": "波罗的海白沙之城",
+    "description": "里加湾畔的白沙海滩度假城市。"
+  },
+  {
+    "key": "Liepāja_Latvia",
+    "tagline": "风吹诞生之城",
+    "description": "拉脱维亚西海岸港口城市，风之城。"
+  },
+  {
+    "key": "Vilnius_Lithuania",
+    "tagline": "巴洛克之都",
+    "description": "立陶宛首都，巴洛克建筑的宝库，世界遗产古城。"
+  },
+  {
+    "key": "Kaunas_Lithuania",
+    "tagline": "装饰艺术之城",
+    "description": "立陶宛第二大城市，装饰艺术建筑闻名。"
+  },
+  {
+    "key": "Klaipėda_Lithuania",
+    "tagline": "库尔斯沙嘴的门户",
+    "description": "立陶宛唯一海港城市，库尔斯沙嘴的门户。"
+  },
+  {
+    "key": "Cluj-Napoca_Romania",
+    "tagline": "特兰西瓦尼亚之心",
+    "description": "特兰西瓦尼亚的非正式首都，罗马尼亚文化与科技中心。"
+  },
+  {
+    "key": "Timișoara_Romania",
+    "tagline": "自由之城",
+    "description": "罗马尼亚西部城市，1989年革命的发源地。"
+  },
+  {
+    "key": "Sibiu_Romania",
+    "tagline": "特兰西瓦尼亚的萨克森明珠",
+    "description": "特兰西瓦尼亚的萨克森古城，中世纪防御建筑保存完好。"
+  },
+  {
+    "key": "Brașov_Romania",
+    "tagline": "喀尔巴阡山的明珠",
+    "description": "喀尔巴阡山脉中的中世纪古城，黑教堂闻名。"
+  },
+  {
+    "key": "Constanța_Romania",
+    "tagline": "黑海之门",
+    "description": "黑海沿岸最大港口城市，罗马尼亚的海滨度假胜地。"
+  },
+  {
+    "key": "Iași_Romania",
+    "tagline": "罗马尼亚文化之都",
+    "description": "罗马尼亚文化之都，摩尔多瓦历史首府。"
+  },
+  {
+    "key": "Sighișoara_Romania",
+    "tagline": "德古拉的出生之城",
+    "description": "中世纪设防古城，弗拉德·采佩什（德古拉）的出生地。"
+  },
+  {
+    "key": "Sofia_Bulgaria",
+    "tagline": "维托沙山下的古都",
+    "description": "保加利亚首都，维托沙山脚下的古老都城。"
+  },
+  {
+    "key": "Plovdiv_Bulgaria",
+    "tagline": "欧洲最古老的城市之一",
+    "description": "欧洲最古老的有人连续居住城市之一，七丘之城。"
+  },
+  {
+    "key": "Varna_Bulgaria",
+    "tagline": "保加利亚的海滨之都",
+    "description": "保加利亚黑海度假城市，海滨之都。"
+  },
+  {
+    "key": "Burgas_Bulgaria",
+    "tagline": "黑海南岸之城",
+    "description": "保加利亚黑海南部港口城市，沙雕节闻名。"
+  },
+  {
+    "key": "Veliko Tarnovo_Bulgaria",
+    "tagline": "沙皇之城",
+    "description": "保加利亚中世纪首都，查雷韦茨城堡雄踞山巅。"
+  },
+  {
+    "key": "Belgrade_Serbia",
+    "tagline": "巴尔干的不夜城",
+    "description": "塞尔维亚首都，多瑙河与萨瓦河交汇处的不夜城。"
+  },
+  {
+    "key": "Novi Sad_Serbia",
+    "tagline": "EXIT音乐节之城",
+    "description": "塞尔维亚第二大城市，EXIT音乐节闻名于世。"
+  },
+  {
+    "key": "Niš_Serbia",
+    "tagline": "君士坦丁之城",
+    "description": "塞尔维亚第三大城市，君士坦丁大帝的出生地。"
+  },
+  {
+    "key": "Zagreb_Croatia",
+    "tagline": "上城与下城的双面之都",
+    "description": "克罗地亚首都，上城区中世纪建筑与下城区新艺术风格共存。"
+  },
+  {
+    "key": "Split_Croatia",
+    "tagline": "戴克里先宫之城",
+    "description": "达尔马提亚海岸城市，戴克里先宫殿世界遗产。"
+  },
+  {
+    "key": "Dubrovnik_Croatia",
+    "tagline": "亚得里亚海的明珠",
+    "description": "亚得里亚海明珠，城墙环绕的世界遗产古城。"
+  },
+  {
+    "key": "Zadar_Croatia",
+    "tagline": "海风琴之城",
+    "description": "达尔马提亚古城，海风琴与太阳敬礼装置闻名。"
+  },
+  {
+    "key": "Pula_Croatia",
+    "tagline": "罗马竞技场之城",
+    "description": "伊斯特拉半岛城市，保存完好的罗马竞技场闻名。"
+  },
+  {
+    "key": "Rijeka_Croatia",
+    "tagline": "克罗地亚的海港之都",
+    "description": "克罗地亚最大港口城市，狂欢节闻名于世。"
+  },
+  {
+    "key": "Rovinj_Croatia",
+    "tagline": "亚得里亚海最美渔村",
+    "description": "伊斯特拉半岛渔村，被誉为亚得里亚海最美小镇。"
+  },
+  {
+    "key": "Ljubljana_Slovenia",
+    "tagline": "龙之城，绿色之都",
+    "description": "斯洛文尼亚首都，龙桥与河畔咖啡馆的绿色之都。"
+  },
+  {
+    "key": "Maribor_Slovenia",
+    "tagline": "古老葡萄藤之城",
+    "description": "斯洛文尼亚第二大城市，拥有世界最古老葡萄藤。"
+  },
+  {
+    "key": "Bled_Slovenia",
+    "tagline": "阿尔卑斯的童话湖泊",
+    "description": "朱利安阿尔卑斯山中的湖心岛教堂，如诗如画。"
+  },
+  {
+    "key": "Sarajevo_Bosnia and Herzegovina",
+    "tagline": "欧洲的耶路撒冷",
+    "description": "波黑首都，东西方文化交汇之城，多元宗教共存。"
+  },
+  {
+    "key": "Mostar_Bosnia and Herzegovina",
+    "tagline": "老桥之城",
+    "description": "老桥世界遗产之城，内雷特瓦河畔的文化明珠。"
+  },
+  {
+    "key": "Tirana_Albania",
+    "tagline": "色彩与活力之都",
+    "description": "阿尔巴尼亚首都，色彩斑斓的建筑与快速发展的现代之城。"
+  },
+  {
+    "key": "Berat_Albania",
+    "tagline": "千窗之城",
+    "description": "千窗之城，奥斯曼建筑的世界遗产古城。"
+  },
+  {
+    "key": "Podgorica_Montenegro",
+    "tagline": "黑山之都",
+    "description": "黑山首都，多元文化交融的现代城市。"
+  },
+  {
+    "key": "Kotor_Montenegro",
+    "tagline": "峡湾中的世界遗产",
+    "description": "亚得里亚海峡湾中的中世纪古城，世界遗产。"
+  },
+  {
+    "key": "Budva_Montenegro",
+    "tagline": "黑山的海滨明珠",
+    "description": "黑山海滨度假胜地，两千年历史的海边古城。"
+  },
+  {
+    "key": "Skopje_North Macedonia",
+    "tagline": "特蕾莎修女之城",
+    "description": "北马其顿首都，特蕾莎修女的出生地，雕塑之城。"
+  },
+  {
+    "key": "Ohrid_North Macedonia",
+    "tagline": "巴尔干的耶路撒冷",
+    "description": "奥赫里德湖畔的世界遗产古城，巴尔干的耶路撒冷。"
+  },
+  {
+    "key": "Reykjavik_Iceland",
+    "tagline": "冰与火之都",
+    "description": "世界最北首都，极光与温泉的冰火之地。"
+  },
+  {
+    "key": "Akureyri_Iceland",
+    "tagline": "北冰岛之都",
+    "description": "冰岛北部首都，峡湾与极地花园之城。"
+  },
+  {
+    "key": "Luxembourg City_Luxembourg",
+    "tagline": "峡谷之城",
+    "description": "卢森堡大公国首都，峡谷与城堡的欧盟机构之城。"
+  },
+  {
+    "key": "Monaco_Monaco",
+    "tagline": "奢华与赛车之国",
+    "description": "地中海袖珍公国，F1大奖赛和蒙特卡洛赌场闻名。"
+  },
+  {
+    "key": "Andorra la Vella_Andorra",
+    "tagline": "比利牛斯山中的免税天堂",
+    "description": "欧洲海拔最高的首都，比利牛斯山中的免税天堂。"
+  },
+  {
+    "key": "Vaduz_Liechtenstein",
+    "tagline": "阿尔卑斯袖珍之都",
+    "description": "列支敦士登首都，阿尔卑斯山中的袖珍首都。"
+  },
+  {
+    "key": "San Marino_San Marino",
+    "tagline": "世界最古老的共和国",
+    "description": "世界上最古老的共和国，蒂塔诺山上的三塔闻名。"
+  },
+  {
+    "key": "Malta (Valletta)_Malta",
+    "tagline": "骑士团的巴洛克之都",
+    "description": "马耳他首都，骑士团建造的巴洛克要塞城市。"
+  },
+  {
+    "key": "Mdina_Malta",
+    "tagline": "宁静之城",
+    "description": "马耳他古都，宁静之城，阿拉伯式城墙环绕。"
+  },
+  {
+    "key": "Limassol_Cyprus",
+    "tagline": "塞浦路斯的海滨之都",
+    "description": "塞浦路斯第二大城市，海滨度假与葡萄酒之城。"
+  },
+  {
+    "key": "Paphos_Cyprus",
+    "tagline": "爱神的诞生之地",
+    "description": "阿芙洛狄忒诞生之地，罗马马赛克世界遗产。"
+  },
+  {
+    "key": "Minsk_Belarus",
+    "tagline": "苏联建筑之城",
+    "description": "白俄罗斯首都，苏联建筑风格的广阔大道之城。"
+  },
+  {
+    "key": "Chișinău_Moldova",
+    "tagline": "葡萄酒之国的首都",
+    "description": "摩尔多瓦首都，葡萄酒之国的绿色首都。"
+  },
+  {
+    "key": "Lviv_Ukraine",
+    "tagline": "乌克兰的文化之都",
+    "description": "乌克兰西部文化之都，咖啡与巧克力之城。"
+  },
+  {
+    "key": "Odesa_Ukraine",
+    "tagline": "黑海的明珠",
+    "description": "乌克兰黑海珍珠，波将金阶梯与歌剧院闻名。"
+  },
+  {
+    "key": "Kharkiv_Ukraine",
+    "tagline": "乌克兰的科技之城",
+    "description": "乌克兰第二大城市，构成主义建筑与科技中心。"
+  },
+  {
+    "key": "Kaliningrad_Russia",
+    "tagline": "康德的故乡",
+    "description": "波罗的海飞地，前柯尼斯堡，康德的故乡。"
+  },
+  {
+    "key": "Murmansk_Russia",
+    "tagline": "北极圈内最大城市",
+    "description": "世界最大北极圈内城市，极光与核破冰船之城。"
+  },
+  {
+    "key": "Kazan_Russia",
+    "tagline": "俄罗斯的伊斯兰之都",
+    "description": "鞑靼斯坦首都，克里姆林宫与清真寺共存的多元之城。"
+  },
+  {
+    "key": "Nizhny Novgorod_Russia",
+    "tagline": "伏尔加河畔之城",
+    "description": "伏尔加河与奥卡河交汇处的历史名城。"
+  },
+  {
+    "key": "Samara_Russia",
+    "tagline": "航天与伏尔加之城",
+    "description": "伏尔加河畔的航天之城，拥有欧洲最长的河滨步道。"
+  },
+  {
+    "key": "Sochi_Russia",
+    "tagline": "俄罗斯的里维埃拉",
+    "description": "黑海度假胜地，2014年冬奥会举办城市。"
+  },
+  {
+    "key": "Yekaterinburg_Russia",
+    "tagline": "欧亚交界之城",
+    "description": "乌拉尔山脉首府，欧亚分界线上的工业之城。"
+  },
+  {
+    "key": "Volgograd_Russia",
+    "tagline": "祖国母亲之城",
+    "description": "前斯大林格勒，二战转折点，祖国母亲雕像闻名。"
+  },
+  {
+    "key": "Rostov-on-Don_Russia",
+    "tagline": "南俄罗斯之门",
+    "description": "南俄罗斯门户城市，顿河哥萨克文化中心。"
+  },
+  {
+    "key": "Perm_Russia",
+    "tagline": "乌拉尔文化之城",
+    "description": "乌拉尔山脉西侧城市，以彼尔姆芭蕾闻名。"
+  },
+  {
+    "key": "Voronezh_Russia",
+    "tagline": "俄罗斯海军的摇篮",
+    "description": "俄罗斯海军的摇篮，黑土地区的文化中心。"
+  },
+  {
+    "key": "Krasnoyarsk_Russia",
+    "tagline": "西伯利亚的心脏",
+    "description": "西伯利亚中部最大城市，叶尼塞河畔的自然之城。"
+  },
+  {
+    "key": "Pskov_Russia",
+    "tagline": "俄罗斯的古城明珠",
+    "description": "俄罗斯古老城市之一，克里姆林宫与白色教堂群。"
+  },
+  {
+    "key": "Novgorod_Russia",
+    "tagline": "俄罗斯的发祥地",
+    "description": "俄罗斯国家的发祥地，中世纪建筑世界遗产。"
+  },
+  {
+    "key": "Batumi_Georgia",
+    "tagline": "黑海的拉斯维加斯",
+    "description": "格鲁吉亚黑海度假城市，现代建筑与亚热带风情。"
+  },
+  {
+    "key": "Kutaisi_Georgia",
+    "tagline": "格鲁吉亚古都",
+    "description": "格鲁吉亚第二大城市，巴格拉特大教堂世界遗产。"
+  },
+  {
+    "key": "Kielce_Poland",
+    "tagline": "圣十字山下之城",
+    "description": "波兰中部圣十字山区城市，博览会与旅游中心。"
+  },
+  {
+    "key": "Zielona Góra_Poland",
+    "tagline": "波兰的葡萄酒之城",
+    "description": "波兰西部葡萄酒产区中心，葡萄酒节闻名。"
+  },
+  {
+    "key": "Miskolc_Hungary",
+    "tagline": "洞穴温泉之城",
+    "description": "匈牙利第三大城市，洞穴温泉浴场闻名。"
+  },
+  {
+    "key": "Nyíregyháza_Hungary",
+    "tagline": "温泉与自然之城",
+    "description": "匈牙利东北部温泉与动物园之城。"
+  },
+  {
+    "key": "Székesfehérvár_Hungary",
+    "tagline": "匈牙利加冕之城",
+    "description": "匈牙利历史加冕之城，中世纪国王安葬之地。"
+  },
+  {
+    "key": "Košice_Slovakia",
+    "tagline": "斯洛伐克东部之都",
+    "description": "斯洛伐克第二大城市，东部文化之都。"
+  },
+  {
+    "key": "Bratislava_Slovakia",
+    "tagline": "多瑙河上的城堡之都",
+    "description": "斯洛伐克首都，多瑙河畔的古老城堡之城。"
+  },
+  {
+    "key": "Banská Bystrica_Slovakia",
+    "tagline": "斯洛伐克中部明珠",
+    "description": "斯洛伐克中部历史名城，民族起义的发源地。"
+  },
+  {
+    "key": "Nitra_Slovakia",
+    "tagline": "斯洛伐克最古老之城",
+    "description": "斯洛伐克最古老城市之一，基督教传教的起点。"
+  },
+  {
+    "key": "Gävle_Sweden",
+    "tagline": "圣诞山羊之城",
+    "description": "瑞典中部城市，圣诞山羊传统闻名于世。"
+  },
+  {
+    "key": "Karlstad_Sweden",
+    "tagline": "阳光微笑之城",
+    "description": "韦姆兰省首府，维纳恩湖畔的阳光之城。"
+  },
+  {
+    "key": "Växjö_Sweden",
+    "tagline": "欧洲最绿之城",
+    "description": "欧洲最绿色的城市之一，瑞典南部湖区之城。"
+  },
+  {
+    "key": "Visby_Sweden",
+    "tagline": "波罗的海的中世纪明珠",
+    "description": "哥特兰岛中世纪城墙古城，世界遗产。"
+  },
+  {
+    "key": "Esbjerg_Denmark",
+    "tagline": "北海之门",
+    "description": "丹麦西海岸港口城市，白色巨人雕塑闻名。"
+  },
+  {
+    "key": "Kolding_Denmark",
+    "tagline": "设计与城堡之城",
+    "description": "丹麦中部城市，科灵城堡与设计之城。"
+  },
+  {
+    "key": "Horsens_Denmark",
+    "tagline": "监狱变身的文化之城",
+    "description": "丹麦中日德兰半岛城市，音乐与文化活动之城。"
+  },
+  {
+    "key": "Kuopio_Finland",
+    "tagline": "芬兰湖区明珠",
+    "description": "芬兰湖区城市，卡利奥鱼馅饼的故乡。"
+  }
+]

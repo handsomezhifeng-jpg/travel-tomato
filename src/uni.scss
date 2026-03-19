@@ -1,0 +1,26 @@
+/* 旅游番茄钟 - 主题色 */
+$tomato-red: #E74C3C;
+$warm-orange: #F39C12;
+$bg-dark: #1A1A2E;
+$bg-card: rgba(255, 255, 255, 0.08);
+$bg-card-active: rgba(255, 255, 255, 0.15);
+$text-primary: #FFFFFF;
+$text-secondary: #B0B0B0;
+$text-muted: #666666;
+$success-green: #2ECC71;
+$gold-lit: #FFD700;
+$border-subtle: rgba(255, 255, 255, 0.1);
+
+/* 尺寸 */
+$page-padding: 32rpx;
+$card-radius: 24rpx;
+$btn-height: 96rpx;
+$btn-radius: 48rpx;
+
+/* uni-app 默认变量覆盖 */
+$uni-color-primary: #E74C3C;
+$uni-color-success: #2ECC71;
+$uni-color-warning: #F39C12;
+$uni-bg-color: #1A1A2E;
+$uni-text-color: #FFFFFF;
+$uni-text-color-grey: #B0B0B0;
