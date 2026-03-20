@@ -42,3 +42,8 @@ city_keys.txt
 cities_1000_temp.json
 src/data/_*
 src/data/cities-new-*
+
+# Certificates and builds
+apple-certs/
+ios-build/
+*.ipa
