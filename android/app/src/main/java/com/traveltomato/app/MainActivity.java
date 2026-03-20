@@ -1,4 +1,4 @@
-package com.traveltomato.app;
+package com.feng.tomatotravel;
 
 import com.getcapacitor.BridgeActivity;
 
