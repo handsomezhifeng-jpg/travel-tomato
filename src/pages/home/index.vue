@@ -1,7 +1,7 @@
 <template>
   <view class="page">
-    <!-- 顶部状态栏占位 -->
-    <view :style="{ height: statusBarHeight + 'px' }"></view>
+    <!-- 顶部安全区（刘海屏适配） -->
+    <view :style="{ height: topSafeHeight + 'px' }"></view>
 
     <!-- 标题栏 -->
     <view class="header">
@@ -136,7 +136,7 @@ import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import LangSelector from '@/components/LangSelector.vue'
 
 const store = usePomodoroStore()
-const statusBarHeight = ref(0)
+const topSafeHeight = ref(0)
 const searchText = ref('')
 const searchResults = ref<CityData[]>([])
 const selectedCity = ref<CityData | null>(null)
@@ -160,7 +160,7 @@ const currentCityDisplay = computed(() => {
 
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
-  statusBarHeight.value = sysInfo.statusBarHeight || 0
+  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
 })
 
 onShow(() => {

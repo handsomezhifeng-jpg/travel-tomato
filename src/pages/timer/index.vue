@@ -1,7 +1,7 @@
 <template>
   <view class="timer-page">
-    <!-- 顶部安全区 -->
-    <view :style="{ height: statusBarHeight + 'px' }" class="status-bar"></view>
+    <!-- 顶部安全区（刘海屏适配） -->
+    <view :style="{ height: topSafeHeight + 'px' }" class="status-bar"></view>
 
     <!-- 上半部分：信息区 -->
     <view class="info-section">
@@ -133,7 +133,7 @@ const destDesc = ref('')
 const destTagline = ref('')
 
 // 状态
-const statusBarHeight = ref(0)
+const topSafeHeight = ref(0)
 const remainingSeconds = ref(0)
 const isPaused = ref(false)
 const showArrival = ref(false)
@@ -187,7 +187,7 @@ onLoad((query: any) => {
 
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
-  statusBarHeight.value = sysInfo.statusBarHeight || 0
+  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
 
   // 1秒后开始计时
   remainingSeconds.value = totalDuration.value

@@ -1,6 +1,6 @@
 <template>
   <view class="navbar">
-    <view :style="{ height: statusBarHeight + 'px' }"></view>
+    <view :style="{ height: topSafeHeight + 'px' }"></view>
     <view class="navbar-inner">
       <view class="navbar-left" @tap="goBack">
         <text class="back-icon">‹</text>
@@ -16,9 +16,11 @@ import { ref, onMounted } from 'vue'
 
 defineProps<{ title: string }>()
 
-const statusBarHeight = ref(0)
+const topSafeHeight = ref(0)
 onMounted(() => {
-  statusBarHeight.value = uni.getSystemInfoSync().statusBarHeight || 0
+  const sysInfo = uni.getSystemInfoSync()
+  // statusBarHeight + 额外安全间距，确保刘海屏不遮挡
+  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
 })
 
 function goBack() {
