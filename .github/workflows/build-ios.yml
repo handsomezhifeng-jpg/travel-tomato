@@ -85,7 +85,7 @@ jobs:
           <plist version="1.0">
           <dict>
               <key>method</key>
-              <string>release-testing</string>
+              <string>app-store-connect</string>
               <key>teamID</key>
               <string>${TEAM_ID}</string>
               <key>signingStyle</key>
@@ -108,7 +108,25 @@ jobs:
 
           cp $RUNNER_TEMP/export/*.ipa ./TravelTomato.ipa
 
-      - name: Upload IPA
+      - name: Upload to TestFlight
+        env:
+          API_KEY_BASE64: ${{ secrets.APP_STORE_CONNECT_API_KEY_BASE64 }}
+          API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          API_KEY_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+        run: |
+          mkdir -p ~/.private_keys
+          echo -n "$API_KEY_BASE64" | base64 --decode -o ~/.private_keys/AuthKey_${API_KEY_ID}.p8
+
+          xcrun altool --upload-app \
+            -f TravelTomato.ipa \
+            -t ios \
+            --apiKey "$API_KEY_ID" \
+            --apiIssuer "$API_KEY_ISSUER_ID" \
+            --show-progress
+
+          echo "✅ Uploaded to TestFlight!"
+
+      - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
         with:
           name: TravelTomato-IPA
