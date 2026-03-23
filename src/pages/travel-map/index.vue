@@ -1,22 +1,10 @@
 <template>
   <view class="page">
     <NavBar :title="t('pageTravelMap')" />
-    <!-- 世界地图区域 -->
+
+    <!-- Leaflet 地图 -->
     <view class="map-section">
-      <map
-        id="travelMap"
-        class="map"
-        :latitude="mapCenter.lat"
-        :longitude="mapCenter.lng"
-        :scale="mapScale"
-        :markers="markers"
-        :circles="circles"
-        :polyline="polyline"
-        :show-location="false"
-        :enable-zoom="true"
-        :enable-scroll="true"
-        @markertap="onMarkerTap"
-      ></map>
+      <view id="leafletMap" class="leaflet-container"></view>
       <!-- 图例 -->
       <view class="map-legend">
         <view class="legend-item">
@@ -32,7 +20,6 @@
 
     <!-- 统计面板 -->
     <scroll-view scroll-y class="stats-panel">
-      <!-- 总览 -->
       <view class="overview-card">
         <view class="overview-row">
           <view class="overview-item">
@@ -50,7 +37,6 @@
         </view>
       </view>
 
-      <!-- 大洲进度 -->
       <view class="continent-section">
         <text class="section-title">{{ t('continentProgress') }}</text>
         <view v-for="c in continentStats" :key="c.name" class="continent-row">
@@ -64,7 +50,6 @@
         </view>
       </view>
 
-      <!-- 最近点亮 -->
       <view v-if="visitedCities.length > 0" class="recent-section">
         <text class="section-title">{{ t('recentLit') }}</text>
         <view v-for="city in recentVisited" :key="city.name + city.country" class="visited-item">
@@ -90,7 +75,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, nextTick } from 'vue'
 import * as storage from '@/utils/storage'
 import type { VisitedCity, CityData } from '@/types'
 import citiesData from '@/data/cities.json'
@@ -104,9 +89,6 @@ const selectedMarkerCity = ref<VisitedCity | null>(null)
 const totalDistance = ref(0)
 
 const allCities = citiesData as any[]
-
-const mapCenter = ref({ lng: 105, lat: 35 })
-const mapScale = ref(3)
 
 function displayCity(city: { name: string; country: string }) {
   const found = allCities.find((c: any) => c.name === city.name && c.country === city.country)
@@ -141,112 +123,6 @@ const recentVisited = computed(() =>
   [...visitedCities.value].sort((a, b) => b.firstVisit.localeCompare(a.firstVisit)).slice(0, 10)
 )
 
-const markers = computed(() => {
-  const store = storage.getCurrentCity()
-  const result: any[] = []
-
-  visitedCities.value.forEach((city, i) => {
-    result.push({
-      id: i + 1,
-      latitude: city.coord[1],
-      longitude: city.coord[0],
-      width: 20,
-      height: 20,
-      iconPath: '/static/marker-gold.png',
-      callout: {
-        content: displayCity(city),
-        color: '#FFD700',
-        bgColor: '#1A1A2E',
-        borderRadius: 8,
-        padding: 6,
-        fontSize: 12,
-        display: 'BYCLICK',
-      },
-    })
-  })
-
-  if (store) {
-    const storeDisplay = displayCity(store)
-    result.push({
-      id: 0,
-      latitude: store.coord[1],
-      longitude: store.coord[0],
-      width: 28,
-      height: 28,
-      iconPath: '/static/marker-red.png',
-      callout: {
-        content: `📍 ${storeDisplay}`,
-        color: '#E74C3C',
-        bgColor: '#1A1A2E',
-        borderRadius: 8,
-        padding: 6,
-        fontSize: 13,
-        display: 'ALWAYS',
-      },
-    })
-  }
-
-  return result
-})
-
-const polyline = computed(() => {
-  const records = storage.getAllRecords().filter(r => r.completed)
-  if (records.length === 0) return []
-
-  const points = []
-  for (const r of records) {
-    if (points.length === 0) {
-      points.push({ latitude: r.originCoord[1], longitude: r.originCoord[0] })
-    }
-    points.push({ latitude: r.destCoord[1], longitude: r.destCoord[0] })
-  }
-
-  return [{
-    points,
-    color: '#E74C3C80',
-    width: 3,
-    dottedLine: true,
-  }]
-})
-
-// 已点亮城市的发光圈
-const circles = computed(() => {
-  const result: any[] = []
-  const currentCity = storage.getCurrentCity()
-
-  visitedCities.value.forEach(city => {
-    result.push({
-      latitude: city.coord[1],
-      longitude: city.coord[0],
-      radius: 15000,
-      color: '#FFD70040',
-      fillColor: '#FFD70030',
-      strokeWidth: 2,
-    })
-  })
-
-  // 当前城市更大更亮
-  if (currentCity) {
-    result.push({
-      latitude: currentCity.coord[1],
-      longitude: currentCity.coord[0],
-      radius: 25000,
-      color: '#E74C3C60',
-      fillColor: '#E74C3C30',
-      strokeWidth: 3,
-    })
-  }
-
-  return result
-})
-
-function onMarkerTap(e: any) {
-  const id = e.detail?.markerId ?? e.markerId
-  if (id > 0 && id <= visitedCities.value.length) {
-    selectedMarkerCity.value = visitedCities.value[id - 1]
-  }
-}
-
 function formatKm(km: number): string {
   if (km >= 10000) return (km / 1000).toFixed(1) + 'k'
   return km.toLocaleString()
@@ -263,15 +139,124 @@ onMounted(() => {
   const stats = storage.getTotalStats()
   totalDistance.value = stats.totalDistance
 
-  if (visitedCities.value.length > 0) {
-    const lngs = visitedCities.value.map(c => c.coord[0])
-    const lats = visitedCities.value.map(c => c.coord[1])
-    mapCenter.value = {
-      lng: (Math.min(...lngs) + Math.max(...lngs)) / 2,
-      lat: (Math.min(...lats) + Math.max(...lats)) / 2,
-    }
-  }
+  nextTick(() => {
+    initLeafletMap()
+  })
 })
+
+function initLeafletMap() {
+  // 动态加载 Leaflet CSS 和 JS
+  const link = document.createElement('link')
+  link.rel = 'stylesheet'
+  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'
+  document.head.appendChild(link)
+
+  const script = document.createElement('script')
+  script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
+  script.onload = () => {
+    createMap()
+  }
+  document.head.appendChild(script)
+}
+
+function createMap() {
+  const L = (window as any).L
+  if (!L) return
+
+  const container = document.getElementById('leafletMap')
+  if (!container) return
+
+  // 确定中心点
+  let center: [number, number] = [30, 105] // 默认
+  const currentCity = storage.getCurrentCity()
+
+  if (visitedCities.value.length > 0) {
+    const lats = visitedCities.value.map(c => c.coord[1])
+    const lngs = visitedCities.value.map(c => c.coord[0])
+    center = [
+      (Math.min(...lats) + Math.max(...lats)) / 2,
+      (Math.min(...lngs) + Math.max(...lngs)) / 2,
+    ]
+  } else if (currentCity) {
+    center = [currentCity.coord[1], currentCity.coord[0]]
+  }
+
+  const map = L.map(container, {
+    center: center,
+    zoom: 3,
+    minZoom: 2,
+    maxZoom: 12,
+    zoomControl: false,
+    attributionControl: false,
+  })
+
+  // 深色风格地图瓦片
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 19,
+  }).addTo(map)
+
+  // 旅行轨迹连线
+  const records = storage.getAllRecords().filter(r => r.completed)
+  if (records.length > 0) {
+    const points: [number, number][] = []
+    for (const r of records) {
+      if (points.length === 0) {
+        points.push([r.originCoord[1], r.originCoord[0]])
+      }
+      points.push([r.destCoord[1], r.destCoord[0]])
+    }
+    L.polyline(points, {
+      color: '#E74C3C',
+      weight: 2,
+      opacity: 0.5,
+      dashArray: '8, 6',
+    }).addTo(map)
+  }
+
+  // 已到访城市标记 - 金色发光圆点
+  visitedCities.value.forEach((city, i) => {
+    const marker = L.circleMarker([city.coord[1], city.coord[0]], {
+      radius: 6,
+      fillColor: '#FFD700',
+      color: '#FFD700',
+      weight: 2,
+      opacity: 0.9,
+      fillOpacity: 0.7,
+    }).addTo(map)
+
+    marker.bindPopup(`<b style="color:#FFD700">${displayCity(city)}</b>`, {
+      className: 'dark-popup',
+    })
+
+    marker.on('click', () => {
+      selectedMarkerCity.value = visitedCities.value[i]
+    })
+  })
+
+  // 当前城市 - 红色大标记
+  if (currentCity) {
+    L.circleMarker([currentCity.coord[1], currentCity.coord[0]], {
+      radius: 10,
+      fillColor: '#E74C3C',
+      color: '#FFFFFF',
+      weight: 3,
+      opacity: 1,
+      fillOpacity: 0.9,
+    }).addTo(map)
+
+    L.popup({ className: 'dark-popup', closeButton: false, autoClose: false, closeOnClick: false })
+      .setLatLng([currentCity.coord[1], currentCity.coord[0]])
+      .setContent(`<b style="color:#E74C3C">📍 ${displayCity(currentCity)}</b>`)
+      .addTo(map)
+  }
+
+  // 适配视图
+  if (visitedCities.value.length > 1) {
+    const bounds = visitedCities.value.map(c => [c.coord[1], c.coord[0]] as [number, number])
+    if (currentCity) bounds.push([currentCity.coord[1], currentCity.coord[0]])
+    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 6 })
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -285,11 +270,13 @@ onMounted(() => {
 .map-section {
   height: 45vh;
   flex-shrink: 0;
+  position: relative;
 }
 
-.map {
+.leaflet-container {
   width: 100%;
   height: 100%;
+  background: #1a1a2e;
 }
 
 .map-legend {
@@ -301,6 +288,7 @@ onMounted(() => {
   padding: 12rpx 20rpx;
   display: flex;
   gap: 24rpx;
+  z-index: 1000;
 }
 
 .legend-item {
@@ -330,17 +318,12 @@ onMounted(() => {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.map-section {
-  position: relative;
-}
-
 .stats-panel {
   flex: 1;
-  padding: 36rpx $page-padding;
+  padding: 36rpx 32rpx;
   padding-bottom: calc(env(safe-area-inset-bottom) + 40rpx);
 }
 
-/* ===== 总览 ===== */
 .overview-card {
   background: $bg-card;
   border-radius: $card-radius;
@@ -370,7 +353,6 @@ onMounted(() => {
   margin-top: 4rpx;
 }
 
-/* ===== 大洲进度 ===== */
 .continent-section {
   margin-bottom: 32rpx;
   background: $bg-card;
@@ -389,10 +371,7 @@ onMounted(() => {
   display: flex;
   align-items: center;
   margin-bottom: 20rpx;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
+  &:last-child { margin-bottom: 0; }
 }
 
 .cont-name {
@@ -429,12 +408,11 @@ onMounted(() => {
 .cont-count {
   font-size: 26rpx;
   color: $text-secondary;
-  width: 90rpx;
+  width: 110rpx;
   text-align: right;
   flex-shrink: 0;
 }
 
-/* ===== 最近点亮 ===== */
 .recent-section {
   margin-bottom: 32rpx;
 }
@@ -443,7 +421,7 @@ onMounted(() => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28rpx 28rpx;
+  padding: 28rpx;
   background: $bg-card;
   border-radius: 20rpx;
   margin-bottom: 16rpx;
@@ -462,7 +440,6 @@ onMounted(() => {
   flex-shrink: 0;
 }
 
-/* ===== 城市详情浮层 ===== */
 .city-detail-mask {
   position: fixed;
   top: 0;
@@ -470,7 +447,7 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 20;
+  z-index: 2000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -506,5 +483,21 @@ onMounted(() => {
 .empty-text {
   font-size: 32rpx;
   color: $text-muted;
+}
+</style>
+
+<style>
+/* Leaflet 全局样式覆盖 - 深色主题 */
+.dark-popup .leaflet-popup-content-wrapper {
+  background: #1E2A3A;
+  color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+.dark-popup .leaflet-popup-tip {
+  background: #1E2A3A;
+}
+.leaflet-control-attribution {
+  display: none !important;
 }
 </style>

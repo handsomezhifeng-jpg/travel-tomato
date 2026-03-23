@@ -57,6 +57,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4080420251103001",
     "@dcloudio/uni-mp-xhs": "3.0.0-4080420251103001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4080420251103001",
+    "leaflet": "^1.9.4",
     "pinia": "^3.0.4",
     "sharp": "^0.34.5",
     "vue": "^3.4.21",
