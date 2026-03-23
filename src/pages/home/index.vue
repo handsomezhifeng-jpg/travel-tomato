@@ -11,53 +11,76 @@
 
     <!-- 首次使用：选择出发点 -->
     <view v-if="isFirstUse" class="first-use">
-      <view class="section-card">
+      <!-- 定位中 -->
+      <view v-if="locating" class="section-card locating-card">
+        <text class="locating-icon">📍</text>
+        <text class="locating-text">{{ t('locating') }}</text>
+      </view>
+
+      <view v-else class="section-card">
         <text class="card-title">{{ t('selectOrigin') }}</text>
         <text class="card-desc">{{ t('startJourney') }}</text>
 
-        <!-- 搜索框 -->
-        <view class="search-box">
-          <input
-            class="search-input"
-            v-model="searchText"
-            :placeholder="t('searchCity')"
-            placeholder-class="search-placeholder"
-            @input="onSearchInput"
-          />
-        </view>
-
-        <!-- 搜索结果 -->
-        <scroll-view v-if="showResults && searchResults.length > 0" scroll-y class="search-results">
-          <view
-            v-for="city in searchResults"
-            :key="city.name + city.country"
-            class="search-item"
-            :class="{ active: selectedCity?.name === city.name && selectedCity?.country === city.country }"
-            @tap="selectCity(city)"
-          >
-            <text class="city-name">{{ cityName(city) }}</text>
-            <text class="city-country">{{ countryName(city) }}</text>
+        <!-- 定位到的城市 -->
+        <view v-if="locatedCity && !showResults" class="located-city">
+          <text class="located-label">📍 {{ t('locatedCity') }}</text>
+          <text class="located-name">{{ cityFullName(locatedCity) }}</text>
+          <view class="located-actions">
+            <view class="btn-primary" @tap="confirmLocatedCity">
+              <text class="btn-text">{{ t('useThisCity') }}</text>
+            </view>
+            <view class="btn-secondary" @tap="showManualSearch">
+              <text class="btn-secondary-text">{{ t('chooseOther') }}</text>
+            </view>
           </view>
-        </scroll-view>
-
-        <!-- 无结果提示 -->
-        <view v-if="searchText.trim() && searchResults.length === 0 && showResults" class="no-result">
-          <text class="no-result-text">{{ t('noMatch') }}</text>
         </view>
 
-        <!-- 已选城市 -->
-        <view v-if="selectedCity" class="selected-city">
-          <text class="selected-label">{{ t('origin') }}</text>
-          <text class="selected-name">{{ cityFullName(selectedCity) }}</text>
-        </view>
+        <!-- 手动搜索（定位失败或用户选择其他城市） -->
+        <view v-if="!locatedCity || showManual">
+          <!-- 搜索框 -->
+          <view class="search-box">
+            <input
+              class="search-input"
+              v-model="searchText"
+              :placeholder="t('searchCity')"
+              placeholder-class="search-placeholder"
+              @input="onSearchInput"
+            />
+          </view>
 
-        <!-- 确认按钮 -->
-        <view
-          class="btn-primary"
-          :class="{ disabled: !selectedCity }"
-          @tap="confirmOrigin"
-        >
-          <text class="btn-text">{{ t('confirmOrigin') }}</text>
+          <!-- 搜索结果 -->
+          <scroll-view v-if="showResults && searchResults.length > 0" scroll-y class="search-results">
+            <view
+              v-for="city in searchResults"
+              :key="city.name + city.country"
+              class="search-item"
+              :class="{ active: selectedCity?.name === city.name && selectedCity?.country === city.country }"
+              @tap="selectCity(city)"
+            >
+              <text class="city-name">{{ cityName(city) }}</text>
+              <text class="city-country">{{ countryName(city) }}</text>
+            </view>
+          </scroll-view>
+
+          <!-- 无结果提示 -->
+          <view v-if="searchText.trim() && searchResults.length === 0 && showResults" class="no-result">
+            <text class="no-result-text">{{ t('noMatch') }}</text>
+          </view>
+
+          <!-- 已选城市 -->
+          <view v-if="selectedCity" class="selected-city">
+            <text class="selected-label">{{ t('origin') }}</text>
+            <text class="selected-name">{{ cityFullName(selectedCity) }}</text>
+          </view>
+
+          <!-- 确认按钮 -->
+          <view
+            class="btn-primary"
+            :class="{ disabled: !selectedCity }"
+            @tap="confirmOrigin"
+          >
+            <text class="btn-text">{{ t('confirmOrigin') }}</text>
+          </view>
         </view>
       </view>
     </view>
@@ -132,6 +155,7 @@ import { onShow } from '@dcloudio/uni-app'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
 import type { CityData, CurrentCity } from '@/types'
 import citiesData from '@/data/cities.json'
+import { getDistance } from '@/utils/distance'
 import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import LangSelector from '@/components/LangSelector.vue'
 
@@ -141,6 +165,9 @@ const searchText = ref('')
 const searchResults = ref<CityData[]>([])
 const selectedCity = ref<CityData | null>(null)
 const showResults = ref(false)
+const locating = ref(false)
+const locatedCity = ref<CityData | null>(null)
+const showManual = ref(false)
 
 const { currentLang } = useLang()
 const isFirstUse = computed(() => store.isFirstUse)
@@ -161,11 +188,71 @@ const currentCityDisplay = computed(() => {
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
   topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
+
+  // 首次使用时尝试定位
+  if (store.isFirstUse) {
+    tryAutoLocate()
+  }
 })
 
 onShow(() => {
   store.initialize()
 })
+
+/** 尝试通过 GPS 定位获取最近城市 */
+function tryAutoLocate() {
+  locating.value = true
+  uni.getLocation({
+    type: 'wgs84',
+    timeout: 8,
+    success(res) {
+      const userCoord: [number, number] = [res.longitude, res.latitude]
+      // 找到最近的城市
+      const nearest = findNearestCity(userCoord)
+      if (nearest) {
+        locatedCity.value = nearest
+      }
+      locating.value = false
+    },
+    fail() {
+      // 定位失败，直接显示手动搜索
+      locating.value = false
+      showManual.value = true
+    },
+  })
+}
+
+/** 从城市数据库中找到离坐标最近的城市 */
+function findNearestCity(coord: [number, number]): CityData | null {
+  let minDist = Infinity
+  let nearest: CityData | null = null
+
+  for (const city of (citiesData as CityData[])) {
+    const dist = getDistance(coord, city.coord)
+    if (dist < minDist) {
+      minDist = dist
+      nearest = city
+    }
+  }
+  return nearest
+}
+
+/** 使用定位到的城市 */
+function confirmLocatedCity() {
+  if (!locatedCity.value) return
+  const city: CurrentCity = {
+    name: locatedCity.value.name,
+    country: locatedCity.value.country,
+    coord: locatedCity.value.coord,
+    arrivedAt: new Date().toISOString(),
+  }
+  store.setOriginCity(city)
+}
+
+/** 显示手动搜索 */
+function showManualSearch() {
+  showManual.value = true
+}
 
 function onSearchInput() {
   const q = searchText.value.trim().toLowerCase()
@@ -281,6 +368,76 @@ function formatKm(km: number): string {
   background: $bg-card;
   border-radius: $card-radius;
   padding: 48rpx;
+}
+
+/* ===== 定位中 ===== */
+.locating-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80rpx 48rpx;
+}
+
+.locating-icon {
+  font-size: 64rpx;
+  margin-bottom: 24rpx;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.1); }
+}
+
+.locating-text {
+  font-size: 32rpx;
+  color: $text-secondary;
+}
+
+/* ===== 定位到的城市 ===== */
+.located-city {
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.located-label {
+  font-size: 28rpx;
+  color: $text-secondary;
+  display: block;
+  margin-bottom: 12rpx;
+}
+
+.located-name {
+  font-size: 44rpx;
+  font-weight: bold;
+  color: $tomato-red;
+  display: block;
+  margin-bottom: 32rpx;
+}
+
+.located-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.btn-secondary {
+  height: 88rpx;
+  border: 2rpx solid rgba(255, 255, 255, 0.2);
+  border-radius: 44rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:active {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.btn-secondary-text {
+  font-size: 30rpx;
+  color: $text-secondary;
 }
 
 .card-title {

@@ -61,6 +61,26 @@ const uiTexts: Record<string, Record<LangCode, string>> = {
     fr: 'Carte de voyage', de: 'Reisekarte', es: 'Mapa de viaje', pt: 'Mapa de viagem',
     ru: 'Карта путешествий', ar: 'خريطة السفر', th: 'แผนที่เดินทาง', vi: 'Bản đồ du lịch',
   },
+  locating: {
+    zh: '正在定位您的位置...', en: 'Locating your position...', ja: '位置を取得中...', ko: '위치를 확인하는 중...',
+    fr: 'Localisation en cours...', de: 'Standort wird ermittelt...', es: 'Localizando tu posición...', pt: 'Localizando sua posição...',
+    ru: 'Определение местоположения...', ar: '...جارٍ تحديد موقعك', th: 'กำลังระบุตำแหน่ง...', vi: 'Đang xác định vị trí...',
+  },
+  locatedCity: {
+    zh: '已定位到附近城市', en: 'Nearest city found', ja: '最寄りの都市を検出', ko: '가까운 도시를 찾았습니다',
+    fr: 'Ville la plus proche trouvée', de: 'Nächste Stadt gefunden', es: 'Ciudad más cercana encontrada', pt: 'Cidade mais próxima encontrada',
+    ru: 'Ближайший город найден', ar: 'تم العثور على أقرب مدينة', th: 'พบเมืองใกล้เคียง', vi: 'Đã tìm thấy thành phố gần nhất',
+  },
+  useThisCity: {
+    zh: '从这里出发', en: 'Start from here', ja: 'ここから出発', ko: '여기서 출발',
+    fr: 'Partir d\'ici', de: 'Von hier starten', es: 'Salir desde aquí', pt: 'Partir daqui',
+    ru: 'Начать отсюда', ar: 'ابدأ من هنا', th: 'เริ่มจากที่นี่', vi: 'Bắt đầu từ đây',
+  },
+  chooseOther: {
+    zh: '选择其他城市', en: 'Choose another city', ja: '他の都市を選択', ko: '다른 도시 선택',
+    fr: 'Choisir une autre ville', de: 'Andere Stadt wählen', es: 'Elegir otra ciudad', pt: 'Escolher outra cidade',
+    ru: 'Выбрать другой город', ar: 'اختر مدينة أخرى', th: 'เลือกเมืองอื่น', vi: 'Chọn thành phố khác',
+  },
   selectOrigin: {
     zh: '选择你的出发城市', en: 'Select your departure city', ja: '出発都市を選択', ko: '출발 도시를 선택하세요',
     fr: 'Choisissez votre ville de départ', de: 'Wähle deine Abfahrtsstadt', es: 'Selecciona tu ciudad de salida', pt: 'Selecione sua cidade de partida',
