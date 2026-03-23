@@ -41,6 +41,10 @@
           <text class="btn-control-icon">{{ isPaused ? '▶' : '⏸' }}</text>
           <text class="btn-control-text">{{ isPaused ? t('resume') : t('pause') }}</text>
         </view>
+        <view class="btn-control btn-stop" @tap="abandonTrip">
+          <text class="btn-control-icon">⏹</text>
+          <text class="btn-control-text">{{ t('endTrip') }}</text>
+        </view>
       </view>
     </view>
 
@@ -60,11 +64,6 @@
         :play-strategy="1"
         @error="onVideoError"
       ></video>
-
-      <!-- 放弃按钮 -->
-      <view class="abandon-area" @longpress="abandonTrip">
-        <text class="abandon-text">{{ t('longPressAbandon') }}</text>
-      </view>
     </view>
 
     <!-- 到达弹框 -->
@@ -113,7 +112,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue'
-import { onLoad } from '@dcloudio/uni-app'
+import { onLoad, onShow, onHide } from '@dcloudio/uni-app'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
 import { formatDuration, formatDurationText, formatDate, formatTime, uuid } from '@/utils/dateUtils'
 import { t, cityName, countryName, cityFullName } from '@/utils/i18n'
@@ -142,6 +141,8 @@ const startTimeStr = ref('')
 const videoSrc = ref('/static/kaiche.mp4')
 
 let timerId: ReturnType<typeof setInterval> | null = null
+let expectedEndTime = 0   // 预计结束的时间戳(ms)
+let pausedAtRemaining = 0 // 暂停时剩余秒数
 
 const originNameRaw = computed(() => store.currentCity?.name || '')
 const originCountry = computed(() => store.currentCity?.country || '')
@@ -195,6 +196,7 @@ onMounted(() => {
   startTimeStr.value = formatTime(now)
 
   setTimeout(() => {
+    expectedEndTime = Date.now() + totalDuration.value * 1000
     startTimer()
   }, 1000)
 })
@@ -203,12 +205,43 @@ onUnmounted(() => {
   stopTimer()
 })
 
+// 从后台返回时，基于真实时间重新计算
+onShow(() => {
+  if (!isPaused.value && expectedEndTime > 0) {
+    const remaining = Math.ceil((expectedEndTime - Date.now()) / 1000)
+    remainingSeconds.value = Math.max(remaining, 0)
+    if (remainingSeconds.value <= 0) {
+      stopTimer()
+      onArrival()
+    }
+  }
+})
+
+// 进入后台时保存状态
+onHide(() => {
+  if (!isPaused.value && remainingSeconds.value > 0) {
+    // 设置本地通知提醒到达
+    try {
+      // #ifdef APP-PLUS
+      const remaining = remainingSeconds.value
+      plus.push.createMessage(`旅程完成！你已到达目的地`, 'arrival', {
+        delay: remaining,
+        title: t('congrats'),
+      })
+      // #endif
+    } catch (e) {}
+  }
+})
+
 function startTimer() {
   timerId = setInterval(() => {
     if (!isPaused.value) {
-      remainingSeconds.value--
+      // 基于真实时间计算剩余，避免后台 setInterval 不准
+      const now = Date.now()
+      const remaining = Math.ceil((expectedEndTime - now) / 1000)
+      remainingSeconds.value = Math.max(remaining, 0)
+
       if (remainingSeconds.value <= 0) {
-        remainingSeconds.value = 0
         stopTimer()
         onArrival()
       }
@@ -224,7 +257,15 @@ function stopTimer() {
 }
 
 function togglePause() {
-  isPaused.value = !isPaused.value
+  if (!isPaused.value) {
+    // 暂停：记住剩余秒数
+    pausedAtRemaining = remainingSeconds.value
+    isPaused.value = true
+  } else {
+    // 恢复：重新计算结束时间
+    expectedEndTime = Date.now() + pausedAtRemaining * 1000
+    isPaused.value = false
+  }
 }
 
 function onArrival() {
@@ -452,6 +493,7 @@ function confettiStyle(i: number) {
 .controls {
   display: flex;
   justify-content: center;
+  gap: 24rpx;
   padding: 24rpx 0;
 }
 
@@ -466,6 +508,14 @@ function confettiStyle(i: number) {
   &:active {
     background: rgba(255, 255, 255, 0.25);
   }
+
+  &.btn-stop {
+    background: rgba(231, 76, 60, 0.25);
+
+    &:active {
+      background: rgba(231, 76, 60, 0.4);
+    }
+  }
 }
 
 .btn-control-icon {
@@ -478,21 +528,6 @@ function confettiStyle(i: number) {
   color: #FFFFFF;
 }
 
-.abandon-area {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  padding: 24rpx 0;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 24rpx);
-  background: linear-gradient(transparent, rgba(0,0,0,0.5));
-}
-
-.abandon-text {
-  font-size: 24rpx;
-  color: rgba(255, 255, 255, 0.4);
-}
 
 /* ===== 到达弹框 ===== */
 .arrival-mask {

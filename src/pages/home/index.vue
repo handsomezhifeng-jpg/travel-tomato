@@ -202,24 +202,111 @@ onShow(() => {
 /** 尝试通过 GPS 定位获取最近城市 */
 function tryAutoLocate() {
   locating.value = true
+
+  // #ifdef APP-PLUS
+  // App 端：先检查定位权限，没有则请求
+  checkAndRequestLocationPermission(() => {
+    doGetLocation()
+  }, () => {
+    locating.value = false
+    showManual.value = true
+  })
+  // #endif
+
+  // #ifdef H5
+  // H5 端：浏览器会自动弹出授权
+  doGetLocation()
+  // #endif
+
+  // #ifdef MP
+  // 小程序端：先检查授权
+  uni.getSetting({
+    success(res) {
+      if (res.authSetting['scope.userLocation']) {
+        doGetLocation()
+      } else {
+        uni.authorize({
+          scope: 'scope.userLocation',
+          success() { doGetLocation() },
+          fail() {
+            locating.value = false
+            showManual.value = true
+          },
+        })
+      }
+    },
+    fail() { doGetLocation() },
+  })
+  // #endif
+}
+
+/** 实际获取定位 */
+function doGetLocation() {
   uni.getLocation({
     type: 'wgs84',
-    timeout: 8,
+    timeout: 10,
+    highAccuracyExpireTime: 8000,
     success(res) {
       const userCoord: [number, number] = [res.longitude, res.latitude]
-      // 找到最近的城市
       const nearest = findNearestCity(userCoord)
       if (nearest) {
         locatedCity.value = nearest
+      } else {
+        showManual.value = true
       }
       locating.value = false
     },
-    fail() {
-      // 定位失败，直接显示手动搜索
+    fail(err) {
+      console.warn('定位失败:', err)
       locating.value = false
-      showManual.value = true
+
+      // 如果是权限被拒，引导用户打开设置
+      if (err.errMsg && (err.errMsg.includes('deny') || err.errMsg.includes('auth'))) {
+        uni.showModal({
+          title: t('locationDeniedTitle'),
+          content: t('locationDeniedMsg'),
+          confirmText: t('goSettings'),
+          cancelText: t('manualSelect'),
+          success(modalRes) {
+            if (modalRes.confirm) {
+              // #ifdef APP-PLUS
+              plus.runtime.openURL('app-settings:')
+              // #endif
+            }
+            showManual.value = true
+          },
+        })
+      } else {
+        showManual.value = true
+      }
     },
   })
+}
+
+/** App 端检查并请求定位权限 */
+function checkAndRequestLocationPermission(onGranted: () => void, onDenied: () => void) {
+  // #ifdef APP-PLUS
+  const system = uni.getSystemInfoSync()
+  if (system.platform === 'android') {
+    // Android: 通过 plus.android 请求权限
+    plus.android.requestPermissions(
+      ['android.permission.ACCESS_FINE_LOCATION', 'android.permission.ACCESS_COARSE_LOCATION'],
+      (e: any) => {
+        if (e.granted && e.granted.length > 0) {
+          onGranted()
+        } else {
+          onDenied()
+        }
+      },
+      (e: any) => {
+        onDenied()
+      }
+    )
+  } else {
+    // iOS: uni.getLocation 会自动触发系统授权弹窗
+    onGranted()
+  }
+  // #endif
 }
 
 /** 从城市数据库中找到离坐标最近的城市 */

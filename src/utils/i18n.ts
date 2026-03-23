@@ -61,6 +61,26 @@ const uiTexts: Record<string, Record<LangCode, string>> = {
     fr: 'Carte de voyage', de: 'Reisekarte', es: 'Mapa de viaje', pt: 'Mapa de viagem',
     ru: 'Карта путешествий', ar: 'خريطة السفر', th: 'แผนที่เดินทาง', vi: 'Bản đồ du lịch',
   },
+  locationDeniedTitle: {
+    zh: '无法获取定位', en: 'Location Access Denied', ja: '位置情報が取得できません', ko: '위치 접근 거부됨',
+    fr: 'Accès à la localisation refusé', de: 'Standortzugriff verweigert', es: 'Acceso a ubicación denegado', pt: 'Acesso à localização negado',
+    ru: 'Доступ к геолокации запрещён', ar: 'تم رفض الوصول إلى الموقع', th: 'ไม่สามารถเข้าถึงตำแหน่ง', vi: 'Không thể truy cập vị trí',
+  },
+  locationDeniedMsg: {
+    zh: '请在系统设置中允许旅游番茄钟访问您的位置，以便自动定位出发城市', en: 'Please allow location access in Settings to auto-detect your starting city', ja: 'システム設定で位置情報を許可してください', ko: '설정에서 위치 접근을 허용해 주세요',
+    fr: 'Veuillez autoriser l\'accès à la localisation dans les Réglages', de: 'Bitte erlauben Sie den Standortzugriff in den Einstellungen', es: 'Por favor permita el acceso a la ubicación en Ajustes', pt: 'Por favor permita o acesso à localização nas Configurações',
+    ru: 'Разрешите доступ к геолокации в настройках', ar: 'يرجى السماح بالوصول إلى الموقع في الإعدادات', th: 'กรุณาอนุญาตการเข้าถึงตำแหน่งในการตั้งค่า', vi: 'Vui lòng cho phép truy cập vị trí trong Cài đặt',
+  },
+  goSettings: {
+    zh: '去设置', en: 'Go to Settings', ja: '設定へ', ko: '설정으로',
+    fr: 'Réglages', de: 'Einstellungen', es: 'Ir a Ajustes', pt: 'Ir para Configurações',
+    ru: 'Настройки', ar: 'الإعدادات', th: 'ไปตั้งค่า', vi: 'Đi tới Cài đặt',
+  },
+  manualSelect: {
+    zh: '手动选择', en: 'Select Manually', ja: '手動選択', ko: '수동 선택',
+    fr: 'Sélection manuelle', de: 'Manuell auswählen', es: 'Selección manual', pt: 'Seleção manual',
+    ru: 'Выбрать вручную', ar: 'اختيار يدوي', th: 'เลือกเอง', vi: 'Chọn thủ công',
+  },
   locating: {
     zh: '正在定位您的位置...', en: 'Locating your position...', ja: '位置を取得中...', ko: '위치를 확인하는 중...',
     fr: 'Localisation en cours...', de: 'Standort wird ermittelt...', es: 'Localizando tu posición...', pt: 'Localizando sua posição...',
@@ -320,6 +340,11 @@ const uiTexts: Record<string, Record<LangCode, string>> = {
     zh: '附近城市较少，已扩大搜索至', en: 'Few nearby cities, expanded to', ja: '近くの都市が少ないため、検索範囲を拡大：', ko: '근처 도시가 적어 검색 범위 확대:',
     fr: 'Peu de villes proches, élargi à', de: 'Wenige Städte, erweitert auf', es: 'Pocas ciudades cercanas, ampliado a', pt: 'Poucas cidades, ampliado para',
     ru: 'Мало городов, расширено до', ar: 'مدن قليلة، توسيع إلى', th: 'เมืองใกล้เคียงน้อย ขยายเป็น', vi: 'Ít thành phố, mở rộng đến',
+  },
+  endTrip: {
+    zh: '结束', en: 'End', ja: '終了', ko: '종료',
+    fr: 'Fin', de: 'Ende', es: 'Fin', pt: 'Fim',
+    ru: 'Конец', ar: 'إنهاء', th: 'สิ้นสุด', vi: 'Kết thúc',
   },
   longPressAbandon: {
     zh: '长按放弃本次旅程', en: 'Long press to abandon', ja: '長押しで放棄', ko: '길게 눌러 포기',

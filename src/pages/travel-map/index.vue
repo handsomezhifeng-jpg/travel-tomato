@@ -1,7 +1,7 @@
 <template>
   <view class="page">
     <NavBar :title="t('pageTravelMap')" />
-    <!-- 地图区域 -->
+    <!-- 世界地图区域 -->
     <view class="map-section">
       <map
         id="travelMap"
@@ -10,10 +10,24 @@
         :longitude="mapCenter.lng"
         :scale="mapScale"
         :markers="markers"
+        :circles="circles"
         :polyline="polyline"
         :show-location="false"
+        :enable-zoom="true"
+        :enable-scroll="true"
         @markertap="onMarkerTap"
       ></map>
+      <!-- 图例 -->
+      <view class="map-legend">
+        <view class="legend-item">
+          <view class="legend-dot legend-gold"></view>
+          <text class="legend-text">{{ t('cities') }}</text>
+        </view>
+        <view class="legend-item">
+          <view class="legend-dot legend-red"></view>
+          <text class="legend-text">{{ t('youAreAt') }}</text>
+        </view>
+      </view>
     </view>
 
     <!-- 统计面板 -->
@@ -195,6 +209,37 @@ const polyline = computed(() => {
   }]
 })
 
+// 已点亮城市的发光圈
+const circles = computed(() => {
+  const result: any[] = []
+  const currentCity = storage.getCurrentCity()
+
+  visitedCities.value.forEach(city => {
+    result.push({
+      latitude: city.coord[1],
+      longitude: city.coord[0],
+      radius: 15000,
+      color: '#FFD70040',
+      fillColor: '#FFD70030',
+      strokeWidth: 2,
+    })
+  })
+
+  // 当前城市更大更亮
+  if (currentCity) {
+    result.push({
+      latitude: currentCity.coord[1],
+      longitude: currentCity.coord[0],
+      radius: 25000,
+      color: '#E74C3C60',
+      fillColor: '#E74C3C30',
+      strokeWidth: 3,
+    })
+  }
+
+  return result
+})
+
 function onMarkerTap(e: any) {
   const id = e.detail?.markerId ?? e.markerId
   if (id > 0 && id <= visitedCities.value.length) {
@@ -245,6 +290,48 @@ onMounted(() => {
 .map {
   width: 100%;
   height: 100%;
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+  background: rgba(26, 26, 46, 0.85);
+  border-radius: 16rpx;
+  padding: 12rpx 20rpx;
+  display: flex;
+  gap: 24rpx;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.legend-dot {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+}
+
+.legend-gold {
+  background: #FFD700;
+  box-shadow: 0 0 8rpx #FFD700;
+}
+
+.legend-red {
+  background: #E74C3C;
+  box-shadow: 0 0 8rpx #E74C3C;
+}
+
+.legend-text {
+  font-size: 22rpx;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.map-section {
+  position: relative;
 }
 
 .stats-panel {
