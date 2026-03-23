@@ -19,8 +19,7 @@ defineProps<{ title: string }>()
 const topSafeHeight = ref(0)
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
-  // statusBarHeight + 额外安全间距，确保刘海屏不遮挡
-  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
+  topSafeHeight.value = sysInfo.statusBarHeight || 0
 })
 
 function goBack() {

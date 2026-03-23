@@ -187,7 +187,7 @@ const currentCityDisplay = computed(() => {
 
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
-  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
+  topSafeHeight.value = sysInfo.statusBarHeight || 0
 
   // 首次使用时尝试定位
   if (store.isFirstUse) {

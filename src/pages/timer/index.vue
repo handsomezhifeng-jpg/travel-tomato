@@ -188,7 +188,7 @@ onLoad((query: any) => {
 
 onMounted(() => {
   const sysInfo = uni.getSystemInfoSync()
-  topSafeHeight.value = (sysInfo.statusBarHeight || 20) + 10
+  topSafeHeight.value = sysInfo.statusBarHeight || 0
 
   // 1秒后开始计时
   remainingSeconds.value = totalDuration.value
