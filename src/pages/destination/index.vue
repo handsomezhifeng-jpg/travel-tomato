@@ -165,8 +165,8 @@ function startTimer() {
 $margin: 40px;
 
 .page {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: $bg-dark;
   padding: $margin;
   padding-top: max(#{$margin}, env(safe-area-inset-top));

@@ -421,8 +421,8 @@ function formatKm(km: number): string {
 $margin: 40px;
 
 .page {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: $bg-dark;
   padding: $margin;
   padding-top: max(#{$margin}, env(safe-area-inset-top));
@@ -457,7 +457,7 @@ $margin: 40px;
 }
 
 .section-card {
-  background: $bg-card;
+  background: transparent;
   border-radius: $card-radius;
   padding: 36rpx;
   flex: 1;

@@ -268,8 +268,8 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 $margin: 40px;
 
 .page {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: $bg-dark;
   padding: $margin;
   padding-top: max(#{$margin}, env(safe-area-inset-top));
