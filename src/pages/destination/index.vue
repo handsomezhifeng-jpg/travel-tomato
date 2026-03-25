@@ -162,44 +162,64 @@ function startTimer() {
 </script>
 
 <style lang="scss" scoped>
+$margin: 40px;
+
 .page {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   background: $bg-dark;
-  padding: $page-padding;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 32rpx);
+  padding: $margin;
+  padding-top: max(#{$margin}, env(safe-area-inset-top));
+  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
+  padding-left: max(#{$margin}, env(safe-area-inset-left));
+  padding-right: max(#{$margin}, env(safe-area-inset-right));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .origin-bar {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16rpx;
-  padding: 28rpx;
-  margin-bottom: 36rpx;
+  gap: 12rpx;
+  padding: 16rpx;
+  flex-shrink: 0;
 }
 
 .origin-label {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $text-secondary;
 }
 
 .origin-city {
-  font-size: 36rpx;
+  font-size: 32rpx;
   font-weight: bold;
   color: $tomato-red;
 }
 
 .candidates {
-  margin-bottom: 28rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+  min-height: 0;
+  margin-bottom: 12rpx;
 }
 
 .city-card {
+  flex: 1;
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 40rpx;
-  margin-bottom: 24rpx;
+  border-radius: 20rpx;
+  padding: 24rpx 28rpx;
   border: 2rpx solid transparent;
   transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
 
   &.selected {
     border-color: $tomato-red;
@@ -214,55 +234,58 @@ function startTimer() {
 .card-header {
   display: flex;
   align-items: baseline;
-  gap: 16rpx;
-  margin-bottom: 20rpx;
+  gap: 12rpx;
+  margin-bottom: 10rpx;
 }
 
 .card-city {
-  font-size: 42rpx;
+  font-size: 36rpx;
   font-weight: bold;
   color: $text-primary;
 }
 
 .card-country {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $text-secondary;
 }
 
 .card-body {
   display: flex;
-  gap: 40rpx;
-  margin-bottom: 16rpx;
+  gap: 32rpx;
+  margin-bottom: 8rpx;
 }
 
 .card-stat {
   display: flex;
   align-items: center;
-  gap: 10rpx;
+  gap: 8rpx;
 }
 
 .stat-icon {
-  font-size: 28rpx;
+  font-size: 24rpx;
 }
 
 .stat-text {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: $text-secondary;
 }
 
 .card-tagline {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $warm-orange;
   font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .refresh-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12rpx;
-  padding: 24rpx;
-  margin-bottom: 20rpx;
+  gap: 10rpx;
+  padding: 14rpx;
+  flex-shrink: 0;
 
   &:active {
     opacity: 0.7;
@@ -270,29 +293,31 @@ function startTimer() {
 }
 
 .refresh-icon {
-  font-size: 32rpx;
+  font-size: 28rpx;
 }
 
 .refresh-text {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $text-secondary;
 }
 
 .radius-hint {
   display: block;
   text-align: center;
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $warm-orange;
-  margin-bottom: 28rpx;
+  margin-bottom: 12rpx;
+  flex-shrink: 0;
 }
 
 .btn-start {
-  height: 108rpx;
+  height: 92rpx;
   background: linear-gradient(135deg, $tomato-red, $warm-orange);
-  border-radius: 54rpx;
+  border-radius: 46rpx;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 
   &:active {
     opacity: 0.85;
@@ -305,8 +330,14 @@ function startTimer() {
 }
 
 .btn-text {
-  font-size: 36rpx;
+  font-size: 32rpx;
   font-weight: bold;
   color: #FFFFFF;
 }
+
+
+.origin-bar { width: 100%; }
+.candidates { width: 100%; }
+.refresh-btn { width: 100%; }
+.btn-start { width: 100%; box-sizing: border-box; }
 </style>

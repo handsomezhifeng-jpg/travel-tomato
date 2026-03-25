@@ -1,8 +1,5 @@
 <template>
   <view class="timer-page">
-    <!-- 顶部安全区（刘海屏适配） -->
-    <view :style="{ height: topSafeHeight + 'px' }" class="status-bar"></view>
-
     <!-- 上半部分：信息区 -->
     <view class="info-section">
       <!-- 路线进度 -->
@@ -132,7 +129,6 @@ const destDesc = ref('')
 const destTagline = ref('')
 
 // 状态
-const topSafeHeight = ref(0)
 const remainingSeconds = ref(0)
 const isPaused = ref(false)
 const showArrival = ref(false)
@@ -187,9 +183,6 @@ onLoad((query: any) => {
 })
 
 onMounted(() => {
-  const sysInfo = uni.getSystemInfoSync()
-  topSafeHeight.value = sysInfo.statusBarHeight || 0
-
   // 1秒后开始计时
   remainingSeconds.value = totalDuration.value
   const now = new Date()
@@ -329,23 +322,27 @@ function confettiStyle(i: number) {
 </script>
 
 <style lang="scss" scoped>
+$margin: 40px;
+
 .timer-page {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: $bg-dark;
   overflow: hidden;
-}
-
-.status-bar {
-  background: $bg-dark;
-  flex-shrink: 0;
+  padding: $margin;
+  padding-top: max(#{$margin}, env(safe-area-inset-top));
+  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
+  padding-left: max(#{$margin}, env(safe-area-inset-left));
+  padding-right: max(#{$margin}, env(safe-area-inset-right));
+  box-sizing: border-box;
 }
 
 .info-section {
   flex-shrink: 0;
-  padding: 0 $page-padding;
+  width: 100%;
   background: $bg-dark;
 }
 
@@ -353,9 +350,9 @@ function confettiStyle(i: number) {
   flex: 1;
   position: relative;
   min-height: 0;
-  border-radius: 32rpx 32rpx 0 0;
+  width: 100%;
+  border-radius: 24rpx;
   overflow: hidden;
-  margin: 0 16rpx;
 }
 
 .video-player {
@@ -366,21 +363,21 @@ function confettiStyle(i: number) {
 
 /* ===== 路线 ===== */
 .route-section {
-  padding: 24rpx 0;
+  padding: 16rpx 0;
   text-align: center;
 }
 
 .route-bar {
   display: flex;
   align-items: center;
-  gap: 16rpx;
+  gap: 12rpx;
 }
 
 .route-city {
-  font-size: 24rpx;
+  font-size: 22rpx;
   color: rgba(255, 255, 255, 0.8);
   flex-shrink: 0;
-  max-width: 160rpx;
+  max-width: 140rpx;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -404,8 +401,8 @@ function confettiStyle(i: number) {
 .route-dot {
   position: absolute;
   top: 50%;
-  width: 16rpx;
-  height: 16rpx;
+  width: 14rpx;
+  height: 14rpx;
   background: #FFF;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -414,9 +411,9 @@ function confettiStyle(i: number) {
 }
 
 .route-km {
-  font-size: 22rpx;
+  font-size: 20rpx;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 12rpx;
+  margin-top: 8rpx;
   display: block;
   text-align: center;
 }
@@ -426,12 +423,12 @@ function confettiStyle(i: number) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32rpx 0;
+  padding: 20rpx 0;
 }
 
 .timer-ring {
-  width: 360rpx;
-  height: 360rpx;
+  width: 300rpx;
+  height: 300rpx;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.4);
   border: 4rpx solid rgba(231, 76, 60, 0.5);
@@ -442,7 +439,7 @@ function confettiStyle(i: number) {
 }
 
 .timer-text {
-  font-size: 96rpx;
+  font-size: 80rpx;
   font-weight: bold;
   color: #FFFFFF;
   font-family: 'JetBrains Mono', 'Roboto Mono', 'Courier New', monospace;
@@ -450,42 +447,42 @@ function confettiStyle(i: number) {
 }
 
 .timer-label {
-  font-size: 24rpx;
+  font-size: 22rpx;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 8rpx;
+  margin-top: 6rpx;
 }
 
 /* ===== 里程 ===== */
 .distance-section {
-  padding: 24rpx 0;
+  padding: 16rpx 0;
   text-align: center;
 }
 
 .distance-text {
-  font-size: 26rpx;
+  font-size: 24rpx;
   color: rgba(255, 255, 255, 0.8);
   display: block;
-  margin-bottom: 12rpx;
+  margin-bottom: 8rpx;
 }
 
 .progress-track {
-  height: 12rpx;
+  height: 10rpx;
   background: rgba(255, 255, 255, 0.15);
-  border-radius: 6rpx;
+  border-radius: 5rpx;
   overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
   background: linear-gradient(90deg, $tomato-red, $warm-orange);
-  border-radius: 6rpx;
+  border-radius: 5rpx;
   transition: width 1s linear;
 }
 
 .distance-percent {
-  font-size: 24rpx;
+  font-size: 22rpx;
   color: rgba(255, 255, 255, 0.5);
-  margin-top: 8rpx;
+  margin-top: 6rpx;
   display: block;
 }
 
@@ -493,17 +490,17 @@ function confettiStyle(i: number) {
 .controls {
   display: flex;
   justify-content: center;
-  gap: 24rpx;
-  padding: 24rpx 0;
+  gap: 20rpx;
+  padding: 16rpx 0;
 }
 
 .btn-control {
   display: flex;
   align-items: center;
-  gap: 12rpx;
-  padding: 20rpx 48rpx;
+  gap: 10rpx;
+  padding: 18rpx 40rpx;
   background: rgba(255, 255, 255, 0.15);
-  border-radius: 40rpx;
+  border-radius: 36rpx;
 
   &:active {
     background: rgba(255, 255, 255, 0.25);
@@ -519,12 +516,12 @@ function confettiStyle(i: number) {
 }
 
 .btn-control-icon {
-  font-size: 28rpx;
+  font-size: 26rpx;
   color: #FFFFFF;
 }
 
 .btn-control-text {
-  font-size: 28rpx;
+  font-size: 26rpx;
   color: #FFFFFF;
 }
 
@@ -544,54 +541,54 @@ function confettiStyle(i: number) {
 
 .arrival-modal {
   width: 100%;
-  max-height: 85vh;
+  max-height: 80vh;
   background: #1E2A3A;
-  border-radius: 40rpx 40rpx 0 0;
-  padding: 48rpx $page-padding;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 48rpx);
+  border-radius: 36rpx 36rpx 0 0;
+  padding: 36rpx $page-padding;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 36rpx);
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
   animation: slideUp 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+/* no max-width constraint - fill screen */
+
 @keyframes slideUp {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0);
-  }
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
 }
 
 .arrival-title {
-  font-size: 32rpx;
+  font-size: 30rpx;
   color: $text-secondary;
   display: block;
   text-align: center;
 }
 
 .arrival-city {
-  font-size: 44rpx;
+  font-size: 40rpx;
   font-weight: bold;
   color: #FFFFFF;
   display: block;
   text-align: center;
-  margin: 12rpx 0 24rpx;
+  margin: 10rpx 0 20rpx;
 }
 
 .arrival-desc {
-  font-size: 26rpx;
+  font-size: 24rpx;
   color: $text-secondary;
-  line-height: 1.6;
+  line-height: 1.5;
   display: block;
-  margin-bottom: 24rpx;
+  margin-bottom: 20rpx;
+  max-height: 120rpx;
+  overflow: hidden;
 }
 
 .arrival-stats {
   display: flex;
   justify-content: center;
-  gap: 48rpx;
-  margin-bottom: 32rpx;
+  gap: 40rpx;
+  margin-bottom: 24rpx;
 }
 
 .arrival-stat {
@@ -601,30 +598,31 @@ function confettiStyle(i: number) {
 }
 
 .stat-val {
-  font-size: 28rpx;
+  font-size: 26rpx;
   color: $text-primary;
   font-weight: bold;
 }
 
 .note-section {
-  margin-bottom: 32rpx;
+  margin-bottom: 24rpx;
 }
 
 .note-label {
-  font-size: 26rpx;
+  font-size: 24rpx;
   color: $text-secondary;
   display: block;
-  margin-bottom: 12rpx;
+  margin-bottom: 10rpx;
 }
 
 .note-input {
   width: 100%;
-  min-height: 120rpx;
+  min-height: 100rpx;
+  max-height: 160rpx;
   background: rgba(255, 255, 255, 0.08);
   border: 1rpx solid rgba(255, 255, 255, 0.1);
   border-radius: 16rpx;
-  padding: 20rpx;
-  font-size: 28rpx;
+  padding: 16rpx;
+  font-size: 26rpx;
   color: $text-primary;
   box-sizing: border-box;
 }
@@ -634,9 +632,9 @@ function confettiStyle(i: number) {
 }
 
 .btn-confirm {
-  height: $btn-height;
+  height: 88rpx;
   background: linear-gradient(135deg, $success-green, #27ae60);
-  border-radius: $btn-radius;
+  border-radius: 44rpx;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -647,7 +645,7 @@ function confettiStyle(i: number) {
 }
 
 .btn-text {
-  font-size: 30rpx;
+  font-size: 28rpx;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -673,13 +671,9 @@ function confettiStyle(i: number) {
 }
 
 @keyframes confettiFall {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(600rpx) rotate(720deg);
-    opacity: 0;
-  }
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(600rpx) rotate(720deg); opacity: 0; }
 }
+
+
 </style>

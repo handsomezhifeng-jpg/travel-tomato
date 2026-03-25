@@ -1,8 +1,5 @@
 <template>
   <view class="page">
-    <!-- 顶部安全区（刘海屏适配） -->
-    <view :style="{ height: topSafeHeight + 'px' }"></view>
-
     <!-- 标题栏 -->
     <view class="header">
       <text class="title">{{ t('appTitle') }}</text>
@@ -160,7 +157,6 @@ import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import LangSelector from '@/components/LangSelector.vue'
 
 const store = usePomodoroStore()
-const topSafeHeight = ref(0)
 const searchText = ref('')
 const searchResults = ref<CityData[]>([])
 const selectedCity = ref<CityData | null>(null)
@@ -186,10 +182,6 @@ const currentCityDisplay = computed(() => {
 })
 
 onMounted(() => {
-  const sysInfo = uni.getSystemInfoSync()
-  topSafeHeight.value = sysInfo.statusBarHeight || 0
-
-  // 首次使用时尝试定位
   if (store.isFirstUse) {
     tryAutoLocate()
   }
@@ -426,356 +418,141 @@ function formatKm(km: number): string {
 </script>
 
 <style lang="scss" scoped>
+$margin: 40px;
+
 .page {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   background: $bg-dark;
-  padding: 0 $page-padding;
-  padding-bottom: env(safe-area-inset-bottom);
+  padding: $margin;
+  padding-top: max(#{$margin}, env(safe-area-inset-top));
+  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
+  padding-left: max(#{$margin}, env(safe-area-inset-left));
+  padding-right: max(#{$margin}, env(safe-area-inset-right));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20rpx 0;
+  padding: 16rpx 0;
+  flex-shrink: 0;
+  width: 100%;
 }
 
-.title {
-  font-size: 44rpx;
-  font-weight: bold;
-  color: $text-primary;
-}
+.title { font-size: 40rpx; font-weight: bold; color: $text-primary; }
 
-/* ===== 首次使用 ===== */
 .first-use {
-  padding-top: 48rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding-top: 24rpx;
+  width: 100%;
 }
 
 .section-card {
   background: $bg-card;
   border-radius: $card-radius;
-  padding: 48rpx;
-}
-
-/* ===== 定位中 ===== */
-.locating-card {
+  padding: 36rpx;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 80rpx 48rpx;
+  min-height: 0;
+  overflow-y: auto;
 }
 
-.locating-icon {
-  font-size: 64rpx;
-  margin-bottom: 24rpx;
-  animation: pulse 1.5s infinite;
-}
-
+.locating-card { align-items: center; justify-content: center; padding: 60rpx 36rpx; }
+.locating-icon { font-size: 56rpx; margin-bottom: 20rpx; animation: pulse 1.5s infinite; }
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.5; transform: scale(1.1); }
 }
+.locating-text { font-size: 30rpx; color: $text-secondary; }
 
-.locating-text {
-  font-size: 32rpx;
-  color: $text-secondary;
-}
-
-/* ===== 定位到的城市 ===== */
-.located-city {
-  text-align: center;
-  padding: 20rpx 0;
-}
-
-.located-label {
-  font-size: 28rpx;
-  color: $text-secondary;
-  display: block;
-  margin-bottom: 12rpx;
-}
-
-.located-name {
-  font-size: 44rpx;
-  font-weight: bold;
-  color: $tomato-red;
-  display: block;
-  margin-bottom: 32rpx;
-}
-
-.located-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 16rpx;
-}
+.located-city { text-align: center; padding: 16rpx 0; }
+.located-label { font-size: 26rpx; color: $text-secondary; display: block; margin-bottom: 10rpx; }
+.located-name { font-size: 40rpx; font-weight: bold; color: $tomato-red; display: block; margin-bottom: 24rpx; }
+.located-actions { display: flex; flex-direction: column; gap: 12rpx; }
 
 .btn-secondary {
-  height: 88rpx;
-  border: 2rpx solid rgba(255, 255, 255, 0.2);
-  border-radius: 44rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  &:active {
-    background: rgba(255, 255, 255, 0.05);
-  }
+  height: 80rpx; border: 2rpx solid rgba(255,255,255,0.2); border-radius: 40rpx;
+  display: flex; align-items: center; justify-content: center;
+  &:active { background: rgba(255,255,255,0.05); }
 }
+.btn-secondary-text { font-size: 28rpx; color: $text-secondary; }
 
-.btn-secondary-text {
-  font-size: 30rpx;
-  color: $text-secondary;
-}
+.card-title { font-size: 36rpx; font-weight: bold; color: $text-primary; display: block; margin-bottom: 8rpx; flex-shrink: 0; }
+.card-desc { font-size: 28rpx; color: $text-secondary; display: block; margin-bottom: 24rpx; flex-shrink: 0; }
 
-.card-title {
-  font-size: 40rpx;
-  font-weight: bold;
-  color: $text-primary;
-  display: block;
-  margin-bottom: 12rpx;
-}
+.search-box { background: rgba(255,255,255,0.1); border-radius: 16rpx; padding: 0 24rpx; margin-bottom: 16rpx; flex-shrink: 0; }
+.search-input { height: 80rpx; font-size: 30rpx; color: $text-primary; }
+.search-placeholder { color: $text-muted; }
 
-.card-desc {
-  font-size: 30rpx;
-  color: $text-secondary;
-  display: block;
-  margin-bottom: 40rpx;
-}
-
-.search-box {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20rpx;
-  padding: 0 28rpx;
-  margin-bottom: 20rpx;
-}
-
-.search-input {
-  height: 96rpx;
-  font-size: 32rpx;
-  color: $text-primary;
-}
-
-.search-placeholder {
-  color: $text-muted;
-}
-
-.search-results {
-  max-height: 480rpx;
-  margin-bottom: 20rpx;
-}
-
+.search-results { max-height: 320rpx; margin-bottom: 16rpx; flex-shrink: 1; min-height: 0; }
 .search-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 28rpx 20rpx;
+  display: flex; justify-content: space-between; align-items: center; padding: 22rpx 16rpx;
   border-bottom: 1rpx solid $border-subtle;
-
-  &.active {
-    background: $bg-card-active;
-  }
+  &.active { background: $bg-card-active; }
 }
-
-.city-name {
-  font-size: 34rpx;
-  color: $text-primary;
-}
-
-.city-country {
-  font-size: 28rpx;
-  color: $text-secondary;
-}
-
-.no-result {
-  padding: 32rpx;
-  text-align: center;
-}
-
-.no-result-text {
-  font-size: 30rpx;
-  color: $text-muted;
-}
+.city-name { font-size: 30rpx; color: $text-primary; }
+.city-country { font-size: 26rpx; color: $text-secondary; }
+.no-result { padding: 24rpx; text-align: center; flex-shrink: 0; }
+.no-result-text { font-size: 28rpx; color: $text-muted; }
 
 .selected-city {
-  background: rgba(231, 76, 60, 0.15);
-  border: 1rpx solid rgba(231, 76, 60, 0.3);
-  border-radius: 20rpx;
-  padding: 32rpx;
-  margin-bottom: 28rpx;
-  text-align: center;
+  background: rgba(231,76,60,0.15); border: 1rpx solid rgba(231,76,60,0.3);
+  border-radius: 16rpx; padding: 24rpx; margin-bottom: 20rpx; text-align: center; flex-shrink: 0;
 }
+.selected-label { font-size: 26rpx; color: $text-secondary; display: block; margin-bottom: 6rpx; }
+.selected-name { font-size: 34rpx; font-weight: bold; color: $tomato-red; }
 
-.selected-label {
-  font-size: 28rpx;
-  color: $text-secondary;
-  display: block;
-  margin-bottom: 8rpx;
-}
-
-.selected-name {
-  font-size: 38rpx;
-  font-weight: bold;
-  color: $tomato-red;
-}
-
-/* ===== 继续旅行 ===== */
-.continue-travel {
-  padding-top: 24rpx;
-}
+.continue-travel { flex: 1; display: flex; flex-direction: column; min-height: 0; width: 100%; }
 
 .location-card {
-  display: flex;
-  align-items: center;
-  background: $bg-card;
-  border-radius: $card-radius;
-  padding: 40rpx;
-  margin-bottom: 28rpx;
+  display: flex; align-items: center; background: $bg-card; border-radius: $card-radius;
+  padding: 28rpx; margin-bottom: 20rpx; flex-shrink: 0; width: 100%; box-sizing: border-box;
 }
-
 .location-icon-wrap {
-  width: 96rpx;
-  height: 96rpx;
-  border-radius: 50%;
-  background: rgba(231, 76, 60, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 28rpx;
+  width: 80rpx; height: 80rpx; border-radius: 50%; background: rgba(231,76,60,0.2);
+  display: flex; align-items: center; justify-content: center; margin-right: 24rpx; flex-shrink: 0;
 }
+.location-icon { font-size: 36rpx; }
+.location-label { font-size: 24rpx; color: $text-secondary; display: block; }
+.location-city { font-size: 34rpx; font-weight: bold; color: $text-primary; }
 
-.location-icon {
-  font-size: 44rpx;
-}
+.stats-row { display: flex; gap: 16rpx; margin-bottom: 20rpx; flex-shrink: 0; width: 100%; }
+.stat-card { flex: 1; background: $bg-card; border-radius: $card-radius; padding: 24rpx 16rpx; text-align: center; }
+.stat-value { font-size: 40rpx; font-weight: bold; color: $text-primary; display: block; }
+.stat-label { font-size: 22rpx; color: $text-secondary; margin-top: 4rpx; }
 
-.location-label {
-  font-size: 28rpx;
-  color: $text-secondary;
-  display: block;
-}
-
-.location-city {
-  font-size: 38rpx;
-  font-weight: bold;
-  color: $text-primary;
-}
-
-.stats-row {
-  display: flex;
-  gap: 20rpx;
-  margin-bottom: 36rpx;
-}
-
-.stat-card {
-  flex: 1;
-  background: $bg-card;
-  border-radius: $card-radius;
-  padding: 32rpx;
-  text-align: center;
-}
-
-.stat-value {
-  font-size: 48rpx;
-  font-weight: bold;
-  color: $text-primary;
-  display: block;
-}
-
-.stat-label {
-  font-size: 26rpx;
-  color: $text-secondary;
-  margin-top: 8rpx;
-}
-
-/* ===== 按钮 ===== */
 .btn-primary {
-  height: 108rpx;
-  background: linear-gradient(135deg, $tomato-red, $warm-orange);
-  border-radius: 54rpx;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 36rpx;
-
-  &:active {
-    opacity: 0.85;
-    transform: scale(0.98);
-  }
-
-  &.disabled {
-    opacity: 0.4;
-  }
+  height: 92rpx; background: linear-gradient(135deg, $tomato-red, $warm-orange); border-radius: 46rpx;
+  display: flex; align-items: center; justify-content: center; margin-bottom: 20rpx;
+  flex-shrink: 0; width: 100%; box-sizing: border-box;
+  &:active { opacity: 0.85; transform: scale(0.98); }
+  &.disabled { opacity: 0.4; }
 }
+.btn-text { font-size: 32rpx; font-weight: bold; color: #FFFFFF; }
 
-.btn-text {
-  font-size: 34rpx;
-  font-weight: bold;
-  color: #FFFFFF;
-}
+.recent-section { flex: 1; min-height: 0; overflow: hidden; margin-bottom: 8rpx; width: 100%; }
+.section-title { font-size: 28rpx; color: $text-secondary; margin-bottom: 12rpx; display: block; }
+.recent-list { white-space: nowrap; }
+.recent-item { display: inline-flex; flex-direction: column; background: $bg-card; border-radius: 16rpx; padding: 18rpx 24rpx; margin-right: 16rpx; }
+.recent-route { font-size: 26rpx; color: $text-primary; }
+.recent-dist { font-size: 22rpx; color: $text-secondary; margin-top: 4rpx; }
 
-/* ===== 最近旅程 ===== */
-.recent-section {
-  margin-bottom: 36rpx;
-}
-
-.section-title {
-  font-size: 32rpx;
-  color: $text-secondary;
-  margin-bottom: 20rpx;
-  display: block;
-}
-
-.recent-list {
-  white-space: nowrap;
-}
-
-.recent-item {
-  display: inline-flex;
-  flex-direction: column;
-  background: $bg-card;
-  border-radius: 20rpx;
-  padding: 24rpx 28rpx;
-  margin-right: 20rpx;
-}
-
-.recent-route {
-  font-size: 30rpx;
-  color: $text-primary;
-}
-
-.recent-dist {
-  font-size: 26rpx;
-  color: $text-secondary;
-  margin-top: 6rpx;
-}
-
-/* ===== 底部导航 ===== */
-.bottom-nav {
-  display: flex;
-  justify-content: center;
-  gap: 40rpx;
-  padding: 36rpx 0;
-}
-
+.bottom-nav { display: flex; justify-content: center; gap: 32rpx; padding: 20rpx 0; flex-shrink: 0; margin-top: auto; width: 100%; }
 .nav-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 24rpx 40rpx;
-  background: $bg-card;
-  border-radius: $card-radius;
-
-  &:active {
-    background: $bg-card-active;
-  }
+  display: flex; flex-direction: column; align-items: center; padding: 20rpx 36rpx;
+  background: $bg-card; border-radius: 20rpx;
+  &:active { background: $bg-card-active; }
 }
-
-.nav-icon {
-  font-size: 48rpx;
-  margin-bottom: 10rpx;
-}
-
-.nav-label {
-  font-size: 26rpx;
-  color: $text-secondary;
-}
+.nav-icon { font-size: 40rpx; margin-bottom: 6rpx; }
+.nav-label { font-size: 22rpx; color: $text-secondary; }
 </style>

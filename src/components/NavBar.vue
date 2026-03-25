@@ -1,6 +1,5 @@
 <template>
   <view class="navbar">
-    <view :style="{ height: topSafeHeight + 'px' }"></view>
     <view class="navbar-inner">
       <view class="navbar-left" @tap="goBack">
         <text class="back-icon">‹</text>
@@ -12,15 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-
 defineProps<{ title: string }>()
-
-const topSafeHeight = ref(0)
-onMounted(() => {
-  const sysInfo = uni.getSystemInfoSync()
-  topSafeHeight.value = sysInfo.statusBarHeight || 0
-})
 
 function goBack() {
   uni.navigateBack()
@@ -29,14 +20,15 @@ function goBack() {
 
 <style lang="scss" scoped>
 .navbar {
-  background: #1A1A2E;
+  background: transparent;
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .navbar-inner {
   display: flex;
   align-items: center;
   height: 88rpx;
-  padding: 0 16rpx;
 }
 
 .navbar-left {

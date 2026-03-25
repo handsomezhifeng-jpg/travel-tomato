@@ -2,24 +2,25 @@
   <view class="page">
     <NavBar :title="t('pageTravelMap')" />
 
-    <!-- Leaflet 地图 -->
-    <view class="map-section">
-      <view id="leafletMap" class="leaflet-container"></view>
-      <!-- 图例 -->
-      <view class="map-legend">
-        <view class="legend-item">
-          <view class="legend-dot legend-gold"></view>
-          <text class="legend-text">{{ t('cities') }}</text>
-        </view>
-        <view class="legend-item">
-          <view class="legend-dot legend-red"></view>
-          <text class="legend-text">{{ t('youAreAt') }}</text>
+    <view class="map-content">
+      <!-- Leaflet 地图 -->
+      <view class="map-section">
+        <view id="leafletMap" class="leaflet-container"></view>
+        <!-- 图例 -->
+        <view class="map-legend">
+          <view class="legend-item">
+            <view class="legend-dot legend-gold"></view>
+            <text class="legend-text">{{ t('cities') }}</text>
+          </view>
+          <view class="legend-item">
+            <view class="legend-dot legend-red"></view>
+            <text class="legend-text">{{ t('youAreAt') }}</text>
+          </view>
         </view>
       </view>
-    </view>
 
-    <!-- 统计面板 -->
-    <scroll-view scroll-y class="stats-panel">
+      <!-- 统计面板 -->
+      <view class="stats-panel">
       <view class="overview-card">
         <view class="overview-row">
           <view class="overview-item">
@@ -38,7 +39,6 @@
       </view>
 
       <view class="continent-section">
-        <text class="section-title">{{ t('continentProgress') }}</text>
         <view v-for="c in continentStats" :key="c.name" class="continent-row">
           <text class="cont-name">{{ c.name }}</text>
           <view class="cont-bar-wrap">
@@ -50,18 +50,11 @@
         </view>
       </view>
 
-      <view v-if="visitedCities.length > 0" class="recent-section">
-        <text class="section-title">{{ t('recentLit') }}</text>
-        <view v-for="city in recentVisited" :key="city.name + city.country" class="visited-item">
-          <text class="visited-city">{{ displayCity(city) }}</text>
-          <text class="visited-date">{{ city.firstVisit }}</text>
-        </view>
-      </view>
-
-      <view v-else class="empty-state">
+      <view v-if="visitedCities.length === 0" class="empty-state">
         <text class="empty-text">{{ t('emptyMap') }}</text>
       </view>
-    </scroll-view>
+    </view>
+    </view>
 
     <!-- 城市详情浮层 -->
     <view v-if="selectedMarkerCity" class="city-detail-mask" @tap="selectedMarkerCity = null">
@@ -260,16 +253,27 @@ function createMap() {
 </script>
 
 <style lang="scss" scoped>
+$margin: 40px;
+
 .page {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: $bg-dark;
+  overflow: hidden;
+  padding: $margin;
+  padding-top: max(#{$margin}, env(safe-area-inset-top));
+  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
+  padding-left: max(#{$margin}, env(safe-area-inset-left));
+  padding-right: max(#{$margin}, env(safe-area-inset-right));
+  box-sizing: border-box;
 }
 
 .map-section {
-  height: 45vh;
-  flex-shrink: 0;
+  flex: 1;
+  min-height: 0;
   position: relative;
 }
 
@@ -281,25 +285,25 @@ function createMap() {
 
 .map-legend {
   position: absolute;
-  bottom: 20rpx;
-  left: 20rpx;
+  bottom: 16rpx;
+  left: 16rpx;
   background: rgba(26, 26, 46, 0.85);
-  border-radius: 16rpx;
-  padding: 12rpx 20rpx;
+  border-radius: 12rpx;
+  padding: 10rpx 16rpx;
   display: flex;
-  gap: 24rpx;
+  gap: 20rpx;
   z-index: 1000;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 8rpx;
+  gap: 6rpx;
 }
 
 .legend-dot {
-  width: 16rpx;
-  height: 16rpx;
+  width: 14rpx;
+  height: 14rpx;
   border-radius: 50%;
 }
 
@@ -314,21 +318,29 @@ function createMap() {
 }
 
 .legend-text {
-  font-size: 22rpx;
+  font-size: 20rpx;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.stats-panel {
+.map-content {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  padding: 36rpx 32rpx;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 40rpx);
+  min-height: 0;
+  width: 100%;
+}
+
+.stats-panel {
+  flex-shrink: 0;
+  padding: 20rpx 0 0 0;
+  width: 100%;
 }
 
 .overview-card {
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 36rpx;
-  margin-bottom: 32rpx;
+  border-radius: 20rpx;
+  padding: 24rpx;
+  margin-bottom: 16rpx;
 }
 
 .overview-row {
@@ -341,43 +353,35 @@ function createMap() {
 }
 
 .ov-val {
-  font-size: 48rpx;
+  font-size: 40rpx;
   font-weight: bold;
   color: $gold-lit;
   display: block;
 }
 
 .ov-label {
-  font-size: 26rpx;
+  font-size: 22rpx;
   color: $text-secondary;
-  margin-top: 4rpx;
+  margin-top: 2rpx;
 }
 
 .continent-section {
-  margin-bottom: 32rpx;
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 32rpx;
-}
-
-.section-title {
-  font-size: 30rpx;
-  color: $text-secondary;
-  display: block;
-  margin-bottom: 24rpx;
+  border-radius: 20rpx;
+  padding: 16rpx 20rpx;
 }
 
 .continent-row {
   display: flex;
   align-items: center;
-  margin-bottom: 20rpx;
+  margin-bottom: 10rpx;
   &:last-child { margin-bottom: 0; }
 }
 
 .cont-name {
-  font-size: 28rpx;
+  font-size: 22rpx;
   color: $text-primary;
-  width: 120rpx;
+  width: 100rpx;
   flex-shrink: 0;
 }
 
@@ -385,15 +389,15 @@ function createMap() {
   flex: 1;
   display: flex;
   align-items: center;
-  gap: 16rpx;
+  gap: 12rpx;
   min-width: 0;
 }
 
 .cont-bar-track {
   flex: 1;
-  height: 20rpx;
+  height: 14rpx;
   background: rgba(255, 255, 255, 0.08);
-  border-radius: 10rpx;
+  border-radius: 7rpx;
   overflow: hidden;
   min-width: 0;
 }
@@ -401,42 +405,15 @@ function createMap() {
 .cont-bar-fill {
   height: 100%;
   background: linear-gradient(90deg, $gold-lit, $warm-orange);
-  border-radius: 10rpx;
+  border-radius: 7rpx;
   min-width: 4rpx;
 }
 
 .cont-count {
-  font-size: 26rpx;
+  font-size: 20rpx;
   color: $text-secondary;
-  width: 110rpx;
+  width: 90rpx;
   text-align: right;
-  flex-shrink: 0;
-}
-
-.recent-section {
-  margin-bottom: 32rpx;
-}
-
-.visited-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 28rpx;
-  background: $bg-card;
-  border-radius: 20rpx;
-  margin-bottom: 16rpx;
-}
-
-.visited-city {
-  font-size: 30rpx;
-  color: $text-primary;
-  flex: 1;
-  margin-right: 16rpx;
-}
-
-.visited-date {
-  font-size: 26rpx;
-  color: $text-secondary;
   flex-shrink: 0;
 }
 
@@ -455,35 +432,38 @@ function createMap() {
 
 .city-detail-card {
   background: #1E2A3A;
-  border-radius: $card-radius;
-  padding: 48rpx;
+  border-radius: 20rpx;
+  padding: 40rpx;
   width: 85%;
+  max-width: 480px;
 }
 
 .detail-name {
-  font-size: 40rpx;
+  font-size: 36rpx;
   font-weight: bold;
   color: $gold-lit;
   display: block;
-  margin-bottom: 20rpx;
+  margin-bottom: 16rpx;
 }
 
 .detail-info {
-  font-size: 30rpx;
+  font-size: 28rpx;
   color: $text-secondary;
   display: block;
-  margin-bottom: 12rpx;
+  margin-bottom: 10rpx;
 }
 
 .empty-state {
-  padding: 100rpx 0;
+  padding: 24rpx 0;
   text-align: center;
 }
 
 .empty-text {
-  font-size: 32rpx;
+  font-size: 26rpx;
   color: $text-muted;
 }
+
+/* no landscape overrides - rpx auto-scales */
 </style>
 
 <style>

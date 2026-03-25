@@ -14,5 +14,7 @@ page {
   color: #FFFFFF;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 </style>

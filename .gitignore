@@ -47,3 +47,4 @@ src/data/cities-new-*
 apple-certs/
 ios-build/
 *.ipa
+.claude/commands/deploy-ios.md

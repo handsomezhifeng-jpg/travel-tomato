@@ -16,40 +16,46 @@
 
     <!-- 月视图 -->
     <view v-if="currentTab === 'month'" class="month-view">
-      <view class="month-header">
-        <view class="arrow" @tap="prevMonth">
-          <text class="arrow-text">◀</text>
+      <!-- 日历区 -->
+      <view class="cal-grid-area">
+        <view class="month-header">
+          <view class="arrow" @tap="prevMonth">
+            <text class="arrow-text">◀</text>
+          </view>
+          <text class="month-title">{{ formatMonthTitle(currentYear, currentMonth) }}</text>
+          <view class="arrow" @tap="nextMonth">
+            <text class="arrow-text">▶</text>
+          </view>
         </view>
-        <text class="month-title">{{ formatMonthTitle(currentYear, currentMonth) }}</text>
-        <view class="arrow" @tap="nextMonth">
-          <text class="arrow-text">▶</text>
+
+        <view class="weekday-row">
+          <text v-for="d in weekdayNames" :key="d" class="weekday-cell">{{ d }}</text>
         </view>
-      </view>
 
-      <view class="weekday-row">
-        <text v-for="d in weekdayNames" :key="d" class="weekday-cell">{{ d }}</text>
-      </view>
-
-      <view v-for="(week, wi) in monthGrid" :key="wi" class="week-row">
-        <view
-          v-for="(day, di) in week"
-          :key="di"
-          class="day-cell"
-          :class="{
-            empty: !day,
-            today: isToday(day),
-            selected: selectedDay === day,
-            'has-records': day && getDayCount(day) > 0,
-          }"
-          @tap="day && selectDay(day)"
-        >
-          <text v-if="day" class="day-num">{{ day }}</text>
-          <view v-if="day && getDayCount(day) > 0" class="day-dots">
-            <text class="dot-text">{{ getDayCount(day) > 3 ? getDayCount(day) : '🍅'.repeat(getDayCount(day)) }}</text>
+        <view class="grid-rows">
+          <view v-for="(week, wi) in monthGrid" :key="wi" class="week-row">
+            <view
+              v-for="(day, di) in week"
+              :key="di"
+              class="day-cell"
+              :class="{
+                empty: !day,
+                today: isToday(day),
+                selected: selectedDay === day,
+                'has-records': day && getDayCount(day) > 0,
+              }"
+              @tap="day && selectDay(day)"
+            >
+              <text v-if="day" class="day-num">{{ day }}</text>
+              <view v-if="day && getDayCount(day) > 0" class="day-dots">
+                <text class="dot-text">{{ getDayCount(day) > 3 ? getDayCount(day) : '🍅'.repeat(getDayCount(day)) }}</text>
+              </view>
+            </view>
           </view>
         </view>
       </view>
 
+      <!-- 统计区 -->
       <view class="summary-card">
         <text class="summary-title">{{ currentMonth }}{{ t('monthStats') }}</text>
         <view class="summary-grid">
@@ -85,39 +91,45 @@
         </view>
       </view>
 
-      <view class="bar-chart">
-        <view v-for="(s, i) in weekSummaries" :key="i" class="bar-col">
-          <view class="bar-wrap">
-            <view class="bar-fill" :style="{ height: barHeight(s.count) + '%' }"></view>
-          </view>
-          <text class="bar-label">{{ weekdayShortNames[i] }}</text>
-          <text class="bar-count">{{ s.count || '' }}</text>
-        </view>
-      </view>
-
-      <view class="summary-card">
-        <text class="summary-title">{{ t('weekStats') }}</text>
-        <view class="summary-grid">
-          <view class="summary-item">
-            <text class="summary-val">{{ weekTotalStats.count }}</text>
-            <text class="summary-label">{{ t('totalPomodoro') }}</text>
-          </view>
-          <view class="summary-item">
-            <text class="summary-val">{{ formatDurationText(weekTotalStats.totalDuration) }}</text>
-            <text class="summary-label">{{ t('totalTime') }}</text>
-          </view>
-          <view class="summary-item">
-            <text class="summary-val">{{ weekTotalStats.totalDistance.toLocaleString() }}</text>
-            <text class="summary-label">{{ t('totalMileage') }}</text>
+      <view class="week-content">
+        <view class="week-left">
+          <view class="bar-chart">
+            <view v-for="(s, i) in weekSummaries" :key="i" class="bar-col">
+              <view class="bar-wrap">
+                <view class="bar-fill" :style="{ height: barHeight(s.count) + '%' }"></view>
+              </view>
+              <text class="bar-label">{{ weekdayShortNames[i] }}</text>
+              <text class="bar-count">{{ s.count || '' }}</text>
+            </view>
           </view>
         </view>
-      </view>
 
-      <view class="daily-list">
-        <view v-for="(s, i) in weekSummaries" :key="i" class="daily-row">
-          <text class="daily-day">{{ weekdayShortNames[i] }} {{ s.date.slice(5) }}</text>
-          <text v-if="s.count" class="daily-info">🍅×{{ s.count }}  {{ formatDurationText(s.totalDuration) }}  {{ s.totalDistance }}km</text>
-          <text v-else class="daily-info muted">—</text>
+        <view class="week-right">
+          <view class="summary-card">
+            <text class="summary-title">{{ t('weekStats') }}</text>
+            <view class="summary-grid">
+              <view class="summary-item">
+                <text class="summary-val">{{ weekTotalStats.count }}</text>
+                <text class="summary-label">{{ t('totalPomodoro') }}</text>
+              </view>
+              <view class="summary-item">
+                <text class="summary-val">{{ formatDurationText(weekTotalStats.totalDuration) }}</text>
+                <text class="summary-label">{{ t('totalTime') }}</text>
+              </view>
+              <view class="summary-item">
+                <text class="summary-val">{{ weekTotalStats.totalDistance.toLocaleString() }}</text>
+                <text class="summary-label">{{ t('totalMileage') }}</text>
+              </view>
+            </view>
+          </view>
+
+          <view class="daily-list">
+            <view v-for="(s, i) in weekSummaries" :key="i" class="daily-row">
+              <text class="daily-day">{{ weekdayShortNames[i] }} {{ s.date.slice(5) }}</text>
+              <text v-if="s.count" class="daily-info">🍅×{{ s.count }}  {{ formatDurationText(s.totalDuration) }}  {{ s.totalDistance }}km</text>
+              <text v-else class="daily-info muted">—</text>
+            </view>
+          </view>
         </view>
       </view>
     </view>
@@ -253,27 +265,39 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 </script>
 
 <style lang="scss" scoped>
+$margin: 40px;
+
 .page {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   background: $bg-dark;
-  padding: $page-padding;
-  padding-bottom: calc(env(safe-area-inset-bottom) + 40rpx);
+  padding: $margin;
+  padding-top: max(#{$margin}, env(safe-area-inset-top));
+  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
+  padding-left: max(#{$margin}, env(safe-area-inset-left));
+  padding-right: max(#{$margin}, env(safe-area-inset-right));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 /* ===== Tab ===== */
 .tab-bar {
   display: flex;
   background: $bg-card;
-  border-radius: 20rpx;
-  padding: 8rpx;
-  margin-bottom: 32rpx;
+  border-radius: 16rpx;
+  padding: 6rpx;
+  margin-bottom: 16rpx;
+  flex-shrink: 0;
 }
 
 .tab-item {
   flex: 1;
   text-align: center;
-  padding: 22rpx;
-  border-radius: 16rpx;
+  padding: 16rpx;
+  border-radius: 12rpx;
 
   &.active {
     background: $tomato-red;
@@ -281,7 +305,7 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 }
 
 .tab-text {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $text-primary;
   font-weight: bold;
 }
@@ -291,53 +315,87 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40rpx;
-  margin-bottom: 28rpx;
+  gap: 32rpx;
+  margin-bottom: 12rpx;
+  flex-shrink: 0;
 }
 
 .arrow {
-  padding: 16rpx 24rpx;
+  padding: 12rpx 20rpx;
   &:active { opacity: 0.6; }
 }
 
 .arrow-text {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $text-secondary;
 }
 
 .month-title {
-  font-size: 36rpx;
+  font-size: 32rpx;
   font-weight: bold;
   color: $text-primary;
 }
 
+/* ===== Views ===== */
+.month-view, .week-view, .day-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.cal-grid-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.grid-rows {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.week-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.week-left { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.week-right { flex-shrink: 0; }
+
 /* ===== 日历网格 ===== */
 .weekday-row {
   display: flex;
-  margin-bottom: 16rpx;
+  margin-bottom: 8rpx;
+  flex-shrink: 0;
 }
 
 .weekday-cell {
   flex: 1;
   text-align: center;
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $text-secondary;
 }
 
 .week-row {
   display: flex;
-  margin-bottom: 10rpx;
+  flex: 1;
+  min-height: 0;
 }
 
 .day-cell {
   flex: 1;
-  aspect-ratio: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 16rpx;
-  margin: 4rpx;
+  border-radius: 12rpx;
+  margin: 2rpx;
 
   &.today { border: 2rpx solid $tomato-red; }
   &.selected { background: rgba(231, 76, 60, 0.2); }
@@ -346,32 +404,32 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 }
 
 .day-num {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: $text-primary;
 }
 
 .day-dots {
-  margin-top: 4rpx;
+  margin-top: 2rpx;
 }
 
 .dot-text {
-  font-size: 18rpx;
+  font-size: 14rpx;
 }
 
 /* ===== 统计卡 ===== */
 .summary-card {
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 36rpx;
-  margin-top: 28rpx;
-  margin-bottom: 28rpx;
+  border-radius: 20rpx;
+  padding: 20rpx 24rpx;
+  margin-top: 12rpx;
+  flex-shrink: 0;
 }
 
 .summary-title {
-  font-size: 30rpx;
+  font-size: 24rpx;
   color: $text-secondary;
   display: block;
-  margin-bottom: 20rpx;
+  margin-bottom: 12rpx;
 }
 
 .summary-grid {
@@ -381,21 +439,21 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 
 .summary-item {
   width: 50%;
-  padding: 16rpx 0;
+  padding: 8rpx 0;
   text-align: center;
 }
 
 .summary-val {
-  font-size: 42rpx;
+  font-size: 34rpx;
   font-weight: bold;
   color: $text-primary;
   display: block;
 }
 
 .summary-label {
-  font-size: 26rpx;
+  font-size: 22rpx;
   color: $text-secondary;
-  margin-top: 4rpx;
+  margin-top: 2rpx;
 }
 
 /* ===== 柱状图 ===== */
@@ -403,9 +461,10 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 320rpx;
-  padding: 0 16rpx;
-  margin-bottom: 20rpx;
+  flex: 1;
+  min-height: 0;
+  padding: 0 12rpx;
+  margin-bottom: 12rpx;
 }
 
 .bar-col {
@@ -416,10 +475,12 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 }
 
 .bar-wrap {
-  width: 48rpx;
-  height: 220rpx;
+  width: 44rpx;
+  flex: 1;
+  min-height: 0;
+  max-height: 200rpx;
   background: rgba(255, 255, 255, 0.05);
-  border-radius: 10rpx;
+  border-radius: 8rpx;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -428,47 +489,50 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 .bar-fill {
   width: 100%;
   background: linear-gradient(to top, $tomato-red, $warm-orange);
-  border-radius: 10rpx;
+  border-radius: 8rpx;
   min-height: 4rpx;
   transition: height 0.3s;
 }
 
 .bar-label {
-  font-size: 26rpx;
+  font-size: 22rpx;
   color: $text-secondary;
-  margin-top: 10rpx;
+  margin-top: 8rpx;
 }
 
 .bar-count {
-  font-size: 24rpx;
+  font-size: 20rpx;
   color: $warm-orange;
-  height: 36rpx;
+  height: 28rpx;
 }
 
 /* ===== 每日明细 ===== */
 .daily-list {
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 20rpx 28rpx;
+  border-radius: 20rpx;
+  padding: 12rpx 20rpx;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .daily-row {
   display: flex;
   justify-content: space-between;
-  padding: 22rpx 0;
+  padding: 14rpx 0;
   border-bottom: 1rpx solid $border-subtle;
   &:last-child { border-bottom: none; }
 }
 
 .daily-day {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: $text-primary;
-  width: 180rpx;
+  width: 160rpx;
   flex-shrink: 0;
 }
 
 .daily-info {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $text-secondary;
   flex: 1;
   text-align: right;
@@ -476,55 +540,65 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 }
 
 /* ===== 日视图记录 ===== */
+.day-view {
+  overflow-y: auto;
+}
+
 .record-card {
   background: $bg-card;
-  border-radius: $card-radius;
-  padding: 32rpx;
-  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  padding: 24rpx;
+  margin-bottom: 12rpx;
 }
 
 .record-header {
   display: flex;
   align-items: center;
-  gap: 16rpx;
-  margin-bottom: 12rpx;
+  gap: 12rpx;
+  margin-bottom: 8rpx;
 }
 
 .record-time {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $warm-orange;
   font-weight: bold;
 }
 
 .record-route {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: $text-primary;
   flex: 1;
 }
 
 .record-meta {
-  margin-bottom: 8rpx;
+  margin-bottom: 6rpx;
 }
 
 .record-dist {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $text-secondary;
 }
 
 .record-note {
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: $text-secondary;
   font-style: italic;
   &.muted { color: $text-muted; }
 }
 
 .empty-state {
-  padding: 100rpx 0;
-  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .empty-text {
-  font-size: 32rpx;
+  font-size: 28rpx;
   color: $text-muted;
 }
+
+
+.tab-bar { width: 100%; }
+.month-view, .week-view, .day-view { width: 100%; }
 </style>
