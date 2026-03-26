@@ -1,5 +1,6 @@
 <template>
-  <view class="page">
+  <view class="page-outer">
+    <view class="page-inner" :style="scaleStyle">
     <NavBar :title="t('pageDestination')" />
     <!-- 出发城市 -->
     <view class="origin-bar">
@@ -54,11 +55,13 @@
     >
       <text class="btn-text">{{ t('go') }}</text>
     </view>
+    </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
+import { usePageScale } from '@/utils/usePageScale'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
 import type { CityData, CityCandidate, CurrentCity } from '@/types'
 import { getNearbyCities, estimateRoadDistance, calcDuration } from '@/utils/distance'
@@ -69,6 +72,7 @@ import { cityTagline } from '@/utils/cityI18n'
 import citiesData from '@/data/cities.json'
 
 const { currentLang } = useLang()
+const { scaleStyle } = usePageScale(900)
 const store = usePomodoroStore()
 const originCity = ref<CurrentCity | null>(null)
 const candidates = ref<CityCandidate[]>([])
@@ -162,22 +166,8 @@ function startTimer() {
 </script>
 
 <style lang="scss" scoped>
-$margin: 40px;
-
-.page {
-  height: 100%;
-  width: 100%;
-  background: $bg-dark;
-  padding: $margin;
-  padding-top: max(#{$margin}, env(safe-area-inset-top));
-  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
-  padding-left: max(#{$margin}, env(safe-area-inset-left));
-  padding-right: max(#{$margin}, env(safe-area-inset-right));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  box-sizing: border-box;
+.page-inner {
+  padding: 0 $page-padding;
 }
 
 .origin-bar {
@@ -336,8 +326,4 @@ $margin: 40px;
 }
 
 
-.origin-bar { width: 100%; }
-.candidates { width: 100%; }
-.refresh-btn { width: 100%; }
-.btn-start { width: 100%; box-sizing: border-box; }
 </style>

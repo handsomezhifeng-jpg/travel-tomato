@@ -1,5 +1,6 @@
 <template>
-  <view class="timer-page">
+  <view class="page-outer">
+    <view class="page-inner timer-inner" :style="scaleStyle">
     <!-- 上半部分：信息区 -->
     <view class="info-section">
       <!-- 路线进度 -->
@@ -63,7 +64,8 @@
       ></video>
     </view>
 
-    <!-- 到达弹框 -->
+    </view>
+    <!-- 到达弹框 (outside scale wrapper for position:fixed) -->
     <view v-if="showArrival" class="arrival-mask">
       <view class="arrival-modal">
         <!-- 撒花效果 -->
@@ -111,6 +113,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { onLoad, onShow, onHide } from '@dcloudio/uni-app'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
+import { usePageScale } from '@/utils/usePageScale'
 import { formatDuration, formatDurationText, formatDate, formatTime, uuid } from '@/utils/dateUtils'
 import { t, cityName, countryName, cityFullName } from '@/utils/i18n'
 import { cityDescription } from '@/utils/cityI18n'
@@ -118,6 +121,7 @@ import type { PomodoroRecord } from '@/types'
 import citiesData from '@/data/cities.json'
 
 const store = usePomodoroStore()
+const { scaleStyle, recalc } = usePageScale(800)
 
 // 页面参数
 const destName = ref('')
@@ -200,6 +204,7 @@ onUnmounted(() => {
 
 // 从后台返回时，基于真实时间重新计算
 onShow(() => {
+  recalc()
   if (!isPaused.value && expectedEndTime > 0) {
     const remaining = Math.ceil((expectedEndTime - Date.now()) / 1000)
     remainingSeconds.value = Math.max(remaining, 0)
@@ -322,27 +327,12 @@ function confettiStyle(i: number) {
 </script>
 
 <style lang="scss" scoped>
-$margin: 40px;
-
-.timer-page {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: $bg-dark;
-  overflow: hidden;
-  padding: $margin;
-  padding-top: max(#{$margin}, env(safe-area-inset-top));
-  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
-  padding-left: max(#{$margin}, env(safe-area-inset-left));
-  padding-right: max(#{$margin}, env(safe-area-inset-right));
-  box-sizing: border-box;
+.timer-inner {
+  padding: 24rpx $page-padding;
 }
 
 .info-section {
   flex-shrink: 0;
-  width: 100%;
   background: $bg-dark;
 }
 
@@ -350,7 +340,6 @@ $margin: 40px;
   flex: 1;
   position: relative;
   min-height: 0;
-  width: 100%;
   border-radius: 24rpx;
   overflow: hidden;
 }

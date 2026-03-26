@@ -17,4 +17,22 @@ page {
   width: 100%;
   overflow: hidden;
 }
+
+/* Global auto-scale wrapper styles */
+.page-outer {
+  width: 100%;
+  height: 100%;
+  background: #1A1A2E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.page-inner {
+  display: flex;
+  flex-direction: column;
+  background: #1A1A2E;
+  /* NO overflow:hidden here — content must render fully before scale shrinks it */
+}
 </style>

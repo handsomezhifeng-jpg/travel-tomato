@@ -1,5 +1,6 @@
 <template>
-  <view class="page">
+  <view class="page-outer">
+    <view class="page-inner" :style="scaleStyle">
     <NavBar :title="t('pageTravelMap')" />
 
     <view class="map-content">
@@ -55,8 +56,9 @@
       </view>
     </view>
     </view>
+    </view>
 
-    <!-- 城市详情浮层 -->
+    <!-- 城市详情浮层 (outside scale wrapper) -->
     <view v-if="selectedMarkerCity" class="city-detail-mask" @tap="selectedMarkerCity = null">
       <view class="city-detail-card" @tap.stop>
         <text class="detail-name">{{ displayCity(selectedMarkerCity) }}</text>
@@ -69,6 +71,7 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick } from 'vue'
+import { usePageScale } from '@/utils/usePageScale'
 import * as storage from '@/utils/storage'
 import type { VisitedCity, CityData } from '@/types'
 import citiesData from '@/data/cities.json'
@@ -76,6 +79,7 @@ import { t, cityName, countryName, useLang, continentName } from '@/utils/i18n'
 import NavBar from '@/components/NavBar.vue'
 
 const { currentLang } = useLang()
+const { scaleStyle } = usePageScale(600)
 
 const visitedCities = ref<VisitedCity[]>([])
 const selectedMarkerCity = ref<VisitedCity | null>(null)
@@ -253,22 +257,8 @@ function createMap() {
 </script>
 
 <style lang="scss" scoped>
-$margin: 40px;
-
-.page {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: $bg-dark;
-  overflow: hidden;
-  padding: $margin;
-  padding-top: max(#{$margin}, env(safe-area-inset-top));
-  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
-  padding-left: max(#{$margin}, env(safe-area-inset-left));
-  padding-right: max(#{$margin}, env(safe-area-inset-right));
-  box-sizing: border-box;
+.page-inner {
+  padding: 0;
 }
 
 .map-section {
@@ -332,8 +322,7 @@ $margin: 40px;
 
 .stats-panel {
   flex-shrink: 0;
-  padding: 20rpx 0 0 0;
-  width: 100%;
+  padding: 20rpx $page-padding;
 }
 
 .overview-card {
@@ -463,7 +452,7 @@ $margin: 40px;
   color: $text-muted;
 }
 
-/* no landscape overrides - rpx auto-scales */
+/* auto-scaled via usePageScale */
 </style>
 
 <style>

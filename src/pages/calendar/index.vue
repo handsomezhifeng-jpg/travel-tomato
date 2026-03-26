@@ -1,5 +1,6 @@
 <template>
-  <view class="page">
+  <view class="page-outer">
+    <view class="page-inner" :style="scaleStyle">
     <NavBar :title="t('pageCalendar')" />
     <!-- 视图切换 Tab -->
     <view class="tab-bar">
@@ -162,11 +163,13 @@
         <text v-else class="record-note muted">{{ t('notFilled') }}</text>
       </view>
     </view>
+    </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
+import { usePageScale } from '@/utils/usePageScale'
 import { getMonthGrid, formatDurationText, formatDate, today } from '@/utils/dateUtils'
 import { t, cityName, useLang, formatMonthTitle, getWeekdayNames, getWeekdayShortNames } from '@/utils/i18n'
 import NavBar from '@/components/NavBar.vue'
@@ -175,6 +178,7 @@ import citiesData from '@/data/cities.json'
 import type { PomodoroRecord, DailySummary } from '@/types'
 
 const { currentLang } = useLang()
+const { scaleStyle } = usePageScale(1100)
 
 const tabs = computed(() => [
   { key: 'month', label: t('month') },
@@ -265,22 +269,8 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 </script>
 
 <style lang="scss" scoped>
-$margin: 40px;
-
-.page {
-  height: 100%;
-  width: 100%;
-  background: $bg-dark;
-  padding: $margin;
-  padding-top: max(#{$margin}, env(safe-area-inset-top));
-  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
-  padding-left: max(#{$margin}, env(safe-area-inset-left));
-  padding-right: max(#{$margin}, env(safe-area-inset-right));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  box-sizing: border-box;
+.page-inner {
+  padding: 0 $page-padding;
 }
 
 /* ===== Tab ===== */
@@ -599,6 +589,4 @@ $margin: 40px;
 }
 
 
-.tab-bar { width: 100%; }
-.month-view, .week-view, .day-view { width: 100%; }
 </style>

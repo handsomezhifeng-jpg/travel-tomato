@@ -1,5 +1,6 @@
 <template>
-  <view class="page">
+  <view class="page-outer">
+    <view class="page-inner" :style="scaleStyle">
     <!-- 标题栏 -->
     <view class="header">
       <text class="title">{{ t('appTitle') }}</text>
@@ -143,6 +144,7 @@
         </view>
       </view>
     </view>
+    </view>
   </view>
 </template>
 
@@ -150,6 +152,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { onShow } from '@dcloudio/uni-app'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
+import { usePageScale } from '@/utils/usePageScale'
 import type { CityData, CurrentCity } from '@/types'
 import citiesData from '@/data/cities.json'
 import { getDistance } from '@/utils/distance'
@@ -157,6 +160,7 @@ import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import LangSelector from '@/components/LangSelector.vue'
 
 const store = usePomodoroStore()
+const { scaleStyle, recalc } = usePageScale(750)
 const searchText = ref('')
 const searchResults = ref<CityData[]>([])
 const selectedCity = ref<CityData | null>(null)
@@ -189,6 +193,7 @@ onMounted(() => {
 
 onShow(() => {
   store.initialize()
+  recalc()
 })
 
 /** 尝试通过 GPS 定位获取最近城市 */
@@ -418,22 +423,9 @@ function formatKm(km: number): string {
 </script>
 
 <style lang="scss" scoped>
-$margin: 40px;
-
-.page {
-  height: 100%;
-  width: 100%;
-  background: $bg-dark;
-  padding: $margin;
-  padding-top: max(#{$margin}, env(safe-area-inset-top));
-  padding-bottom: max(#{$margin}, env(safe-area-inset-bottom));
-  padding-left: max(#{$margin}, env(safe-area-inset-left));
-  padding-right: max(#{$margin}, env(safe-area-inset-right));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-  box-sizing: border-box;
+/* page-outer/page-inner from App.vue global styles */
+.page-inner {
+  padding: 24rpx $page-padding;
 }
 
 .header {
