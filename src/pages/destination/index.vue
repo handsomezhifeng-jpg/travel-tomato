@@ -167,7 +167,8 @@ function startTimer() {
 
 <style lang="scss" scoped>
 .page-inner {
-  padding: 0 $page-padding;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
 }
 
 .origin-bar {
@@ -264,9 +265,6 @@ function startTimer() {
   font-size: 24rpx;
   color: $warm-orange;
   font-style: italic;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .refresh-btn {

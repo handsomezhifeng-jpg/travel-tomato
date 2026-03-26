@@ -41,7 +41,7 @@
 		"navigationBarBackgroundColor": "#1A1A2E",
 		"backgroundColor": "#1A1A2E",
 		"app-plus": {
-			"screenOrientation": ["portrait-primary", "portrait-secondary", "landscape-primary", "landscape-secondary"]
+			"screenOrientation": ["portrait-primary"]
 		}
 	}
 }

@@ -328,7 +328,8 @@ function confettiStyle(i: number) {
 
 <style lang="scss" scoped>
 .timer-inner {
-  padding: 24rpx $page-padding;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
 }
 
 .info-section {

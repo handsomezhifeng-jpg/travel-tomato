@@ -425,7 +425,9 @@ function formatKm(km: number): string {
 <style lang="scss" scoped>
 /* page-outer/page-inner from App.vue global styles */
 .page-inner {
-  padding: 24rpx $page-padding;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
+  justify-content: center;
 }
 
 .header {

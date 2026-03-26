@@ -33,6 +33,9 @@ page {
   display: flex;
   flex-direction: column;
   background: #1A1A2E;
+  padding-top: max(50px, env(safe-area-inset-top));
+  padding-bottom: max(80px, env(safe-area-inset-bottom));
+  box-sizing: border-box;
   /* NO overflow:hidden here — content must render fully before scale shrinks it */
 }
 </style>

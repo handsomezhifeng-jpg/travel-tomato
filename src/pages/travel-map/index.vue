@@ -258,7 +258,8 @@ function createMap() {
 
 <style lang="scss" scoped>
 .page-inner {
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .map-section {

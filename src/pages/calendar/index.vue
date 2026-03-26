@@ -270,7 +270,8 @@ function nextDay() { const d = new Date(selectedDate.value); d.setDate(d.getDate
 
 <style lang="scss" scoped>
 .page-inner {
-  padding: 0 $page-padding;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
 }
 
 /* ===== Tab ===== */

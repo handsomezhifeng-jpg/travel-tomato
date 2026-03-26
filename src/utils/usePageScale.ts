@@ -21,20 +21,25 @@ export function usePageScale(contentRpx = 800) {
     const info = uni.getSystemInfoSync()
     const w = info.windowWidth
     const h = info.windowHeight
-    const rpxToPx = w / 750
-    const contentPx = contentRpx * rpxToPx
+    const isLandscape = w > h
 
     innerW.value = w
-    // Inner must be tall enough for content at current rpx sizing
-    innerH.value = Math.max(h, contentPx)
 
-    // Smaller margins in landscape to maximize usable space
-    const isLandscape = w > h
-    const m = isLandscape ? 20 : 40
-
-    const sw = (w - m * 2) / innerW.value
-    const sh = (h - m * 2) / innerH.value
-    scale.value = Math.min(sw, sh)
+    if (!isLandscape) {
+      // Portrait: rpx maps to screen width perfectly. No scaling needed.
+      // Content fills edge-to-edge horizontally.
+      innerH.value = h
+      scale.value = 1
+    } else {
+      // Landscape: rpx inflates vertical dimensions. Scale down to fit.
+      const rpxToPx = w / 750
+      const contentPx = contentRpx * rpxToPx
+      innerH.value = Math.max(h, contentPx)
+      const m = 20
+      const sw = (w - m * 2) / innerW.value
+      const sh = (h - m * 2) / innerH.value
+      scale.value = Math.min(sw, sh)
+    }
   }
 
   onMounted(() => {
