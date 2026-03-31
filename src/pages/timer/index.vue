@@ -78,6 +78,16 @@
 
         <text class="arrival-desc">{{ destDescDisplay }}</text>
 
+        <!-- 获得特产 -->
+        <view v-if="specialty" class="specialty-reward">
+          <text class="specialty-icon">{{ specialty.icon }}</text>
+          <view class="specialty-info">
+            <text class="specialty-label">{{ t('gotSpecialty') }}</text>
+            <text class="specialty-name">{{ specialtyDisplayName }}</text>
+            <text class="specialty-desc">{{ specialtyDisplayDesc }}</text>
+          </view>
+        </view>
+
         <view class="arrival-stats">
           <view class="arrival-stat">
             <text class="stat-icon">📏</text>
@@ -115,10 +125,12 @@ import { onLoad, onShow, onHide } from '@dcloudio/uni-app'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
 import { usePageScale } from '@/utils/usePageScale'
 import { formatDuration, formatDurationText, formatDate, formatTime, uuid } from '@/utils/dateUtils'
-import { t, cityName, countryName, cityFullName } from '@/utils/i18n'
+import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import { cityDescription } from '@/utils/cityI18n'
-import type { PomodoroRecord } from '@/types'
+import type { PomodoroRecord, CollectedSpecialty } from '@/types'
 import citiesData from '@/data/cities.json'
+import { getSpecialtyForCity, type SpecialtyInfo } from '@/data/specialties'
+import { addSpecialty } from '@/utils/storage'
 
 const store = usePomodoroStore()
 const { scaleStyle, recalc } = usePageScale(800)
@@ -139,6 +151,18 @@ const showArrival = ref(false)
 const noteText = ref('')
 const startTimeStr = ref('')
 const videoSrc = ref('/static/kaiche.mp4')
+const specialty = ref<SpecialtyInfo | null>(null)
+
+const specialtyDisplayName = computed(() => {
+  if (!specialty.value) return ''
+  const { currentLang } = useLang()
+  return currentLang.value === 'zh' ? specialty.value.nameZh : specialty.value.name
+})
+const specialtyDisplayDesc = computed(() => {
+  if (!specialty.value) return ''
+  const { currentLang } = useLang()
+  return currentLang.value === 'zh' ? specialty.value.descriptionZh : specialty.value.description
+})
 
 let timerId: ReturnType<typeof setInterval> | null = null
 let expectedEndTime = 0   // 预计结束的时间戳(ms)
@@ -267,6 +291,9 @@ function togglePause() {
 }
 
 function onArrival() {
+  // 加载特产信息
+  const found = (citiesData as any[]).find(c => c.name === destName.value && c.country === destCountry.value)
+  specialty.value = getSpecialtyForCity(destName.value, destCountry.value, found?.nameZh, found?.description)
   showArrival.value = true
 }
 
@@ -289,6 +316,23 @@ function confirmArrival() {
     completed: true,
   }
   store.completePomodoro(record)
+
+  // 保存特产
+  if (specialty.value) {
+    const found = (citiesData as any[]).find(c => c.name === destName.value && c.country === destCountry.value)
+    const s: CollectedSpecialty = {
+      cityName: destName.value,
+      cityCountry: destCountry.value,
+      cityNameZh: found?.nameZh,
+      name: specialty.value.name,
+      nameZh: specialty.value.nameZh,
+      icon: specialty.value.icon,
+      description: specialty.value.description,
+      descriptionZh: specialty.value.descriptionZh,
+      collectedAt: new Date().toISOString(),
+    }
+    addSpecialty(s)
+  }
 
   // 返回首页
   uni.navigateBack({ delta: 99 })
@@ -571,6 +615,54 @@ function confettiStyle(i: number) {
   display: block;
   margin-bottom: 20rpx;
   max-height: 120rpx;
+  overflow: hidden;
+}
+
+/* ===== 特产奖励 ===== */
+.specialty-reward {
+  display: flex;
+  align-items: flex-start;
+  gap: 20rpx;
+  background: rgba(243, 156, 18, 0.15);
+  border: 1rpx solid rgba(243, 156, 18, 0.3);
+  border-radius: 20rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.specialty-icon {
+  font-size: 48rpx;
+  flex-shrink: 0;
+}
+
+.specialty-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.specialty-label {
+  font-size: 22rpx;
+  color: $warm-orange;
+  display: block;
+  margin-bottom: 4rpx;
+}
+
+.specialty-name {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 6rpx;
+}
+
+.specialty-desc {
+  font-size: 22rpx;
+  color: $text-secondary;
+  line-height: 1.4;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 

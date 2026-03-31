@@ -36,6 +36,27 @@ export function calcDuration(distanceKm: number): number {
   return Math.round(distanceKm * 12)
 }
 
+/** 计算从 coord1 到 coord2 的方位角，返回 E/S/W/N */
+export function getDirection(
+  coord1: [number, number],
+  coord2: [number, number]
+): 'E' | 'S' | 'W' | 'N' {
+  const [lon1, lat1] = coord1
+  const [lon2, lat2] = coord2
+  const dLon = toRad(lon2 - lon1)
+  const y = Math.sin(dLon) * Math.cos(toRad(lat2))
+  const x = Math.cos(toRad(lat1)) * Math.sin(toRad(lat2)) -
+    Math.sin(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.cos(dLon)
+  let bearing = Math.atan2(y, x) * 180 / Math.PI
+  bearing = (bearing + 360) % 360
+
+  // N: 315-45, E: 45-135, S: 135-225, W: 225-315
+  if (bearing >= 45 && bearing < 135) return 'E'
+  if (bearing >= 135 && bearing < 225) return 'S'
+  if (bearing >= 225 && bearing < 315) return 'W'
+  return 'N'
+}
+
 /** 筛选附近城市并随机取3个 */
 export function getNearbyCities(
   origin: [number, number],

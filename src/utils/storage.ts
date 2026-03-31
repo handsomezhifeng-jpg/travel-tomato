@@ -1,7 +1,8 @@
-import type { PomodoroRecord, CurrentCity, DailySummary, VisitedCity } from '@/types'
+import type { PomodoroRecord, CurrentCity, DailySummary, VisitedCity, CollectedSpecialty } from '@/types'
 
 const RECORDS_KEY = 'pomodoro_records'
 const CURRENT_CITY_KEY = 'current_city'
+const SPECIALTIES_KEY = 'collected_specialties'
 
 // ============ 番茄钟记录 ============
 
@@ -105,6 +106,32 @@ export function getVisitedCities(): VisitedCity[] {
   }
 
   return Array.from(map.values())
+}
+
+// ============ 特产收集 ============
+
+export function getCollectedSpecialties(): CollectedSpecialty[] {
+  const raw = uni.getStorageSync(SPECIALTIES_KEY)
+  if (!raw) return []
+  try {
+    return JSON.parse(raw) as CollectedSpecialty[]
+  } catch {
+    return []
+  }
+}
+
+export function addSpecialty(specialty: CollectedSpecialty): void {
+  const list = getCollectedSpecialties()
+  // 避免重复收集同一城市特产
+  const exists = list.some(s => s.cityName === specialty.cityName && s.cityCountry === specialty.cityCountry)
+  if (!exists) {
+    list.push(specialty)
+    uni.setStorageSync(SPECIALTIES_KEY, JSON.stringify(list))
+  }
+}
+
+export function hasSpecialty(cityName: string, cityCountry: string): boolean {
+  return getCollectedSpecialties().some(s => s.cityName === cityName && s.cityCountry === cityCountry)
 }
 
 // ============ 全局统计 ============

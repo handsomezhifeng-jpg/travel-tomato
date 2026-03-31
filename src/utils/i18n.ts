@@ -336,6 +336,41 @@ const uiTexts: Record<string, Record<LangCode, string>> = {
     fr: 'Aucune ville trouvée', de: 'Keine Stadt gefunden', es: 'Sin resultados', pt: 'Nenhuma cidade encontrada',
     ru: 'Город не найден', ar: 'لم يتم العثور على مدينة', th: 'ไม่พบเมือง', vi: 'Không tìm thấy',
   },
+  pageSpecialties: {
+    zh: '特产收藏', en: 'Specialties', ja: '特産品', ko: '특산품',
+    fr: 'Spécialités', de: 'Spezialitäten', es: 'Especialidades', pt: 'Especialidades',
+    ru: 'Сувениры', ar: 'التخصصات', th: 'ของฝาก', vi: 'Đặc sản',
+  },
+  specialties: {
+    zh: '特产', en: 'Gifts', ja: '特産品', ko: '특산품',
+    fr: 'Cadeaux', de: 'Geschenke', es: 'Regalos', pt: 'Presentes',
+    ru: 'Подарки', ar: 'الهدايا', th: 'ของฝาก', vi: 'Quà',
+  },
+  gotSpecialty: {
+    zh: '获得特产', en: 'Specialty Acquired!', ja: '特産品を入手！', ko: '특산품 획득!',
+    fr: 'Spécialité obtenue !', de: 'Spezialität erhalten!', es: '¡Especialidad obtenida!', pt: 'Especialidade obtida!',
+    ru: 'Сувенир получен!', ar: '!حصلت على تخصص', th: 'ได้ของฝาก!', vi: 'Nhận đặc sản!',
+  },
+  collected: {
+    zh: '已收集', en: 'Collected', ja: '収集済み', ko: '수집함',
+    fr: 'Collecté', de: 'Gesammelt', es: 'Coleccionado', pt: 'Coletado',
+    ru: 'Собрано', ar: 'تم الجمع', th: 'สะสมแล้ว', vi: 'Đã thu thập',
+  },
+  items: {
+    zh: '件', en: 'items', ja: '件', ko: '개',
+    fr: 'articles', de: 'Stück', es: 'artículos', pt: 'itens',
+    ru: 'шт.', ar: 'عناصر', th: 'ชิ้น', vi: 'món',
+  },
+  collectedDate: {
+    zh: '收集日期：', en: 'Collected: ', ja: '収集日：', ko: '수집일: ',
+    fr: 'Collecté le : ', de: 'Gesammelt am: ', es: 'Fecha: ', pt: 'Coletado em: ',
+    ru: 'Дата: ', ar: ' :تاريخ الجمع', th: 'วันที่สะสม: ', vi: 'Ngày: ',
+  },
+  emptySpecialties: {
+    zh: '还没有收集到特产\n完成旅程即可获得目的地特产！', en: 'No specialties yet\nComplete a trip to collect them!', ja: '特産品はまだありません\n旅を完了して集めよう！', ko: '아직 특산품이 없습니다\n여행을 완료하여 수집하세요!',
+    fr: 'Pas encore de spécialités\nTerminez un voyage pour en collecter !', de: 'Noch keine Spezialitäten\nSchließe eine Reise ab!', es: 'Aún no hay especialidades\n¡Completa un viaje para coleccionarlas!', pt: 'Nenhuma especialidade ainda\nComplete uma viagem para coletá-las!',
+    ru: 'Пока нет сувениров\nЗавершите поездку, чтобы их получить!', ar: '!لا توجد تخصصات بعد\nأكمل رحلة لجمعها', th: 'ยังไม่มีของฝาก\nเดินทางสำเร็จเพื่อสะสม!', vi: 'Chưa có đặc sản\nHoàn thành chuyến đi để nhận!',
+  },
   expandedRadius: {
     zh: '附近城市较少，已扩大搜索至', en: 'Few nearby cities, expanded to', ja: '近くの都市が少ないため、検索範囲を拡大：', ko: '근처 도시가 적어 검색 범위 확대:',
     fr: 'Peu de villes proches, élargi à', de: 'Wenige Städte, erweitert auf', es: 'Pocas ciudades cercanas, ampliado a', pt: 'Poucas cidades, ampliado para',

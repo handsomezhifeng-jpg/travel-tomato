@@ -19,6 +19,7 @@
         @tap="selectCandidate(index)"
       >
         <view class="card-header">
+          <text class="direction-badge">{{ directionLabel(city.direction) }}</text>
           <text class="card-city">{{ cityName(city) }}</text>
           <text class="card-country">{{ countryName(city) }}</text>
         </view>
@@ -64,7 +65,7 @@ import { ref, computed, onMounted } from 'vue'
 import { usePageScale } from '@/utils/usePageScale'
 import { usePomodoroStore } from '@/stores/pomodoroStore'
 import type { CityData, CityCandidate, CurrentCity } from '@/types'
-import { getNearbyCities, estimateRoadDistance, calcDuration } from '@/utils/distance'
+import { getNearbyCities, estimateRoadDistance, calcDuration, getDirection } from '@/utils/distance'
 import { formatDurationText } from '@/utils/dateUtils'
 import { t, cityName, countryName, cityFullName, useLang } from '@/utils/i18n'
 import NavBar from '@/components/NavBar.vue'
@@ -100,7 +101,6 @@ function refreshCandidates() {
   expandedRadius.value = 200
 
   const allCities = citiesData as CityData[]
-  const originCountry = originCity.value!.country
   let radius = 200
   let nearby: CityCandidate[] = []
 
@@ -108,7 +108,8 @@ function refreshCandidates() {
     nearby = allCities
       .map(city => {
         const dist = estimateRoadDistance(originCity.value!.coord, city.coord)
-        return { ...city, distance: dist, estimatedDuration: calcDuration(dist) }
+        const dir = getDirection(originCity.value!.coord, city.coord)
+        return { ...city, distance: dist, estimatedDuration: calcDuration(dist), direction: dir }
       })
       .filter(c => c.distance > 20 && c.distance <= radius)
       .filter(c => !(c.name === originCity.value!.name && c.country === originCity.value!.country))
@@ -119,30 +120,58 @@ function refreshCandidates() {
     }
   }
 
-  // 分为本国城市和跨国城市
-  const domestic = nearby.filter(c => c.country === originCountry)
-  const foreign = nearby.filter(c => c.country !== originCountry)
-
-  // Shuffle 两组
-  shuffle(domestic)
-  shuffle(foreign)
-
-  // 组合3个候选：如果有跨国城市，保证至少1个
-  let picks: CityCandidate[] = []
-  if (foreign.length > 0 && domestic.length >= 2) {
-    picks = [...domestic.slice(0, 2), foreign[0]]
-  } else if (foreign.length >= 2 && domestic.length >= 1) {
-    picks = [domestic[0], ...foreign.slice(0, 2)]
-  } else {
-    // 没有跨国城市或本国城市不够，直接混合取3个
-    const all = [...nearby]
-    shuffle(all)
-    picks = all.slice(0, 3)
+  // 按方向分组
+  const byDir: Record<string, CityCandidate[]> = { E: [], S: [], W: [], N: [] }
+  for (const c of nearby) {
+    if (c.direction) byDir[c.direction].push(c)
   }
 
-  // 最终再 shuffle 一次顺序
+  // 各方向内部 shuffle
+  for (const dir of Object.keys(byDir)) {
+    shuffle(byDir[dir])
+  }
+
+  // 从4个方向中随机选3个
+  const dirs = ['E', 'S', 'W', 'N'] as const
+  const availableDirs = dirs.filter(d => byDir[d].length > 0)
+  shuffle(availableDirs as any)
+  const chosenDirs = availableDirs.slice(0, 3)
+
+  // 每个选中方向取1个城市
+  let picks: CityCandidate[] = []
+  for (const dir of chosenDirs) {
+    if (byDir[dir].length > 0) {
+      picks.push(byDir[dir][0])
+    }
+  }
+
+  // 如果不足3个（某些方向没有城市），从剩余城市补充
+  if (picks.length < 3) {
+    const pickedNames = new Set(picks.map(p => `${p.name}|${p.country}`))
+    const remaining = nearby.filter(c => !pickedNames.has(`${c.name}|${c.country}`))
+    shuffle(remaining)
+    while (picks.length < 3 && remaining.length > 0) {
+      picks.push(remaining.shift()!)
+    }
+  }
+
+  // 最终 shuffle 顺序
   shuffle(picks)
   candidates.value = picks
+}
+
+const directionLabels: Record<string, Record<string, string>> = {
+  E: { zh: '东', en: 'E', ja: '東', ko: '동' },
+  S: { zh: '南', en: 'S', ja: '南', ko: '남' },
+  W: { zh: '西', en: 'W', ja: '西', ko: '서' },
+  N: { zh: '北', en: 'N', ja: '北', ko: '북' },
+}
+
+function directionLabel(dir?: string): string {
+  if (!dir) return ''
+  const entry = directionLabels[dir]
+  if (!entry) return dir
+  return entry[currentLang.value] || entry['zh'] || dir
 }
 
 function shuffle(arr: any[]) {
@@ -227,6 +256,20 @@ function startTimer() {
   align-items: baseline;
   gap: 12rpx;
   margin-bottom: 10rpx;
+}
+
+.direction-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  background: rgba(231, 76, 60, 0.25);
+  color: $tomato-red;
+  font-size: 22rpx;
+  font-weight: bold;
+  flex-shrink: 0;
 }
 
 .card-city {

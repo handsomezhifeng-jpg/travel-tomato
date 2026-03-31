@@ -67,4 +67,18 @@ export interface DailySummary {
 export interface CityCandidate extends CityData {
   distance: number          // 距出发点距离 km
   estimatedDuration: number // 预计专注时长 秒
+  direction?: 'E' | 'S' | 'W' | 'N'  // 相对出发城市的方位
+}
+
+// 收集到的特产
+export interface CollectedSpecialty {
+  cityName: string
+  cityCountry: string
+  cityNameZh?: string
+  name: string
+  nameZh: string
+  icon: string
+  description: string
+  descriptionZh: string
+  collectedAt: string       // ISO date string
 }

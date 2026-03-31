@@ -138,6 +138,10 @@
           <text class="nav-icon">🗺</text>
           <text class="nav-label">{{ t('map') }}</text>
         </view>
+        <view class="nav-item" @tap="goSpecialties">
+          <text class="nav-icon">🎁</text>
+          <text class="nav-label">{{ t('specialties') }}</text>
+        </view>
         <view class="nav-item" @tap="resetOrigin">
           <text class="nav-icon">🔄</text>
           <text class="nav-label">{{ t('reset') }}</text>
@@ -394,6 +398,10 @@ function goCalendar() {
 
 function goTravelMap() {
   uni.navigateTo({ url: '/pages/travel-map/index' })
+}
+
+function goSpecialties() {
+  uni.navigateTo({ url: '/pages/specialties/index' })
 }
 
 function resetOrigin() {
